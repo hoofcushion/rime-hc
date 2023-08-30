@@ -1,0 +1,8 @@
+schema:
+ schema_id: module_fnua_cn
+ name: 「插件_反查」
+translator: {dictionary: module_fnua_cn}
+speller:
+ alphabet: "zyxwvutsrqponmlkjihgfedcba"
+ delimiter: " '"
+ algebra: {__include: "_speller/quanpin.yaml:/speller/algebra"}

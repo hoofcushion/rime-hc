@@ -1,0 +1,11 @@
+schema:
+ schema_id: module_dmma
+ name: 「插件_辅助码」
+translator: {dictionary: module_dmma}
+speller:
+ __include: ts_cn.schema.yaml:/speller
+ __patch: 
+  - algebra/@before 0: "xform/[A-Z]/\\L$0/"
+  - algebra/@before 0: {__include: ts_cn.schema.yaml:/module_dmma/comment_format/@0}
+  - algebra/@after last: "xform/'//"
+  - algebra/@after last: "erase/^...$//"

@@ -1,0 +1,5 @@
+schema:
+ schema_id: module_cn_en
+ name: 「插件_混输」
+translator: {dictionary: module_cn_en}
+speller: {__include: ts_cn.schema.yaml:/speller}

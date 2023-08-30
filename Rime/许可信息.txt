@@ -1,0 +1,21 @@
+.\weasel
+来自: https://github.com/rime/weasel
+使用 GPL-3.0 协议
+
+.\weasel\data\_dict\rime-ice
+来自: https://github.com/iDvel/rime-ice
+使用 GPL-3.0 协议
+
+.\weasel\data\_dict\jidian
+来自: https://github.com/kingzcheung/rime-wubi
+使用 Apache-2.0
+
+.\weasel\data\lua\calculator_translator.lua
+来自 https://github.com/baopaau/rime-lua-collection
+
+.\weasel\data\lua\unicode.lua
+来自 https://github.com/shewer/librime-lua-script/blob/main/lua/component/unicode.lua
+
+
+本软件继承 GPL-3.0 协议, 提供所有源代码
+另外, 部分词库来自于网络, 没有任何信息

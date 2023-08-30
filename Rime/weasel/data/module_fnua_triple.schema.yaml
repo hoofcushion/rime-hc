@@ -1,0 +1,9 @@
+schema:
+ schema_id: module_fnua_triple
+ name: 「插件_反查_三码」
+translator:
+ dictionary: module_fnua_triple
+speller:
+ alphabet: "zyxwvutsrqponmlkjihgfedcba12345"
+ algebra:
+  - "derive/[0-9]//"

@@ -1,0 +1,5 @@
+schema:
+ schema_id: module_lock_triple
+ name: 「插件_固顶_三码」
+translator: {dictionary: module_lock_triple}
+speller: {__include: ts_triple.schema.yaml:/speller}

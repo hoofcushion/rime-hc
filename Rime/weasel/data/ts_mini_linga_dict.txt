@@ -1,0 +1,998 @@
+a	於	接宾语 & 名词补足语	introduces direct object & nominal complement
+e	乃	接形容词 & 状语补足语	introduces adjectival & adverbial complement
+i	兮	接动词	introduces verb
+o	之	修饰符 & 分隔符	modifier separator
+mi	我	第一人称	first person
+tu	你	第二人称	second person
+si	其	第三人称	third person
+da	彼	那个, 那里, 将要	that, there, would
+di	此	这个, 这里	this, here
+ke	何	什么, 那个	what, that
+an	與	和, 也	and, also
+pero	非	但是, 除了	but, except
+u	或	或者, 任何一个	or, either
+de	从	来自, 关于, 由于	from, of, about, by
+en	在	在, 于, 上	in, at, on
+go	往	去, 向, 为了	to, go, towards, for
+kon	随	和...一起	with
+sama	如	像, 如同, 比较	like, as, than, same
+ja	是	是的, 一定, 当然	yes, definitely, certainly
+no	否	不, 不是	no, not
+ale	全	全部, 一切	all, everything
+nulo	無	没有, 零	nothing, zero
+ma	更	更多	more
+mui	多	很, 许多, 大量	very, many, much, a lot
+su	甚	太, 过多	too, too much
+uno	一	一	one
+duo	二	二	two
+san	三	三	three
+fo	四	四	four
+afa	後	(...)之后	after
+animale	畜	动物	animal
+ante	前	在之前	before
+aroma	味	气味, 味道	smell, taste
+ave	有	有, 拥有	have, possession
+bata	攻	打, 战斗, 战役	beat, fight, battle
+baton	棍	棍子, 棒	stick, rod
+begin	始	开始, 最初	start, initial, beginning
+bodi	體	身体	body
+boka	口	嘴巴	mouth
+bon	善	好	good
+debe	應	应该, 义务	should, obligation
+demo	示	示范, 指示, 展示	demonstration, indicate, show
+dona	予	给予, 礼物	give, gift
+duro	難	困难, 难题	hard, difficult, problem
+eleki	電	电, 电力	electric, electricity
+fami	家	家庭, 亲人	family, relative
+feme	女	女性	woman, female
+fini	終	完成, 最终, 结束	finish, final, end
+fogo	火	火, 热, 燃烧	fire, hot, burn
+imaje	相	图像, 图片	image, picture
+jalan	道	路径, 方法, 道路	path, way, road
+junta	群	加入, 团体, 一起	join, group, together
+jura	法	法律, 规则, 指导	law, rule, instruction
+kaja	盒	盒子	box
+kaka	糞	排泄物, 粪便	feces, s***
+kali	黑	黑暗, 黑色	dark, black
+kan	可	可以, 能力	can, may, able, ability
+kapo	頭	头	head
+kipa	保	保持, 停留, 剩余	keep, stay, remain, remainder
+kolo	色	颜色, 五颜六色	color, colorful
+kore	心	心脏	heart
+kosa	物	事物, 东西	thing, stuff
+kula	冷	凉爽, 冷	cool, cold
+lado	邊	边, 邻近	side, adjacent
+leva	升	水平, 提升, 上升	level, elevate, rise
+line	線	线	line
+loke	地	位置, 定位, 地方	location, locate, place
+ludi	玩	游戏, 玩耍	game, play
+luna	陰	月亮	moon
+luse	光	光线	light
+make	造	制造, 做, 创建	make, do, create
+mala	惡	坏的	bad
+man	人	人, 人类	person, human
+manja	食	食物, 吃	food, eat
+mano	手	手	hand
+mebi	能	可能, 可能性	maybe, possibility
+mega	巨	大, 伟大, 宽敞	big, great, large
+mesa	桌	桌子	table
+mini	微	小, 一点点	small, little
+mira	視	看见, 看, 观看, 视线	see, look, watch, sight
+mone	幣	金钱	money
+name	字	名字, 词语	name, word
+note	寫	写, 写作	write, a writing
+nu	新	新	new
+numa	數	数量	number
+ota	他	其他, 不同	other, different
+pale	談	谈话, 演讲, 讨论	talk, speech, discussion
+pan	饃	面包	bread
+pasa	過	经过, 发生, 过去	pass, happen, past
+pensa	思	思考, 思想	think, thought
+peso	片	部分, 组件	piece, part, component
+poten	力	力量, 强大	power, force, strong
+rapi	速	快速, 速度, 迅速	fast, speed, quickly
+raro	罕	罕见, 奇怪	rare, weird, strange
+rason	因	理由, 原因, 解释	reason, cause, explanation
+resi	休	休息, 睡眠	rest, sleep
+roka	石	岩石	rock
+rondo	圈	圆圈, 圆, 周围	circle, round, around
+ropa	衣	服装, 穿着	clothing, wear
+santi	聖	神圣的, 精神的	holy, spiritual
+savi	知	知道, 理解, 知识	know, understand, knowledge
+selo	天	天空	sky
+senta	中	中心	center
+sole	陽	太阳	sun
+sono	聲	声音	sound
+suga	糖	糖, 甜	sugar, sweet
+supa	上	在上面, 向上	above, over, up
+tempo	時	时间	time
+tera	土	地球	earth
+toma	拿	拿	take
+unda	下	在下面, 向下	under, below, down
+uti	具	使用, 工具	use, tool
+vasa	水	水	water
+veji	蔬	植物, 蔬菜	plant, vegetable
+veni	來	来, 成为	come, become
+vere	真	真实, 真相, 真的	true, truth, really
+via	穿	通过, 横贯, 过度	through, across, trans-
+viro	男	男人, 男性	man, male
+viva	命	生命, 活着	life, live
+vole	欲	想要, 渴望	want, desire
+abuso	虐	虐待, 违背, 强奸, 袭击, 滥用	abuse, violate, rape, assault, abusive
+ade	幫	援助, 关心, 照顾, 帮助, 照料	aid, care, concern, help, care for
+adere	膠	粘附, 粘贴, 黏着, 粘性, 胶水	adhere, stick, cling, sticky, glue
+aeji	盾	盾牌, 装甲	shield, armor
+aero	氣	空气, 大气层, 气体	air, atmosphere, gas
+afoga	溺	淹死, 淹没, 溺水	drown, submerge, a drowning
+agila	鹰	鹰, 猛禽	eagle, hawk, a bird of prey
+aje	齡	年龄, 变老, 世纪, 年龄大的	age, to age, eon, aged
+ajenda	計	计划, 议程, 计算机程序	program, agenda, plan, computer program
+ake	斧	斧头, 砍刀, 大砍刀, 砍	ax, hatchet, machete, to chop
+akonto	賬	账户, 账目, 报告, 重新计数	account, ledger, report, to recount
+akuse	告	指责, 指控, 指控（法律）	accuse, accusation, charge (legal)
+akuta	利	锋利, 锐角, 敏锐	sharp, acute, keen
+alien	夷	外国的, 外星人	foreign, alien
+alio	蒜	大蒜	garlic
+amidala	杏	杏仁, 扁桃体, 杏仁体	almond, tonsil, amygdala
+amigo	友	朋友, 熟人, 交朋友, 友好的	friend, acquaintance, befriend, friendly
+amo	愛	爱, 亲爱的	love, dear
+amuse	娛	娱乐, 有趣	amuse, entertain, fun, entertainment
+ani	任	任何（决定）, 无论哪个, 任何人	any (determiner), whichever, anyone
+anima	靈	灵魂, 精神	soul, spirit
+anjo	仙	天使, 天使的	angel, angelic
+ankora	仍	尚未, 甚至, 仍然	yet, even, still
+ano	年	年, 每年	year, annual
+ansio	慮	焦虑, 紧张	anxious, anxiety, nervous
+anti	反	反对, 相反	against, anti-, opposite, opposing, oppose
+antika	老	老的, 变老, 古董的, 古老的	old, to age, antique, ancient
+anunsi	宣	宣布, 公告, 宣告	announce, announcement, declare, declaration
+apara	顯	看起来, 表现出来, 明显的, 外貌	seem, appear, apparent, appearance
+apojo	助	支持, 拥护, 备份, 支撑	support, backing, advocacy, backup, bolster
+ara	蜂	蜜蜂, 黄蜂	bee, hornet, wasp
+arana	蛛	蜘蛛, 蛛形纲动物	spider, arachnid
+arapan	希	希望, 等待, 期望	hope, wait for, expectation, wish
+area	區	区域, 地区, 领域, 面积	area, region, zone, domain, extent, size
+aro	矢	箭, 飞镖	arrow, dart
+aseta	受	接受, 同意, 协议, 合符	accept, consent, agree, agreement, accord, pact
+asido	酸	酸, 酸味, 酸性, 醋	acid, sour, acidic, vinegar
+asilu	庇	庇护所, 避难所, 庇护, 住所	asylum, refuge, shelter
+atira	引	吸引, 吸引力	attract, attraction
+ato	行	行动, 扮演, 行为, 活跃	act, performance, behavior, active
+atomo	粒	原子	atom, atomic
+avion	鳶	飞机	airplane
+aviso	警	注意, 警告, 警报, 通知	attention, warn, caution, warning, alert, notification
+ba	八	八	eight
+bagaje	曳	行李, 装备, 个人物品, 搬运	luggage, baggage, gear, personal effects, to lug
+bai	灣	海湾, 高尔夫球场	bay, golf, cove
+bajo	低	低, 矮（身高）	low, short (height)
+baka	背	后面（身体+状词）, 后侧, 向后, 在后面	back (body + adv), rear side, backward, behind
+balansa	衡	平衡, 均衡, 天平, 公平	balance, equilibrium, a scale, balanced, fair
+balena	鯨	鲸鱼, 海豚, 鼠海豚, 鲸类	whale, dolphin, porpoise, cetacean
+balo	球	球, 一个球状物体, 滚动	ball, a spherical object, roll
+balon	輪	气球	balloon
+balu	熊	熊（动物）	bear (animal)
+banana	蕉	香蕉	banana
+banda	條	组, 条纹, 丝带, 胶带	band, strip, ribbon, tape, stripe
+bandera	旗	旗帜, 横幅	flag, banner
+banka	莊	银行, 长凳, 河岸, 金融机构	bank, bench, river bank, financial institution
+bano	浴	浴室, 洗澡	bath, bathe
+baraje	壩	堰, 水坝, 阻挡, 妨碍, 阻碍	barrage, dam, block, impede, obstruct, hinder
+bari	重	重量, 称重, 重	weight, weigh, heavy
+basara	市	市场, 集市, 博览会, 购物	market, bazaar, fair, to shop
+base	基	基地, 基础, 地面, 楼层, 基本的	base, foundation, ground, floor, basis, fundamental
+basilo	菌	细菌, 杆菌, 微生物	bacteria, bacillus, germ, microbe
+batisa	浸	蘸, 浸泡, 沉浸, 洗礼	dip, dunk, immerse, baptise, baptism
+bebe	寶	婴儿	baby
+bela	美	美丽, 美化	beautiful, beauty, beautify
+beli	腹	肚子, 腹部	stomach, belly, abdomen
+benda	彎	弯曲	bend, curve, flex
+bene	益	好处, 优势, 额外福利, 有益	benefit, advantage, perk, beneficial
+bensin	燃	燃料, 汽油, 苯	fuel, gasoline, benzene
+beri	莓	浆果, 葡萄, 橄榄	berry, grape, olive
+beso	吻	吻	kiss
+besonde	特	特殊, 特别, 特定, 异常	special, especially, particular, exceptional
+bete	獸	怪物, 野兽, 可怕的	monster, beast, beastly
+beton	砼	水泥, 混凝土, 铺设	cement, concrete, pave
+bianka	白	白色	white
+bibe	飲	喝	drink
+biju	珠	宝石, 珠宝	jewel, gem, jewelry
+bike	騎	自行车	bicycle
+biko	転	喙, 啄, 喷口	beak, to peck, spout
+bileta	票	票, 通行证, 票据, 纸币	ticket, a pass, bill, banknote
+bira	醪	啤酒, 麦芽酒	beer, ale
+bisi	忙	匆忙, 冲动, 急忙, 忙碌	hurry, rush, haste, busy
+bisinesa	業	商业, 公司, 谈判, 经营	business, company, negotiate, conduct business
+bitume	焦	沥青, 焦油	tar, pitch, bitumen
+boba	泡	泡沫, 沸腾	bubble, boil
+bogen	弓	弧, 拱, 弓(武器)	arch, vault, bow (weapon)
+bola	碗	碗	bowl
+boli	璃	玻璃, 水晶, 透明材料	glass, crystal, a transparent material
+bomba	爆	炸弹	bomb
+bore	閒	无聊, 烦恼	boring, bore, tedium
+boroda	鬚	胡须, 面部毛发	beard, facial hair
+botega	店	商店, 店铺, 精品店	shop, store, boutique
+botelo	瓶	瓶子	bottle
+boton	鈕	按钮, 按纽, 旋钮, 装饰钮扣	button, pressbutton, knob, stud
+bovi	牛	牛, 公牛, 野牛, 水牛	cow, bovine, steer, ox, bison, buffalo
+buku	書	书	book
+bulu	藍	蓝色	blue
+buo	浮	浮动, 浮标, 浮力, 一条规则	float, buoy, buoyant, a float
+butero	肥	黄油	butter, buttery
+dalili	證	证据, 证明, 证词	evidence, proof, demonstration, testimony
+danja	危	危险的	danger, dangerous
+danke	謝	谢谢, 感谢, 感激的	thanks, to thank, thankful
+dansa	舞	舞蹈	dance
+dare	勇	敢于, 大胆的, 勇敢的, 挑战	dare, daring, bold, brave, to challenge
+debate	辯	辩论, 争论, 争辩	argue, debate, dispute, argument
+debile	弱	虚弱, 脆弱	weak, weakness, feeble
+defende	衛	防御, 保护	defend, guard, protect, protection, defense
+degu	厭	厌恶, 令人厌恶, 反感, 恶心	disgust, disgusting, revulsion, sicken
+deja	已	已经, 到现在为止	already, by now/then
+dekora	飾	装饰, 花哨	decorate, ornamentation, adorn, fancy
+deluje	洪	洪水, 淹没, 压倒性	flood, torrent, inundate, overwhelm, overwhelming
+demon	魔	恶魔, 恶魔的	devil, demon, diabolical
+den	然	然后, 在那种情况下	then, in that case
+denta	牙	牙齿, 咬一口	tooth, bite
+deo	神	神, 神圣的	god, divine
+dereko	義	正确的, 正义的, 人权的	correct, just, right (moral), human right
+deside	決	决定, 决议, 裁决, 解决, 安顿	decide, decision, adjudicate, resolve, settle
+desini	設	设计, 草图, 蓝图, 图案	design, sketch, blueprint, pattern
+detali	詳	细节, 详细, 一丝不苟	detail, detailed, meticulous
+deteki	尋	检测, 发现, 注意	detect, find, notice, discovery, discovery
+develo	興	发展, 成长, 增长	develop, grow, growth, development
+dia	日	天, 日期	day, date
+diamante	鑽	钻石, 坚定不移	diamond, adamant
+difuse	散	扩散	spread, diffuse, diffusion
+dijesi	化	消化	digest, digestion
+diji	指	手指, 脚趾, 数字	finger, toe, digit
+dika	胖	肥胖, 厚	fat, thick
+dimenti	忘	忘记, 原谅	forget, forgive
+dinosoro	虺	恐龙	dinosaur
+dipa	深	深, 深度, 深刻	deep, depth, profound
+dire	說	说, 告诉, 念, 背诵, 话语, 说话	say, tell, utter, recite, utterance, saying
+direto	向	方向, 定向, 引导, 路程, 直接	direction, orientation, guidance, course, direct
+disipa	費	浪费（没有好目的使用）, 浪费	waste (use without good purpose), squander
+dive	潛	潜水, 跳水	dive, plunge, submerge
+divi	割	分割, 分离	divide, split, division, separate
+dogi	狗	狗	dog
+domo	屋	家, 家庭, 驻地, 驯化	home, domestic, reside, domesticate
+doragon	龍	龙	dragon
+dua	求	请求, 询问, 祈祷, 召唤, 恳请	request, ask, prayer, invocation, plea, petition
+dubi	疑	怀疑	doubt
+duka	痛	受苦, 痛苦, 伤害	suffer, pain, suffering, hurt, painful
+dulo	僕	奴隶, 仆人, 农奴, 奴役	slave, servant, serf, enslave
+dusa	淋	淋浴, 倾盆大雨	shower, to shower, downpour
+edu	教	教, 教育, 受过教育的	teach, educate, education, educated
+efeto	效	影响, 结果, 实施, 有效	effect, result, to effect, effective
+egala	等	相等, 平等, 方程, 一样	equal, equality, equation, equally
+ego	自	自我, 自己（形容词）	self, own (adj)
+eki	外	外面, 外部	out, ex-, away, external
+eko	回	回声, 反射	echo, reflection
+ekonomi	儉	经济, 节俭	economy, economic, thrifty
+elasi	彈	弹簧, 线圈, 弹性, 有弹性的	spring, coil, elastic, springy
+elefante	象	大象	elephant
+eleti	擇	选择, 遴选	elect, election, select, choose, selection
+elika	旋	螺旋, 卷曲, 螺旋桨	helix, curl, twist, curly, spiral, coil, propeller
+emo	情	情感, 情绪, 富有激情的, 表达感情	emotion, emotional, passionate, emote
+enejia	精	能源, 激励, 充满活力	energy, energize, energetic
+enemi	敵	敌人, 毒草	enemy, nemesis
+enigema	謎	拼图, 谜题, 谜语	puzzle, enigma, riddle
+enkonte	會	遇见, 邂逅, 会议	meet, encounter, meeting
+entero	腸	肠道, 内脏	intestines, bowel, entrails, gut
+envi	妒	嫉妒	envy, jealous
+environ	境	环境, 栖息地	environment, habitat, ambient, milieu
+epigo	急	紧急情况, 敦促, 强迫	emergency, urgent, to urge, press for
+erase	消	擦除, 擦去, 移除, 擦掉	erase, erasure, remove, wipe away
+ereki	站	直立, 竖立	to stand, upright, erect
+ero	誤	错误	error, mistake, err
+esamin	驗	考试, 测试, 采访, 调查	exam, test, interview, examination, investigation
+esato	准	精确, 方法论	exact, precise, precision, exactly, methodical
+ese	東	东方	east
+esi	存	存在, 现存	exist, existence, existent
+esita	激	兴奋	excite, excited
+etudi	學	学习, 研究	learn, study, research
+eve	夜	傍晚, 夜晚	evening, night
+evento	事	事件, 案例（实例）, 发生	event, case (instance), occurence
+evita	避	避免, 躲闪	avoid, dodge, shun, avoidance
+fama	譽	名望, 著名, 光荣	fame, famous, glory
+famine	飢	饥饿的, 饥饿, 饥荒	hungry, hunger, famine
+fantome	鬼	幽灵	ghost, spirit, phantom
+fara	遠	远, 距离, 遥远, 极端	far, distance, remote, extreme
+farina	粉	面粉, 尘土, 颗粒状物质, 沙子, 磨碎	flour, dust, a granulated substance, sand, grind
+fase	面	脸, 面对某人	face, to face someone
+fasile	易	容易, 简单, 直截了当	easy, ease, simple, straightforward
+fata	運	命运	fate, destiny
+fatiga	疲	疲倦, 疲惫	tire, tired
+fatoria	坊	工厂, 磨坊	factory, mill, plant
+fava	豆	豆子, 豆类, 豌豆, 扁豆	bean, legume, pea, lentil
+favo	喜	恩惠, 喜欢, 最喜欢的, 请	favor, like, favorite, please
+fekun	沃	肥沃, 多产, 肥料, 生产力	fertile, fecund, fertilizer, productive
+fen	澤	沼泽	fen, swamp, bog, marsh
+fense	籬	栅栏, 屏障, 隔板, 篱笆, 隔离	fence, barrier, partition, hedge, fence off
+feo	醜	丑陋的	ugly
+feri	妖	仙女, 精灵, 小精灵	fairy, sprite, pixie
+fero	鐵	铁, 钢铁	iron, steel
+feruta	果	水果, 结果实	fruit, bear fruit
+fete	慶	派对, 庆祝	party, celebrate
+fevere	燥	发烧, 发热	fever, feverish
+fiba	繩	纤维, 线, 电线, 合法器官, 毛发	fiber, string, thread, wire, ply, roughage, strand
+fide	忠	信仰, 信任, 忠诚	faith, to trust, loyal
+figado	肝	肝脏	liver
+figura	形	图形, 形式, 形状, 结构, 雕塑, 小雕像	figure, form, shape, structure, statue, figurine
+filete	膾	牛排, 薄片, 切片	steak, fillet, to fillet
+fili	子	儿子, 女儿	son, daughter
+filoso	哲	哲学, 哲学的, 哲学化	philosophy, philosophical, philosophize
+fiore	花	花	flower
+fisika	理	物理学, 外貌	physics, physical, physique
+fisu	罅	裂缝, 破裂	crack, fissure, cracked
+fobo	懼	恐惧, 恐怖, 害怕的, 可怕的	fear, horror, fearful, scary
+foli	葉	薄片, 叶子, 平坦, 压平	sheet, leaf, flat, flatten
+foma	沫	泡沫	foam, froth, suds, mousse, lather
+fon	扟	电话	phone
+fonte	泉	喷泉, 泉水, 井	fountain, spring, well
+fore	進	正面, 额头, 向前	front, forehead, forward
+foreta	森	森林	forest
+fosi	掘	挖, 埋葬	dig, bury
+fuji	逃	逃离, 逃跑	flee, escape, run away
+fule	滿	充满, 填充, 整个	full, to fill, whole
+fume	煙	烟雾	smoke
+fungi	黴	真菌, 霉菌	fungus, mold, mildew
+fura	孔	孔, 间隙, 钻孔	hole, gap, aperture, to drill, bore
+furi	怒	怒气冲冲, 愤怒	anger, angry
+fusi	熔	倒, 融合, 熔化, 熔合	pour, fuse, melt, fusion
+gaden	園	花园, 公园, 休闲区	garden, a park, recreation area
+gadi	草	草, 草本, 草坪	grass, herb, lawn
+gama	克	克（国际单位制）	gram (SI)
+gana	贏	赢得, 获得, 胜利, 赚取, 收益, 利润, 奖品	win, gain, victory, earn, earnings, profit, prize
+gape	囧	打哈欠, 张开嘴	yawn, gape
+garaje	庫	车库	garage
+gare	驛	站, 车站	station, depot
+gato	貓	猫, 猫科动物, 猫咪	cat, feline, catty
+geko	蜥	壁虎	lizard
+gen	再	再次, 重复, 重新	again, repeat, repetition, re-
+gene	爻	继承, 遗产, 遗传的, 基因	inherit, inheritance, genetic, gene
+gera	戰	战争	war
+giga	吉	十亿	billion
+gitara	琶	吉他, 琴类, 一种弹拨乐器	guitar, lute, a strummed instrument
+goma	橡	橡胶	rubber, rubbery
+gomba	菇	蘑菇	mushroom
+gota	滴	滴, 珠子, 斑点	drop, bead, blob, spot, drip
+gove	衙	政府, 治理	government, govern
+gule	喉	喉咙	throat, gullet
+gun	銃	枪, 步枪, 射击	gun, rifle, shoot
+ia	聽	倾听, 听	hear, listen
+idea	念	想法, 概念, 构思	idea, concept, conceptual, ideate
+igi	木	树木, 木材	tree, wood
+ila	島	岛	island
+imperi	令	命令, 重要, 帝国, 帝制	command, imperative, rule, empire, imperial
+impotan	要	重要, 重要性, 有关紧要	important, importance, to matter
+induseri	工	产业, 工业	industry, industrial
+infero	獄	地狱, 诅咒, 可怕的	hell, to damn, hellish
+infiniti	極	无限, 无尽的	infinity, infinite
+info	訊	信息, 通知, 有益的	information, inform, informative
+inja	傷	伤口, 受伤, 伤害	wound, injure, injury
+inseto	蟲	昆虫, 虫子	insect, bug
+inta	間	之间, 互相-	between, inter-
+inteli	聰	聪明, 智慧	smart, intelligence
+interesa	趣	兴趣, 有趣的	interest, interesting
+inventi	創	发明, 发明的, 有创造力的	invent, invention, inventive
+inveti	資	投资	invest, investment
+invite	邀	邀请, 邀请函	invite, invitation
+iritate	煩	烦扰, 困扰, 麻烦, 烦恼	irritate, bother, pester, annoyance
+ironi	諷	讽刺, 讽刺的, 嘲讽	irony, ironic, sarcasm
+ise	冰	冰, 结冰	ice, freeze
+jage	探	搜索, 狩猎, 追求, 寻找, 探索	search, hunt, pursuit, seek, quest
+jaketa	袍	夹克	jacket, coat
+janji	誓	承诺, 誓言, 保证, 发誓	promise, vow, pledge, swear
+jara	罐	罐子, 水壶, 小壶, 大杯子, 烧瓶	jar, pitcher, jug, carafe, mug, beaker
+jari	植	灌木, 灌木丛	shrub, bush
+jeli	膏	凝胶, 浆状物, 果冻, 斑点, 酱糊, 糊状物	gel, goop, jelly, blob, paste, mush
+jemelo	雙	双胞胎	twin
+jenti	敬	礼貌的, 温和的, 亲切的, 有礼貌的	polite, gentle, gracious, courteous
+jeo	牢	监狱, 拘留所, 监禁	prison, jail, imprison
+jeritan	喊	喊叫, 尖叫, 呼喊	yell, scream, shout, exclaim
+jeti	擲	投掷, 射击, 命中	throw, shot, shoot, hit
+jin	金	黄金, 金色的	gold, golden
+jira	轉	转动, 旋转	turn, gyrate, spin, whirl
+joke	謔	笑话, 玩笑	joke, jest
+joli	樂	快乐, 欢乐, 欢享	happy, joy, frolic, enjoy
+jue	頰	面颊	cheek, jowl
+jumpa	跳	跳, 弹跳, 跳跃, 跳舞	jump, bounce, leap, hop, skip, bounce
+jusa	剛	刚刚（adv）, 最近刚刚...	just (adv), very recently, to have just ...,
+jusi	汁	果汁, 多汁的	juice, juicy
+ka	以	因为	because
+kabinete	櫃	橱柜, 笼子, 衣柜	cabinet, hutch, wardrobe
+kabon	碳	碳, 煤	carbon, coal
+kabuma	炸	爆炸, 爆破, 爆裂, 弹出	explode, explosion, blast, detonate, pop
+kada	各	每个, 分别	each, respectively
+kadena	鐐	链, 镣铐	chain, fetters
+kadi	卡	卡片, 牌子, 纸板, 宪章	card, placard, cardboard, charter
+kafe	咖	咖啡, 咖啡馆	coffee, cafe
+kaje	籠	笼子, 肋骨	cage, ribcage
+kakao	巧	巧克力	chocolate
+kalenda	曆	日历, 时间表	calendar, schedule, timetable
+kalite	質	质量, 特性, 属性, 特征, -ness	quality, property, to attribute, feature, trait, -ness
+kalori	熱	热量, 热, 卡路里	heat, hot, calorie
+kama	床	床	bed
+kambio	貿	交换, 贸易	exchange, trade, barter
+kamera	室	房间, 隔间, 大厅	chamber, room, partition, hall
+kamina	走	走, 步行, 散步, 远足	walk, ambulate, stroll, hike
+kamisa	衫	衬衫	shirt
+kampo	郊	领域, 阵营, 露天, 农村	field, camp, to camp, countryside, meadow, rural
+kanali	渠	运河, 频道, 水沟, 护城河	canal, channel, gutter, moat
+kanda	肩	肩膀, 耸肩	shoulder, shrug
+kandela	燭	蜡烛	candle
+kanela	桂	肉桂	cinnamon
+kanon	炮	火炮, 大炮, 枪管	cannon, artillery, gun barrel
+kansera	蟹	螃蟹	crab
+kanti	歌	歌唱, 歌曲, 曲调, 旋律	sing, song, tune, melody
+kapa	捕	捕捉, 抓住, 囚禁	capture, catch, seize, grasp, captive, grab
+kare	場	广场	square, plaza
+karera	賽	比赛, 竞争	race, competition, compete
+karo	車	汽车, 车辆, 开车	car, vehicle, drive
+kasa	房	房子, 建筑物	house, building
+kasele	堡	城堡, 堡垒	castle, fortress
+kasi	約	几乎	almost
+kata	切	切, 切口, 片, 劈	cut, incision, slice, chop
+katana	劍	剑	sword
+kavalo	馬	马, 驴, 骡子	horse, donkey, mule
+kave	洞	洞穴	cave, cavern
+keju	酪	奶酪	cheese
+keki	糕	蛋糕	cake
+kelabu	灰	灰色	gray
+kemi	丹	化学, 药物	chemical, drug
+kera	刺	角（动物+乐器）, 钉子	horn (animal + instrument), spike
+kerami	瓷	陶瓷, 陶器, 瓷器, 陶罐	ceramic, pottery, china, terracota, clay pot
+keredo	信	相信, 信仰, 信条	believe, belief, creed
+kerusa	交	十字架, 相交, 交叉口	cross, intersect, intersection, crucifix
+kia	鑰	钥匙, 解锁	key, unlock
+kilo	千	千	thousand
+kinde	童	孩子	child
+kino	戲	电影, 电影的, 拍摄	film, movie, cinematic, to film
+kirikiti	蝗	板球, 蚱蜢, 蝗虫	cricket, grasshopper, locust
+kite	退	离开, 退出, 放弃	leave, quit, abandon, exit
+koda	尾	尾巴	tail, coda
+kode	碼	代码, 密码, 程序代码	code, cipher, program code
+koleki	集	收集, 聚集	collect, collection, gather
+kolenka	膝	膝盖	knee
+kolidi	撞	撞击, 碰撞	crash, collision, collide
+kolina	丘	小山	hill
+koloni	殖	殖民地, 殖民的, 殖民	colony, colonial, colonize
+kolun	柱	柱子, 杆, 脊柱	column, pillar, pole, spine
+koma	逗	从句, 逗号	clause, comma
+komedi	嬉	喜剧, 幽默, 有趣的	comedy, humor, funny
+kompare	陪	比较	compare, comparison
+komputa	旦	计算机, 计算	computer, compute
+komun	聚	社区, 公共	community, communal, public
+kona	角	角落, 角度	corner, angle
+konditi	態	条件, 状态	condition, state
+konfi	爽	舒适	comfortable, comfort, cozy
+konfuse	迷	困惑, 令人困惑	confusion, confuse, confusing, perplex
+konka	殼	壳	shell
+kono	錐	锥形	cone
+konsiense	意	良知, 意识, 有意识的	conscience, awareness, conscious, consciousness
+kopa	杯	杯子, 饮用器具, 圣爵	cup, drinking vessel, chalice
+kopen	買	购买	buy, a purchase
+kopere	銅	铜	copper
+koredora	廊	大厅, 走廊	hall, corridor
+koreo	郵	邮件, 信件, 岗位	mail, letter, post
+kosina	廚	厨房, 烹饪	kitchen, to cook
+kote	價	成本, 价格, 花费	cost, price, to cost
+koton	棉	棉花	cotton
+kova	覆	盖子, 覆盖物, 隐藏, 毯子, 披风, 披肩	cover, covering, conceal, blanket, cloak, shawl
+kubita	肘	肘部, 挤, 掐	elbow, nudge, cubit
+kubo	塊	砖块, 立方体, 块	brick, cube, block
+kujara	勺	勺子	spoon
+kulutura	藝	文化的, 文化	culture, cultural
+kuneli	兔	兔子, 野兔	rabbit, hare, bunny
+kuretina	簾	窗帘, 屏幕, 百叶窗	curtain, drape, screen, blinds
+kuri	跑	跑步, 冲刺, 慢跑	run, sprint, jog
+kusin	姊	表兄弟	cousin
+kuve	桶	管, 桶, 大桶, 罐	tub, barrel, vat, tank
+labi	唇	嘴唇, 边缘	lip, rim, brim
+labora	勞	工作, 劳动, 努力工作	work, labor, hard-working
+lada	梯	梯子, 自动扶梯, 楼梯, 台阶	ladder, escalator, stairs, steps
+lagima	淚	眼泪, 哭泣	tears, to cry
+lago	湖	湖, 沼泽	lake, loch, pond
+laji	廢	垃圾, 废物, 浪费, 扔掉	trash, garbage, waste, to throw away
+lakoni	短	短（长度）, 简短, 简洁	short (length), curt, brief
+lampa	燈	灯	lamp
+lan	域	土地, 领土, 领域, 国家	land, territory, domain, state
+lana	綿	羊毛	wool
+lase	讓	让, 允许, 执照, 许可证, 合法的	let, allow, license, permission, licit
+lasi	惰	懒惰, 懒散, 不活动	lazy, indolence, inactivity
+lati	寬	宽, 广, 宽度, 纬度	wide, broad, width, latitude
+lava	洗	洗涤	wash
+leje	讀	阅读, 一篇文章, 精通	read, a reading, well-read
+lense	鏡	镜片, 眼镜, 放大镜	lens, eyeglasses, magnifying glass
+lenta	慢	慢, 慢慢地	slow, slowly
+leon	虎	狮子, 虎, 黑豹, 大猫科动物	lion, tiger, panther, a big cat
+levi	左	左 (方向)	left (direction)
+liabili	責	负责任, 有责任, 责任, 责任感	responsible, liable, liability, responsibility
+libera	逍	自由, 自由的, 解放	freedom, free, liberate
+lida	領	领导, 领导者, 直接的, 指导	lead, leader, direct, guide
+liga	結	系, 绑, 结, 联盟, 连接	tie, bind, knot, league, link, connection
+liki	液	液体, 液化, 流体	liquid, liquify, fluid
+lila	紫	紫色, 紫丁香	purple, lilac
+limako	蝸	蜗牛, 鼻涕虫, 一种软体动物	snail, slug, a mollusk
+limi	限	限制, 有限的, 限制性的, 边界, 边境	limit, limited, restriction, boundary, border
+limon	柑	柠檬, 酸橙, 柑橘属植物	lemon, lime, citrus
+limpe	弛	跛行, 松弛的, 软弱无力的, 松驰	limp, flaccid, floppy, to limp, lax
+lin	閃	闪光, 闪电, 电流	flash, lightning, bolt
+linga	語	舌头, 舔, 语言	tongue, lick, language
+lipo	脂	脂肪, 脂肪的, 油脂, 增肥, 炸	fat, fatty, grease, fatten, to fry
+lisa	狐	狐狸	fox
+lita	斗	升 (国际制单位)	liter (SI)
+litera	文	字母, 文学, 字符, 拼写	letter, literature, character, to spell, literary
+litora	灘	海岸, 沙滩, 海岸线	shore, beach, coast, littoral
+loji	律	逻辑, 逻辑的	logic, logical
+loka	鎖	锁, 锁住, 插销, 螺栓, 扣紧	lock, to lock, latch, bolt, clasp
+loko	瘋	疯狂的, 发疯的, 疯狂地, 使发疯	crazy, mad, insane, madden
+longo	長	长的, 长度, 经度	long, length, longitude
+lose	敗	失去, 失败	lose, loss, failure, fail
+lubi	滑	滑倒, 滑动, 滑溜的, 滑行	slip, slide, slippery, glide
+lujo	華	奢侈, 奢华的, 富裕	luxury, luxurious, opulence, fancy
+luki	幸	财富, 运气, 幸运	fortune, luck, lucky
+lulu	珍	珍珠	pearl
+lunge	肺	肺	lungs
+lupo	狼	狼	wolf
+madu	蜜	蜂蜜	honey
+mageneti	磁	磁铁, 有磁性的	magnet, magnetic
+maisa	黍	玉米	corn
+maji	巫	魔术, 有魔力的, 施展魔法	magic, magical, conjure
+makina	械	机器, 装置	machine, apparatus
+maladi	病	病痛, 生病, 不舒服, 疾病	malady, sickness, ill, disease
+maleta	錘	锤子, 木槌	hammer, mallet
+mandiba	頜	下颚, 颌骨	jaw, mandible
+manka	斑	标记, 污点, 玷污, 斑点	mark, stain, blemish, spot
+mapa	圖	地图, 图表	map, chart
+mare	海	海洋, 海域, 海上的	ocean, sea, marine
+mari	婚	结婚, 婚姻	marry, marriage
+maron	棕	棕色	brown
+masa	量	质量, 堆, 积累, 堆积, 巨大的	mass, pile, heap, to amass, massive
+masala	香	香料, 咖喱, 香的	spice, curry, spiced
+matemati	算	数学, 数学的	math, mathematical
+maten	晨	早晨	morning
+materi	料	物质, 材料	matter, material, substance
+matura	熟	成熟, 成熟的, 成年	mature, ripe, adult
+medi	均	平均, 中等, 正常的, 通常的, 标准, 规范	average, medium, normal, usual, standard, norm
+media	媒	媒体, 传媒, 新闻界	media, communication, press
+medika	藥	医学, 医疗的	medicine, medicinal
+melanje	混	混合物, 混合	mixture, mix
+melankoli	悲	伤心, 忧郁, 哀叹	sad, melancholy, mourn
+melon	瓜	西瓜, 葫芦, 南瓜	melon, gourd, pumpkin
+memba	員	成员, 追随者	member, adherent
+memo	憶	记忆, 记住	memory, remember
+menase	脅	威胁, 凶恶, 恐吓	threat, menace, menacing, threaten
+meno	寡	较少 (比较级), 较少的, 减去	less (comparison), fewer, minus
+menta	智	头脑, 精神的	mind, mental
+mentira	謊	谎言, 虚假的, 欺骗	lie, false, deceive, deception
+menu	錄	菜单	menu
+merite	值	应得, 值得, 有价值的	deserve, merit, -worthy
+mesaje	箋	消息, 通知	message, notification, notify
+mesura	尺	测量, 尺寸 (衣物), 维度	measure, measurement, size (clothing), dimension
+metali	鑫	金属, 金属的	metal, metallic
+metodo	技	方法, 程序, 技术	method, procedure, technique, means, methodical
+midori	綠	绿色	green
+milita	軍	军事, 军队	military, army
+mime	仿	模仿, 复制, 仿制品	mimic, copy, imitation
+mimi	耳	耳朵	ear
+mina	礦	矿山 (地点 + 行为)	mine (place + action)
+minute	分	分钟	minute
+misi	缺	错过, 缺席, 缺少, 未能到达/击中/注意到	miss, absent, lack, fail to reach/hit/notice
+mita	米	米, 公制单位	meter, metric
+mobili	案	家具	furniture
+moda	式	方式, 时尚, 心情	mode, way, fashion, mood
+mogi	蠅	飞, 虫, 蚊子	fly, gnat, mosquito
+moloko	奶	牛奶, 含有乳汁的	milk, milky
+momen	瞬	瞬间, 立即的, 即时的	moment, instant, instantaneous, immediate
+monato	月	月份, 每月的	month, monthly
+monki	猿	猴子, 大猩猩, 黑猩猩	monkey, gorilla, chimpanzee
+monte	山	山, 山丘, 隆起, 突出, 凹凸不平的	mountain, hill, bump, protrusion, protrude, bumpy
+morale	德	道德, 德行, 自我陶醉, 士气, 美德	moral, morality, moralize, morale, virtue
+more	慣	习惯, 习俗, 习俗的, 传统, 传统的	custom, habit, customary, tradition, traditional
+mori	死	死亡, 死, 杀害	death, die, dead, kill
+moto	機	马达, 引擎	motor, engine
+move	移	移动, 运动, 动作, 电影	move, movement, motion, movie
+mudi	的	目的, 目标, 客观, 打算	purpose, goal, objective, aim, end, intend, target
+muko	黏	粘液, 鼻涕, 痰	mucus, snot, phlegm
+mumi	蠟	蜡, 有蜡质的	wax, waxy
+mun	門	门, 栅栏	door, gate
+mundo	世	世界, 地球, 全球的	world, globe, global
+muravi	蟻	蚂蚁	ant
+muro	墻	墙	wall
+musele	肌	肌肉	muscle, muscular
+musika	曲	音乐	music, musical
+muso	鼠	鼠标, 老鼠	mouse, rat
+muta	改	改变, 修改, 变异	change, modify, modification, mutation
+nafasa	息	呼吸	breathe, breath
+naga	蛇	蛇, 滑行	snake, slither
+naje	泳	游泳	swim
+najima	士	星星, 突出, 名人	star, to highlight, celebrity
+nami	浪	波浪, 起伏	wave, undulation
+naro	窄	狭窄的, 薄的, 海峡	narrow, thin, strait
+nase	鼻	鼻子	nose
+nata	酥	奶油, 奶油的	cream, creamy
+nati	誕	出生, 生育	birth, give birth
+natura	野	自然, 自然的	nature, natural
+navi	舟	船, 舰船	boat, ship
+navu	預	预测, 预言	predict, prophecy, prediction, prophetic
+nea	鄰	近, 附近, 接近, 几乎	near, neighborhood, close by, approach, nearly
+nebu	霧	雾, 迷雾, 雾蒙蒙的, 模糊的	mist, fog, foggy, nebulous
+neka	頸	脖子	neck
+nese	需	需要, 必要性, 要求, 必要的	need, necessity, requirement, necessary
+neso	性	抽象, 抽象的, 性质, 状态	abstract, abstraction, -ness, -ity
+neto	網	网络, 网, 网状物, 网状	net, network, mesh, web, enmesh
+neve	雪	雪	snow
+ni	絕	从不, 曾经	never, ever
+nida	巢	巢穴, 蜂窝	nest, hive, den
+niku	肉	肉, 肉体	meat, flesh
+nin	九	九	nine
+ninja	偵	间谍, 监视	spy (noun), snoop, scout, surveil
+nise	嚏	打喷嚏	sneeze
+noga	腿	腿	leg
+nonga	農	农场, 耕作	farm, cultivate, agricultural
+nore	北	北方	north
+nube	雲	云, 多云的	cloud, cloudy
+nudelo	麵	面条	noodle
+nudi	裸	裸露的, 裸体的, 裸体	nude, naked, nudity
+nuga	擦	摩擦, 按摩, 抚摸, 挠痒	rub, friction, massage, caress, tickle, chafe
+nuki	核	坚果	nut
+nun	今	现在	now
+nuta	平	中性的, 平淡的, 乏味的, 公正的	neutral, bland, neuter, boring, impartial
+obe	從	服从, 遵从, 顺从	obey, compliance, obedient
+odi	仇	憎恨, 仇恨, 敌意	hate, hatred, enmity
+ofensa	罪	犯罪, 冒犯, 罪行, 冒犯的	crime, offense, sin, offensive, criminal
+ofera	祭	牺牲, 供奉	sacrifice, offering
+ofisi	官	办公室, 官方, 局, 办公桌	office, official, bureau, desk
+oko	眼	眼睛, 一瞥, 视线	eye, glance, one's sight
+ole	油	油, 油腻的	oil, unctuous
+onion	蔥	洋葱, 鳞茎	onion, bulb
+onore	榮	荣誉, 可敬的, 声誉	honor, honorable, reputation
+open	開	开放	open
+opitala	醫	医院	hospital
+ora	鐘	小时, 钟点, 时钟时间	hour, o'clock, clock time
+oranje	橙	橙色	orange
+orijen	源	起源, 来源, 原始的	origin, source, original
+osila	擺	摆动, 摇摆, 一个秋千	oscillate, swing, a swing
+oso	骨	骨头	bone
+osura	影	影子, 阴影, 模糊, 隐藏	shadow, shade, obscure, hide, hidden
+otelo	棧	酒店	hotel
+otono	秋	秋天	autumn
+oven	爐	烤箱, 炉子, 烤, 加热器	oven, furnace, bake, heater
+ovi	羊	小羊, 绵羊	lamb, sheep
+ovo	蛋	蛋	egg
+padon	諒	原谅, 饶恕, 宽恕, 一个借口	pardon, forgive, condone, an excuse
+paga	付	付款, 支付, 花费	pay, payment, spend
+paisa	國	国家, 国家的	nation, country, national
+paketa	包	包裹, 束	package, parcel, packet, bundle
+panta	褲	裤子, 长裤	pants, trousers
+pape	紙	纸	paper
+papilon	蝶	蝴蝶, 蛾	butterfly, moth
+para	停	停止	stop, halt
+parada	列	游行, 行军, 队伍	parade, march, procession
+paren	親	父母	parent
+pari	賭	打赌, 赌注, 赌博	bet, wager, gamble
+parija	烤	烧烤架, 网格, 隔板	grill, grid, grate, broiler, gridiron
+pase	和	和平, 和平的	peace, peaceful
+paso	步	步骤, 步幅, 步伐	step, stride, pace
+patata	薯	土豆	potato
+patio	庭	庭院, 院子	patio, courtyard, yard
+pato	禽	鸭子, 鹅, 天鹅, 水禽	duck, goose, swan, waterfowl
+pausa	斷	暂停, 休息, 中断	pause, break, interruption
+pedi	腳	脚, 徒步, 踢, 跺脚	foot, by foot, kick, stomp
+pele	皮	皮肤, 表面, 剥皮, 兽皮	skin, surface, peel, hide (animal)
+pelo	髮	头发, 毛发, 有毛的	hair, fur, hairy
+pen	筆	钢笔, 铅笔, 触控笔	pen, pencil, stylus
+pende	懸	悬挂, 暂停, 悬念	hang, hanging, suspension, suspense
+penelo	刷	刷子, 梳子, 扫帚	brush, comb, sweep
+penta	五	五	five
+pepa	椒	辣椒, 辣	pepper, spicy
+peribadi	私	私人, 隐私	private, privacy
+pianeta	惑	行星, 行星的	planet, planetary
+piano	琴	钢琴	piano
+piato	碟	平板, 盘子, 碟片, 托盘, 装盘	plate, dish, disc, tray, to plate
+piega	折	折叠, 皱褶	fold, crease
+pigi	豬	猪, 公猪	pig, boar
+pigu	尻	屁股	butt
+pika	扎	刺, 刺穿, 刺痛	prick, pierce, sting
+pila	黃	黄色	yellow
+pile	丸	药丸, 颗粒, 子弹	pill, pellet, bullet
+pilo	枕	枕头, 垫子	pillow, cushion
+pin	針	大头针, 针	pin, needle
+pinta	繪	绘画、涂料	paint, painting, painted
+pipi	尿	小便、撒尿	pee, urinate
+pirami	陵	金字塔	pyramid
+pirata	寇	海盗	pirate
+piron	叉	叉子、叉状物	fork
+pisi	魚	鱼	fish
+pisina	池	水池、池塘、游泳池	pool of water, pond, swimming pool
+piti	憫	可怜、怜悯、同情	pity, mercy, compassion, sympathy, sympathize
+piuma	羽	羽毛	feather
+poesi	詩	诗、诗歌、诗意的	poem, poetry, poetic
+poke	囊	口袋	pocket
+polisa	督	警察	police
+politi	政	政治、政治的、使...政治化	politics, political, politicize
+polo	雞	鸡、禽类	chicken, fowl
+poma	蘋	苹果	apple
+pone	置	放置、放下	put, lay, place
+ponte	橋	桥	bridge
+popula	眾	人们、人口、居住、人多的、流行的	people, population, populate, populous, popular
+pota	輸	运输、搬运、传输、港口、货物	carry, transport, transfer, port, cargo
+pote	鍋	锅、平底锅、大锅	pot, pan, cauldron, crucible, saucepan
+pove	貧	穷、贫困	poor, poverty
+pubili	印	打印、出版	print, publish
+puja	拜	崇拜、赞美、崇敬、崇拜之心	worship, praise, adore, adoration
+puko	刀	刀、匕首、刺	knife, dagger, stab
+pulasi	塑	塑料、塑料制品	plastic, plastics, malleable
+pumpa	泵	泵（移动+工具）	pump (motion + tool)
+puni	罰	惩罚、处罚	punish, punishment
+punjo	拳	拳头、打击、把手、握柄	fist, punch, knob, hilt, handgrip
+punto	點	点、圆点、斑点、指示、尖锐的、锐利	point, dot, spot, indicate, pointy, sharp
+pupe	偶	玩偶、木偶	doll, puppet
+pura	純	纯、清洁、清洗	pure, clean, cleanse
+puse	推	压、推、挤	press, push, shove
+radi	徑	光线、射线、辐射、闪电、半径	ray, beam, radiate, bolt, radius
+radika	根	根、生根的、根茎	root, rooted, rhizome, tuber
+raja	王	统治者、王室、国王、皇后	ruler, royal, king, queen
+raka	架	架子、架子、壁架	rack, shelf, ledge
+rama	肢	手臂、肢体、树枝	arm, limb, branch
+rampa	坡	斜坡、倾斜、斜面、鞠躬、倾斜的	ramp, lean, incline, slope, bow, slant, tilt, tilted
+rana	蛙	青蛙、蟾蜍	frog, toad
+randon	隨	随机、任意、多变	random, arbitrary, caprice
+ranko	序	级别、地位、排序、-th（序数）	rank, status, ordering, -th (ordinal)
+rano	早	早期、过早	early, too soon
+rasa	族	种族、种族	race, ethnicity, racial
+raso	刮	刮、刮擦、擦伤	shave, scrape, graze
+ratio	率	比率、速度、比例、分数	ratio, rate, proportion, fraction
+reaki	答	答案、回答、反应	answer, response, reaction
+rebele	叛	反抗、叛乱、革命、叛国罪、叛逆的	rebel, rebellion, revolution, treason, rebellious
+redi	備	准备、可用、准备、准备	ready, available, prepare, preparation
+refere	典	提及、参考、提到、暗示	refer to, reference, mention, allusion
+regen	雨	雨	rain
+regula	規	调节、规范、控制、统治者（工具）、规则	regulate, regulation, control, ruler (tool), a rule
+reka	右	右（方向）	right (direction)
+rela	軌	铁轨、火车、吧	rail, train, bar
+relate	聯	联系、关系、交往、连接、与...有关	relate, relation, relationship, connection, connect with
+relijon	宗	宗教、虔诚的	religion, religious
+remo	槳	桨、舵、划船	oar, rudder, to row
+rena	腎	肾脏	kidney
+renta	租	租金、借	rent, borrow
+reo	流	流动、电流、节奏、影响	flow, current, rhythm, influence
+repare	修	修理、纠正、改善、维修、修补	fix, correction, improvement, repair, mend
+repubika	公	共和国、共和主义者	republic, republican
+retili	爬	爬行动物、爬行、匍匐	reptile, crawl, creep
+retorante	館	餐厅	restaurant
+revela	露	揭示、泄露、透露、揭露	reveal, divulge, disclose, revelation, disclosure
+rika	富	富有、财富	rich, wealth
+rima	韻	押韵、韵律	rhyme, rhyming
+ringo	環	戒指、环、圈、电路、光环	ring, loop, hoop, circuit, halo
+risa	笑	笑	laugh
+risiti	取	接收、获得、收据、承认、接待	receive, get, receipt, acknowledge, reception
+riso	稻	大米	rice
+rite	儀	仪式、典礼、仪式的	rite, ceremony, ceremonial
+riva	河	河流、溪流	river, stream
+roba	裙	服装、袍子	dress, robe
+robare	盜	偷、盗窃	steal, theft
+roboto	傀	机器人	robot
+roden	狸	啮齿动物（非老鼠）、松鼠、海狸	rodent (non-mouse), squirrel, beaver
+roga	問	问、问题	ask, question
+roketa	箭	火箭、导弹、发射物	rocket, missle, projectile
+rompe	碎	打破、破裂、打碎、破坏	break, rupture, smash, disrupt
+ronko	鼾	打鼾、咕哝	snore, grunt
+rosa	櫻	粉、玫瑰	pink, rose
+ruina	毀	破坏、毁灭、摧毁	destroy, ruin, destruction, downfall
+ruja	紅	红色	red
+rumora	謠	流言、谣言、传闻的	gossip, rumor, rumored
+runguma	抱	拥抱、拥抱	hug, embrace
+rusa	鹿	鹿	deer
+ruse	詭	诡计、恶作剧、诡计、欺诈、骗局	trick, hoax, ruse, fraud, scam, tricky
+ruto	嗝	打嗝、打嗝	burp, belch
+saara	漠	沙漠	desert
+sadi	鄙	恶意的, 残忍的, 虐待狂的	mean, cruel, sadistic
+safari	旅	旅行, 航行, 旅程, 探险, 充满冒险精神的	journey, voyage, trip, travel, adventure, adventurous
+saga	敘	故事, 叙述, 虚构的	story, narrate, fictional
+saje	慧	聪明的, 智慧的	wise, wisdom
+sake	酒	酒, 烈酒	alcohol, liquor
+sako	袋	袋子, 麻袋	bag, sack
+saliva	唾	唾液, 口水	saliva, spit, expectorate
+salo	鹽	盐, 咸的, 调味品	salt, salty, seasoning
+salon	廳	沙龙, 美容院	salon, parlor
+salu	禮	你好, 再见, 问候, 问候语	hello, goodbye, greet, greeting
+sando	餅	三明治	sandwich
+sange	血	血液, 流血	blood, bleed
+sano	康	健康, 健康的, 治愈	health, healthy, heal
+sapato	鞋	鞋子	shoe
+sava	救	拯救, 抢救, 救助, 打捞, 取回	save, rescue, salvation, salvage, retrieve
+savaje	蠻	野生的, 野蛮的, 未开化的, 荒野的	wild, savage, feral, uncivilized, wilderness
+savon	皂	肥皂	soap
+se	若	如果, 是否	if, whether
+seda	綢	丝绸	silk
+sede	坐	坐, 座位, 椅子	sit, seat, chair
+sekeleton	框	骨架, 框架, 脚手架	skeleton, framework, scaffolding
+seketa	秘	秘密, 神秘	secret, mystery
+seko	乾	干燥, 干燥度	dry, dryness
+sekola	校	学校	school
+sekon	秒	秒钟	second (time)
+sekura	安	安全的, 安全, 保险, 安全性	secure, safe, safety, security
+sela	胞	细胞（生物学中的房间）	cell (biology + room)
+semana	周	周, 每周的	week, weekly
+semen	籽	种子	seed
+semi	半	一半, 部分, 不完整的	half, partial, incompletely
+sena	幕	场景, 舞台	scene, stage
+sende	傳	发送, 传输, 派遣, 广播, 邮寄	send, transmit, dispatch, broadcast, a post
+seni	芸	艺术, 艺术的	art, artistic
+senjore	君	先生、女士、先生、夫人、贵族、主人	mr., ms., sir, madam, lord, master
+sentense	句	句子, 短语, 命题, 判决	sentence, phrase, proposition, verdict
+senti	感	感觉, 触摸	sense, feel, touch, feeling
+sento	百	百	hundred
+sera	關	关闭, 密封	close, shut, seal
+sereale	麥	谷物, 谷类, 小麦	grain, cereal, wheat
+serebe	腦	大脑	brain
+seri	排	系列, 列表, 顺序, 行, 枚举	series, list, order, row, enumerate
+serio	專	严肃的, 认真的, 严重	serious, earnest, seriousness
+sesi	媾	性别, 性感的, 交合	sex, sexy, copulate, gender
+sete	渴	口渴, 渴望的	thirst, thirsty
+seven	七	七	seven
+severe	嚴	严重的, 严格的	severe, strict
+sibi	娣	兄弟姐妹, 兄弟, 姐妹	sibling, brother, sister
+sibila	呲	哨声, 嘶嘶声	whistle, hiss, fizzle, whiz, zip
+siensa	科	科学, 科学的, -学	science, scientific, -ology
+sigaro	茄	雪茄, 香烟	cigar, cigarette
+sige	續	下一个, 跟随, 随后的, 继续	next, follow, subsequent, succeeding
+silaba	嘀	音节	syllable
+silara	銀	银, 银色的	silver, silvery
+silen	靜	沉默, 沉默的	silence, silent
+sili	愚	愚蠢的, 琐碎的, 琐事	silly, foolish, trivial, triviality
+sina	軀	胸部, 躯干	chest, torso
+sinda	燼	灰烬	cinder, ash, ashy
+sinifi	涵	意义, 意味着, 显著性, 重要	meaning, to mean, sense, significance, significant
+sino	符	标志, 标记, 符号, 信号, 象征	sign, mark, symbol, signal, token, logo
+sinti	爍	闪耀, 闪烁	sparkle, twinkle
+siren	鈴	铃声, 警报器, 敲钟, 手摇铃, 门铃	bell, siren, alarm, to chime, handbell, doorbell
+sisora	剪	剪刀, 剪	scissors, shears
+sita	六	六	six
+sitema	系	系统, 系统化	system, systematic, systematize
+siti	城	城市	city
+sivi	民	公民, 文明的	citizen, civilian, civil, civilize
+so	斯	这样, 如此	so, such
+sofa	榻	沙发	sofa
+sofio	吹	吹, 充气, 噗噗声	blow, inflate, puff
+soke	襪	袜子, 长袜	sock, stocking
+soli	泥	土壤, 污垢, 黏土, 泥巴	soil, dirt, clay, mud
+solidi	固	固体, 坚实的	solid, firm
+solo	獨	单一的, 单独的, 唯一的	single, alone, only
+solu	解	解决, 解决方案, 松散, 解开, 溶解	solve, solution, loose, untie, dissolve
+soma	夏	夏季	summer
+some	些	一些, 几个, 一定数量的, 有些	some, few, an indefinite amount, somewhat
+sonjo	夢	梦	dream
+sonri	靨	微笑	smile
+sori	歉	对不起, 感到抱歉, 悔过	sorry, to be sorry, contrition, remorse
+sosia	社	社会, 社会的	society, social
+suave	柔	光滑的, 柔软的, 时髦的	smooth, soft, sleek, even
+subita	突	突然的, 突然地, 降水	sudden, suddenly, abrupt, to precipitate
+sude	南	南	south
+sue	紉	缝纫	sew, stich, seam
+sufi	盈	足够的, 充足的, 足够	enough, sufficient, suffice
+sujesi	諫	建议, 暗示	suggest, suggestion, hint, insinuation
+sujo	污	肮脏的, 污垢, 污秽, 玷污	dirty, grime, filth, to taint, corruption
+suko	吮	吸, 吸力	suck, suction
+suma	總	总和, 计算, 得分	sum, total, calculate, score
+sumete	屈	投降, 提交, 屈服	surrender, submit, yield, give in, submission
+sun	即	很快	soon
+supe	湯	汤	soup
+superise	驚	惊喜, 使惊讶, 震惊, 意外	surprise, astonish, shock, unexpected
+suponji	絡	海绵	sponge
+supose	猜	假设, 猜测, 推测	suppose, guess, conjecture, hypothesis
+sure	確	确定, 肯定, 确定性	certain, sure, certainty
+susura	喃	低语, 沙沙声	whisper, rustle, murmur
+taba	板	板, 木板, 梁	board, plank, beam, slat
+tabu	禁	禁忌, 禁止	taboo, forbid, forbidden
+tadi	遲	迟到, 延迟	late, tardy, delay
+talon	踵	脚后跟	heel
+tambo	鼓	鼓	drum
+tamen	雖	尽管, 虽然, 然而, 尽管如此	although, though, nevertheless, in spite of, however
+tami	篩	过滤器, 筛子, 漏网	filter, sieve, colander
+tape	毯	地毯	carpet, rug
+tari	史	历史, 历史的	history, historical
+tarifa	稅	收费, 账单, 税金	charge, bill, tax
+tavan	頂	天花板, 屋顶	ceiling, roof
+tea	茶	茶	tea
+teata	劇	剧院, 戏剧	theater, theatrical
+teke	羚	山羊, 羚羊, 野山羊, 山羊科动物	goat, antelope, ibex, a caprine
+teki	術	技术, 技术的, 技术性的	technology, technological, technical
+tela	布	布料, 织物	cloth, fabric
+tema	題	主题, 题目, 话题, 关于, 涉及	theme, subject, topic, to be about, to concern
+ten	十	十	ten
+tenden	傾	倾向, 偏见, 倾向于	tendency, bias, inclination, inclined to
+teni	握	握住, 抓住, 紧握	hold, grasp, cling to
+tensa	緊	紧张（动作 + 状态 + 语法）, 拉紧, 紧绷	tense (action + state + grammar), stretch, strained
+tenta	試	尝试, 试图, 实验, 尝试性的, 临时的	try, attempt, experiment, trial, tentative, provisional
+teoria	論	理论, 推理	theory, theorize
+terapi	痊	治疗, 治疗方法, 治愈, 疗法的	therapy, treatment, treat, cure, therapeutic
+tese	織	编织, 织成的, 编结	weave, woven, knit
+teta	胸	乳房, 女乳	breast, tit
+tie	叔	叔叔, 阿姨	uncle, aunt
+tila	至	直到, 达到, 靠近	until, till, up to, approach, reach
+timi	羞	胆怯的, 害羞的, 腼腆的, 保留的	timid, shy, coy, reserved
+tin	錫	锡, 罐头	tin, can
+tingi	高	高的, 高度	high, tall, height
+tinta	墨	色调, 墨水, 色彩	tint, ink, hue
+tipi	棚	帐篷, 圆锥形住所, 小屋	tent, teepee, hut
+tipo	類	类型, 质量, 种类, 典型的	type, quality, kind, typical
+tira	拉	拉, 拽	pull, tug
+tivi	呈	电视	TV, television
+tobako	菸	烟草	tobacco
+toilete	廁	厕所, 尿盆, 厕所间, 使用卫生间	toilet, urinal, restroom, WC, use bathroom
+tolera	忍	容忍, 容忍度, 接受的	tolerate, tolerance, tolerant, accepting
+tonere	雷	雷声	thunder
+topi	帽	帽子, 帽子顶部, 顶峰	cap, hat, top, summit
+tore	塔	塔, 摩天大楼, 尖塔, 尖顶, 清真寺的尖塔	tower, skyscraper, turret, steeple, minaret
+tori	鳥	鸟	bird
+tose	吠	咳嗽, 狗吠	cough, bark
+toti	龜	龟, 陆龟	turtle, tortoise
+tovari	侶	同伴, 配偶, 伙伴, 同志	companion, spouse, partner, comrade
+tubo	管	管, 管道	tube, pipe
+tufan	嵐	暴风雨, 多风的, 台风, 飓风	storm, stormy, typhoon, hurricane
+tuju	恆	始终, 永远, 曾经	always, forever, ever
+tumba	墓	坟墓, 坟地	grave, tomb
+tumo	瘤	肿瘤, 肿胀, 凸起	tumor, swell, swelling, bulge
+tupe	啞	迟钝的, 钝的, 愚蠢的	dull, blunt, obtuse, dumb
+uben	練	锻炼, 训练, 实践, 操练	exercise, training, practice, drill
+ubuntu	慈	友善的, 人道主义, 人性, 团结	kind, humane, humaneness, solidarity
+udan	蝦	虾, 龙虾, 一种甲壳类	shrimp, lobster, a crustacean
+ujana	少	年轻, 青年, 年轻人	young, youth, a youth
+uka	鉤	钩, 衣架, 弯曲（牧羊人的）, 法冠	hook, hanger, crook (shepherd), mitre
+ulu	鸮	猫头鹰	owl
+umile	謙	谦逊的, 谦虚的, 谦卑的, 羞愧	humble, modest, humility, shame
+undon	健	运动, 运动的, 体育锻炼	sport, athletic, physical exercise
+ungu	爪	指甲, 蹄, 爪	nail, hoof, claw
+univesa	寰	宇宙的, 全宇宙的	universe, universal
+utero	宮	子宫	womb, uterus
+vaga	遊	漫游, 流浪, 漫步	wander, roam, rove
+vagen	乘	货车, 用车, 卡车	wagon, van, cart, bus, truck
+vakansa	假	度假, 假期	vacation, holiday
+vakili	代	代表, 代表性的, 代理人, 特使	represent, stand for, representative, agent, envoy
+vaku	空	空的, 真空, 外层空间, 空虚	empty, vacuum, outer space, vacuous
+vali	谷	山谷	valley
+valu	財	价值, 值得	value, worth
+vanila	蘭	香草	vanilla
+vanita	傲	虚荣, 骄傲的	vanity, pride, proud
+vapo	汽	蒸汽, 水汽	steam, vapor
+vare	貨	资源, 商品, 供给	resource, wares, supply, merchandise, commodity
+vari	變	变化, 各种各样的, 变异, 方差	vary, variety, various, variation, variance
+vasanta	春	春天 (季节)	spring (season)
+ve	哪	在哪里	where
+veka	醒	醒着的, 唤醒, 知道	awake, wake, aware
+vela	帆	航行, 帆船	sail
+ven	辰	何时	when
+vende	賣	出售, 销售	sell, sale
+vendeta	報	报复, 怀恨在心的, 寻求报复	revenge, vengeful, to seek revenge
+venemo	毒	毒液, 毒药, 毒害	venom, poison, to poison
+venera	尊	尊重, 敬仰, 有礼貌的	respect, veneration, respectful
+ventana	窗	窗户, 镜子, 屏幕	window, mirror, screen
+vento	風	风, 多风的	wind, windy
+vepon	兵	武器, 军火, 武装, 武装化	weapon, arms, to arm, weaponize
+vese	西	西方	west
+veta	候	天气, 气候	weather, climate
+vibe	晃	感觉, 震动, 振动, 激动, 湍流	vibe, shake, vibrate, agitate, vibration, turbulence
+video	像	视频	video
+vila	村	村庄, 小镇	village, town
+vile	當	当...时候, 在...期间	while, during
+vina	疚	责备, 过错, 罪行	blame, fault, guilt
+vinge	翼	翅膀, 边, 翅片	wing, brim, vane
+vino	醴	葡萄酒	wine
+vinta	冬	冬天	winter
+viola	弦	中提琴, 小提琴, 一种弦乐器	viola, violin, a string instrument
+violensa	暴	暴力, 暴力的	violence, violent
+vipi	鞭	鞭子, 鞭打	whip, lash
+viru	疫	病毒, 病毒性的	virus, viral
+visita	訪	访问	visit
+voka	喚	声音, 喊, 召唤	voice, call, call out, summon
+vola	飛	飞行, 飞翔	fly, flight
+vomi	嘔	呕吐	vomit
+vori	憂	担忧, 忧虑	worry, concern
+vote	選	投票	vote
+vudu	咒	诅咒, 厄运, 咒语	curse, hex, jinx, spell
+vuma	蠕	蠕虫	worm
+vunda	幻	奇迹, 令人惊奇的, 精彩的	wonder, miracle, marvel, wonderful

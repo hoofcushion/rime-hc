@@ -1,0 +1,48 @@
+# 引用通用配置文件：
+__include: ts__detail.yaml:/
+# 引用特殊配置文件：
+__include: _schema_settings/ts_cn.yaml:/map
+switches: {__include: _schema_settings/ts_cn.yaml:/switches}
+# 引用方案快捷键：
+__patch:
+ key_binder/bindings/+: {__include: _schema_settings/ts_cn.yaml:/array/bindings}
+schema:
+ __include: _schema_settings/_global:/schema
+ schema_id: ts_cn
+ name: 『蹄垫双拼』
+ description: |
+  蹄垫系列方案之双拼
+__patch:
+ schema/dependencies/+:
+  - ts_en # 英文
+  - module_cn_en # 混输
+  - module_lock # 固定
+  - module_dmma # 辅助码
+  - module_fnua_cn # 反查
+  - module_custom_cn_phrase # 简码
+__patch:
+ - engine/processors/@after 5:      "lua_processor@module_fnua_processor"
+ - engine/processors/@after 2:      "lua_processor@select_character"
+ - engine/segmentors/@after 1:      "affix_segmentor@module_fnua_cn"
+ - engine/translators/@before last: "lua_translator@custom_cn_phrase"
+ - engine/translators/@before last: "lua_translator@module_fnua_cn"
+ - engine/translators/@after last:  "lua_translator@module_dmma_upper"
+ - engine/translators/@after last:  "lua_translator@module_dmma"
+ - engine/translators/@after last:  "lua_translator@ts_cn"
+ - engine/translators/@after last:  "lua_translator@ts_en"
+ - engine/translators/@after last:  "lua_translator@module_cn_en"
+ - engine/translators/@after last:  "lua_translator@recorder"
+ - ts_cn.custom:/patch?
+abc_segmentor: {extra_tags: [ts_en, abc]}
+custom_cn_phrase: {initial_quality: 64, dictionary: custom_cn_phrase, enable_user_dict: false, enable_sentence: false, enable_completion: false}
+module_lock: {initial_quality: 1, dictionary: module_lock, enable_user_dict: false, enable_sentence: false, enable_completion: false}
+translator: {initial_quality: 1, dictionary: ts_cn, user_dict: ts_cn}
+module_cn_en: {initial_quality: 1, dictionary: module_cn_en, user_dict: module_cn_en}
+module_en: {__include: ts_en.schema.yaml:/translator, tag: ts_en}
+module_dmma: {initial_quality: 1, dictionary: module_dmma, enable_user_dict: false, spelling_hints: 99}
+module_fnua_cn: {prefix: "`", tag: module_fnua_cn, tips: 〔拼音反查〕, dictionary: module_fnua_cn, spelling_hints: 99, enable_user_dict: false}
+recognizer:
+ lua:
+  module_fnua: '`'
+ patterns:
+  module_fnua_cn: "`.*$"

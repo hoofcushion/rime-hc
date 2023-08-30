@@ -1,0 +1,28 @@
+# 引用通用配置文件：
+__include: ts__detail.yaml:/
+# 引用特殊配置文件：
+__include: _schema_settings/ts_mini_linga.yaml:/map
+switches: {__include: _schema_settings/ts_mini_linga.yaml:/switches}
+# 引用方案快捷键：
+__patch:
+ key_binder/bindings/+: {__include: _schema_settings/ts_mini_linga.yaml:/array/bindings}
+schema:
+ __include: _schema_settings/_global:/schema
+ schema_id: ts_mini_linga
+ name: 『微話 - Mini Linga』
+ description: |
+  蹄垫系列方案之微話
+__patch:
+ - engine/translators/@after last:  "lua_translator@ts_mini_linga_find"
+ - engine/translators/@after last:  "lua_translator@ts_mini_linga"
+translator: {initial_quality: 1, dictionary: ts_mini_linga, enable_user_dict: false, enable_sentence: true, preedit_format: ["xlit/hwy/@^-/", "xform/(?<!^)[A-Z]/\\L$0/"], comment_format: [xform/.+//], contextual_suggestions: false}
+recognizer:
+ lua:
+  ts_mini_linga_find: 'z'
+ patterns:
+  ts_mini_linga_find: "^z.*"
+speller:
+ delimiter: ""
+ alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA"
+ algebra:
+  - derive/^[a-z]/\U$0/

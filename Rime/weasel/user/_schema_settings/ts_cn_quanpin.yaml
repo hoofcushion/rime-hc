@@ -1,0 +1,25 @@
+switches:
+ - {name: ascii_mode,  reset: 0, states: [汉, 英]}
+ - {name: ascii_punct, reset: 0, states: ["中", " "]}
+ - {name: full_shape,  reset: 0, states: [" ", "全"]}
+ - {name: fil_s2t,     reset: 0, states: [" ", "繁"]}
+ - {name: fil_emoji,   reset: 0, states: [" ", "🤤"]}
+ - {name: fil_symbol,  reset: 1, states: [" ", "符"]}
+ - {name: fil_zhuyin,  reset: 0, states: [" ", "ā"]}
+ - {name: fil_huoxin,  reset: 0, states: ["火", "焱"]}
+ - {name: fil_trans,   reset: 0, states: [" ", "译"]}
+map:
+ __include: _speller/quanpin.yaml:/
+ key_binder:
+  select_first_character: "bracketleft"
+  select_last_character: "bracketright"
+array:
+ bindings:
+  - {accept: "Control+minus", select: ts_en, when: always}
+  - {accept: "Control+equal", select: ts_cn, when: always}
+  - {accept: "Control+1", toggle: fil_s2t, when: always}
+  - {accept: "Control+2", toggle: fil_emoji, when: always}
+  - {accept: "Control+3", toggle: fil_zhuyin, when: always}
+  - {accept: "Control+4", toggle: fil_huoxin, when: always}
+  - {accept: "Control+5", toggle: fil_symbol, when: always}
+  - {accept: "Control+6", toggle: fil_trans, when: always}

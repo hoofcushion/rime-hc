@@ -1,0 +1,41 @@
+# 引用通用配置文件：
+__include: ts__detail.yaml:/
+# 引用特殊配置文件：
+__include: _schema_settings/ts_triple.yaml:/map
+switches: {__include: _schema_settings/ts_triple.yaml:/switches}
+# 引用方案快捷键：
+__patch:
+ key_binder/bindings/+: {__include: _schema_settings/ts_triple.yaml:/array/bindings}
+schema:
+ __include: _schema_settings/_global:/schema
+ __patch:
+  author/@before 0: 阿森纳里 15678407
+ schema_id: ts_triple
+ name: 『三拼』
+ description: |
+  蹄垫系列方案之三拼
+  拼写运算来自 阿森纳里 三码拼音
+  由蹄垫改进适配 Qwerty 布局
+__patch:
+ schema/dependencies/+:
+  - ts_en # 英文
+  - module_lock_triple # 固定
+  - module_fnua_triple # 反查
+__patch:
+ - engine/processors/@after 5:      "lua_processor@module_fnua_processor"
+ - engine/processors/@after 2:      "lua_processor@select_character"
+ - engine/segmentors/@after 1:      "affix_segmentor@module_fnua_triple"
+ - engine/translators/@before last: "lua_translator@module_fnua_triple"
+ - engine/translators/@after last:  "lua_translator@ts_triple"
+ - engine/translators/@after last:  "lua_translator@ts_en"
+ - engine/translators/@after last:  "lua_translator@recorder"
+abc_segmentor: {extra_tags: [ts_en, abc]}
+module_lock: {initial_quality: 1, dictionary: module_lock_triple, enable_user_dict: false, enable_sentence: false, enable_completion: false}
+translator: {initial_quality: 1, dictionary: ts_triple, user_dict: ts_triple}
+module_en: {__include: ts_en.schema.yaml:/translator, tag: ts_en}
+module_fnua_triple: {prefix: "`", tag: module_fnua_triple, tips: 〔拼音反查〕, dictionary: module_fnua_triple, spelling_hints: 99, enable_user_dict: false}
+recognizer:
+ lua:
+  module_fnua: '`'
+ patterns:
+  module_fnua_triple: "`.*$"

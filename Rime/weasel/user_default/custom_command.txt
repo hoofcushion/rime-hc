@@ -1,0 +1,51 @@
+--例子:
+--["/cmd"]={{"cmd","命令行",false}},
+--下标"/cmd"代表命令的编码
+--键值是一个表:
+--表中第一个值 "cmd",代表lua将执行的cmd命令,此处会打开一个cmd窗口
+--表中第二个值 "命令行",代表候选项的提示
+--表中第三个值
+--false代表直接运行(不兼容utf8,但速度更快)
+--true代表通过生成bat文件间接运行(兼容utf8,会花额外时间调用bat文件)
+local desk="%%USERPROFILE%%"..Sep.."Desktop"
+return {
+["cmd"]={{"cmd","命令行",false}},
+["explorer"]={{"explorer","启动资源管理器",false}},
+["task"]={{"Taskmgr","任务管理器",false}},
+["run"]={{"explorer shell:::{2559a1f3-21d7-11d4-bdaf-00c04f60b9f0}","打开运行窗口",false}},
+["jsq"]={{"calc","Windows计算器",false}},
+["regedit"]={{"%%windir%%"..Sep.."regedit.exe","注册表编辑器",true}},
+["user"]={{user,"Rime 用户目录",true}},
+["build"]={{user..Sep.."build","Rime 部署目录",true}},
+["data"]={{data,"Rime 共享目录",true}},
+["weasel"]={{data..Sep.."weasel.yaml","Rime 主题文件",true}},
+["prog"]={{program,"Rime 程序目录",true}},
+["lua"]={{data..Sep.."rime.lua","Rime.lua 文件",true}},
+["lua/"]={{data..Sep.."lua","Rime lua 目录",true}},
+["source"]={{data..Sep.."lua"..Sep.."quickstart.lua","查看源码",true}},
+["new"]={
+{user..Sep.."custom_command.txt","添加新指令",true},
+{user..Sep.."custom_phrase.dict.yaml","添加新短语",true},
+{user..Sep.."custom_time.txt","添加新日期",true},
+{user..Sep.."custom_cn_phrase.dict.yaml","添加新简码",true},
+{user..Sep.."custom_symbol.dict.yaml","添加新符号",true},
+{user..Sep.."_dic_cn","添加用户词",true},
+},
+["log"]={{user..Sep.."build"..Sep.."log.txt","Lua log",true}},
+["desk"]={{desk,"桌面",true}},
+["temp"]={{"%%temp%%","Windows缓存目录",true}},
+["search"]={
+{"start https://www.baidu.com","百度",false},
+{"start https://www.bing.com","必应",false},
+{"start https://www.yandex.com","Yandex",false},
+{"start https://www.google.com","谷歌",false},
+},
+["chat"]={
+{"start https://chatf.free2gpt.xyz/","Free2gpt",false},
+{"start https://chat.jinshutuan.com","AIchatOS",false},
+},
+["mini"]={{"start https://minilanguage.com/","Mini语网站",false}},
+["youtube"]={{"start https://www.youtube.com/","YouTube",false}},
+["rimeice"]={{"start https://github.com/iDvel/rime-ice","雾凇拼音GitHub页面",false}},
+["bilibili"]={{"start https://www.bilibili.com/","哔哩哔哩",false}},
+}

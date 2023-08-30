@@ -1,0 +1,13 @@
+﻿---
+name: ts_en
+version: "2023-07-13 23:45:08"
+sort: original
+import_tables:
+ - _dict/_dic_en/user_en
+ - _dict/_dic_en/en_cushion
+ - _dict/rime-ice/en_dicts/en_ext
+ - _dict/rime-ice/en_dicts/en
+ - _dict/_dic_en/en1
+ - _dict/_dic_en/en2
+ - _dict/upper
+...

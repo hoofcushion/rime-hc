@@ -1,0 +1,23 @@
+# 引用通用配置文件：
+__include: ts__detail.yaml:/
+# 引用特殊配置文件：
+__include: _schema_settings/ts_en.yaml:/map
+switches: {__include: _schema_settings/ts_en.yaml:/switches}
+# 引用方案快捷键：
+__patch:
+ key_binder/bindings/+: {__include: _schema_settings/ts_en.yaml:/array/bindings}
+schema:
+ __include: _schema_settings/_global:/schema
+ schema_id: ts_en
+ name: 『英语EN』
+ description: |
+  蹄垫系列方案之英语
+__patch:
+ - engine/translators/@after last:  "lua_translator@ts_en"
+fil_trans: {tags: [abc]}
+translator: {initial_quality: 1, dictionary: ts_en, enable_user_dict: false, enable_sentence: false, comment_format: [xform/^.*$//], contextual_suggestions: false}
+speller:
+  alphabet: "zyxwvutsrqponmlkjihgfedcba;ZYXWVUTSRQPONMLKJIHGFEDCBA-=|"
+  algebra:
+   - derive/[^A-Za-z]//
+   - derive/.+/\L$0/

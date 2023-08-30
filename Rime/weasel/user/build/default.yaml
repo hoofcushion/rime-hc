@@ -1,0 +1,25 @@
+menu:
+  page_size: 6
+  alternative_select_labels: [①,②,③,④,⑤,⑥,⑦,⑧,⑨,⑩]
+schema_list:
+  - schema: ts_cn
+  - schema: ts_cn_quanpin
+  - schema: ts_en
+switcher:
+  abbreviate_options: true
+  caption: "〔方案选单〕"
+  fold_options: true
+  hotkeys:
+    - "Control+grave"
+    - "Control+backslash"
+  option_list_separator: "／"
+  save_options:
+    - ascii_mode
+    - full_shape
+    - ascii_punct
+    - fil_s2t
+    - fil_emoji
+    - fil_symbol
+    - fil_zhuyin
+    - fil_huoxin
+    - fil_trans

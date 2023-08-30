@@ -1,0 +1,7 @@
+schema:
+ schema_id: module_cn_en_quanpin
+ name: 「插件_混输」
+translator: {dictionary: module_cn_en_quanpin}
+speller:
+ algebra:
+  - "xform/\"//"
