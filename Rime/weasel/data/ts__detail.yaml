@@ -38,6 +38,8 @@ engine:
   - simplifier@fil_huoxin
   - simplifier@fil_trans
   - lua_filter@fil
+  - lua_filter@fil_KijinSeija
+  - lua_filter@fil_Unicode
 custom_phrase: {dictionary: custom_phrase, initial_quality: 64, enable_user_dict: false, enable_completion: false, enable_sentence: false}
 custom_symbol: {dictionary: custom_symbol, initial_quality: 64, enable_user_dict: false, tag: custom_symbol}
 fil_s2t: {option_name: fil_s2t, opencc_config: s2t.json, tips: all, tags: [abc]}

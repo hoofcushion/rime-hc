@@ -1,0 +1,7 @@
+return{
+"../../data/_dict/rime-ice/cn_dicts/base.dict.yaml",
+"../../data/_dict/rime-ice/cn_dicts/ext.dict.yaml",
+"../../data/_dict/rime-ice/cn_dicts/others.dict.yaml",
+"../../data/_dict/rime-ice/cn_dicts/tencent.dict.yaml",
+"../../data/_dict/rime-ice/cn_dicts/tencent.dict.yaml",
+}

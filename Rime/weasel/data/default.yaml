@@ -15,4 +15,10 @@ switcher:
   hotkeys:
     - "Control+grave"
     - "Control+backslash"
+  save_options:
+    - ascii_punct
+    - full_shape
+    - fil_s2t
+    - fil_emoji
+    - fil_symbol
   option_list_separator: "／"

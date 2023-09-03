@@ -1,34 +1,38 @@
-local chineseUnicodeRanges = {
- {min=0x04e00,max=0x09fff},
- {min=0x03400,max=0x04dbf},
- {min=0x20000,max=0x2a6df},
- {min=0x2a700,max=0x2b73f},
- {min=0x2b740,max=0x2b81f},
- {min=0x2b820,max=0x2ceaf},
- {min=0x2ceb0,max=0x2ebef},
- {min=0x30000,max=0x3134f},
- {min=0x31350,max=0x323af},
- {min=0x031c0,max=0x031ef},
- {min=0x02e80,max=0x02eff},
- {min=0x02f00,max=0x02fdf},
- {min=0x0f900,max=0x0fadf},
- {min=0x2f800,max=0x2fa1f},
- {min=0x02ff0,max=0x02fff},
- {min=0x03100,max=0x0312f},
- {min=0x031a0,max=0x031bf},
+local chineseRangesMap={
+  min=11904,max=205743,
+ {min=11904,max=12031},
+ {min=12032,max=12255},
+ {min=12272,max=12287},
+ {min=12544,max=12591},
+ {min=12704,max=12735},
+ {min=12736,max=12783},
+ {min=13312,max=19903},
+ {min=19968,max=40959},
+ {min=63744,max=64223},
+ {min=131072,max=173791},
+ {min=173824,max=177983},
+ {min=177984,max=178207},
+ {min=178208,max=183983},
+ {min=183984,max=191471},
+ {min=194560,max=195103},
+ {min=196608,max=201551},
+ {min=201552,max=205743},
 }
-local function isPureChinese(str)
+local function isPureChinese(str,rangeMap)
  for i=1,utf8Len(str) do
-  local charCode=utf8.codepoint(utf8Sub(str,1,1))
-  for _,range in pairs(chineseUnicodeRanges) do
-   if charCode>=range.min and charCode<=range.max then
+  local uCode=utf8.codepoint(utf8Sub(str,i,i))
+  if uCode<rangeMap.min or uCode>rangeMap.max then
+   return false
+  end
+  for _,range in pairs(rangeMap) do
+   if uCode>=range.min and uCode<=range.max then
     return true
    end
   end
  end
  return false
 end
-local append_new_line=function(lct)
+local function appendNewLine(lct)
  local path
  if utf8.len(lct)==1 then 
   path=rime_api:get_user_data_dir().."/recorder/char.txt"
@@ -59,8 +63,8 @@ return {
   commit_notifier=env.engine.context.commit_notifier:connect(
   function(ctx)
    local lct=ctx:get_commit_text()
-   if isPureChinese(lct) then
-    append_new_line(lct)
+   if isPureChinese(lct,chineseRangesMap) then
+    appendNewLine(lct)
    end
   end)
  end,

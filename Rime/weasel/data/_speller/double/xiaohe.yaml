@@ -1,4 +1,4 @@
-﻿module_dmma: {comment_format: ["xlit/ZCSBH/viuee/"]}
+module_dmma: {comment_format: ["xlit/ZCSBH/viuee/"]}
 module_fnua_cn:
  comment_format: &comment
   - derive/\<([jqxy])u\>/\1v/

@@ -1,4 +1,4 @@
-﻿module_dmma: {comment_format: ["xlit/ZCSBH/l;vee/"]}
+module_dmma: {comment_format: ["xlit/ZCSBH/l;vee/"]}
 module_fnua_cn:
  comment_format: &comment
   - xform/\<shi\>/_eo_/
