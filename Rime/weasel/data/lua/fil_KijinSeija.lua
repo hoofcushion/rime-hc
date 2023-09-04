@@ -15,15 +15,9 @@ return{
   return env.engine.context:get_option(opction_name)
  end,
  func=function(input,env)
-  if env.engine.context:get_option(env.name_space) then
-   for cand in input:iter() do
-    cand.preedit=strReverse(cand.preedit)
-    yield(ShadowCandidate(cand,strReverse(cand.type),strReverse(cand.text),strReverse(cand.comment)))
-   end
-   return
-  end
   for cand in input:iter() do
-   yield(cand)
+   cand.preedit=strReverse(cand.preedit)
+   yield(ShadowCandidate(cand,strReverse(cand.type),strReverse(cand.text),strReverse(cand.comment)))
   end
  end
 }

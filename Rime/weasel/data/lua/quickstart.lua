@@ -17,7 +17,7 @@ local keyMap={
  ["BackSpace"]="BackSpace",
 }
 
-local sendCommand,command=false
+local sendCommand,command
 local completionMap={}
 local symbol,code_start
 return
