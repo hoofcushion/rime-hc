@@ -49,6 +49,8 @@ fil_symbol: {option_name: fil_symbol, opencc_config: sym.json, tips: all, tags: 
 fil_zhuyin: {option_name: fil_zhuyin, opencc_config: pinyin.json, tips: char, tags: [abc], show_in_comment: true, comment_format: [xform/&nbsp/｜/]}
 fil_trans: {option_name: fil_trans, opencc_config: dic_4w_en.json, tips: all, tags: [ts_en]}
 fil_huoxin: {option_name: fil_huoxin, opencc_config: huoxing.json, tips: all, tags: [abc]}
+fil_KijinSeija: {option_name: fil_KijinSeija}
+fil_Unicode: {option_name: fil_Unicode}
 speller: {delimiter: " '"}
 punctuator:
  full_shape: {' ' : { commit: '　' }, ',' : { commit: ， }, '.' : { commit: 。 }, '<' : [ 《, 〈, «, ‹ ], '>' : [ 》, 〉, », › ], '/' : [ ／, ÷ ], '?' : { commit: ？ }, ';' : { commit: ； }, ':' : { commit: ： }, '''' : { pair: [ '‘', '’' ] }, '"' : { pair: [ '“', '”' ] }, '\' : [ 、, ＼ ], '|' : [ ·, ｜, '§', '¦' ], '`' : ｀, '~' : ～, '!' : { commit: ！ }, '@' : [ ＠, ☯ ], '# ' : [ ＃, ⌘ ], '%' : [ ％, '°', '℃' ], '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤' ], '^' : { commit: …… }, '&' : ＆, '*' : [ ＊, ·, ・, ×, ※, ❂ ], '(' : （, ')' : ）, '-' : －, '_' : ——, '+' : ＋, '=' : ＝, '[' : [ 「, 【, 〔, ［ ], ']' : [ 」, 】, 〕, ］ ], '{' : [ 『, 〖, ｛ ], '}' : [ 』, 〗, ｝ ]}

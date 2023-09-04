@@ -5,15 +5,25 @@ local function strReverse(str)
  end
  return table.concat(result)
 end
-return function(input,env)
- if env.engine.context:get_option(env.name_space) then
-  for cand in input:iter() do
-   cand.preedit=strReverse(cand.preedit)
-   yield(ShadowCandidate(cand,strReverse(cand.type),strReverse(cand.text),strReverse(cand.comment)))
+local opction_name
+return{
+ init=function(env)
+  local name=env.name_space:match("^%*?(.*)$")
+  opction_name=env.engine.schema.config:get_string(name.."/opction_name") or name
+ end,
+ tags_match=function(seg,env)
+  return env.engine.context:get_option(opction_name)
+ end,
+ func=function(input,env)
+  if env.engine.context:get_option(env.name_space) then
+   for cand in input:iter() do
+    cand.preedit=strReverse(cand.preedit)
+    yield(ShadowCandidate(cand,strReverse(cand.type),strReverse(cand.text),strReverse(cand.comment)))
+   end
+   return
   end
-  return
+  for cand in input:iter() do
+   yield(cand)
+  end
  end
- for cand in input:iter() do
-  yield(cand)
- end
-end
+}

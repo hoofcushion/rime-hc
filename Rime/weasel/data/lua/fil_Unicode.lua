@@ -5,15 +5,18 @@ local function strUincode(str)
  end
  return table.concat(result," ")
 end
-return function(input,env)
- if env.engine.context:get_option(env.name_space) then
+return{
+ init=function(env)
+  local name=env.name_space:match("^%*?(.*)$")
+  opction_name=env.engine.schema.config:get_string(name.."/opction_name") or name
+ end,
+ tags_match=function(seg,env)
+  return env.engine.context:get_option(opction_name)
+ end,
+ func=function(input,env)
   for cand in input:iter() do
    cand.preedit=strUincode(cand.preedit)
    yield(ShadowCandidate(cand,strUincode(cand.type),strUincode(cand.text),strUincode(cand.comment)))
   end
-  return
  end
- for cand in input:iter() do
-  yield(cand)
- end
-end
+}
