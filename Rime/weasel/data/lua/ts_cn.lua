@@ -21,11 +21,11 @@ return {
    if not quality_factor then
     quality_factor=math.abs(utf8.len(cand.text)*length-#input)-0.25
    end
-   cand.quality=cand.quality-quality_factor/8
    if yielded[cand.text] then
     yield(yielded[cand.text])
     goto next
    end
+   cand.quality=cand.quality-quality_factor/8
    text_len=utf8.len(cand.text)
    if text_len==1 then--单字直接yield
     last_len,dup,comp_count=0,0,0
