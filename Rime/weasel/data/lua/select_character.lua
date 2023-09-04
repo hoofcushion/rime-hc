@@ -8,8 +8,8 @@ return{
   if not env.engine.context:has_menu() then return 2 end
   local n=map[key:repr()]
   if not n then return 2 end
-   env.engine:commit_text(utf8Sub(env.engine.context:get_selected_candidate().text,n,n))
-   env.engine.context:clear()
+  env.engine:commit_text(utf8Sub(env.engine.context:get_selected_candidate().text,n,n))
+  env.engine.context:clear()
   return 1
  end
 }

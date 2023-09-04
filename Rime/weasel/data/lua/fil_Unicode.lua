@@ -5,6 +5,7 @@ local function strUincode(str)
  end
  return table.concat(result," ")
 end
+local opction_name
 return{
  init=function(env)
   local name=env.name_space:match("^%*?(.*)$")
