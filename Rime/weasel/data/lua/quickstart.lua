@@ -8,7 +8,7 @@ for k, v in pairs(commandMap) do
 end
 
 local batchDir=user..Sep.."build"..Sep.."run.bat" --获取 batch 路径
-io.open(batchDir,"w+"):close() --清空 batch 命令
+io.open(batchDir,"w"):close() --清空 batch 命令
 
 local keyMap={
  ["Return"]="Enter",
@@ -49,7 +49,7 @@ return
     local commandEntry=commandMap[code][index]
     if commandEntry[3] then
      local batchCode=string.gsub('chcp 65001\nif exist S (start "" S)','S',commandEntry[1])
-     io.open(batchDir,"w+"):write(batchCode):close()
+     io.open(batchDir,"w"):write(batchCode):close()
      command='"'..batchDir..'"'
     else
      command=commandEntry[1]
@@ -96,7 +96,7 @@ return
    yield(cand)
   end
   if commandMap[code] then
-   for i=1, #commandMap[code] do
+   for i=1,#commandMap[code] do
     local cand=Candidate(env.name_space..": "..i,seg.start,seg._end,commandMap[code][i][2],"快速启动")
     cand.quality=8102
     yield(cand)

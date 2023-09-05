@@ -1,7 +1,6 @@
 -- package.path = "./lua/?.lua;" .. package.path
 require("rimeTools")
-require("utf-8")
-custom_cn_phrase=require("custom_cn_phrase")
+require("utf8Sub")
 custom_phrase=require("custom_phrase")
 custom_symbol=require("custom_symbol")
 custom_time=require("custom_time")

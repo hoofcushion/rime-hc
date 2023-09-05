@@ -41,9 +41,9 @@ speller:
  jian:
   - xform/a/u/
   - xform/e/i/
-  - xform/Z/a/
-  - xform/C/e/
-  - xform/S/v/
+  - xform/zh/a/
+  - xform/ch/e/
+  - xform/sh/v/
  algebra:
   - derive/^([jqxy])u(?='|$)/\1v/
   - xform/^([aoe].*)(?='|$)/"o"\1/

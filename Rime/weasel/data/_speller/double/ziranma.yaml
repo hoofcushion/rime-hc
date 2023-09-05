@@ -39,9 +39,9 @@ speller:
  alphabet: "zyxwvutsrqponmlkjihgfedcba;ZYXWVUTSRQPONMLKJIHGFEDCBA-=|"
  initials: "zyxwvutsrqponmlkjihgfedcba;ZYXWVUTSRQPONMLKJIHGFEDCBA"
  jian:
-  - xform/^Z/v/
-  - xform/^C/i/
-  - xform/^S/u/
+  - xform/^zh/v/
+  - xform/^ch/i/
+  - xform/^sh/u/
  algebra:
   - derive/^([jqxy])u(?='|$)/\1v/
   - xform/^([aoe])(.*)(?='|$)/"\1"\1\2/

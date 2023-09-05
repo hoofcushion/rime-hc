@@ -1,7 +1,7 @@
 local function strUincode(str)
  local result={}
  for i=1,utf8.len(str) do
-  table.insert(result,string.format("0x%x",utf8.codepoint(utf8Sub(str,i,i))))
+  table.insert(result,string.format("0x%x",utf8.codepoint(utf8.sub(str,i,i))))
  end
  return table.concat(result," ")
 end

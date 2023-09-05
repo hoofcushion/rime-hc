@@ -208,9 +208,9 @@ speller:
  alphabet: "zyxwvutsrqponmlkjihgfedcba;ZYXWVUTSRQPONMLKJIHGFEDCBA-=|"
  initials: "zyxwvutsrqponmlkjihgfedcba;ZYXWVUTSRQPONMLKJIHGFEDCBA"
  jian:
-  - xform/^Z/v/
-  - xform/^C/u/
-  - xform/^S/i/
+  - xform/^zh/v/
+  - xform/^ch/u/
+  - xform/^sh/i/
  algebra:
   - derive/^e(?='|$)/"ee"/
   -  xform/^e(?='|$)/"e;"/

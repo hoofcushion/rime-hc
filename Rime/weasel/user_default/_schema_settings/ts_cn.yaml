@@ -1,13 +1,14 @@
 switches:
  - {name: ascii_mode,     reset: 0, states: [汉, 英]}
- - {name: ascii_punct,    reset: 0, states: ["中", " "]}
- - {name: full_shape,     reset: 0, states: [" ", "全"]}
- - {name: fil_s2t,        reset: 0, states: [" ", "繁"]}
- - {name: fil_emoji,      reset: 0, states: [" ", "🤤"]}
- - {name: fil_symbol,     reset: 1, states: [" ", "符"]}
+ - {name: ascii_punct,              states: ["中", " "]}
+ - {name: full_shape,               states: [" ", "全"]}
+ - {name: fil_s2t,                  states: [" ", "繁"]}
+ - {name: fil_emoji,                states: [" ", "🤤"]}
+ - {name: fil_symbol,               states: [" ", "符"]}
  - {name: fil_zhuyin,     reset: 0, states: [" ", "ā"]}
  - {name: fil_huoxin,     reset: 0, states: ["火", "焱"]}
  - {name: fil_trans,      reset: 0, states: [" ", "译"]}
+ - {name: fil_Unicode,    reset: 0, states: ["字", "码"]}
  - {name: fil_KijinSeija, reset: 0, states: ["正", "倒"]}
 map:
  __include: _speller/double/chaos_20.yaml:/

@@ -421,9 +421,9 @@ speller:
  alphabet: "zyxwvutsrqponmlkjihgfedcba;ZYXWVUTSRQPONMLKJIHGFEDCBA-=|"
  initials: "zyxwvutsrqponmlkjihgfedcba;ZYXWVUTSRQPONMLKJIHGFEDCBA"
  jian:
-  - xform/Z/l/
-  - xform/C/;/
-  - xform/S/v/
+  - xform/zh/v/
+  - xform/ch/u/
+  - xform/sh/i/
  algebra:
   - xform/^shi(?='|$)/"eo"/
   - xform/^reng(?='|$)/"ur"/

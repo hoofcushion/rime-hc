@@ -18,17 +18,14 @@ __patch:
   - module_lock_quanpin # 固定
   - module_dmma_quanpin # 辅助码
   - module_cn_en_quanpin # 混输
-  - module_custom_cn_phrase # 简码
 __patch:
  - engine/processors/@after 2:      "lua_processor@select_character"
- - engine/translators/@before last: "lua_translator@custom_cn_phrase"
  - engine/translators/@after last:  "lua_translator@module_dmma_upper"
  - engine/translators/@after last:  "lua_translator@ts_cn_quanpin"
  - engine/translators/@after last:  "lua_translator@ts_en"
  - engine/translators/@after last:  "lua_translator@module_cn_en"
  - engine/translators/@after last:  "lua_translator@recorder"
 abc_segmentor: {extra_tags: [ts_en, abc]}
-custom_cn_phrase: {initial_quality: 64, dictionary: custom_cn_phrase, enable_user_dict: false, enable_sentence: false, enable_completion: false}
 module_lock: {initial_quality: 1, dictionary: module_lock_quanpin, enable_user_dict: false, enable_sentence: false, enable_completion: false}
 translator: {initial_quality: 1, dictionary: ts_cn, user_dict: ts_cn_quanpin, prism: ts_cn_quanpin}
 module_cn_en: {initial_quality: 1, dictionary: module_cn_en_quanpin, user_dict: module_cn_en_quanpin}

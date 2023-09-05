@@ -1,7 +1,7 @@
 local function strReverse(str)
  local result={}
  for i=utf8.len(str),1,-1 do
-  table.insert(result,utf8Sub(str,i,i))
+  table.insert(result,utf8.sub(str,i,i))
  end
  return table.concat(result)
 end

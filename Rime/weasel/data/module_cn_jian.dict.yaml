@@ -1,5 +1,5 @@
 ---
-name: custom_cn_phrase
+name: module_cn_jian
 version: "0"
 import_tables:
  - _dict/rime-ice/cn_dicts/8105    # 字表

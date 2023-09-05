@@ -1,5 +1,5 @@
 --例子:
---["/cmd"]={{"cmd","命令行",false}},
+--["cmd"]={{"cmd","命令行",false}},
 --下标"/cmd"代表命令的编码
 --键值是一个表:
 --表中第一个值 "cmd",代表lua将执行的cmd命令,此处会打开一个cmd窗口
@@ -7,7 +7,11 @@
 --表中第三个值
 --false代表直接运行(不兼容utf8,但速度更快)
 --true代表通过生成bat文件间接运行(兼容utf8,会花额外时间调用bat文件)
+local Sep=package.config:sub(1, 1)
 local desk="%%USERPROFILE%%"..Sep.."Desktop"
+local user=rime_api:get_user_data_dir()
+local data=rime_api:get_shared_data_dir()
+local program=data:sub(1,-6)
 return {
 ["cmd"]={{"cmd","命令行",false}},
 ["explorer"]={{"explorer","启动资源管理器",false}},
@@ -25,13 +29,10 @@ return {
 ["source"]={{data..Sep.."lua"..Sep.."quickstart.lua","查看源码",true}},
 ["new"]={
 {user..Sep.."custom_command.txt","添加新指令",true},
-{user..Sep.."custom_phrase.dict.yaml","添加新短语",true},
 {user..Sep.."custom_time.txt","添加新日期",true},
-{user..Sep.."custom_cn_phrase.dict.yaml","添加新简码",true},
+{user..Sep.."custom_phrase.dict.yaml","添加新短语",true},
 {user..Sep.."custom_symbol.dict.yaml","添加新符号",true},
-{user..Sep.."_dic_cn","添加用户词",true},
 },
-["log"]={{user..Sep.."build"..Sep.."log.txt","Lua log",true}},
 ["desk"]={{desk,"桌面",true}},
 ["temp"]={{"%%temp%%","Windows缓存目录",true}},
 ["search"]={
@@ -41,11 +42,15 @@ return {
 {"start https://www.google.com","谷歌",false},
 },
 ["chat"]={
-{"start https://chatf.free2gpt.xyz/","Free2gpt",false},
-{"start https://chat.jinshutuan.com","AIchatOS",false},
+{"start https://nav.free2gpt.xyz/","Free2gpt",false},
 },
 ["mini"]={{"start https://minilanguage.com/","Mini语网站",false}},
 ["youtube"]={{"start https://www.youtube.com/","YouTube",false}},
+["rime"]={
+ {"start https://github.com/iDvel/rime-ice","雾凇拼音GitHub页面",false},
+ {"start https://github.com/abcdefg233/rime-hc","蹄垫方案GitHub页面",false},
+},
 ["rimeice"]={{"start https://github.com/iDvel/rime-ice","雾凇拼音GitHub页面",false}},
+["rimehc"]={{"start https://github.com/abcdefg233/rime-hc","蹄垫方案GitHub页面",false}},
 ["bilibili"]={{"start https://www.bilibili.com/","哔哩哔哩",false}},
 }

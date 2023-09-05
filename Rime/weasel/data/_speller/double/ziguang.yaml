@@ -40,9 +40,9 @@ speller:
  initials: "zyxwvutsrqponmlkjihgfedcba;ZYXWVUTSRQPONMLKJIHGFEDCBA"
  jian:
   - xform/a/v/
-  - xform/Z/u/
-  - xform/C/a/
-  - xform/S/i/
+  - xform/zh/u/
+  - xform/ch/a/
+  - xform/sh/i/
  algebra:
   - derive/^([jqxy])u(?='|$)/\1v/
   - xform/^([aoe].*)(?='|$)/"o"\1/

@@ -420,9 +420,9 @@ speller:
  alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-=|"
  initials: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA"
  jian:
-  - xform/^Z/v/
-  - xform/^C/u/
-  - xform/^S/i/
+  - xform/^zh/v/
+  - xform/^ch/u/
+  - xform/^sh/i/
  algebra:
   - xform/^a(?='|$)/"ab"/
   - xform/^ai(?='|$)/"ai"/

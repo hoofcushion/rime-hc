@@ -18,6 +18,7 @@ style:
   label_font_face: "Microsoft YaHei" # 标签/字体
   label_font_point: 10 # 序号字号
   label_format: "%s" # 序号修饰格式
+  paging_on_scroll: true
   layout:
     align_type: center
     border: 2 # 边界

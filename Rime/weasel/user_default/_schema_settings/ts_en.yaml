@@ -1,8 +1,9 @@
 ﻿switches:
  - {name: ascii_mode,     reset: 0, states: [汉, 英]}
- - {name: ascii_punct,    reset: 0, states: ["中", " "]}
- - {name: full_shape,     reset: 0, states: [" ", "全"]}
+ - {name: ascii_punct,              states: ["中", " "]}
+ - {name: full_shape,               states: [" ", "全"]}
  - {name: fil_trans,      reset: 0, states: [" ", "译"]}
+ - {name: fil_Unicode,    reset: 0, states: ["字", "码"]}
  - {name: fil_KijinSeija, reset: 0, states: ["正", "倒"]}
 array:
  bindings:

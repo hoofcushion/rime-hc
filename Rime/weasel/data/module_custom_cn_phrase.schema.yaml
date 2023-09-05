@@ -1,6 +1,0 @@
-schema:
- schema_id: module_custom_cn_phrase
- name: 「插件_简码」
-translator:
- dictionary: custom_cn_phrase
-speller: {algebra: {__include: ts_cn.schema.yaml:/speller/jian}}

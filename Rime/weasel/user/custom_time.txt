@@ -29,7 +29,7 @@
 特殊提示码:字符串或false　优先级高
 ２０２３０８２４００５４１４　蹄垫ＨｏｏｆＣｕｓｈｉｏｎ编辑
 --]]
-local week=
+week=
 {
  {"日","一","二","三","四","五","六"},
  {"天","一","二","三","四","五","六"},
@@ -37,12 +37,12 @@ local week=
  {"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"},
  {"Dies Solis","Dies Lunae","Dies Martis","Dies Mercurii","Dies Iovis","Dies Veneris","Dies Saturni"},
 }
-local thisYearLength=function (str)
+thisYearlength=function (str)
  local year=os.date("%Y") 
  local map={d=1,m=1440,s=86400}
  return (year%4==0 and (year%100~=0 or year%400==0) and 366 or 365)*map[str]
 end
-local thisYearElapsed=function ()
+thisYearpast=function ()
  return os.time()-os.time{year=os.date("%Y"),month=1,day=1}
 end
 return
@@ -207,13 +207,13 @@ return
   {text   ='os.date("%j")',
    comment="今年的第几天"
   },{
-   text   ='thisYearLength("d")-os.date("%j")',
+   text   ='thisYearlength("d")-os.date("%j")',
    comment="今年还剩几天"
   },{
-   text   ='thisYearElapsed()/thisYearLength("s")*100 .."%"',
+   text   ='thisYearpast()/thisYearlength("s")*100 .."%"',
    comment="今年已过去多久"
   },{
-   text   ='math.abs(-1+thisYearElapsed()/thisYearLength("s"))*100 .."%"',
+   text   ='math.abs(-1+thisYearpast()/thisYearlength("s"))*100 .."%"',
    comment="今年还剩多久"
   },
  }

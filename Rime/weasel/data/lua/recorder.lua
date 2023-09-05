@@ -20,7 +20,7 @@ local rangeMap={
 }
 local function isPureChinese(str)
  for i=1,utf8.len(str) do
-  local uCode=utf8.codepoint(utf8Sub(str,i,i))
+  local uCode=utf8.codepoint(utf8.sub(str,i,i))
   if uCode<rangeMap.min or uCode>rangeMap.max then return false end
   for _,range in pairs(rangeMap) do
    if uCode>=range.min and uCode<=range.max then return true end
@@ -28,7 +28,7 @@ local function isPureChinese(str)
  end
  return false
 end
-local function appendNewLine(lct)
+local function saveRecord(lct)
  local path=rime_api:get_user_data_dir().."/recorder/"..(utf8.len(lct)==1 and "char.txt" or "recorder.txt")
  local file=io.open(path,"r") or io.open(path,"w"):close() and io.open(path,"r")
  if not file then return end
@@ -36,7 +36,7 @@ local function appendNewLine(lct)
  for line in file:lines() do
   local v=line:match("^"..lct.."\t(%d+)$")
   if v then
-   lines[0]=lct.."\t"..1+tonumber(v)
+   lines[0]=lct.."\t"..tostring(1+tonumber(v))
   else
    table.insert(lines,line)
   end
@@ -48,14 +48,13 @@ local function appendNewLine(lct)
  end
  file:close()
 end
-local commit_notifier
 return {
  init=function(env)
-  commit_notifier=env.engine.context.commit_notifier:connect(
+  env.engine.context.commit_notifier:connect(
   function(ctx)
    local lct=ctx:get_commit_text()
    if isPureChinese(lct) then
-    appendNewLine(lct)
+    saveRecord(lct)
    end
   end)
  end,
