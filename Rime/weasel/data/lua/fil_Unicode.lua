@@ -14,9 +14,9 @@ return{
  tags_match=function(seg,env)
   return env.engine.context:get_option(opction_name)
  end,
- func=function(input,env)
+ func=function(input)
   for cand in input:iter() do
-   cand.preedit=strUincode(cand.preedit)
+   cand:get_genuine().preedit=strUincode(cand.preedit)
    yield(ShadowCandidate(cand,strUincode(cand.type),strUincode(cand.text),strUincode(cand.comment)))
   end
  end
