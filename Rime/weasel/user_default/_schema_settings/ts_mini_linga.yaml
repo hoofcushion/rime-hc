@@ -6,7 +6,8 @@
  - {name: fil_KijinSeija, reset: 0, states: ["正", "倒"]}
 array:
  bindings:
-  - {accept: "Control+equal", select: ts_cn, when: always}
+  - {accept: "Control+7", toggle: fil_Unicode, when: always}
+  - {accept: "Control+8", toggle: fil_KijinSeija, when: always}
 map:
  menu: {page_size: 7}
  style:

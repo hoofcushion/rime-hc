@@ -17,11 +17,11 @@ map:
   select_last_character: "bracketright"
 array:
  bindings:
-  - {accept: "Control+minus", select: ts_en, when: always}
-  - {accept: "Control+equal", select: ts_cn, when: always}
   - {accept: "Control+1", toggle: fil_s2t, when: always}
   - {accept: "Control+2", toggle: fil_emoji, when: always}
   - {accept: "Control+3", toggle: fil_zhuyin, when: always}
   - {accept: "Control+4", toggle: fil_huoxin, when: always}
   - {accept: "Control+5", toggle: fil_symbol, when: always}
   - {accept: "Control+6", toggle: fil_trans, when: always}
+  - {accept: "Control+7", toggle: fil_Unicode, when: always}
+  - {accept: "Control+8", toggle: fil_KijinSeija, when: always}

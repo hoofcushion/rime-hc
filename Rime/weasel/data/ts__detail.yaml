@@ -90,7 +90,6 @@ key_binder:
   - {accept: "Control+h", send: BackSpace, when: composing}
   - {accept: "Control+g", send: Escape, when: composing}
   - {accept: "Control+y", send: Delete, when: composing}
-  - {accept: "Control+Shift+h", send: Shift+BackSpace, when: composing}
   - {accept: "ISO_Left_Tab", send: Control+Left, when: composing}
   - {accept: "Shift+Tab", send: Control+Left, when: composing}
   - {accept: "Tab", send: Control+Right, when: composing}
@@ -111,3 +110,10 @@ key_binder:
   - {accept: "KP_Decimal", send: period, when: composing}
   - {accept: "Control+comma", toggle: ascii_punct, when: always}
   - {accept: "Control+period", toggle: full_shape, when: always}
+  - {accept: "Control+KP_1", select: ts_cn, when: always}
+  - {accept: "Control+KP_2", select: ts_cn_quanpin, when: always}
+  - {accept: "Control+KP_3", select: ts_triple, when: always}
+  - {accept: "Control+KP_4", select: ts_en, when: always}
+  - {accept: "Control+KP_5", select: ts_mini_linga, when: always}
+  - {accept: "Control+KP_6", select: ts_fanganlianxi, when: always}
+  - {accept: "Control+KP_0", select: .next, when: always}
