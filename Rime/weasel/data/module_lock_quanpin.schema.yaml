@@ -2,3 +2,4 @@ schema:
  schema_id: module_lock_quanpin
  name: 「插件_固顶_全拼」
 translator: {dictionary: module_lock_quanpin}
+speller: {__include: ts_cn_quanpin.schema.yaml:/speller}

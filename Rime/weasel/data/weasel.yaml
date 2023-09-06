@@ -1,4 +1,4 @@
-﻿app_options:
+app_options:
 #命令行
   cmd.exe: {ascii_mode: true}
   conhost.exe: {ascii_mode: true}

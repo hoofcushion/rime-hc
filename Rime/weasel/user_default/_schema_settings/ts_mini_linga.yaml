@@ -1,4 +1,4 @@
-﻿switches:
+switches:
  - {name: ascii_mode,     reset: 0, states: [汉, 英]}
  - {name: ascii_punct,              states: ["中", " "]}
  - {name: full_shape,               states: [" ", "全"]}

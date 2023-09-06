@@ -4,10 +4,10 @@
 local symbol
 local code_start
 local baseMap={
- H={base=16,expattern="[^a-f0-9]",limit="110000"},
- D={base=10,expattern="[^0-9]"   ,limit="1114112"},
- O={base=8, expattern="[^0-7]"   ,limit="4200000"},
- B={base=2, expattern="[^1-2]"   ,limit="100010000000000000000"},
+ H={base=16,expattern="[^a-f0-9]",limit="10FFFF"},
+ D={base=10,expattern="[^0-9]"   ,limit="1114111"},
+ O={base=8, expattern="[^0-7]"   ,limit="4177777"},
+ B={base=2, expattern="[^1-2]"   ,limit="100001111111111111111"},
 }
 return
 {
@@ -46,14 +46,14 @@ return
    tips(env,table.concat(tip))
    return
   end
-  if nCode>1114112 then
+  if nCode>1114111 then
    table.insert(tip,"〔超出范围: "..Base.limit.."〕")
    tips(env,table.concat(tip))
    return
   end
   for i=0,9 do
    local nCode=nCode+i
-   if nCode>1114112 then
+   if nCode>1114111 then
     return
    end
    local cand=Candidate("unicode",seg.start,seg._end,utf8.char(nCode),"0x"..nCode)

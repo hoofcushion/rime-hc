@@ -26,7 +26,8 @@ __patch:
  - engine/translators/@after last:  "lua_translator@module_cn_en"
  - engine/translators/@after last:  "lua_translator@recorder"
 abc_segmentor: {extra_tags: [ts_en, abc]}
-module_lock: {initial_quality: 1, dictionary: module_lock_quanpin, enable_user_dict: false, enable_sentence: false, enable_completion: false}
+module_cn_jian: {initial_quality: 64, dictionary: module_cn_jian, enable_user_dict: false, enable_sentence: false, enable_completion: false}
+module_lock: {initial_quality: 1, dictionary: module_lock_quanpin, enable_user_dict: false, enable_sentence: false, comment_format: [xform/.+//]}
 translator: {initial_quality: 1, dictionary: ts_cn, user_dict: ts_cn_quanpin, prism: ts_cn_quanpin}
 module_cn_en: {initial_quality: 1, dictionary: module_cn_en_quanpin, user_dict: module_cn_en_quanpin}
 module_en: {__include: ts_en.schema.yaml:/translator, tag: ts_en}

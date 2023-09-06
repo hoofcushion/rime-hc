@@ -1,4 +1,4 @@
-﻿module_fnua_triple:
+module_fnua_triple:
  comment_format: &comment
   - xform/^/[/
   - xform/\<m([1-5])\>/mu$1/

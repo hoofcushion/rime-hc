@@ -29,6 +29,7 @@ local function isPureChinese(str)
  return false
 end
 local function saveRecord(lct)
+ if not isPureChinese(lct) then return end
  local path=rime_api:get_user_data_dir().."/recorder/"..(utf8.len(lct)==1 and "char.txt" or "recorder.txt")
  local file=io.open(path,"r") or io.open(path,"w"):close() and io.open(path,"r")
  if not file then return end
@@ -50,13 +51,11 @@ local function saveRecord(lct)
 end
 return {
  init=function(env)
-  env.engine.context.commit_notifier:connect(
-  function(ctx)
-   local lct=ctx:get_commit_text()
-   if isPureChinese(lct) then
-    saveRecord(lct)
-   end
-  end)
+  env.commit_notifier=env.engine.context.commit_notifier:connect(function(ctx)saveRecord(ctx:get_commit_text())end)
  end,
- func=function()end
+ func=function()
+ end,
+ fini=function(env)
+  env.commit_notifier:disconnect()
+ end
 }

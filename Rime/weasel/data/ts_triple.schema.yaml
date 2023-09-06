@@ -30,7 +30,8 @@ __patch:
  - engine/translators/@after last:  "lua_translator@ts_en"
  - engine/translators/@after last:  "lua_translator@recorder"
 abc_segmentor: {extra_tags: [ts_en, abc]}
-module_lock: {initial_quality: 1, dictionary: module_lock_triple, enable_user_dict: false, enable_sentence: false, enable_completion: false}
+module_cn_jian: {initial_quality: 64, dictionary: module_cn_jian, enable_user_dict: false, enable_sentence: false, enable_completion: false}
+module_lock: {initial_quality: 1, dictionary: module_lock_triple, enable_user_dict: false, enable_sentence: false, comment_format: [xform/.+//]}
 translator: {initial_quality: 1, dictionary: ts_triple, user_dict: ts_triple}
 module_en: {__include: ts_en.schema.yaml:/translator, tag: ts_en}
 module_fnua_triple: {prefix: "`", tag: module_fnua_triple, tips: 〔拼音反查〕, dictionary: module_fnua_triple, spelling_hints: 99, enable_user_dict: false}

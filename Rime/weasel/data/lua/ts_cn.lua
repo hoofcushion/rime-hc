@@ -8,20 +8,20 @@ return {
  end,
  func=function(input,seg,env)
   local query
-  if #input==1 and seg.start==0 then
+  if #env.engine.context.input==1 then
    query=tran.jian:query(input,seg) if not query then return end
    local count=0
    for cand in query:iter() do
     yield(cand)
     count=count+1
-    if count==10 then break end
+    if count==12 then break end
    end
    return
   end
   query=tran.lock:query(input,seg) if not query then return end
   local yielded={}
   for cand in query:iter() do
-   if cand._end~=#input then break end
+   if cand._end-cand.start~=#env.engine.context.input then break end
    yielded[cand.text]=cand
   end
   query=tran.main:query(input,seg) if not query then return end

@@ -93,6 +93,30 @@ end
 status.time_used=function(self)
  return self.now-self.time_last
 end
+
+
+local function pos(str)
+ local pos={}
+ local start_pos,end_pos=string.find(str," ")
+ while start_pos do
+  table.insert(pos,start_pos)
+  start_pos,end_pos=string.find(str," ",end_pos+1)
+ end
+ return pos
+end
+local function insert(str,positions)
+ local len=#str
+ for i,pos in ipairs(positions) do
+  if len<pos then break end
+  str=str:sub(1,pos-1).." "..str:sub(pos)
+ end
+ return str
+end
+local function syllable(raw,code)
+ return insert(raw,pos(code))
+end
+
+
 local tip_map={}
 tip_map.wrong={"Wrong!","Try harder!","Open your Eyes!","What is wrong with you?","Don't hit that.","You blind?","Stop.","Go do something else.","Wait...","What?","Why.","Idiot.","Can't even worse.","I wish that did't..."}
 return
@@ -167,9 +191,9 @@ return
  function(input,seg,env)
   status:hit_update()
   tips(env,"〔"..status.hit_count.."/min〕")
-  for i=1,#cands.tab do
-   local cand=Candidate("",seg.start,seg._end,cands.tab[i].text,cands.tab[i].code)
-   cand.preedit=input:sub(2)
+  for k,dict in ipairs(cands.tab) do
+   local cand=Candidate("",seg.start,seg._end,dict.text,dict.code)
+   cand.preedit=syllable(input:sub(2),dict.code)
    yield(cand)
   end
  end

@@ -2,15 +2,26 @@ local length=3
 local tran={}
 return {
  init=function(env)
+  tran.jian=Component.Translator(env.engine,"","table_translator@module_cn_jian")
   tran.lock=Component.Translator(env.engine,"","table_translator@module_lock")
   tran.main=Component.Translator(env.engine,"","script_translator@translator")
  end,
  func=function(input,seg,env)
   local query
+  if #env.engine.context.input==1 then
+   query=tran.jian:query(input,seg) if not query then return end
+   local count=0
+   for cand in query:iter() do
+    yield(cand)
+    count=count+1
+    if count==12 then break end
+   end
+   return
+  end
   query=tran.lock:query(input,seg) if not query then return end
   local yielded={}
   for cand in query:iter() do
-   if cand._end~=#input then break end
+   if cand._end-cand.start~=#env.engine.context.input then break end
    yielded[cand.text]=cand
   end
   query=tran.main:query(input,seg) if not query then return end
