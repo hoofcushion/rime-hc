@@ -3,7 +3,8 @@ local function save_dict(dict_dir,unconfirm) local content=entry_exists(dict_dir
 local function sucVfail(bool) return bool and "用户词已删除" or "已保存为用户词" end
 local en={1000000}
 en[2]=exist("_dict/_dic_en/user_en.dict.yaml")
-return{
+return
+{
  func=function(_,seg,env)
   local input=env.engine.context.input
   if input:find(".%-=$") then

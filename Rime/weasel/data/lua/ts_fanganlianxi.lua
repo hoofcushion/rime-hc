@@ -130,7 +130,7 @@ return
   local ctx_inp_l=#ctx_inp
   local input=ctx_inp:sub(2)
   if status:lianxu_update(input) then
-   tips(env,"I see that.")
+   tipsAdd(env,"I see that.")
   end
   local key=_:repr()
   if key=="x" then--clear
@@ -154,20 +154,20 @@ return
    ctx:pop_input(ctx_inp_l-1)
    status.hit_count=status.hit_count+utf8.len(cands.tab[1].text)
    if status.combo~=0 and status:time_used()>status.time_limit then
-    tips(env,"Wait too long!")
+    tipsAdd(env,"Wait too long!")
     status.lianxu=false
    else
     if not status.time_last or status:time_used()>60 then
-     tips(env,"First!")--第一击
+     tipsAdd(env,"First!")--第一击
     elseif status.lianxu then
      if status.combo>4 then
-      tips(env,status:print_combo().."Combo!")--五连起显示连击次数
+      tipsAdd(env,status:print_combo().."Combo!")--五连起显示连击次数
      else
       local len=utf8.len(cands.tab[1].text)
       if status:time_used()<len*(1.5-0.125*len) then
-       tips(env,"Excellent!")
+       tipsAdd(env,"Excellent!")
       else
-       tips(env,"Perfect!")
+       tipsAdd(env,"Perfect!")
       end
      end
     end
@@ -179,9 +179,9 @@ return
   elseif #input==#(cands.tab[1].pattern) then
    ctx:pop_input(ctx_inp_l-1)
    if status.combo>4 then
-    tips(env,"So sad!")
+    tipsAdd(env,"So sad!")
    else
-    tips(env,tip_map.wrong[math.random(1,#tip_map.wrong)])
+    tipsAdd(env,tip_map.wrong[math.random(1,#tip_map.wrong)])
    end
    status.lianxu=false
    return 1
@@ -190,7 +190,7 @@ return
  end,
  function(input,seg,env)
   status:hit_update()
-  tips(env,"〔"..status.hit_count.."/min〕")
+  tipsAdd(env,"〔"..status.hit_count.."/min〕")
   for k,dict in ipairs(cands.tab) do
    local cand=Candidate("",seg.start,seg._end,dict.text,dict.code)
    cand.preedit=syllable(input:sub(2),dict.code)

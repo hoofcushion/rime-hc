@@ -8,7 +8,8 @@ return {
  end,
  func=function(input,seg,env)
   local query
-  if #env.engine.context.input==1 then
+  local ctxInpLen=#env.engine.context.input
+  if ctxInpLen==1 then
    query=tran.jian:query(input,seg) if not query then return end
    local count=0
    for cand in query:iter() do
@@ -21,7 +22,7 @@ return {
   query=tran.lock:query(input,seg) if not query then return end
   local yielded={}
   for cand in query:iter() do
-   if cand._end-cand.start~=#env.engine.context.input then break end
+   if cand._end~=ctxInpLen then break end
    yielded[cand.text]=cand
   end
   query=tran.main:query(input,seg) if not query then return end
@@ -44,8 +45,7 @@ return {
     last_len,dup,comp_count=0,0,0
     yield(cand)
     goto next
-   end
-   if text_len==last_len then--连续的相同长度的候选只能出现12个
+   elseif text_len==last_len then--连续的相同长度的候选只能出现12个
     if dup==11 then
      goto next
     end

@@ -1,5 +1,6 @@
 local tran
-return{
+return
+{
  init=function(env) tran=Component.Translator(env.engine,"","script_translator@module_cn_en") end,
  func=function(input,seg)
   local query=tran:query(input,seg) if not query then return end

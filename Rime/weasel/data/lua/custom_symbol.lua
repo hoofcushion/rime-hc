@@ -393,12 +393,13 @@ return
  end,
  func=function(_,seg,env)
   if not seg:has_tag("custom_symbol") then return end
-  tips(env,"〔符号输出〕")
+  tipsAdd(env,"〔符号输出〕")
   local input=env.engine.context.input:sub(code_start) if input=="" then return end
   local seg_end=#env.engine.context.input
   local query=tran:query(input,seg) if not query then return end
+  local comment="『"..comment_map[input].."』"
   for cand in query:iter() do
-   cand.comment=cand.comment.."『"..comment_map[input].."』"
+   cand.comment=comment
    cand._end=seg_end
    yield(cand)
   end

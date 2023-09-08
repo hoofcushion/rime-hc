@@ -1,8 +1,3 @@
-local function tips(env,str)
- if env.engine.context.composition:empty() then return end
- local seg=env.engine.context.composition:back()
- seg.prompt=seg.prompt..str
-end
 local map=
 {
  ["upper"]=
@@ -131,16 +126,16 @@ return
   if not seg:has_tag("number_uppercaser") then return end
   local code=input:sub(code_start)
   if code=="" then
-   tips(env,"〔请输入数字〕")
+   tipsAdd(env,"〔请输入数字〕")
    return
   elseif not (code:find("^%d+$") or code:find("^%d-%.%d*$")) then
-   tips(env,"〔数字不合法〕")
+   tipsAdd(env,"〔数字不合法〕")
    return
   elseif #code:match("^(%d+)")>map.intMax then
-   tips(env,"〔位数超过限制〕")
+   tipsAdd(env,"〔位数超过限制〕")
    return
   end
-  tips(env,"〔大写数字〕")
+  tipsAdd(env,"〔大写数字〕")
   for i=1,4 do
    local text=characterizer(code,map,i)
    if text then

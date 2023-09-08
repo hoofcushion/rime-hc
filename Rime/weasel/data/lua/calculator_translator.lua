@@ -321,7 +321,7 @@ return
   end,
   func=function(input,seg,env)
   if not seg:has_tag("calculator") then return end
-  tips(env,"〔表达式〕")
+  tipsAdd(env,"〔表达式〕")
   local expfin=greedy or input:find(";$")
   local exp=(greedy or not expfin) and input:sub(code_start) or input:sub(code_start,-2)
  --空格輸入可能

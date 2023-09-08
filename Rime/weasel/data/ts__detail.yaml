@@ -10,6 +10,7 @@ engine:
   - key_binder
   - speller
   - punctuator
+  #- lua_processor@stcs
   - selector
   - navigator
   - express_editor
@@ -51,6 +52,7 @@ fil_trans: {option_name: fil_trans, opencc_config: dic_4w_en.json, tips: all, ta
 fil_huoxin: {option_name: fil_huoxin, opencc_config: huoxing.json, tips: all, tags: [abc]}
 fil_KijinSeija: {option_name: fil_KijinSeija}
 fil_Unicode: {option_name: fil_Unicode}
+#stcs: {option_name: fil_s2t, opencc_config: s2t.json}
 speller: {delimiter: " '"}
 punctuator:
  full_shape: {' ' : { commit: '　' }, ',' : { commit: ， }, '.' : { commit: 。 }, '<' : [ 《, 〈, «, ‹ ], '>' : [ 》, 〉, », › ], '/' : [ ／, ÷ ], '?' : { commit: ？ }, ';' : { commit: ； }, ':' : { commit: ： }, '''' : { pair: [ '‘', '’' ] }, '"' : { pair: [ '“', '”' ] }, '\' : [ 、, ＼ ], '|' : [ ·, ｜, '§', '¦' ], '`' : ｀, '~' : ～, '!' : { commit: ！ }, '@' : [ ＠, ☯ ], '# ' : [ ＃, ⌘ ], '%' : [ ％, '°', '℃' ], '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤' ], '^' : { commit: …… }, '&' : ＆, '*' : [ ＊, ·, ・, ×, ※, ❂ ], '(' : （, ')' : ）, '-' : －, '_' : ——, '+' : ＋, '=' : ＝, '[' : [ 「, 【, 〔, ［ ], ']' : [ 」, 】, 〕, ］ ], '{' : [ 『, 〖, ｛ ], '}' : [ 』, 〗, ｝ ]}

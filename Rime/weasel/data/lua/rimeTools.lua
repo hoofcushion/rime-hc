@@ -8,8 +8,13 @@ exist=function(name)
  end
  return C(user..Sep..name) or C(data..Sep..name) or error("could not find "..name)
 end
-tips=function (env,str)
+tipsAdd=function(env,str)
  if env.engine.context.composition:empty() then return end
  local seg=env.engine.context.composition:back()
  seg.prompt=seg.prompt..str
+end
+tipsRep=function(env,str)
+ if env.engine.context.composition:empty() then return end
+ local seg=env.engine.context.composition:back()
+ seg.prompt=str
 end

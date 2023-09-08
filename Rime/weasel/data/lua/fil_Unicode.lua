@@ -5,14 +5,15 @@ local function strUincode(str)
  end
  return table.concat(result," ")
 end
-local opction_name
-return{
+local option_name
+return
+{
  init=function(env)
   local name=env.name_space:match("^%*?(.*)$")
-  opction_name=env.engine.schema.config:get_string(name.."/opction_name") or name
+  option_name=env.engine.schema.config:get_string(name.."/option_name") or name
  end,
  tags_match=function(seg,env)
-  return env.engine.context:get_option(opction_name)
+  return env.engine.context:get_option(option_name)
  end,
  func=function(input)
   for cand in input:iter() do

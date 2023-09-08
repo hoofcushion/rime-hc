@@ -32,7 +32,8 @@ local tran={}
 local module
 local symbol
 local code_start
-return{
+return
+{
  {
   init=function(env)
    symbol=env.engine.schema.config:get_string("recognizer/lua/ts_mini_linga_find")
@@ -42,7 +43,7 @@ return{
    if not seg:has_tag("ts_mini_linga_find") then return end
    local input=env.engine.context.input
    if not input:find("^"..symbol) then return end
-   tips(env,"〔Mini Name Jage〕")
+   tipsAdd(env,"〔Mini Name Jage〕")
    local code=input:sub(code_start)
    for i,v in ipairs(mini.table) do
     if input==symbol or v[4]:find(code) then

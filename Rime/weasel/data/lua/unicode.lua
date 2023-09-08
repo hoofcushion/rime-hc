@@ -20,7 +20,7 @@ return
   local tip="〔Unicode〕"
   local code=env.engine.context.input:sub(code_start,seg.length)
   if code=="" then
-   tips(env,tip.."〔请输入编码〕")
+   tipsAdd(env,tip.."〔请输入编码〕")
    return
   end
   local baseTab=baseMap[code:match("([HDOB])") or "H"]
@@ -28,18 +28,18 @@ return
   tip=tip.."〔"..baseTab.num.." 进制〕"
   local sCode=code:match("[a-f0-9]+")
   if not sCode then
-   tips(env,tip.."〔编码错误〕")
+   tipsAdd(env,tip.."〔编码错误〕")
    return
   elseif sCode:find(baseTab.expattern) then
-   tips(env,tip.."〔超出进制范围: "..baseTab.pattern.."〕")
+   tipsAdd(env,tip.."〔超出进制范围: "..baseTab.pattern.."〕")
    return
   end
   local nCode=tonumber(sCode,baseTab.num)
   if not nCode then
-   tips(env,tip.."〔数值错误〕")
+   tipsAdd(env,tip.."〔数值错误〕")
    return
   elseif nCode>1114111 then
-   tips(env,tip.."〔超出数值范围: "..baseTab.limit.."〕")
+   tipsAdd(env,tip.."〔超出数值范围: "..baseTab.limit.."〕")
    return
   end
   for i=0,9 do
@@ -51,6 +51,6 @@ return
    cand.preedit=code
    yield(cand)
   end
-  tips(env,tip) --一切正常
+  tipsAdd(env,tip) --一切正常
  end
 }

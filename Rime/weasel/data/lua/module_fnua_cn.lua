@@ -1,5 +1,6 @@
 local tran
-return{
+return
+{
  init=function(env)
   tran=Component.Translator(env.engine,"","script_translator@module_fnua_cn")
  end,

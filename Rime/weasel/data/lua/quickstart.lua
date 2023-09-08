@@ -87,7 +87,7 @@ return
  ,
  function(_,seg,env)
   if not seg:has_tag("quickstart") then return end
-  tips(env,"〔命令行〕")
+  tipsAdd(env,"〔命令行〕")
   local input=env.engine.context.input
   local code=input:sub(code_start)
   if code=="" then

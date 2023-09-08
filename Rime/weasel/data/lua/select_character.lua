@@ -1,5 +1,6 @@
 local map={}
-return{
+return
+{
  init=function(env)
   map[env.engine.schema.config:get_string('key_binder/select_first_character')]=1
   map[env.engine.schema.config:get_string('key_binder/select_last_character')]=-1

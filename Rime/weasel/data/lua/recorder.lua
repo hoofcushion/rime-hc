@@ -49,13 +49,14 @@ local function saveRecord(lct)
  end
  file:close()
 end
+local commit_notifier
 return {
  init=function(env)
-  env.commit_notifier=env.engine.context.commit_notifier:connect(function(ctx)saveRecord(ctx:get_commit_text())end)
+  commit_notifier=env.engine.context.commit_notifier:connect(function(ctx)saveRecord(ctx:get_commit_text())end)
  end,
  func=function()
  end,
- fini=function(env)
-  env.commit_notifier:disconnect()
+ fini=function()
+  commit_notifier:disconnect()
  end
 }

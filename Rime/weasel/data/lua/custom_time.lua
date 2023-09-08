@@ -30,7 +30,7 @@ end
 -- timeDebug("week")
 return function(input,seg,env)
  if not Reverse[input] then return end
- tips(env,"〔时间输出〕")
+ tipsAdd(env,"〔时间输出〕")
  for _,index in ipairs(Reverse[input]) do
   local entry=Time_Table[index]
   for _,item in ipairs(entry) do

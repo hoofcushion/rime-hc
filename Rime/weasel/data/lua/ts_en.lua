@@ -11,7 +11,7 @@ local fmain=function(input,seg)
  local count=0
  for cand in query:iter() do
   if input:find("^[A-Z]") then
-   yield(ShadowCandidate(cand,nil,auto_uppercase(input,cand.text),nil))
+   yield(ShadowCandidate(cand,"",auto_uppercase(input,cand.text),""))
   else
    yield(cand)
   end
@@ -25,7 +25,7 @@ local fmodule=function(input,seg)
  local count=0
  for cand in query:iter() do
   if input:find("^[A-Z]") then
-   yield(ShadowCandidate(cand,nil,auto_uppercase(input,cand.text),nil))
+   yield(ShadowCandidate(cand,"",auto_uppercase(input,cand.text),""))
   else
    yield(cand)
   end
@@ -33,10 +33,14 @@ local fmodule=function(input,seg)
   if count>1 then return end
  end
 end
+local func
 return {
  init=function(env)
   module=env.engine.schema.config:get_map("module_en")
   tran=Component.Translator(env.engine,"","table_translator@"..(module and "module_en" or "translator"))
+  func=module and fmodule or fmain
  end,
- func=(module and fmodule or fmain)
+ func=function(input,seg)
+  func(input,seg)
+ end
 }
