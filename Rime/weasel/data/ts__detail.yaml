@@ -59,17 +59,17 @@ punctuator:
  half_shape: {',' : '，', '.' : '。', '<' : '《', '>' : '》', '/' : '/', '?' : '？', ';' : '；', ':' : '：', '''' : { pair: [ '‘', '’' ] }, '"' : { pair: [ '“', '”' ] }, '\' : '、', '|' : '|', '`' : '`', '~' : '~', '!' : '！', '@' : '@', '# ' : '# ', '%' : '%', '$' : '¥', '^' : '……', '&' : '&', '*' : '*', '(' : '（', ')' : '）', '-' : '-', '_' : ——, '+' : '+', '=' : '=', '[' : '【', ']' : '】', '{' : '「', '}' : '」'}
 recognizer:
  lua:
-  calculator: '\'                                     #计算器
+  calculator: '//'                                    #计算器
   quickstart: '/'                                     #快速启动
   unicode: 'U'                                        #Unicode
   number_uppercaser: '/J'                             #汉字数字+金额 整数支持最高52位
-  custom_symbol: "//"                                 #符号
+  custom_symbol: '\'                                  #符号
  patterns:                                            #pattern 中单个 \ 要用 \\\\ 双重转义来表示
-  calculator: "^\\\\.*"                               #计算器
-  quickstart: "^/.*"                                  #快速启动
+  calculator: "^//.*"                                 #计算器
+  quickstart: "^/(?!/).*"                                  #快速启动
   unicode: "^U(?:[HDOB]?[a-f0-9]*|[a-f0-9]*[HDOB]?)$" #Unicode
   number_uppercaser: "^/J.*"                          #汉字数字+金额 整数支持最高52位
-  custom_symbol: "^/(?:/(?:[0-9]|10|[A-Za-z]+)?)?"    #符号
+  custom_symbol: "^\\\\(?:[0-9]|10|[A-Za-z]+)?"       #符号
 ascii_composer:
  good_old_caps_lock: true
  switch_key:

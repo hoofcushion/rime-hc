@@ -2,6348 +2,6010 @@
 name: custom_symbol
 version: "0"
 columns:
- - text
  - code
+ - text
 ...
-∴	suoyi	其他
-#suoyi:
-∵	yinwei	其他
-#yinwei:
-圆	yuan	其他
-仟	qian	其他
-佰	bai	其他
-#bai:
-卌	xi	其他
-#xi:
-卅	sa	其他
-#sa:
-廿	nian	其他
-#nian:
-±	zhengfuhao	其他
-#zhengfuhao:
-±	zhengfu	其他
-#zhengfu:
-卐	nacui	其他
-#nacui:
-卍	wanzi	其他
-#wanzi:
-π	pai	其他
-#pai:
-π	pi	其他
-#pi:
-°	du	其他
-°C	du	其他
-°F	du	其他
-#du:
-°F	hsd	其他
-#hsd:
-°C	ssd	其他
-#ssd:
-≠	budengyu	其他
-#budengyu:
-≠	budeng	其他
-#budeng:
-'>'	dayu	其他
-≥	dayu	其他
-#dayu:
-<	xiaoyu	其他
-≤	xiaoyu	其他
-#xiaoyu:
-÷	chu	其他
-#chu:
-×	cheng	其他
-#cheng:
-✗	cuo	其他
-✘	cuo	其他
-❎	cuo	其他
-❌	cuo	其他
-#cuo:
-✓	dui	其他
-✔	dui	其他
-✅	dui	其他
-#dui:
-√	genhao	其他
-#genhao:
-·	jgh	其他
-#jgh:
-·	dian	其他
-#dian:
-↔︎	zuoyou	其他
-⇔	zuoyou	其他
-⇋	zuoyou	其他
-#zuoyou:
-↘	youxia	其他
-#youxia:
-↙	zuoxia	其他
-#zuoxia:
-↗	youshang	其他
-#youshang:
-↖	zuoshang	其他
-#zuoshang:
-→	you	其他
-➡️	you	其他
-'V友'	you	其他
-#you:
-←	zuo	其他
-⬅️	zuo	其他
-#zuo:
-↓	xia	其他
-⬇️	xia	其他
-#xia:
-↑	shang	其他
-⬆️	shang	其他
-#shang:
-#其他#
-⏏	eject	键盘符号
-#eject:
-⎋	escape	键盘符号
-#escape:
-⌦	del	键盘符号
-#del:
-⌫	backspace	键盘符号
-#backspace:
-␣	space	键盘符号
-#space:
-⏎	enter	键盘符号
-#enter:
-⏎	return	键盘符号
-#return:
-⇪	caps	键盘符号
-#caps:
-⇪	cap	键盘符号
-#cap:
-⇧	shift	键盘符号
-#shift:
-⌥	opt	键盘符号
-#opt:
-⌃	ctrl	键盘符号
-#ctrl:
-⌘	cmd	键盘符号
-#cmd:
-#键盘符号#
-🍮	dianxin	Emoji
-🍩	dianxin	Emoji
-🍪	dianxin	Emoji
-🍧	dianxin	Emoji
-🍨	dianxin	Emoji
-🍦	dianxin	Emoji
-🍰	dianxin	Emoji
-🧁	dianxin	Emoji
-🧇	dianxin	Emoji
-🧆	dianxin	Emoji
-#dianxin:
-🧓🏿	heiren	Emoji
-🧑🏿	heiren	Emoji
-🧒🏿	heiren	Emoji
-👶🏿	heiren	Emoji
-#heiren:
-🧓🏻	huangzhongren	Emoji
-🧑🏻	huangzhongren	Emoji
-🧒🏻	huangzhongren	Emoji
-👶🏻	huangzhongren	Emoji
-#huangzhongren:
-🍞	mianbao	Emoji
-🥐	mianbao	Emoji
-🥖	mianbao	Emoji
-🥨	mianbao	Emoji
-🥯	mianbao	Emoji
-🍩	mianbao	Emoji
-🥮	mianbao	Emoji
-#mianbao:
-🦆	niao	Emoji
-🦅	niao	Emoji
-🦉	niao	Emoji
-🦇	niao	Emoji
-🐓	niao	Emoji
-🦃	niao	Emoji
-🕊️	niao	Emoji
-🐧	niao	Emoji
-🐦	niao	Emoji
-🦚	niao	Emoji
-🦜	niao	Emoji
-🦩	niao	Emoji
-🦤	niao	Emoji
-🦢	niao	Emoji
-🪿	niao	Emoji
-🐦‍⬛	niao	Emoji
-#niao:
-🐠	yu	Emoji
-🐟	yu	Emoji
-🐡	yu	Emoji
-🪼	yu	Emoji
-🐬	yu	Emoji
-🐳	yu	Emoji
-🐋	yu	Emoji
-🦈	yu	Emoji
-🦭	yu	Emoji
-🦦	yu	Emoji
-#yu:
-🦲	fase	Emoji
-🦰	fase	Emoji
-🦱	fase	Emoji
-🦳	fase	Emoji
-#fase:
-🦲	faxing	Emoji
-🦰	faxing	Emoji
-🦱	faxing	Emoji
-🦳	faxing	Emoji
-#faxing:
-🥄	canju	Emoji
-🍴	canju	Emoji
-🍽️	canju	Emoji
-🥣	canju	Emoji
-🥢	canju	Emoji
-🫖	canju	Emoji
-#canju:
-🧋	yinliao	Emoji
-🍹	yinliao	Emoji
-🧃	yinliao	Emoji
-🍸	yinliao	Emoji
-🍵	yinliao	Emoji
-☕️	yinliao	Emoji
-🥛	yinliao	Emoji
-🍷	yinliao	Emoji
-🥃	yinliao	Emoji
-🍶	yinliao	Emoji
-🥂	yinliao	Emoji
-🍾	yinliao	Emoji
-🍻	yinliao	Emoji
-🍺	yinliao	Emoji
-🧉	yinliao	Emoji
-#yinliao:
-🛩️	feixingqi	Emoji
-✈️	feixingqi	Emoji
-🚁	feixingqi	Emoji
-🚀	feixingqi	Emoji
-🛸	feixingqi	Emoji
-#feixingqi:
-🟥	yanse	Emoji
-🟧	yanse	Emoji
-🟨	yanse	Emoji
-🟩	yanse	Emoji
-🟦	yanse	Emoji
-🟪	yanse	Emoji
-🟫	yanse	Emoji
-⬛️	yanse	Emoji
-⬜️	yanse	Emoji
-🔴	yanse	Emoji
-🟠	yanse	Emoji
-🟡	yanse	Emoji
-🟢	yanse	Emoji
-🔵	yanse	Emoji
-🟣	yanse	Emoji
-🟤	yanse	Emoji
-⚫️	yanse	Emoji
-⚪️	yanse	Emoji
-❤️	yanse	Emoji
-🧡	yanse	Emoji
-💛	yanse	Emoji
-💚	yanse	Emoji
-💙	yanse	Emoji
-🩵	yanse	Emoji
-🩷	yanse	Emoji
-💜	yanse	Emoji
-🤎	yanse	Emoji
-🖤	yanse	Emoji
-🩶	yanse	Emoji
-🤍	yanse	Emoji
-#yanse:
-👡	xiezi	Emoji
-👢	xiezi	Emoji
-👞	xiezi	Emoji
-👟	xiezi	Emoji
-🥾	xiezi	Emoji
-🥿	xiezi	Emoji
-👠	xiezi	Emoji
-🛼	xiezi	Emoji
-⛸️	xiezi	Emoji
-#xiezi:
-👡	xie	Emoji
-👢	xie	Emoji
-👞	xie	Emoji
-👟	xie	Emoji
-🥾	xie	Emoji
-🥿	xie	Emoji
-👠	xie	Emoji
-🛼	xie	Emoji
-⛸️	xie	Emoji
-#xie:
-⌚️	dianzi	Emoji
-📱	dianzi	Emoji
-💻	dianzi	Emoji
-⌨️	dianzi	Emoji
-🖥️	dianzi	Emoji
-🖨️	dianzi	Emoji
-🖱️	dianzi	Emoji
-📷	dianzi	Emoji
-📹	dianzi	Emoji
-💾	dianzi	Emoji
-💽	dianzi	Emoji
-💿	dianzi	Emoji
-📀	dianzi	Emoji
-#dianzi:
-💡	dianqi	Emoji
-📺	dianqi	Emoji
-☎️	dianqi	Emoji
-📟	dianqi	Emoji
-📞	dianqi	Emoji
-📠	dianqi	Emoji
-📻	dianqi	Emoji
-🕰️	dianqi	Emoji
-📡	dianqi	Emoji
-🔦	dianqi	Emoji
-#dianqi:
-🍭	lingshi	Emoji
-🍬	lingshi	Emoji
-🍫	lingshi	Emoji
-🍿	lingshi	Emoji
-🍩	lingshi	Emoji
-🍪	lingshi	Emoji
-#lingshi:
-❄️	xue	Emoji
-🌨️	xue	Emoji
-☃️	xue	Emoji
-⛄️	xue	Emoji
-🧊	xue	Emoji
-#xue:
-👳🏽	alaboren	Emoji
-🧔🏽	alaboren	Emoji
-🧕🏽	alaboren	Emoji
-#alaboren:
-👳🏽	alabo	Emoji
-🧔🏽	alabo	Emoji
-🧕🏽	alabo	Emoji
-#alabo:
-🦉	weishengdongwu	Emoji
-🦇	weishengdongwu	Emoji
-🐍	weishengdongwu	Emoji
-🐢	weishengdongwu	Emoji
-🦝	weishengdongwu	Emoji
-🦨	weishengdongwu	Emoji
-🦡	weishengdongwu	Emoji
-🦫	weishengdongwu	Emoji
-🐿️	weishengdongwu	Emoji
-🦦	weishengdongwu	Emoji
-🦥	weishengdongwu	Emoji
-🦔	weishengdongwu	Emoji
-🐺	weishengdongwu	Emoji
-🐗	weishengdongwu	Emoji
-🐡	weishengdongwu	Emoji
-🐬	weishengdongwu	Emoji
-🐳	weishengdongwu	Emoji
-🐋	weishengdongwu	Emoji
-🦈	weishengdongwu	Emoji
-🦭	weishengdongwu	Emoji
-🐊	weishengdongwu	Emoji
-🐅	weishengdongwu	Emoji
-🐆	weishengdongwu	Emoji
-🦓	weishengdongwu	Emoji
-🦍	weishengdongwu	Emoji
-🦧	weishengdongwu	Emoji
-🐘	weishengdongwu	Emoji
-🦛	weishengdongwu	Emoji
-🦏	weishengdongwu	Emoji
-🦒	weishengdongwu	Emoji
-🦘	weishengdongwu	Emoji
-🦩	weishengdongwu	Emoji
-🫏	weishengdongwu	Emoji
-,	weishengdongwu	Emoji🫎
-#weishengdongwu:
-🦉	yewei	Emoji
-🦇	yewei	Emoji
-🐍	yewei	Emoji
-🐢	yewei	Emoji
-🦝	yewei	Emoji
-🦨	yewei	Emoji
-🦡	yewei	Emoji
-🦫	yewei	Emoji
-🐿️	yewei	Emoji
-🦦	yewei	Emoji
-🦥	yewei	Emoji
-🦔	yewei	Emoji
-🐺	yewei	Emoji
-🐗	yewei	Emoji
-🐡	yewei	Emoji
-🐬	yewei	Emoji
-🐳	yewei	Emoji
-🐋	yewei	Emoji
-🦈	yewei	Emoji
-🦭	yewei	Emoji
-🐊	yewei	Emoji
-🐅	yewei	Emoji
-🐆	yewei	Emoji
-🦓	yewei	Emoji
-🦍	yewei	Emoji
-🦧	yewei	Emoji
-🐘	yewei	Emoji
-🦛	yewei	Emoji
-🦏	yewei	Emoji
-🦒	yewei	Emoji
-🦘	yewei	Emoji
-🦩	yewei	Emoji
-🫏	yewei	Emoji
-,	yewei	Emoji🫎
-#yewei:
-🍷	jiu	Emoji
-🥃	jiu	Emoji
-🍺	jiu	Emoji
-🍶	jiu	Emoji
-🍾	jiu	Emoji
-🍸	jiu	Emoji
-#jiu:
-🏟️	youleyuan	Emoji
-🎡	youleyuan	Emoji
-🎢	youleyuan	Emoji
-🎠	youleyuan	Emoji
-🛝	youleyuan	Emoji
-#youleyuan:
-🧄	tiaoliao	Emoji
-🫚	tiaoliao	Emoji
-🧅	tiaoliao	Emoji
-🧂	tiaoliao	Emoji
-🧀	tiaoliao	Emoji
-#tiaoliao:
-🍕	xican	Emoji
-🥓	xican	Emoji
-🧀	xican	Emoji
-🥖	xican	Emoji
-🥐	xican	Emoji
-🍝	xican	Emoji
-🌯	xican	Emoji
-🌮	xican	Emoji
-🥙	xican	Emoji
-🍟	xican	Emoji
-🍔	xican	Emoji
-🌭	xican	Emoji
-🥞	xican	Emoji
-🥪	xican	Emoji
-🥯	xican	Emoji
-🧇	xican	Emoji
-🫕	xican	Emoji
-#xican:
-🧥	yifu	Emoji
-👚	yifu	Emoji
-👕	yifu	Emoji
-👖	yifu	Emoji
-🩳	yifu	Emoji
-👔	yifu	Emoji
-👗	yifu	Emoji
-👘	yifu	Emoji
-🥻	yifu	Emoji
-🩲	yifu	Emoji
-👙	yifu	Emoji
-🩱	yifu	Emoji
-🥼	yifu	Emoji
-#yifu:
-🅰️	xuexing	Emoji
-🅱️	xuexing	Emoji
-🅾️	xuexing	Emoji
-🆎️	xuexing	Emoji
-#xuexing:
-🐛	chong	Emoji
-🪱	chong	Emoji
-🐞	chong	Emoji
-🪲	chong	Emoji
-🪳	chong	Emoji
-🦗	chong	Emoji
-🦟	chong	Emoji
-🐜	chong	Emoji
-🪰	chong	Emoji
-🐌	chong	Emoji
-🐝	chong	Emoji
-#chong:
-🍃	ye	Emoji
-🍂	ye	Emoji
-🍁	ye	Emoji
-🌱	ye	Emoji
-🌿	ye	Emoji
-🥬	ye	Emoji
-🍅	shucai	Emoji
-🍆	shucai	Emoji
-🥒	shucai	Emoji
-🥕	shucai	Emoji
-🌶️	shucai	Emoji
-🥦	shucai	Emoji
-🥗	shucai	Emoji
-🥬	shucai	Emoji
-🫒	shucai	Emoji
-🫑	shucai	Emoji
-🫘	shucai	Emoji
-🫛	shucai	Emoji
-#shucai:
-🍅	cai	Emoji
-🍆	cai	Emoji
-🥒	cai	Emoji
-🥕	cai	Emoji
-🌶️	cai	Emoji
-🥦	cai	Emoji
-🥗	cai	Emoji
-🥬	cai	Emoji
-🫒	cai	Emoji
-🫑	cai	Emoji
-🫘	cai	Emoji
-🫛	cai	Emoji
-#cai:
-🌸	huaduo	Emoji
-🌺	huaduo	Emoji
-🌼	huaduo	Emoji
-🌻	huaduo	Emoji
-🌷	huaduo	Emoji
-🌹	huaduo	Emoji
-💐	huaduo	Emoji
-🥀	huaduo	Emoji
-🪷	huaduo	Emoji
-🪻	huaduo	Emoji
-#huaduo:
-🌸	hua	Emoji
-🌺	hua	Emoji
-🌼	hua	Emoji
-🌻	hua	Emoji
-🌷	hua	Emoji
-🌹	hua	Emoji
-💐	hua	Emoji
-🥀	hua	Emoji
-🪷	hua	Emoji
-🪻	hua	Emoji
-#hua:
-🚢	chuan	Emoji
-⛴️	chuan	Emoji
-🛳️	chuan	Emoji
-🛥️	chuan	Emoji
-🚤	chuan	Emoji
-⛵️	chuan	Emoji
-🛶	chuan	Emoji
-⚓️	chuan	Emoji
-#chuan:
-🏻	fuse	Emoji
-🏼	fuse	Emoji
-🏽	fuse	Emoji
-🏾	fuse	Emoji
-🏿	fuse	Emoji
-#fuse:
-🥩	rou	Emoji
-🥓	rou	Emoji
-🍗	rou	Emoji
-🍖	rou	Emoji
-🍤	rou	Emoji
-#rou:
-🌽	liang	Emoji
-🥔	liang	Emoji
-🍠	liang	Emoji
-🥜	liang	Emoji
-🌰	liang	Emoji
-#liang:
-🧙🏻	jingguai	Emoji
-🧝🏻	jingguai	Emoji
-🧛🏻	jingguai	Emoji
-🧟	jingguai	Emoji
-🧞	jingguai	Emoji
-🧜🏻	jingguai	Emoji
-🧚🏻	jingguai	Emoji
-🦹🏻	jingguai	Emoji
-#jingguai:
-🌽	culiang	Emoji
-🥔	culiang	Emoji
-🍠	culiang	Emoji
-🥜	culiang	Emoji
-🌰	culiang	Emoji
-#culiang:
-🎊	jieri	Emoji
-🎉	jieri	Emoji
-🪅	jieri	Emoji
-🎏	jieri	Emoji
-🎎	jieri	Emoji
-🏮	jieri	Emoji
-🎐	jieri	Emoji
-🧧	jieri	Emoji
-🎁	jieri	Emoji
-🧨	jieri	Emoji
-🎇	jieri	Emoji
-🎆	jieri	Emoji
-🎑	jieri	Emoji
-🎄	jieri	Emoji
-🧑🏻‍🎄	jieri	Emoji
-#jieri:
-👳🏽	musilin	Emoji
-#musilin:
-🔬	kexue	Emoji
-🔭	kexue	Emoji
-⚗️	kexue	Emoji
-⚛️	kexue	Emoji
-🧑🏻‍🔬	kexue	Emoji
-🧬	kexue	Emoji
-🧪	kexue	Emoji
-🧫	kexue	Emoji
-🩺	kexue	Emoji
-🩻	kexue	Emoji
-#kexue:
-👓	yanjing	Emoji
-🕶️	yanjing	Emoji
-🥽	yanjing	Emoji
-#yanjing:
-🧓🏼	baizhongren	Emoji
-🧑🏼	baizhongren	Emoji
-👱🏼	baizhongren	Emoji
-🧒🏼	baizhongren	Emoji
-👶🏼	baizhongren	Emoji
-#baizhongren:
-🧓🏼	bairen	Emoji
-🧑🏼	bairen	Emoji
-👱🏼	bairen	Emoji
-🧒🏼	bairen	Emoji
-👶🏼	bairen	Emoji
-#bairen:
-🐄	chusheng	Emoji
-🐃	chusheng	Emoji
-🐂	chusheng	Emoji
-🦬	chusheng	Emoji
-🐐	chusheng	Emoji
-🐏	chusheng	Emoji
-🐖	chusheng	Emoji
-🐑	chusheng	Emoji
-🐕	chusheng	Emoji
-🦮	chusheng	Emoji
-🐕‍🦺	chusheng	Emoji
-🐩	chusheng	Emoji
-🐈	chusheng	Emoji
-🐈‍⬛️	chusheng	Emoji
-🫏	chusheng	Emoji
-🫎	chusheng	Emoji
-#chusheng:
-🐁	shengxiao	Emoji
-🐀	shengxiao	Emoji
-🐂	shengxiao	Emoji
-🐃	shengxiao	Emoji
-🐄	shengxiao	Emoji
-🦬	shengxiao	Emoji
-🐅	shengxiao	Emoji
-🐆	shengxiao	Emoji
-🐇	shengxiao	Emoji
-🐉	shengxiao	Emoji
-🐍	shengxiao	Emoji
-🐎	shengxiao	Emoji
-🐏	shengxiao	Emoji
-🐐	shengxiao	Emoji
-🐑	shengxiao	Emoji
-🐒	shengxiao	Emoji
-🦧	shengxiao	Emoji
-🦍	shengxiao	Emoji
-🦃	shengxiao	Emoji
-🐓	shengxiao	Emoji
-🐕	shengxiao	Emoji
-🦮	shengxiao	Emoji
-🐕‍🦺	shengxiao	Emoji
-🐖	shengxiao	Emoji
-🐗	shengxiao	Emoji
-#shengxiao:
-🍮	tiandian	Emoji
-🍩	tiandian	Emoji
-🍪	tiandian	Emoji
-🍧	tiandian	Emoji
-🍨	tiandian	Emoji
-🍦	tiandian	Emoji
-🍰	tiandian	Emoji
-🧁	tiandian	Emoji
-🧇	tiandian	Emoji
-🧆	tiandian	Emoji
-#tiandian:
-🍯	tianshi	Emoji
-🍰	tianshi	Emoji
-🍮	tianshi	Emoji
-🎂	tianshi	Emoji
-🍭	tianshi	Emoji
-🍬	tianshi	Emoji
-🍫	tianshi	Emoji
-🍩	tianshi	Emoji
-🍪	tianshi	Emoji
-🍦	tianshi	Emoji
-🧁	tianshi	Emoji
-#tianshi:
-⚽️	qiu	Emoji
-🏀	qiu	Emoji
-🏈	qiu	Emoji
-🏐	qiu	Emoji
-🏉	qiu	Emoji
-⚾️	qiu	Emoji
-🥎️	qiu	Emoji
-🎾	qiu	Emoji
-🎱	qiu	Emoji
-🪀	qiu	Emoji
-🏓	qiu	Emoji
-🏸	qiu	Emoji
-🏒	qiu	Emoji
-🏑	qiu	Emoji
-🏏	qiu	Emoji
-🛹	qiu	Emoji
-🥍	qiu	Emoji
-#qiu:
-🏅	jiangpai	Emoji
-🎖️	jiangpai	Emoji
-🥇	jiangpai	Emoji
-🥈	jiangpai	Emoji
-🥉	jiangpai	Emoji
-🏆	jiangpai	Emoji
-#jiangpai:
-🏅	jiangxiang	Emoji
-🎖️	jiangxiang	Emoji
-🥇	jiangxiang	Emoji
-🥈	jiangxiang	Emoji
-🥉	jiangxiang	Emoji
-🏆	jiangxiang	Emoji
-#jiangxiang:
-🏅	jiang	Emoji
-🎖️	jiang	Emoji
-🥇	jiang	Emoji
-🥈	jiang	Emoji
-🥉	jiang	Emoji
-🏆	jiang	Emoji
-#jiang:
-🐄	shengchu	Emoji
-🐃	shengchu	Emoji
-🐂	shengchu	Emoji
-🦬	shengchu	Emoji
-🐐	shengchu	Emoji
-🐏	shengchu	Emoji
-🐖	shengchu	Emoji
-🐑	shengchu	Emoji
-🐕	shengchu	Emoji
-🦮	shengchu	Emoji
-🐕‍🦺	shengchu	Emoji
-🐩	shengchu	Emoji
-🐈	shengchu	Emoji
-🐈‍⬛️	shengchu	Emoji
-🫏	shengchu	Emoji
-🫎	shengchu	Emoji
-#shengchu:
-☕️	reyin	Emoji
-🍵	reyin	Emoji
-#reyin:
-🚄	huoche	Emoji
-🚅	huoche	Emoji
-🚝	huoche	Emoji
-🚆	huoche	Emoji
-🚂	huoche	Emoji
-🚉	huoche	Emoji
-#huoche:
-🚗	qiche	Emoji
-🚕	qiche	Emoji
-🚙	qiche	Emoji
-🚌	qiche	Emoji
-🚎	qiche	Emoji
-🏎️	qiche	Emoji
-🚓	qiche	Emoji
-🚑	qiche	Emoji
-🚒	qiche	Emoji
-🚐	qiche	Emoji
-🚚	qiche	Emoji
-🚛	qiche	Emoji
-🎢	qiche	Emoji
-🛻	qiche	Emoji
-🚔	qiche	Emoji
-🚍	qiche	Emoji
-🚘	qiche	Emoji
-🚖	qiche	Emoji
-🛺	qiche	Emoji
-#qiche:
-🚗	che	Emoji
-🚕	che	Emoji
-🚙	che	Emoji
-🚌	che	Emoji
-🚎	che	Emoji
-🏎️	che	Emoji
-🚓	che	Emoji
-🚑	che	Emoji
-🚒	che	Emoji
-🚐	che	Emoji
-🚚	che	Emoji
-🚛	che	Emoji
-🎢	che	Emoji
-🛻	che	Emoji
-🚔	che	Emoji
-🚍	che	Emoji
-🚘	che	Emoji
-🚖	che	Emoji
-🛺	che	Emoji
-#che:
-🔫	wuqi	Emoji
-🗡️	wuqi	Emoji
-⚔️	wuqi	Emoji
-🔪	wuqi	Emoji
-🛡️	wuqi	Emoji
-🪓	wuqi	Emoji
-🚀	wuqi	Emoji
-#wuqi:
-🥘	zhengcan	Emoji
-🍜	zhengcan	Emoji
-🍲	zhengcan	Emoji
-🍛	zhengcan	Emoji
-🍝	zhengcan	Emoji
-🍱	zhengcan	Emoji
-🍚	zhengcan	Emoji
-🥗	zhengcan	Emoji
-#zhengcan:
-⚙️	jixie	Emoji
-🔩	jixie	Emoji
-⛏️	jixie	Emoji
-🛠️	jixie	Emoji
-⚒️	jixie	Emoji
-🔨	jixie	Emoji
-🔧	jixie	Emoji
-⛓️	jixie	Emoji
-🧰	jixie	Emoji
-🪒	jixie	Emoji
-🪚	jixie	Emoji
-🪛	jixie	Emoji
-🪜	jixie	Emoji
-🪡	jixie	Emoji
-#jixie:
-🎻	yueqi	Emoji
-🎸	yueqi	Emoji
-🎹	yueqi	Emoji
-🎷	yueqi	Emoji
-🎺	yueqi	Emoji
-🥁	yueqi	Emoji
-🪕	yueqi	Emoji
-🪘	yueqi	Emoji
-🪗	yueqi	Emoji
-🪈	yueqi	Emoji
-🪇	yueqi	Emoji
-#yueqi:
-🌲	zhiwu	Emoji
-🌳	zhiwu	Emoji
-🎄	zhiwu	Emoji
-🌵	zhiwu	Emoji
-🌴	zhiwu	Emoji
-🌱	zhiwu	Emoji
-🌿	zhiwu	Emoji
-☘️	zhiwu	Emoji
-🍀	zhiwu	Emoji
-🎍	zhiwu	Emoji
-🪴	zhiwu	Emoji
-🌾	zhiwu	Emoji
-🥬	zhiwu	Emoji
-🪻	zhiwu	Emoji
-#zhiwu:
-🧓🏽	zongserenzhong	Emoji
-🧑🏽	zongserenzhong	Emoji
-🧒🏽	zongserenzhong	Emoji
-👶🏽	zongserenzhong	Emoji
-#zongserenzhong:
-🧓🏽	zongseren	Emoji
-🧑🏽	zongseren	Emoji
-🧒🏽	zongseren	Emoji
-👶🏽	zongseren	Emoji
-#zongseren:
-🍏	shuiguo	Emoji
-🍎	shuiguo	Emoji
-🍐	shuiguo	Emoji
-🍊	shuiguo	Emoji
-🍋	shuiguo	Emoji
-🍌	shuiguo	Emoji
-🍉	shuiguo	Emoji
-🍇	shuiguo	Emoji
-🍓	shuiguo	Emoji
-🫐	shuiguo	Emoji
-🍈	shuiguo	Emoji
-🍒	shuiguo	Emoji
-🍑	shuiguo	Emoji
-🍍	shuiguo	Emoji
-🥝	shuiguo	Emoji
-🥑	shuiguo	Emoji
-🥥	shuiguo	Emoji
-🥭	shuiguo	Emoji
-#shuiguo:
-🍏	guo	Emoji
-🍎	guo	Emoji
-🍐	guo	Emoji
-🍊	guo	Emoji
-🍋	guo	Emoji
-🍌	guo	Emoji
-🍉	guo	Emoji
-🍇	guo	Emoji
-🍓	guo	Emoji
-🫐	guo	Emoji
-🍈	guo	Emoji
-🍒	guo	Emoji
-🍑	guo	Emoji
-🍍	guo	Emoji
-🥝	guo	Emoji
-🥑	guo	Emoji
-🥥	guo	Emoji
-🥭	guo	Emoji
-#guo:
-🧓🏻	dongyayi	Emoji
-🧑🏻	dongyayi	Emoji
-🧒🏻	dongyayi	Emoji
-👶🏻	dongyayi	Emoji
-#dongyayi:
-🧓🏻	dongyaren	Emoji
-🧑🏻	dongyaren	Emoji
-🧒🏻	dongyaren	Emoji
-👶🏻	dongyaren	Emoji
-#dongyaren:
-🧥	fushi	Emoji
-👚	fushi	Emoji
-👕	fushi	Emoji
-👖	fushi	Emoji
-🩳	fushi	Emoji
-👔	fushi	Emoji
-👗	fushi	Emoji
-👘	fushi	Emoji
-🥻	fushi	Emoji
-🩲	fushi	Emoji
-👙	fushi	Emoji
-🩱	fushi	Emoji
-🥼	fushi	Emoji
-#fushi:
-🧥	fuzhuang	Emoji
-👚	fuzhuang	Emoji
-👕	fuzhuang	Emoji
-👖	fuzhuang	Emoji
-🩳	fuzhuang	Emoji
-👔	fuzhuang	Emoji
-👗	fuzhuang	Emoji
-👘	fuzhuang	Emoji
-🥻	fuzhuang	Emoji
-🩲	fuzhuang	Emoji
-👙	fuzhuang	Emoji
-🩱	fuzhuang	Emoji
-🥼	fuzhuang	Emoji
-#fuzhuang:
-☢️	youhai	Emoji
-☣️	youhai	Emoji
-🦠	youhai	Emoji
-#youhai:
-🌕	yuexiang	Emoji
-🌖	yuexiang	Emoji
-🌗	yuexiang	Emoji
-🌘	yuexiang	Emoji
-🌑	yuexiang	Emoji
-🌒	yuexiang	Emoji
-🌓	yuexiang	Emoji
-🌔	yuexiang	Emoji
-#yuexiang:
-🗽	jingdian	Emoji
-🏰	jingdian	Emoji
-🗼	jingdian	Emoji
-🗻	jingdian	Emoji
-🏯	jingdian	Emoji
-🏝️	jingdian	Emoji
-🏖️	jingdian	Emoji
-🌁	jingdian	Emoji
-🌉	jingdian	Emoji
-🏞️	jingdian	Emoji
-#jingdian:
-🕛	shizhong	Emoji
-🕧	shizhong	Emoji
-🕐	shizhong	Emoji
-🕜	shizhong	Emoji
-🕑	shizhong	Emoji
-🕝	shizhong	Emoji
-🕒	shizhong	Emoji
-🕞	shizhong	Emoji
-🕓	shizhong	Emoji
-🕟	shizhong	Emoji
-🕔	shizhong	Emoji
-🕠	shizhong	Emoji
-🕕	shizhong	Emoji
-🕡	shizhong	Emoji
-🕖	shizhong	Emoji
-🕢	shizhong	Emoji
-🕗	shizhong	Emoji
-🕣	shizhong	Emoji
-🕘	shizhong	Emoji
-🕤	shizhong	Emoji
-🕙	shizhong	Emoji
-🕥	shizhong	Emoji
-🕚	shizhong	Emoji
-🕦	shizhong	Emoji
-#shizhong:
-♒️	xingzuo	Emoji
-♓️	xingzuo	Emoji
-♈️	xingzuo	Emoji
-♉️	xingzuo	Emoji
-♊️	xingzuo	Emoji
-♋️	xingzuo	Emoji
-♌️	xingzuo	Emoji
-♍️	xingzuo	Emoji
-♎️	xingzuo	Emoji
-♏️	xingzuo	Emoji
-♐️	xingzuo	Emoji
-♑️	xingzuo	Emoji
-#xingzuo:
-🍳	zaodian	Emoji
-🥚	zaodian	Emoji
-🧀	zaodian	Emoji
-🥖	zaodian	Emoji
-🥛	zaodian	Emoji
-🍯	zaodian	Emoji
-🥪	zaodian	Emoji
-🥫	zaodian	Emoji
-🥯	zaodian	Emoji
-🧇	zaodian	Emoji
-🫓	zaodian	Emoji
-#zaodian:
-🍳	zaocan	Emoji
-🥚	zaocan	Emoji
-🧀	zaocan	Emoji
-🥖	zaocan	Emoji
-🥛	zaocan	Emoji
-🍯	zaocan	Emoji
-🥪	zaocan	Emoji
-🥫	zaocan	Emoji
-🥯	zaocan	Emoji
-🧇	zaocan	Emoji
-🫓	zaocan	Emoji
-#zaocan:
-🧴	riyong	Emoji
-🧼	riyong	Emoji
-🧻	riyong	Emoji
-🧽	riyong	Emoji
-🪥	riyong	Emoji
-🪒	riyong	Emoji
-💄	riyong	Emoji
-🪣	riyong	Emoji
-#riyong:
-🍥	ribencai	Emoji
-🍣	ribencai	Emoji
-🍱	ribencai	Emoji
-🍙	ribencai	Emoji
-🍘	ribencai	Emoji
-#ribencai:
-🍥	rishiliaoli	Emoji
-🍣	rishiliaoli	Emoji
-🍱	rishiliaoli	Emoji
-🍙	rishiliaoli	Emoji
-🍘	rishiliaoli	Emoji
-#rishiliaoli:
-🍥	riliao	Emoji
-🍣	riliao	Emoji
-🍱	riliao	Emoji
-🍙	riliao	Emoji
-🍘	riliao	Emoji
-#riliao:
-🟥	zhengfangxing	Emoji
-🟧	zhengfangxing	Emoji
-🟨	zhengfangxing	Emoji
-🟩	zhengfangxing	Emoji
-🟦	zhengfangxing	Emoji
-🟪	zhengfangxing	Emoji
-🟫	zhengfangxing	Emoji
-⬛️	zhengfangxing	Emoji
-⬜️	zhengfangxing	Emoji
-#zhengfangxing:
-🟥	fangxing	Emoji
-🟧	fangxing	Emoji
-🟨	fangxing	Emoji
-🟩	fangxing	Emoji
-🟦	fangxing	Emoji
-🟪	fangxing	Emoji
-🟫	fangxing	Emoji
-⬛️	fangxing	Emoji
-⬜️	fangxing	Emoji
-#fangxing:
-⌚️	shuma	Emoji
-📱	shuma	Emoji
-💻	shuma	Emoji
-⌨️	shuma	Emoji
-🖥️	shuma	Emoji
-🖨️	shuma	Emoji
-🖱️	shuma	Emoji
-📷	shuma	Emoji
-📹	shuma	Emoji
-💾	shuma	Emoji
-💽	shuma	Emoji
-💿	shuma	Emoji
-📀	shuma	Emoji
-#shuma:
-🥙	juan	Emoji
-🌮	juan	Emoji
-🌯	juan	Emoji
-🫔	juan	Emoji
-#juan:
-🧓🏽	lameiyi	Emoji
-🧑🏽	lameiyi	Emoji
-🧒🏽	lameiyi	Emoji
-👶🏽	lameiyi	Emoji
-#lameiyi:
-🧓🏽	lameiren	Emoji
-🧑🏽	lameiren	Emoji
-🧒🏽	lameiren	Emoji
-👶🏽	lameiren	Emoji
-#lameiren:
-🧓🏽	lamei	Emoji
-🧑🏽	lamei	Emoji
-🧒🏽	lamei	Emoji
-👶🏽	lamei	Emoji
-#lamei:
-🧓🏽	ladingyi	Emoji
-🧑🏽	ladingyi	Emoji
-🧒🏽	ladingyi	Emoji
-👶🏽	ladingyi	Emoji
-#ladingyi:
-🧓🏽	lading	Emoji
-🧑🏽	lading	Emoji
-🧒🏽	lading	Emoji
-👶🏽	lading	Emoji
-#lading:
-🦄	guaiwu	Emoji
-🤖	guaiwu	Emoji
-👾	guaiwu	Emoji
-👹	guaiwu	Emoji
-👺	guaiwu	Emoji
-#guaiwu:
-🍔	kuaican	Emoji
-🌭	kuaican	Emoji
-🍟	kuaican	Emoji
-🥞	kuaican	Emoji
-🥡	kuaican	Emoji
-🥫	kuaican	Emoji
-#kuaican:
-❤️	xinxing	Emoji
-🧡	xinxing	Emoji
-💛	xinxing	Emoji
-💚	xinxing	Emoji
-💙	xinxing	Emoji
-🩵	xinxing	Emoji
-🩷	xinxing	Emoji
-💜	xinxing	Emoji
-🤎	xinxing	Emoji
-🖤	xinxing	Emoji
-🩶	xinxing	Emoji
-🤍	xinxing	Emoji
-#xinxing:
-👒	maozi	Emoji
-🧢	maozi	Emoji
-🎩	maozi	Emoji
-🎓	maozi	Emoji
-⛑️	maozi	Emoji
-🪖	maozi	Emoji
-#maozi:
-👒	mao	Emoji
-🧢	mao	Emoji
-🎩	mao	Emoji
-🎓	mao	Emoji
-⛑️	mao	Emoji
-🪖	mao	Emoji
-#mao:
-⚙️	gongju	Emoji
-🔩	gongju	Emoji
-⛏️	gongju	Emoji
-🛠️	gongju	Emoji
-⚒️	gongju	Emoji
-🔨	gongju	Emoji
-🔧	gongju	Emoji
-⛓️	gongju	Emoji
-🧰	gongju	Emoji
-🪒	gongju	Emoji
-🪚	gongju	Emoji
-🪛	gongju	Emoji
-🪜	gongju	Emoji
-🪡	gongju	Emoji
-#gongju:
-❄️	hanleng	Emoji
-🌨️	hanleng	Emoji
-☃️	hanleng	Emoji
-⛄️	hanleng	Emoji
-🧊	hanleng	Emoji
-#hanleng:
-❄️	leng	Emoji
-🌨️	leng	Emoji
-☃️	leng	Emoji
-⛄️	leng	Emoji
-🧊	leng	Emoji
-#leng:
-🦆	jiaqin	Emoji
-🐓	jiaqin	Emoji
-🦃	jiaqin	Emoji
-🐔	jiaqin	Emoji
-🐤	jiaqin	Emoji
-🐣	jiaqin	Emoji
-🐥	jiaqin	Emoji
-🦚	jiaqin	Emoji
-🪿	jiaqin	Emoji
-#jiaqin:
-✝️	zongjiao	Emoji
-☪️	zongjiao	Emoji
-🕉️	zongjiao	Emoji
-☸️	zongjiao	Emoji
-🔯	zongjiao	Emoji
-🕎	zongjiao	Emoji
-☯️	zongjiao	Emoji
-☦️	zongjiao	Emoji
-🪯	zongjiao	Emoji
-🛐	zongjiao	Emoji
-⛪️	zongjiao	Emoji
-🕌	zongjiao	Emoji
-🕍	zongjiao	Emoji
-🕋	zongjiao	Emoji
-⛩️	zongjiao	Emoji
-🛕	zongjiao	Emoji
-#zongjiao:
-🎮	yule	Emoji
-🎰	yule	Emoji
-🎲	yule	Emoji
-🎯	yule	Emoji
-🎳	yule	Emoji
-🎧	yule	Emoji
-🎤️	yule	Emoji
-🎪	yule	Emoji
-🎫	yule	Emoji
-🎟️	yule	Emoji
-♟️	yule	Emoji
-🕹️	yule	Emoji
-🖲️	yule	Emoji
-🪀	yule	Emoji
-🪩	yule	Emoji
-#yule:
-☀️	tianqi	Emoji
-🌤️	tianqi	Emoji
-⛅️	tianqi	Emoji
-🌦️	tianqi	Emoji
-🌥️	tianqi	Emoji
-☁️	tianqi	Emoji
-🌨️	tianqi	Emoji
-🌧️	tianqi	Emoji
-🌩️	tianqi	Emoji
-⛈️	tianqi	Emoji
-❄️	tianqi	Emoji
-💨	tianqi	Emoji
-🌪️	tianqi	Emoji
-🌫️	tianqi	Emoji
-🌊	tianqi	Emoji
-#tianqi:
-☀️	qixiang	Emoji
-🌤️	qixiang	Emoji
-⛅️	qixiang	Emoji
-🌦️	qixiang	Emoji
-🌥️	qixiang	Emoji
-☁️	qixiang	Emoji
-🌨️	qixiang	Emoji
-🌧️	qixiang	Emoji
-🌩️	qixiang	Emoji
-⛈️	qixiang	Emoji
-❄️	qixiang	Emoji
-💨	qixiang	Emoji
-🌪️	qixiang	Emoji
-🌫️	qixiang	Emoji
-🌊	qixiang	Emoji
-#qixiang:
-🔥	ziran	Emoji
-💧	ziran	Emoji
-🌬️	ziran	Emoji
-🫧	ziran	Emoji
-☀️	ziran	Emoji
-🌤️	ziran	Emoji
-⛅️	ziran	Emoji
-🌦️	ziran	Emoji
-🌥️	ziran	Emoji
-☁️	ziran	Emoji
-🌨️	ziran	Emoji
-🌧️	ziran	Emoji
-🌩️	ziran	Emoji
-⛈️	ziran	Emoji
-❄️	ziran	Emoji
-💨	ziran	Emoji
-🌪️	ziran	Emoji
-🌫️	ziran	Emoji
-🌊	ziran	Emoji
-🧊	ziran	Emoji
-🪨	ziran	Emoji
-#ziran:
-🔥	daziran	Emoji
-💧	daziran	Emoji
-🌬️	daziran	Emoji
-🫧	daziran	Emoji
-☀️	daziran	Emoji
-🌤️	daziran	Emoji
-⛅️	daziran	Emoji
-🌦️	daziran	Emoji
-🌥️	daziran	Emoji
-☁️	daziran	Emoji
-🌨️	daziran	Emoji
-🌧️	daziran	Emoji
-🌩️	daziran	Emoji
-⛈️	daziran	Emoji
-❄️	daziran	Emoji
-💨	daziran	Emoji
-🌪️	daziran	Emoji
-🌫️	daziran	Emoji
-🌊	daziran	Emoji
-🧊	daziran	Emoji
-🪨	daziran	Emoji
-#daziran:
-🌙	yekong	Emoji
-💫	yekong	Emoji
-⭐️	yekong	Emoji
-🌟	yekong	Emoji
-✨	yekong	Emoji
-🌛	yekong	Emoji
-🌜	yekong	Emoji
-#yekong:
-🌙	ye	Emoji
-💫	ye	Emoji
-⭐️	ye	Emoji
-🌟	ye	Emoji
-✨	ye	Emoji
-🌛	ye	Emoji
-🌜	ye	Emoji
-#ye:
-📽️	duomeiti	Emoji
-🎥	duomeiti	Emoji
-📹	duomeiti	Emoji
-📷	duomeiti	Emoji
-🎙️	duomeiti	Emoji
-📡	duomeiti	Emoji
-#duomeiti:
-💵	huobi	Emoji
-💶	huobi	Emoji
-💷	huobi	Emoji
-💴	huobi	Emoji
-#huobi:
-💵	zhibi	Emoji
-💶	zhibi	Emoji
-💷	zhibi	Emoji
-💴	zhibi	Emoji
-#zhibi:
-💵	qian	Emoji
-💶	qian	Emoji
-💷	qian	Emoji
-💴	qian	Emoji
-#qian:
-💵	waihui	Emoji
-💶	waihui	Emoji
-💷	waihui	Emoji
-💴	waihui	Emoji
-#waihui:
-🥜	jianguo	Emoji
-🌰️	jianguo	Emoji
-#jianguo:
-🚈	chenggui	Emoji
-🚇	chenggui	Emoji
-🚊	chenggui	Emoji
-🚞	chenggui	Emoji
-🚋	chenggui	Emoji
-🚃	chenggui	Emoji
-🚟	chenggui	Emoji
-#chenggui:
-🚈	ditie	Emoji
-🚇	ditie	Emoji
-🚊	ditie	Emoji
-🚞	ditie	Emoji
-🚋	ditie	Emoji
-🚃	ditie	Emoji
-🚟	ditie	Emoji
-#ditie:
-🔴	yuanxing	Emoji
-🟠	yuanxing	Emoji
-🟡	yuanxing	Emoji
-🟢	yuanxing	Emoji
-🔵	yuanxing	Emoji
-🟣	yuanxing	Emoji
-🟤	yuanxing	Emoji
-⚫️	yuanxing	Emoji
-⚪️	yuanxing	Emoji
-#yuanxing:
-🔴	yuan	Emoji
-🟠	yuan	Emoji
-🟡	yuan	Emoji
-🟢	yuan	Emoji
-🔵	yuan	Emoji
-🟣	yuan	Emoji
-🟤	yuan	Emoji
-⚫️	yuan	Emoji
-⚪️	yuan	Emoji
-#yuan:
-👁️	qiguan	Emoji
-👂🏻	qiguan	Emoji
-👃🏻	qiguan	Emoji
-👄	qiguan	Emoji
-🦷	qiguan	Emoji
-🧠	qiguan	Emoji
-🫁	qiguan	Emoji
-🫀	qiguan	Emoji
-🦵🏻	qiguan	Emoji
-🦶🏻	qiguan	Emoji
-🖐🏻	qiguan	Emoji
-👅	qiguan	Emoji
-#qiguan:
-🗽	mingsheng	Emoji
-🏰	mingsheng	Emoji
-🗼	mingsheng	Emoji
-🗻	mingsheng	Emoji
-🏯	mingsheng	Emoji
-🏝️	mingsheng	Emoji
-🏖️	mingsheng	Emoji
-🌁	mingsheng	Emoji
-🌉	mingsheng	Emoji
-🏞️	mingsheng	Emoji
-#mingsheng:
-🍛	fan	Emoji
-🍲	fan	Emoji
-🍝	fan	Emoji
-🍜	fan	Emoji
-🥘	fan	Emoji
-🍣	fan	Emoji
-🍱	fan	Emoji
-🍘	fan	Emoji
-🍙	fan	Emoji
-🍚	fan	Emoji
-🥡	fan	Emoji
-#fan:
-🍛	wucan	Emoji
-🍲	wucan	Emoji
-🍝	wucan	Emoji
-🍜	wucan	Emoji
-🥘	wucan	Emoji
-🍣	wucan	Emoji
-🍱	wucan	Emoji
-🍘	wucan	Emoji
-🍙	wucan	Emoji
-🍚	wucan	Emoji
-🥡	wucan	Emoji
-#wucan:
-👝	bao	Emoji
-👛	bao	Emoji
-👜	bao	Emoji
-💼	bao	Emoji
-🧳	bao	Emoji
-🎒	bao	Emoji
-#bao:
-🐶	dongwulian	Emoji
-🐱	dongwulian	Emoji
-🐭	dongwulian	Emoji
-🐹	dongwulian	Emoji
-🐰	dongwulian	Emoji
-🦊	dongwulian	Emoji
-🐻	dongwulian	Emoji
-🐻‍❄️	dongwulian	Emoji
-🐼	dongwulian	Emoji
-🐨	dongwulian	Emoji
-🐯	dongwulian	Emoji
-🦁	dongwulian	Emoji
-🐮	dongwulian	Emoji
-🐷	dongwulian	Emoji
-🐽	dongwulian	Emoji
-🐸	dongwulian	Emoji
-🐵	dongwulian	Emoji
-#dongwulian:
-🦆	dongwu	Emoji
-🦅	dongwu	Emoji
-🦉	dongwu	Emoji
-🦇	dongwu	Emoji
-🐺	dongwu	Emoji
-🐗	dongwu	Emoji
-🦄	dongwu	Emoji
-🐴	dongwu	Emoji
-🐝	dongwu	Emoji
-🐛	dongwu	Emoji
-🐞	dongwu	Emoji
-🪲	dongwu	Emoji
-🦟	dongwu	Emoji
-🐚	dongwu	Emoji
-🐌	dongwu	Emoji
-🦋	dongwu	Emoji
-🐜	dongwu	Emoji
-🕷️	dongwu	Emoji
-🐢	dongwu	Emoji
-🐍	dongwu	Emoji
-🦎	dongwu	Emoji
-🦂	dongwu	Emoji
-🦀	dongwu	Emoji
-🦑	dongwu	Emoji
-🐙	dongwu	Emoji
-🦐	dongwu	Emoji
-🦞	dongwu	Emoji
-🦪	dongwu	Emoji
-🐠	dongwu	Emoji
-🐟	dongwu	Emoji
-🐡	dongwu	Emoji
-🪼	dongwu	Emoji
-🐬	dongwu	Emoji
-🦈	dongwu	Emoji
-🐋	dongwu	Emoji
-🐊	dongwu	Emoji
-🐆	dongwu	Emoji
-🐅	dongwu	Emoji
-🐃	dongwu	Emoji
-🐂	dongwu	Emoji
-🐄	dongwu	Emoji
-🦬	dongwu	Emoji
-🦌	dongwu	Emoji
-🐪	dongwu	Emoji
-🐫	dongwu	Emoji
-🐘	dongwu	Emoji
-🦏	dongwu	Emoji
-🦍	dongwu	Emoji
-🦧	dongwu	Emoji
-🦣	dongwu	Emoji
-🐎	dongwu	Emoji
-🐖	dongwu	Emoji
-🐐	dongwu	Emoji
-🐏	dongwu	Emoji
-🐑	dongwu	Emoji
-🐕	dongwu	Emoji
-🐩	dongwu	Emoji
-🐈	dongwu	Emoji
-🐈‍⬛️	dongwu	Emoji
-🐇	dongwu	Emoji
-🐁	dongwu	Emoji
-🐀	dongwu	Emoji
-🐿️	dongwu	Emoji
-🐉	dongwu	Emoji
-🐒	dongwu	Emoji
-🦙	dongwu	Emoji
-🦛	dongwu	Emoji
-🫏	dongwu	Emoji
-🫎	dongwu	Emoji
-🦖	dongwu	Emoji
-🦕	dongwu	Emoji
-🦡	dongwu	Emoji
-🦝	dongwu	Emoji
-🦨	dongwu	Emoji
-🦫	dongwu	Emoji
-🦦	dongwu	Emoji
-🦭	dongwu	Emoji
-🦥	dongwu	Emoji
-🐓	dongwu	Emoji
-🦃	dongwu	Emoji
-🕊️	dongwu	Emoji
-🦩	dongwu	Emoji
-🪿	dongwu	Emoji
-🦢	dongwu	Emoji
-🦜	dongwu	Emoji
-🦤	dongwu	Emoji
-🦚	dongwu	Emoji
-🐦‍⬛	dongwu	Emoji
-#dongwu:
-🚌	gongjiao	Emoji
-🚎	gongjiao	Emoji
-🚍	gongjiao	Emoji
-🚈	gongjiao	Emoji
-🚇	gongjiao	Emoji
-🚊	gongjiao	Emoji
-#gongjiao:
-💧	yuansu	Emoji
-🔥	yuansu	Emoji
-🌪️	yuansu	Emoji
-🪨	yuansu	Emoji
-🪵	yuansu	Emoji
-⚡️	yuansu	Emoji
-🧊	yuansu	Emoji
-#yuansu:
-⛷️	yundongyuan	Emoji
-🏂🏻	yundongyuan	Emoji
-🏋🏻	yundongyuan	Emoji
-🤺	yundongyuan	Emoji
-🤼🏻	yundongyuan	Emoji
-🤸🏻	yundongyuan	Emoji
-⛹🏻	yundongyuan	Emoji
-🤾🏻	yundongyuan	Emoji
-🏌🏻	yundongyuan	Emoji
-🏄🏻	yundongyuan	Emoji
-🏊🏻	yundongyuan	Emoji
-🤽🏻	yundongyuan	Emoji
-🚣🏻	yundongyuan	Emoji
-🏇🏻	yundongyuan	Emoji
-🚴🏻	yundongyuan	Emoji
-🚵🏻	yundongyuan	Emoji
-🧗🏻	yundongyuan	Emoji
-🤹🏻	yundongyuan	Emoji
-#yundongyuan:
-🏒	yundong	Emoji
-🏸	yundong	Emoji
-🏓	yundong	Emoji
-🏑	yundong	Emoji
-🏏	yundong	Emoji
-⛳️	yundong	Emoji
-🏹	yundong	Emoji
-⚽️	yundong	Emoji
-🏀	yundong	Emoji
-🏈	yundong	Emoji
-⚾️	yundong	Emoji
-🥎️	yundong	Emoji
-🎾	yundong	Emoji
-🏐	yundong	Emoji
-🏉	yundong	Emoji
-🎱	yundong	Emoji
-⛸️	yundong	Emoji
-🛼	yundong	Emoji
-🎿	yundong	Emoji
-🎳	yundong	Emoji
-🥏	yundong	Emoji
-🥍	yundong	Emoji
-🛹	yundong	Emoji
-🤿	yundong	Emoji
-🪂	yundong	Emoji
-🛷	yundong	Emoji
-🥌	yundong	Emoji
-🪃	yundong	Emoji
-🪁	yundong	Emoji
-#yundong:
-👴🏻	yayinan	Emoji
-👨🏻	yayinan	Emoji
-👦🏻	yayinan	Emoji
-#yayinan:
-👵🏻	yayinv	Emoji
-👩🏻	yayinv	Emoji
-👧🏻	yayinv	Emoji
-#yayinv:
-🧓🏻	yayi	Emoji
-🧑🏻	yayi	Emoji
-🧒🏻	yayi	Emoji
-👶🏻	yayi	Emoji
-#yayi:
-🍢	chuandian	Emoji
-🍡	chuandian	Emoji
-#chuandian:
-🍜	zhongcan	Emoji
-🍚	zhongcan	Emoji
-🍲	zhongcan	Emoji
-🥘	zhongcan	Emoji
-🥟	zhongcan	Emoji
-🥠	zhongcan	Emoji
-🥡	zhongcan	Emoji
-🥢	zhongcan	Emoji
-#zhongcan:
-🧧	zhonghua	Emoji
-🥮	zhonghua	Emoji
-🧨	zhonghua	Emoji
-🧮	zhonghua	Emoji
-#zhonghua:
-#Emoji#
-㈀	hwh	韩文+弧
-㈁	hwh	韩文+弧
-㈂	hwh	韩文+弧
-㈃	hwh	韩文+弧
-㈄	hwh	韩文+弧
-㈅	hwh	韩文+弧
-㈆	hwh	韩文+弧
-㈇	hwh	韩文+弧
-㈈	hwh	韩文+弧
-㈉	hwh	韩文+弧
-㈊	hwh	韩文+弧
-㈋	hwh	韩文+弧
-㈌	hwh	韩文+弧
-㈍	hwh	韩文+弧
-㈎	hwh	韩文+弧
-㈏	hwh	韩文+弧
-㈐	hwh	韩文+弧
-㈑	hwh	韩文+弧
-㈒	hwh	韩文+弧
-㈓	hwh	韩文+弧
-㈔	hwh	韩文+弧
-㈕	hwh	韩文+弧
-㈖	hwh	韩文+弧
-㈗	hwh	韩文+弧
-㈘	hwh	韩文+弧
-㈙	hwh	韩文+弧
-㈚	hwh	韩文+弧
-㈛	hwh	韩文+弧
-㈜	hwh	韩文+弧
-㈝	hwh	韩文+弧
-㈞	hwh	韩文+弧
-#hwh:
-#韩文+弧#
-㉠	hwq	韩文+圈
-㉡	hwq	韩文+圈
-㉢	hwq	韩文+圈
-㉣	hwq	韩文+圈
-㉤	hwq	韩文+圈
-㉥	hwq	韩文+圈
-㉦	hwq	韩文+圈
-㉧	hwq	韩文+圈
-㉨	hwq	韩文+圈
-㉩	hwq	韩文+圈
-㉪	hwq	韩文+圈
-㉫	hwq	韩文+圈
-㉬	hwq	韩文+圈
-㉭	hwq	韩文+圈
-㉮	hwq	韩文+圈
-㉯	hwq	韩文+圈
-㉰	hwq	韩文+圈
-㉱	hwq	韩文+圈
-㉲	hwq	韩文+圈
-㉳	hwq	韩文+圈
-㉴	hwq	韩文+圈
-㉵	hwq	韩文+圈
-㉶	hwq	韩文+圈
-㉷	hwq	韩文+圈
-㉸	hwq	韩文+圈
-㉹	hwq	韩文+圈
-㉺	hwq	韩文+圈
-㉻	hwq	韩文+圈
-㉼	hwq	韩文+圈
-㉽	hwq	韩文+圈
-㉾	hwq	韩文+圈
-㉿	hwq	韩文+圈
-#hwq:
-#韩文+圈#
-ㄱ	hw	韩文
-ㄴ	hw	韩文
-ㄷ	hw	韩文
-ㄹ	hw	韩文
-ㅁ	hw	韩文
-ㅂ	hw	韩文
-ㅅ	hw	韩文
-ㅇ	hw	韩文
-ㅈ	hw	韩文
-ㅊ	hw	韩文
-ㅋ	hw	韩文
-ㅌ	hw	韩文
-ㅍ	hw	韩文
-ㅎ	hw	韩文
-#hw:
-#韩文#
-ｱ	jmbj	假名+半角
-ｧ	jmbj	假名+半角
-ｲ	jmbj	假名+半角
-ｨ	jmbj	假名+半角
-ｳ	jmbj	假名+半角
-ｩ	jmbj	假名+半角
-ｴ	jmbj	假名+半角
-ｪ	jmbj	假名+半角
-ｵ	jmbj	假名+半角
-ｫ	jmbj	假名+半角
-ｶ	jmbj	假名+半角
-ｷ	jmbj	假名+半角
-ｸ	jmbj	假名+半角
-ｹ	jmbj	假名+半角
-ｺ	jmbj	假名+半角
-ｻ	jmbj	假名+半角
-ｼ	jmbj	假名+半角
-ｽ	jmbj	假名+半角
-ｾ	jmbj	假名+半角
-ｿ	jmbj	假名+半角
-ﾀ	jmbj	假名+半角
-ﾁ	jmbj	假名+半角
-ﾂ	jmbj	假名+半角
-ｯ	jmbj	假名+半角
-ﾃ	jmbj	假名+半角
-ﾄ	jmbj	假名+半角
-ﾅ	jmbj	假名+半角
-ﾆ	jmbj	假名+半角
-ﾇ	jmbj	假名+半角
-ﾈ	jmbj	假名+半角
-ﾉ	jmbj	假名+半角
-ﾊ	jmbj	假名+半角
-ﾋ	jmbj	假名+半角
-ﾌ	jmbj	假名+半角
-ﾍ	jmbj	假名+半角
-ﾎ	jmbj	假名+半角
-ﾏ	jmbj	假名+半角
-ﾐ	jmbj	假名+半角
-ﾑ	jmbj	假名+半角
-ﾒ	jmbj	假名+半角
-ﾓ	jmbj	假名+半角
-ﾔ	jmbj	假名+半角
-ｬ	jmbj	假名+半角
-ﾕ	jmbj	假名+半角
-ｭ	jmbj	假名+半角
-ﾖ	jmbj	假名+半角
-ｮ	jmbj	假名+半角
-ﾗ	jmbj	假名+半角
-ﾘ	jmbj	假名+半角
-ﾙ	jmbj	假名+半角
-ﾚ	jmbj	假名+半角
-ﾛ	jmbj	假名+半角
-ﾜ	jmbj	假名+半角
-ｦ	jmbj	假名+半角
-ﾝ	jmbj	假名+半角
-･	jmbj	假名+半角
-ｰ	jmbj	假名+半角
-ﾞ	jmbj	假名+半角
-ﾟ	jmbj	假名+半角
-#jmbj:
-#假名+半角#
-㋐	jmq	假名+圈
-㋑	jmq	假名+圈
-㋒	jmq	假名+圈
-㋓	jmq	假名+圈
-㋔	jmq	假名+圈
-㋕	jmq	假名+圈
-㋖	jmq	假名+圈
-㋗	jmq	假名+圈
-㋘	jmq	假名+圈
-㋙	jmq	假名+圈
-㋚	jmq	假名+圈
-㋛	jmq	假名+圈
-㋜	jmq	假名+圈
-㋝	jmq	假名+圈
-㋞	jmq	假名+圈
-㋟	jmq	假名+圈
-㋠	jmq	假名+圈
-㋡	jmq	假名+圈
-㋢	jmq	假名+圈
-㋣	jmq	假名+圈
-㋤	jmq	假名+圈
-㋥	jmq	假名+圈
-㋦	jmq	假名+圈
-㋧	jmq	假名+圈
-㋨	jmq	假名+圈
-㋩	jmq	假名+圈
-㋪	jmq	假名+圈
-㋫	jmq	假名+圈
-㋬	jmq	假名+圈
-㋭	jmq	假名+圈
-㋮	jmq	假名+圈
-㋯	jmq	假名+圈
-㋰	jmq	假名+圈
-㋱	jmq	假名+圈
-㋲	jmq	假名+圈
-㋳	jmq	假名+圈
-㋴	jmq	假名+圈
-㋵	jmq	假名+圈
-㋶	jmq	假名+圈
-㋷	jmq	假名+圈
-㋸	jmq	假名+圈
-㋹	jmq	假名+圈
-㋺	jmq	假名+圈
-㋻	jmq	假名+圈
-㋼	jmq	假名+圈
-㋽	jmq	假名+圈
-㋾	jmq	假名+圈
-#jmq:
-#假名+圈#
-お	jmo	假名o
-こ	jmo	假名o
-ご	jmo	假名o
-そ	jmo	假名o
-ぞ	jmo	假名o
-と	jmo	假名o
-ど	jmo	假名o
-の	jmo	假名o
-ほ	jmo	假名o
-ぼ	jmo	假名o
-ぽ	jmo	假名o
-も	jmo	假名o
-ろ	jmo	假名o
-を	jmo	假名o
-オ	jmo	假名o
-コ	jmo	假名o
-ゴ	jmo	假名o
-ソ	jmo	假名o
-ゾ	jmo	假名o
-ト	jmo	假名o
-ド	jmo	假名o
-ノ	jmo	假名o
-ホ	jmo	假名o
-ボ	jmo	假名o
-ポ	jmo	假名o
-モ	jmo	假名o
-ロ	jmo	假名o
-ヲ	jmo	假名o
-#jmo:
-#假名o#
-え	jme	假名e
-け	jme	假名e
-げ	jme	假名e
-せ	jme	假名e
-ぜ	jme	假名e
-て	jme	假名e
-で	jme	假名e
-ね	jme	假名e
-へ	jme	假名e
-べ	jme	假名e
-ぺ	jme	假名e
-め	jme	假名e
-れ	jme	假名e
-ゑ	jme	假名e
-エ	jme	假名e
-ケ	jme	假名e
-ゲ	jme	假名e
-セ	jme	假名e
-ゼ	jme	假名e
-テ	jme	假名e
-デ	jme	假名e
-ネ	jme	假名e
-ヘ	jme	假名e
-ベ	jme	假名e
-ペ	jme	假名e
-メ	jme	假名e
-レ	jme	假名e
-ヱ	jme	假名e
-#jme:
-#假名e#
-う	jmu	假名u
-く	jmu	假名u
-ぐ	jmu	假名u
-す	jmu	假名u
-ず	jmu	假名u
-つ	jmu	假名u
-づ	jmu	假名u
-ぬ	jmu	假名u
-ふ	jmu	假名u
-ぶ	jmu	假名u
-ぷ	jmu	假名u
-む	jmu	假名u
-る	jmu	假名u
-ウ	jmu	假名u
-ク	jmu	假名u
-グ	jmu	假名u
-ス	jmu	假名u
-ズ	jmu	假名u
-ツ	jmu	假名u
-ヅ	jmu	假名u
-ヌ	jmu	假名u
-フ	jmu	假名u
-ブ	jmu	假名u
-プ	jmu	假名u
-ム	jmu	假名u
-ル	jmu	假名u
-#jmu:
-#假名u#
-い	jmi	假名i
-き	jmi	假名i
-ぎ	jmi	假名i
-し	jmi	假名i
-じ	jmi	假名i
-ち	jmi	假名i
-ぢ	jmi	假名i
-に	jmi	假名i
-ひ	jmi	假名i
-び	jmi	假名i
-ぴ	jmi	假名i
-み	jmi	假名i
-り	jmi	假名i
-ゐ	jmi	假名i
-イ	jmi	假名i
-キ	jmi	假名i
-ギ	jmi	假名i
-シ	jmi	假名i
-ジ	jmi	假名i
-チ	jmi	假名i
-ヂ	jmi	假名i
-ニ	jmi	假名i
-ヒ	jmi	假名i
-ビ	jmi	假名i
-ピ	jmi	假名i
-ミ	jmi	假名i
-リ	jmi	假名i
-ヰ	jmi	假名i
-#jmi:
-#假名i#
-あ	jma	假名a
-か	jma	假名a
-が	jma	假名a
-さ	jma	假名a
-ざ	jma	假名a
-た	jma	假名a
-だ	jma	假名a
-な	jma	假名a
-は	jma	假名a
-ば	jma	假名a
-ぱ	jma	假名a
-ま	jma	假名a
-や	jma	假名a
-ら	jma	假名a
-わ	jma	假名a
-ア	jma	假名a
-カ	jma	假名a
-ガ	jma	假名a
-サ	jma	假名a
-ザ	jma	假名a
-タ	jma	假名a
-ダ	jma	假名a
-ナ	jma	假名a
-ハ	jma	假名a
-バ	jma	假名a
-パ	jma	假名a
-マ	jma	假名a
-ヤ	jma	假名a
-ラ	jma	假名a
-ワ	jma	假名a
-#jma:
-#假名a#
-わ	jmw	假名w
-ゐ	jmw	假名w
-ゑ	jmw	假名w
-を	jmw	假名w
-ワ	jmw	假名w
-ヰ	jmw	假名w
-ヱ	jmw	假名w
-ヲ	jmw	假名w
-#jmw:
-#假名w#
-ら	jmr	假名r
-り	jmr	假名r
-る	jmr	假名r
-れ	jmr	假名r
-ろ	jmr	假名r
-ラ	jmr	假名r
-リ	jmr	假名r
-ル	jmr	假名r
-レ	jmr	假名r
-ロ	jmr	假名r
-#jmr:
-#假名r#
-や	jmy	假名y
-ゃ	jmy	假名y
-ゆ	jmy	假名y
-ゅ	jmy	假名y
-よ	jmy	假名y
-ょ	jmy	假名y
-ヤ	jmy	假名y
-ャ	jmy	假名y
-ユ	jmy	假名y
-ュ	jmy	假名y
-ヨ	jmy	假名y
-ョ	jmy	假名y
-#jmy:
-#假名y#
-ま	jmm	假名m
-み	jmm	假名m
-む	jmm	假名m
-め	jmm	假名m
-も	jmm	假名m
-マ	jmm	假名m
-ミ	jmm	假名m
-ム	jmm	假名m
-メ	jmm	假名m
-モ	jmm	假名m
-#jmm:
-#假名m#
-ぱ	jmp	假名p
-ぴ	jmp	假名p
-ぷ	jmp	假名p
-ぺ	jmp	假名p
-ぽ	jmp	假名p
-パ	jmp	假名p
-ピ	jmp	假名p
-プ	jmp	假名p
-ペ	jmp	假名p
-ポ	jmp	假名p
-#jmp:
-#假名p#
-ば	jmb	假名b
-び	jmb	假名b
-ぶ	jmb	假名b
-べ	jmb	假名b
-ぼ	jmb	假名b
-バ	jmb	假名b
-ビ	jmb	假名b
-ブ	jmb	假名b
-ベ	jmb	假名b
-ボ	jmb	假名b
-#jmb:
-#假名b#
-は	jmh	假名h
-ひ	jmh	假名h
-ふ	jmh	假名h
-へ	jmh	假名h
-ほ	jmh	假名h
-ハ	jmh	假名h
-ヒ	jmh	假名h
-フ	jmh	假名h
-ヘ	jmh	假名h
-ホ	jmh	假名h
-#jmh:
-#假名h#
-な	jmn	假名n
-に	jmn	假名n
-ぬ	jmn	假名n
-ね	jmn	假名n
-の	jmn	假名n
-ん	jmn	假名n
-ナ	jmn	假名n
-ニ	jmn	假名n
-ヌ	jmn	假名n
-ネ	jmn	假名n
-ノ	jmn	假名n
-ン	jmn	假名n
-#jmn:
-#假名n#
-だ	jmd	假名d
-ぢ	jmd	假名d
-づ	jmd	假名d
-で	jmd	假名d
-ど	jmd	假名d
-ダ	jmd	假名d
-ヂ	jmd	假名d
-ヅ	jmd	假名d
-デ	jmd	假名d
-ド	jmd	假名d
-#jmd:
-#假名d#
-た	jmt	假名t
-ち	jmt	假名t
-つ	jmt	假名t
-っ	jmt	假名t
-て	jmt	假名t
-と	jmt	假名t
-タ	jmt	假名t
-チ	jmt	假名t
-ツ	jmt	假名t
-ッ	jmt	假名t
-テ	jmt	假名t
-ト	jmt	假名t
-#jmt:
-#假名t#
-ざ	jmz	假名z
-じ	jmz	假名z
-ず	jmz	假名z
-ぜ	jmz	假名z
-ぞ	jmz	假名z
-ザ	jmz	假名z
-ジ	jmz	假名z
-ズ	jmz	假名z
-ゼ	jmz	假名z
-ゾ	jmz	假名z
-#jmz:
-#假名z#
-さ	jms	假名s
-し	jms	假名s
-す	jms	假名s
-せ	jms	假名s
-そ	jms	假名s
-サ	jms	假名s
-シ	jms	假名s
-ス	jms	假名s
-セ	jms	假名s
-ソ	jms	假名s
-#jms:
-#假名s#
-が	jmg	假名g
-ぎ	jmg	假名g
-ぐ	jmg	假名g
-げ	jmg	假名g
-ご	jmg	假名g
-ガ	jmg	假名g
-ギ	jmg	假名g
-グ	jmg	假名g
-ゲ	jmg	假名g
-ゴ	jmg	假名g
-#jmg:
-#假名g#
-か	jmk	假名k
-ゕ	jmk	假名k
-き	jmk	假名k
-く	jmk	假名k
-け	jmk	假名k
-ゖ	jmk	假名k
-こ	jmk	假名k
-カ	jmk	假名k
-ヵ	jmk	假名k
-キ	jmk	假名k
-ク	jmk	假名k
-ケ	jmk	假名k
-ヶ	jmk	假名k
-コ	jmk	假名k
-#jmk:
-#假名k#
-ア	pjm	平假名
-ァ	pjm	平假名
-イ	pjm	平假名
-ィ	pjm	平假名
-ウ	pjm	平假名
-ゥ	pjm	平假名
-エ	pjm	平假名
-ェ	pjm	平假名
-オ	pjm	平假名
-ォ	pjm	平假名
-カ	pjm	平假名
-ヵ	pjm	平假名
-ガ	pjm	平假名
-キ	pjm	平假名
-ギ	pjm	平假名
-ク	pjm	平假名
-グ	pjm	平假名
-ケ	pjm	平假名
-ヶ	pjm	平假名
-ゲ	pjm	平假名
-コ	pjm	平假名
-ゴ	pjm	平假名
-サ	pjm	平假名
-ザ	pjm	平假名
-シ	pjm	平假名
-ジ	pjm	平假名
-ス	pjm	平假名
-ズ	pjm	平假名
-セ	pjm	平假名
-ゼ	pjm	平假名
-ソ	pjm	平假名
-ゾ	pjm	平假名
-タ	pjm	平假名
-ダ	pjm	平假名
-チ	pjm	平假名
-ヂ	pjm	平假名
-ツ	pjm	平假名
-ッ	pjm	平假名
-ヅ	pjm	平假名
-テ	pjm	平假名
-デ	pjm	平假名
-ト	pjm	平假名
-ド	pjm	平假名
-ナ	pjm	平假名
-ニ	pjm	平假名
-ヌ	pjm	平假名
-ネ	pjm	平假名
-ノ	pjm	平假名
-ハ	pjm	平假名
-バ	pjm	平假名
-パ	pjm	平假名
-ヒ	pjm	平假名
-ビ	pjm	平假名
-ピ	pjm	平假名
-フ	pjm	平假名
-ブ	pjm	平假名
-プ	pjm	平假名
-ヘ	pjm	平假名
-ベ	pjm	平假名
-ペ	pjm	平假名
-ホ	pjm	平假名
-ボ	pjm	平假名
-ポ	pjm	平假名
-マ	pjm	平假名
-ミ	pjm	平假名
-ム	pjm	平假名
-メ	pjm	平假名
-モ	pjm	平假名
-ヤ	pjm	平假名
-ャ	pjm	平假名
-ユ	pjm	平假名
-ュ	pjm	平假名
-ヨ	pjm	平假名
-ョ	pjm	平假名
-ラ	pjm	平假名
-リ	pjm	平假名
-ル	pjm	平假名
-レ	pjm	平假名
-ロ	pjm	平假名
-ワ	pjm	平假名
-ヮ	pjm	平假名
-ヰ	pjm	平假名
-ヸ	pjm	平假名
-ヴ	pjm	平假名
-ヱ	pjm	平假名
-ヹ	pjm	平假名
-ヲ	pjm	平假名
-ヺ	pjm	平假名
-ン	pjm	平假名
-・	pjm	平假名
-ー	pjm	平假名
-ヽ	pjm	平假名
-ヾ	pjm	平假名
-ヿ	pjm	平假名
-ㇰ	pjm	平假名
-ㇱ	pjm	平假名
-ㇲ	pjm	平假名
-ㇳ	pjm	平假名
-ㇴ	pjm	平假名
-ㇵ	pjm	平假名
-ㇶ	pjm	平假名
-ㇷ	pjm	平假名
-ㇸ	pjm	平假名
-ㇹ	pjm	平假名
-ㇺ	pjm	平假名
-ㇻ	pjm	平假名
-ㇼ	pjm	平假名
-ㇽ	pjm	平假名
-ㇾ	pjm	平假名
-ㇿ	pjm	平假名
-#pjm:
-#平假名#
-あ	jm	假名
-ぁ	jm	假名
-い	jm	假名
-ぃ	jm	假名
-う	jm	假名
-ぅ	jm	假名
-え	jm	假名
-ぇ	jm	假名
-お	jm	假名
-ぉ	jm	假名
-か	jm	假名
-ゕ	jm	假名
-が	jm	假名
-き	jm	假名
-ぎ	jm	假名
-く	jm	假名
-ぐ	jm	假名
-け	jm	假名
-ゖ	jm	假名
-げ	jm	假名
-こ	jm	假名
-ご	jm	假名
-さ	jm	假名
-ざ	jm	假名
-し	jm	假名
-じ	jm	假名
-す	jm	假名
-ず	jm	假名
-せ	jm	假名
-ぜ	jm	假名
-そ	jm	假名
-ぞ	jm	假名
-た	jm	假名
-だ	jm	假名
-ち	jm	假名
-ぢ	jm	假名
-つ	jm	假名
-っ	jm	假名
-づ	jm	假名
-て	jm	假名
-で	jm	假名
-と	jm	假名
-ど	jm	假名
-な	jm	假名
-に	jm	假名
-ぬ	jm	假名
-ね	jm	假名
-の	jm	假名
-は	jm	假名
-ば	jm	假名
-ぱ	jm	假名
-ひ	jm	假名
-び	jm	假名
-ぴ	jm	假名
-ふ	jm	假名
-ぶ	jm	假名
-ぷ	jm	假名
-へ	jm	假名
-べ	jm	假名
-ぺ	jm	假名
-ほ	jm	假名
-ぼ	jm	假名
-ぽ	jm	假名
-ま	jm	假名
-み	jm	假名
-む	jm	假名
-め	jm	假名
-も	jm	假名
-や	jm	假名
-ゃ	jm	假名
-ゆ	jm	假名
-ゅ	jm	假名
-よ	jm	假名
-ょ	jm	假名
-ら	jm	假名
-り	jm	假名
-る	jm	假名
-れ	jm	假名
-ろ	jm	假名
-わ	jm	假名
-ゎ	jm	假名
-ゐ	jm	假名
-ゔ	jm	假名
-ゑ	jm	假名
-を	jm	假名
-ん	jm	假名
-・	jm	假名
-ー	jm	假名
-ゝ	jm	假名
-ゞ	jm	假名
-ゟ	jm	假名
-#jm:
-#假名#
-い	iro	いろは順
-ろ	iro	いろは順
-は	iro	いろは順
-に	iro	いろは順
-ほ	iro	いろは順
-へ	iro	いろは順
-と	iro	いろは順
-ち	iro	いろは順
-り	iro	いろは順
-ぬ	iro	いろは順
-る	iro	いろは順
-を	iro	いろは順
-わ	iro	いろは順
-か	iro	いろは順
-よ	iro	いろは順
-た	iro	いろは順
-れ	iro	いろは順
-そ	iro	いろは順
-つ	iro	いろは順
-ね	iro	いろは順
-な	iro	いろは順
-ら	iro	いろは順
-む	iro	いろは順
-う	iro	いろは順
-ゐ	iro	いろは順
-の	iro	いろは順
-お	iro	いろは順
-く	iro	いろは順
-や	iro	いろは順
-ま	iro	いろは順
-け	iro	いろは順
-ふ	iro	いろは順
-こ	iro	いろは順
-え	iro	いろは順
-て	iro	いろは順
-あ	iro	いろは順
-さ	iro	いろは順
-き	iro	いろは順
-ゆ	iro	いろは順
-め	iro	いろは順
-み	iro	いろは順
-し	iro	いろは順
-ゑ	iro	いろは順
-ひ	iro	いろは順
-も	iro	いろは順
-せ	iro	いろは順
-す	iro	いろは順
-#iro:
-#いろは順#
-㈠	hzh	汉字+弧
-㈡	hzh	汉字+弧
-㈢	hzh	汉字+弧
-㈣	hzh	汉字+弧
-㈤	hzh	汉字+弧
-㈥	hzh	汉字+弧
-㈦	hzh	汉字+弧
-㈧	hzh	汉字+弧
-㈨	hzh	汉字+弧
-㈩	hzh	汉字+弧
-㈪	hzh	汉字+弧
-㈫	hzh	汉字+弧
-㈬	hzh	汉字+弧
-㈭	hzh	汉字+弧
-㈮	hzh	汉字+弧
-㈯	hzh	汉字+弧
-㈰	hzh	汉字+弧
-㈱	hzh	汉字+弧
-㈲	hzh	汉字+弧
-㈳	hzh	汉字+弧
-㈴	hzh	汉字+弧
-㈵	hzh	汉字+弧
-㈶	hzh	汉字+弧
-㈷	hzh	汉字+弧
-㈸	hzh	汉字+弧
-㈹	hzh	汉字+弧
-㈺	hzh	汉字+弧
-㈻	hzh	汉字+弧
-㈼	hzh	汉字+弧
-㈽	hzh	汉字+弧
-㈾	hzh	汉字+弧
-㈿	hzh	汉字+弧
-㉀	hzh	汉字+弧
-㉁	hzh	汉字+弧
-㉂	hzh	汉字+弧
-㉃	hzh	汉字+弧
-#hzh:
-#汉字+弧#
-㊀	hzq	汉字+圈
-㊁	hzq	汉字+圈
-㊂	hzq	汉字+圈
-㊃	hzq	汉字+圈
-㊄	hzq	汉字+圈
-㊅	hzq	汉字+圈
-㊆	hzq	汉字+圈
-㊇	hzq	汉字+圈
-㊈	hzq	汉字+圈
-㊉	hzq	汉字+圈
-㊊	hzq	汉字+圈
-㊋	hzq	汉字+圈
-㊌	hzq	汉字+圈
-㊍	hzq	汉字+圈
-㊎	hzq	汉字+圈
-㊏	hzq	汉字+圈
-㊐	hzq	汉字+圈
-㊑	hzq	汉字+圈
-㊒	hzq	汉字+圈
-㊓	hzq	汉字+圈
-㊔	hzq	汉字+圈
-㊕	hzq	汉字+圈
-㊖	hzq	汉字+圈
-㊗	hzq	汉字+圈
-㊘	hzq	汉字+圈
-㊙	hzq	汉字+圈
-㊚	hzq	汉字+圈
-㊛	hzq	汉字+圈
-㊜	hzq	汉字+圈
-㊝	hzq	汉字+圈
-㊞	hzq	汉字+圈
-㊟	hzq	汉字+圈
-㊠	hzq	汉字+圈
-㊡	hzq	汉字+圈
-㊢	hzq	汉字+圈
-㊣	hzq	汉字+圈
-㊤	hzq	汉字+圈
-㊥	hzq	汉字+圈
-㊦	hzq	汉字+圈
-㊧	hzq	汉字+圈
-㊨	hzq	汉字+圈
-㊩	hzq	汉字+圈
-㊪	hzq	汉字+圈
-㊫	hzq	汉字+圈
-㊬	hzq	汉字+圈
-㊭	hzq	汉字+圈
-㊮	hzq	汉字+圈
-㊯	hzq	汉字+圈
-㊰	hzq	汉字+圈
-㉄	hzq	汉字+圈
-㉅	hzq	汉字+圈
-㉆	hzq	汉字+圈
-㉇	hzq	汉字+圈
-#hzq:
-#汉字+圈#
-ˉ	sd	声调
-ˊ	sd	声调
-ˇ	sd	声调
-ˋ	sd	声调
-ˆ	sd	声调
-˙	sd	声调
-˜	sd	声调
-˥	sd	声调
-˦	sd	声调
-˧	sd	声调
-˨	sd	声调
-˩	sd	声调
-꜀	sd	声调
-꜁	sd	声调
-꜂	sd	声调
-꜃	sd	声调
-꜄	sd	声调
-꜅	sd	声调
-꜆	sd	声调
-꜇	sd	声调
-'〪'	sd	声调
-'〫'	sd	声调
-'〬'	sd	声调
-'	sd	声调〭'
-#sd:
-#声调#
-ㄅ	zy	注音
-ㄆ	zy	注音
-ㄇ	zy	注音
-ㄈ	zy	注音
-ㄉ	zy	注音
-ㄊ	zy	注音
-ㄋ	zy	注音
-ㄌ	zy	注音
-ㄍ	zy	注音
-ㄎ	zy	注音
-ㄏ	zy	注音
-ㄐ	zy	注音
-ㄑ	zy	注音
-ㄒ	zy	注音
-ㄓ	zy	注音
-ㄔ	zy	注音
-ㄕ	zy	注音
-ㄖ	zy	注音
-ㄗ	zy	注音
-ㄘ	zy	注音
-ㄙ	zy	注音
-ㄧ	zy	注音
-ㄨ	zy	注音
-ㄩ	zy	注音
-ㄚ	zy	注音
-ㄛ	zy	注音
-ㄜ	zy	注音
-ㄝ	zy	注音
-ㄞ	zy	注音
-ㄟ	zy	注音
-ㄠ	zy	注音
-ㄡ	zy	注音
-ㄢ	zy	注音
-ㄣ	zy	注音
-ㄤ	zy	注音
-ㄥ	zy	注音
-ㄦ	zy	注音
-ㄪ	zy	注音
-ㄫ	zy	注音
-ㄬ	zy	注音
-ㄭ	zy	注音
-ㆠ	zy	注音
-ㆡ	zy	注音
-ㆢ	zy	注音
-ㆣ	zy	注音
-ㆤ	zy	注音
-ㆥ	zy	注音
-ㆦ	zy	注音
-ㆧ	zy	注音
-ㆨ	zy	注音
-ㆩ	zy	注音
-ㆪ	zy	注音
-ㆫ	zy	注音
-ㆬ	zy	注音
-ㆭ	zy	注音
-ㆮ	zy	注音
-ㆯ	zy	注音
-ㆰ	zy	注音
-ㆱ	zy	注音
-ㆲ	zy	注音
-ㆳ	zy	注音
-ㆴ	zy	注音
-ㆵ	zy	注音
-ㆶ	zy	注音
-ㆷ	zy	注音
-#zy:
-#注音#
-Ā	pyd	拼音大写
-Á	pyd	拼音大写
-Ǎ	pyd	拼音大写
-À	pyd	拼音大写
-Ō	pyd	拼音大写
-Ó	pyd	拼音大写
-Ǒ	pyd	拼音大写
-Ò	pyd	拼音大写
-Ê	pyd	拼音大写
-Ê̄	pyd	拼音大写
-Ế	pyd	拼音大写
-Ê̌	pyd	拼音大写
-Ề	pyd	拼音大写
-Ē	pyd	拼音大写
-É	pyd	拼音大写
-Ě	pyd	拼音大写
-È	pyd	拼音大写
-Ī	pyd	拼音大写
-Í	pyd	拼音大写
-Ǐ	pyd	拼音大写
-Ì	pyd	拼音大写
-Ū	pyd	拼音大写
-Ú	pyd	拼音大写
-Ǔ	pyd	拼音大写
-Ù	pyd	拼音大写
-Ü	pyd	拼音大写
-Ǖ	pyd	拼音大写
-Ǘ	pyd	拼音大写
-Ǚ	pyd	拼音大写
-Ǜ	pyd	拼音大写
-Ḿ	pyd	拼音大写
-M̀	pyd	拼音大写
-Ń	pyd	拼音大写
-Ň	pyd	拼音大写
-Ǹ	pyd	拼音大写
-Ẑ	pyd	拼音大写
-Ĉ	pyd	拼音大写
-Ŝ	pyd	拼音大写
-Ŋ	pyd	拼音大写
-#pyd:
-#拼音大写#
-ā	py	拼音
-á	py	拼音
-ǎ	py	拼音
-à	py	拼音
-ō	py	拼音
-ó	py	拼音
-ǒ	py	拼音
-ò	py	拼音
-ê	py	拼音
-ê̄	py	拼音
-ế	py	拼音
-ê̌	py	拼音
-ề	py	拼音
-ē	py	拼音
-é	py	拼音
-ě	py	拼音
-è	py	拼音
-ī	py	拼音
-í	py	拼音
-ǐ	py	拼音
-ì	py	拼音
-ū	py	拼音
-ú	py	拼音
-ǔ	py	拼音
-ù	py	拼音
-ü	py	拼音
-ǖ	py	拼音
-ǘ	py	拼音
-ǚ	py	拼音
-ǜ	py	拼音
-ḿ	py	拼音
-m̀	py	拼音
-ń	py	拼音
-ň	py	拼音
-ǹ	py	拼音
-ẑ	py	拼音
-ĉ	py	拼音
-ŝ	py	拼音
-ŋ	py	拼音
-#py:
-#拼音#
-bdz:﹅,﹆,﹁,﹂,﹃,﹄,︙,︱,︻,︼,︗,︘,︵,︶,︷,︸,︹,︺,︿,﹀,︽,︾,︰,︲,︳,︴,﹉,﹊,﹋,﹌,﹍,﹎,﹏,﹇,﹈,︐,︑,︒,︔,︕,︖
-#标点竖
-bd:、,。,「,」,『,』,【,】,〈,〉,《,》,₋,⁻,―,˗,ˉ,＿,﹍,﹎,．,¡,‼,⁉,¿,؟,⁈,⁇,､,｡,〃,〄,々,〆,〇,〒,〓,〔,〕,〖,〗,〘,〙,〚,〛,〜,〝,〞,〟,〠,〰,〱,〲,〳,〴,〵,〶,〷,〻,〼,〽
-#标点
-bh:㇀,㇁,㇂,㇃,㇄,㇅,㇆,㇇,㇈,㇉,㇊,㇋,㇌,㇍,㇎,㇏,㇐,㇑,㇒,㇓,㇔,㇕,㇖,㇗,㇘,㇙,㇚,㇛,㇜,㇝,㇞,㇟,㇠,㇡,㇢,㇣
-#笔画
-一	kx	康熙
-丨	kx	康熙
-丶	kx	康熙
-丿	kx	康熙
-乙	kx	康熙
-亅	kx	康熙
-二	kx	康熙
-亠	kx	康熙
-人	kx	康熙
-儿	kx	康熙
-入	kx	康熙
-八	kx	康熙
-冂	kx	康熙
-冖	kx	康熙
-冫	kx	康熙
-几	kx	康熙
-凵	kx	康熙
-刀	kx	康熙
-力	kx	康熙
-勹	kx	康熙
-匕	kx	康熙
-匚	kx	康熙
-匸	kx	康熙
-十	kx	康熙
-卜	kx	康熙
-卩	kx	康熙
-厂	kx	康熙
-厶	kx	康熙
-又	kx	康熙
-口	kx	康熙
-囗	kx	康熙
-土	kx	康熙
-士	kx	康熙
-夂	kx	康熙
-夊	kx	康熙
-夕	kx	康熙
-大	kx	康熙
-女	kx	康熙
-子	kx	康熙
-宀	kx	康熙
-寸	kx	康熙
-小	kx	康熙
-尢	kx	康熙
-尸	kx	康熙
-屮	kx	康熙
-山	kx	康熙
-巛	kx	康熙
-工	kx	康熙
-己	kx	康熙
-巾	kx	康熙
-干	kx	康熙
-幺	kx	康熙
-广	kx	康熙
-廴	kx	康熙
-廾	kx	康熙
-弋	kx	康熙
-弓	kx	康熙
-彐	kx	康熙
-彡	kx	康熙
-彳	kx	康熙
-心	kx	康熙
-戈	kx	康熙
-戶	kx	康熙
-手	kx	康熙
-支	kx	康熙
-攴	kx	康熙
-文	kx	康熙
-斗	kx	康熙
-斤	kx	康熙
-方	kx	康熙
-无	kx	康熙
-日	kx	康熙
-曰	kx	康熙
-月	kx	康熙
-木	kx	康熙
-欠	kx	康熙
-止	kx	康熙
-歹	kx	康熙
-殳	kx	康熙
-毋	kx	康熙
-比	kx	康熙
-毛	kx	康熙
-氏	kx	康熙
-气	kx	康熙
-水	kx	康熙
-火	kx	康熙
-爪	kx	康熙
-父	kx	康熙
-爻	kx	康熙
-爿	kx	康熙
-片	kx	康熙
-牙	kx	康熙
-牛	kx	康熙
-犬	kx	康熙
-玄	kx	康熙
-玉	kx	康熙
-瓜	kx	康熙
-瓦	kx	康熙
-甘	kx	康熙
-生	kx	康熙
-用	kx	康熙
-田	kx	康熙
-疋	kx	康熙
-疒	kx	康熙
-癶	kx	康熙
-白	kx	康熙
-皮	kx	康熙
-皿	kx	康熙
-目	kx	康熙
-矛	kx	康熙
-矢	kx	康熙
-石	kx	康熙
-示	kx	康熙
-禸	kx	康熙
-禾	kx	康熙
-穴	kx	康熙
-立	kx	康熙
-竹	kx	康熙
-米	kx	康熙
-糸	kx	康熙
-缶	kx	康熙
-网	kx	康熙
-羊	kx	康熙
-羽	kx	康熙
-老	kx	康熙
-而	kx	康熙
-耒	kx	康熙
-耳	kx	康熙
-聿	kx	康熙
-肉	kx	康熙
-臣	kx	康熙
-自	kx	康熙
-至	kx	康熙
-臼	kx	康熙
-舌	kx	康熙
-舛	kx	康熙
-舟	kx	康熙
-艮	kx	康熙
-色	kx	康熙
-艸	kx	康熙
-虍	kx	康熙
-虫	kx	康熙
-血	kx	康熙
-行	kx	康熙
-衣	kx	康熙
-襾	kx	康熙
-見	kx	康熙
-角	kx	康熙
-言	kx	康熙
-谷	kx	康熙
-豆	kx	康熙
-豕	kx	康熙
-豸	kx	康熙
-貝	kx	康熙
-赤	kx	康熙
-走	kx	康熙
-足	kx	康熙
-身	kx	康熙
-車	kx	康熙
-辛	kx	康熙
-辰	kx	康熙
-辵	kx	康熙
-邑	kx	康熙
-酉	kx	康熙
-釆	kx	康熙
-里	kx	康熙
-金	kx	康熙
-長	kx	康熙
-門	kx	康熙
-阜	kx	康熙
-隶	kx	康熙
-隹	kx	康熙
-雨	kx	康熙
-靑	kx	康熙
-非	kx	康熙
-面	kx	康熙
-革	kx	康熙
-韋	kx	康熙
-韭	kx	康熙
-音	kx	康熙
-頁	kx	康熙
-風	kx	康熙
-飛	kx	康熙
-食	kx	康熙
-首	kx	康熙
-香	kx	康熙
-馬	kx	康熙
-骨	kx	康熙
-高	kx	康熙
-髟	kx	康熙
-鬥	kx	康熙
-鬯	kx	康熙
-鬲	kx	康熙
-鬼	kx	康熙
-魚	kx	康熙
-鳥	kx	康熙
-鹵	kx	康熙
-鹿	kx	康熙
-麥	kx	康熙
-麻	kx	康熙
-黃	kx	康熙
-黍	kx	康熙
-黑	kx	康熙
-黹	kx	康熙
-黽	kx	康熙
-鼎	kx	康熙
-鼓	kx	康熙
-鼠	kx	康熙
-鼻	kx	康熙
-齊	kx	康熙
-齒	kx	康熙
-龍	kx	康熙
-龜	kx	康熙
-龠	kx	康熙
-#kx:
-#康熙#
-乛	pp	部首
-冫	pp	部首
-丷	pp	部首
-龹	pp	部首
-⺌	pp	部首
-龸	pp	部首
-亻	pp	部首
-亼	pp	部首
-亽	pp	部首
-仒	pp	部首
-冖	pp	部首
-冂	pp	部首
-冃	pp	部首
-冄	pp	部首
-宀	pp	部首
-罒	pp	部首
-㓁	pp	部首
-罓	pp	部首
-冈	pp	部首
-凵	pp	部首
-厶	pp	部首
-刂	pp	部首
-勹	pp	部首
-匚	pp	部首
-匸	pp	部首
-卩	pp	部首
-阝	pp	部首
-厂	pp	部首
-丆	pp	部首
-广	pp	部首
-壬	pp	部首
-訁	pp	部首
-讠	pp	部首
-釒	pp	部首
-钅	pp	部首
-飠	pp	部首
-饣	pp	部首
-龺	pp	部首
-攵	pp	部首
-夂	pp	部首
-夊	pp	部首
-尢	pp	部首
-尣	pp	部首
-兂	pp	部首
-旡	pp	部首
-巜	pp	部首
-巛	pp	部首
-彐	pp	部首
-彑	pp	部首
-彡	pp	部首
-彳	pp	部首
-龰	pp	部首
-辶	pp	部首
-廴	pp	部首
-㞢	pp	部首
-忄	pp	部首
-㣺	pp	部首
-扌	pp	部首
-爫	pp	部首
-龵	pp	部首
-廾	pp	部首
-歺	pp	部首
-癶	pp	部首
-氵	pp	部首
-氺	pp	部首
-火	pp	部首
-灬	pp	部首
-爿	pp	部首
-丬	pp	部首
-疒	pp	部首
-牜	pp	部首
-⺶	pp	部首
-犭	pp	部首
-豕	pp	部首
-豸	pp	部首
-虍	pp	部首
-艹	pp	部首
-卝	pp	部首
-龷	pp	部首
-丗	pp	部首
-龶	pp	部首
-芈	pp	部首
-丵	pp	部首
-菐	pp	部首
-黹	pp	部首
-礻	pp	部首
-衤	pp	部首
-糸	pp	部首
-糹	pp	部首
-纟	pp	部首
-龻	pp	部首
-镸	pp	部首
-髟	pp	部首
-襾	pp	部首
-覀	pp	部首
-吅	pp	部首
-㗊	pp	部首
-㠭	pp	部首
-㸚	pp	部首
-叕	pp	部首
-#pp:
-#部首#
-⿰	jg	结构
-⿱	jg	结构
-⿲	jg	结构
-⿳	jg	结构
-⿴	jg	结构
-⿵	jg	结构
-⿶	jg	结构
-⿷	jg	结构
-⿸	jg	结构
-⿹	jg	结构
-⿺	jg	结构
-⿻	jg	结构
-〾	jg	结构
-#jg:
-#结构#
-￥	hb	货币
-¥	hb	货币
-¤	hb	货币
-￠	hb	货币
-＄	hb	货币
-$	hb	货币
-￡	hb	货币
-£	hb	货币
-৳	hb	货币
-฿	hb	货币
-₠	hb	货币
-₡	hb	货币
-₢	hb	货币
-₣	hb	货币
-₤	hb	货币
-₥	hb	货币
-₦	hb	货币
-₧	hb	货币
-₩	hb	货币
-₪	hb	货币
-₫	hb	货币
-€	hb	货币
-₭	hb	货币
-₮	hb	货币
-₯	hb	货币
-₰	hb	货币
-₱	hb	货币
-₲	hb	货币
-₳	hb	货币
-₴	hb	货币
-₵	hb	货币
-₶	hb	货币
-₷	hb	货币
-₸	hb	货币
-₹	hb	货币
-₺	hb	货币
-₨	hb	货币
-﷼	hb	货币
-#hb:
-#货币#
-Å	dw	单位
-℃	dw	单位
-％	dw	单位
-‰	dw	单位
-‱	dw	单位
-°	dw	单位
-℉	dw	单位
-㏃	dw	单位
-㏆	dw	单位
-㎈	dw	单位
-㏄	dw	单位
-㏅	dw	单位
-㎝	dw	单位
-㎠	dw	单位
-㎤	dw	单位
-㏈	dw	单位
-㎗	dw	单位
-㎙	dw	单位
-㎓	dw	单位
-㎬	dw	单位
-㏉	dw	单位
-㏊	dw	单位
-㏋	dw	单位
-㎐	dw	单位
-㏌	dw	单位
-㎄	dw	单位
-㎅	dw	单位
-㎉	dw	单位
-㎏	dw	单位
-㎑	dw	单位
-㏍	dw	单位
-㎘	dw	单位
-㎞	dw	单位
-㏎	dw	单位
-㎢	dw	单位
-㎦	dw	单位
-㎪	dw	单位
-㏏	dw	单位
-㎸	dw	单位
-㎾	dw	单位
-㏀	dw	单位
-㏐	dw	单位
-㏓	dw	单位
-㎧	dw	单位
-㎨	dw	单位
-㎡	dw	单位
-㎥	dw	单位
-㎃	dw	单位
-㏔	dw	单位
-㎆	dw	单位
-㎎	dw	单位
-㎒	dw	单位
-㏕	dw	单位
-㎖	dw	单位
-㎜	dw	单位
-㎟	dw	单位
-㎣	dw	单位
-㏖	dw	单位
-㎫	dw	单位
-㎳	dw	单位
-㎷	dw	单位
-㎹	dw	单位
-㎽	dw	单位
-㎿	dw	单位
-㏁	dw	单位
-㎁	dw	单位
-㎋	dw	单位
-㎚	dw	单位
-㎱	dw	单位
-㎵	dw	单位
-㎻	dw	单位
-㏘	dw	单位
-㎩	dw	单位
-㎀	dw	单位
-㎊	dw	单位
-㏗	dw	单位
-㏙	dw	单位
-㏚	dw	单位
-㎰	dw	单位
-㎴	dw	单位
-㎺	dw	单位
-㎭	dw	单位
-㎮	dw	单位
-㎯	dw	单位
-㏛	dw	单位
-㏜	dw	单位
-㎔	dw	单位
-㏝	dw	单位
-㎂	dw	单位
-㎌	dw	单位
-㎍	dw	单位
-㎕	dw	单位
-㎛	dw	单位
-㎲	dw	单位
-㎶	dw	单位
-㎼	dw	单位
-#dw:
-#单位#
-立春	jq	节气
-雨水	jq	节气
-惊蛰	jq	节气
-春分	jq	节气
-清明	jq	节气
-谷雨	jq	节气
-立夏	jq	节气
-小满	jq	节气
-芒种	jq	节气
-夏至	jq	节气
-小暑	jq	节气
-大暑	jq	节气
-立秋	jq	节气
-处暑	jq	节气
-白露	jq	节气
-秋分	jq	节气
-寒露	jq	节气
-霜降	jq	节气
-立冬	jq	节气
-小雪	jq	节气
-大雪	jq	节气
-冬至	jq	节气
-小寒	jq	节气
-大	jq	节气寒
-#jq:
-#节气#
-甲子	gz	天干地支
-乙丑	gz	天干地支
-丙寅	gz	天干地支
-丁卯	gz	天干地支
-戊辰	gz	天干地支
-己巳	gz	天干地支
-庚午	gz	天干地支
-辛未	gz	天干地支
-壬申	gz	天干地支
-癸酉	gz	天干地支
-甲戌	gz	天干地支
-乙亥	gz	天干地支
-丙子	gz	天干地支
-丁丑	gz	天干地支
-戊寅	gz	天干地支
-己卯	gz	天干地支
-庚辰	gz	天干地支
-辛巳	gz	天干地支
-壬午	gz	天干地支
-癸未	gz	天干地支
-甲申	gz	天干地支
-乙酉	gz	天干地支
-丙戌	gz	天干地支
-丁亥	gz	天干地支
-戊子	gz	天干地支
-己丑	gz	天干地支
-庚寅	gz	天干地支
-辛卯	gz	天干地支
-壬辰	gz	天干地支
-癸巳	gz	天干地支
-甲午	gz	天干地支
-乙未	gz	天干地支
-丙申	gz	天干地支
-丁酉	gz	天干地支
-戊戌	gz	天干地支
-己亥	gz	天干地支
-庚子	gz	天干地支
-辛丑	gz	天干地支
-壬寅	gz	天干地支
-癸卯	gz	天干地支
-甲辰	gz	天干地支
-乙巳	gz	天干地支
-丙午	gz	天干地支
-丁未	gz	天干地支
-戊申	gz	天干地支
-己酉	gz	天干地支
-庚戌	gz	天干地支
-辛亥	gz	天干地支
-壬子	gz	天干地支
-癸丑	gz	天干地支
-甲寅	gz	天干地支
-乙卯	gz	天干地支
-丙辰	gz	天干地支
-丁巳	gz	天干地支
-戊午	gz	天干地支
-己未	gz	天干地支
-庚申	gz	天干地支
-辛酉	gz	天干地支
-壬戌	gz	天干地支
-癸	gz	天干地支亥
-#gz:
-#天干地支#
-子	dz	地支
-丑	dz	地支
-寅	dz	地支
-卯	dz	地支
-辰	dz	地支
-巳	dz	地支
-午	dz	地支
-未	dz	地支
-申	dz	地支
-酉	dz	地支
-戌	dz	地支
-亥	dz	地支
-#dz:
-#地支#
-甲	tg	天干
-乙	tg	天干
-丙	tg	天干
-丁	tg	天干
-戊	tg	天干
-己	tg	天干
-庚	tg	天干
-辛	tg	天干
-壬	tg	天干
-癸	tg	天干
-#tg:
-#天干#
-㍘	sj	时间
-㍙	sj	时间
-㍚	sj	时间
-㍛	sj	时间
-㍜	sj	时间
-㍝	sj	时间
-㍞	sj	时间
-㍟	sj	时间
-㍠	sj	时间
-㍡	sj	时间
-㍢	sj	时间
-㍣	sj	时间
-㍤	sj	时间
-㍥	sj	时间
-㍦	sj	时间
-㍧	sj	时间
-㍨	sj	时间
-㍩	sj	时间
-㍪	sj	时间
-㍫	sj	时间
-㍬	sj	时间
-㍭	sj	时间
-㍮	sj	时间
-㍯	sj	时间
-㍰	sj	时间
-#sj:
-#时间#
-月	yr	曜日
-火	yr	曜日
-水	yr	曜日
-木	yr	曜日
-金	yr	曜日
-土	yr	曜日
-日	yr	曜日
-㊊	yr	曜日
-㊋	yr	曜日
-㊌	yr	曜日
-㊍	yr	曜日
-㊎	yr	曜日
-㊏	yr	曜日
-㊐	yr	曜日
-㊗	yr	曜日
-㊡	yr	曜日
-㈪	yr	曜日
-㈫	yr	曜日
-㈬	yr	曜日
-㈭	yr	曜日
-㈮	yr	曜日
-㈯	yr	曜日
-㈰	yr	曜日
-㈷	yr	曜日
-㉁	yr	曜日
-㉀	yr	曜日
-#yr:
-#曜日#
-㏠	rq	日期
-㏡	rq	日期
-㏢	rq	日期
-㏣	rq	日期
-㏤	rq	日期
-㏥	rq	日期
-㏦	rq	日期
-㏧	rq	日期
-㏨	rq	日期
-㏩	rq	日期
-㏪	rq	日期
-㏫	rq	日期
-㏬	rq	日期
-㏭	rq	日期
-㏮	rq	日期
-㏯	rq	日期
-㏰	rq	日期
-㏱	rq	日期
-㏲	rq	日期
-㏳	rq	日期
-㏴	rq	日期
-㏵	rq	日期
-㏶	rq	日期
-㏷	rq	日期
-㏸	rq	日期
-㏹	rq	日期
-㏺	rq	日期
-㏻	rq	日期
-㏼	rq	日期
-㏽	rq	日期
-㏾	rq	日期
-#rq:
-#日期#
-㋀	yf	月份
-㋁	yf	月份
-㋂	yf	月份
-㋃	yf	月份
-㋄	yf	月份
-㋅	yf	月份
-㋆	yf	月份
-㋇	yf	月份
-㋈	yf	月份
-㋉	yf	月份
-㋊	yf	月份
-㋋	yf	月份
-#yf:
-#月份#
-А	eyd	俄语大写
-Б	eyd	俄语大写
-В	eyd	俄语大写
-Г	eyd	俄语大写
-Д	eyd	俄语大写
-Е	eyd	俄语大写
-Ё	eyd	俄语大写
-Ж	eyd	俄语大写
-З	eyd	俄语大写
-И	eyd	俄语大写
-Й	eyd	俄语大写
-К	eyd	俄语大写
-Л	eyd	俄语大写
-М	eyd	俄语大写
-Н	eyd	俄语大写
-О	eyd	俄语大写
-П	eyd	俄语大写
-Р	eyd	俄语大写
-С	eyd	俄语大写
-Т	eyd	俄语大写
-У	eyd	俄语大写
-Ф	eyd	俄语大写
-Х	eyd	俄语大写
-Ц	eyd	俄语大写
-Ч	eyd	俄语大写
-Ш	eyd	俄语大写
-Щ	eyd	俄语大写
-Ъ	eyd	俄语大写
-Ы	eyd	俄语大写
-Ь	eyd	俄语大写
-Э	eyd	俄语大写
-Ю	eyd	俄语大写
-Я	eyd	俄语大写
-#eyd:
-#俄语大写#
-а	ey	俄语
-б	ey	俄语
-в	ey	俄语
-г	ey	俄语
-д	ey	俄语
-е	ey	俄语
-ё	ey	俄语
-ж	ey	俄语
-з	ey	俄语
-и	ey	俄语
-й	ey	俄语
-к	ey	俄语
-л	ey	俄语
-м	ey	俄语
-н	ey	俄语
-о	ey	俄语
-п	ey	俄语
-р	ey	俄语
-с	ey	俄语
-т	ey	俄语
-у	ey	俄语
-ф	ey	俄语
-х	ey	俄语
-ц	ey	俄语
-ч	ey	俄语
-ш	ey	俄语
-щ	ey	俄语
-ъ	ey	俄语
-ы	ey	俄语
-ь	ey	俄语
-э	ey	俄语
-ю	ey	俄语
-я	ey	俄语
-#ey:
-#俄语#
-Α	xld	希腊
-Β	xld	希腊
-Γ	xld	希腊
-Δ	xld	希腊
-Ε	xld	希腊
-Ζ	xld	希腊
-Η	xld	希腊
-Θ	xld	希腊
-Ι	xld	希腊
-Κ	xld	希腊
-Λ	xld	希腊
-Μ	xld	希腊
-Ν	xld	希腊
-Ξ	xld	希腊
-Ο	xld	希腊
-Π	xld	希腊
-Ρ	xld	希腊
-Σ	xld	希腊
-Τ	xld	希腊
-Υ	xld	希腊
-Φ	xld	希腊
-Χ	xld	希腊
-Ψ	xld	希腊
-Ω	xld	希腊
-#xld:
-α	xl	希腊
-β	xl	希腊
-γ	xl	希腊
-δ	xl	希腊
-ε	xl	希腊
-ζ	xl	希腊
-η	xl	希腊
-θ	xl	希腊
-ι	xl	希腊
-κ	xl	希腊
-λ	xl	希腊
-μ	xl	希腊
-ν	xl	希腊
-ξ	xl	希腊
-ο	xl	希腊
-π	xl	希腊
-ρ	xl	希腊
-σ	xl	希腊
-τ	xl	希腊
-υ	xl	希腊
-φ	xl	希腊
-χ	xl	希腊
-ψ	xl	希腊
-ω	xl	希腊
-#xl:
-#希腊#
-₀	xb	下标
-₁	xb	下标
-₂	xb	下标
-₃	xb	下标
-₄	xb	下标
-₅	xb	下标
-₆	xb	下标
-₇	xb	下标
-₈	xb	下标
-₉	xb	下标
-₊	xb	下标
-₋	xb	下标
-₌	xb	下标
-₍	xb	下标
-₎	xb	下标
-‸	xb	下标
-ᴀ	xb	下标
-ₐ	xb	下标
-ᴁ	xb	下标
-ʙ	xb	下标
-ᴃ	xb	下标
-ᵦ	xb	下标
-ᴄ	xb	下标
-ᴐ	xb	下标
-ᴒ	xb	下标
-ᴅ	xb	下标
-ᴆ	xb	下标
-ᴇ	xb	下标
-ₑ	xb	下标
-ₔ	xb	下标
-ᵩ	xb	下标
-ɢ	xb	下标
-ʛ	xb	下标
-ᴦ	xb	下标
-ᵧ	xb	下标
-ʜ	xb	下标
-ₕ	xb	下标
-ɪ	xb	下标
-ᵻ	xb	下标
-ᵢ	xb	下标
-ᴊ	xb	下标
-ⱼ	xb	下标
-ᴋ	xb	下标
-ₖ	xb	下标
-ʟ	xb	下标
-ₗ	xb	下标
-ᴌ	xb	下标
-ᴧ	xb	下标
-ᴍ	xb	下标
-ₘ	xb	下标
-ꟺ	xb	下标
-ɴ	xb	下标
-ᴎ	xb	下标
-ₙ	xb	下标
-ᴏ	xb	下标
-ₒ	xb	下标
-ɶ	xb	下标
-ʘ	xb	下标
-ᴓ	xb	下标
-ᴑ	xb	下标
-ᴘ	xb	下标
-ₚ	xb	下标
-ᴨ	xb	下标
-ᴪ	xb	下标
-ʀ	xb	下标
-ᵣ	xb	下标
-ᴙ	xb	下标
-ʁ	xb	下标
-ᴚ	xb	下标
-ᵨ	xb	下标
-ₛ	xb	下标
-ᴛ	xb	下标
-ₜ	xb	下标
-ᴜ	xb	下标
-ᵤ	xb	下标
-ᵾ	xb	下标
-ᴠ	xb	下标
-ᵥ	xb	下标
-ᴡ	xb	下标
-ₓ	xb	下标
-ᵪ	xb	下标
-ʏ	xb	下标
-ᴢ	xb	下标
-ᴣ	xb	下标
-#xb:
-#下标#
-⁰	sb	上标
-¹	sb	上标
-²	sb	上标
-³	sb	上标
-⁴	sb	上标
-⁵	sb	上标
-⁶	sb	上标
-⁷	sb	上标
-⁸	sb	上标
-⁹	sb	上标
-˜	sb	上标
-⁺	sb	上标
-⁻	sb	上标
-⁼	sb	上标
-⁽	sb	上标
-⁾	sb	上标
-ᴬ	sb	上标
-ᵃ	sb	上标
-ᵄ	sb	上标
-ᵅ	sb	上标
-ᶛ	sb	上标
-ᴭ	sb	上标
-ᵆ	sb	上标
-ᴮ	sb	上标
-ᴯ	sb	上标
-ᵇ	sb	上标
-ᵝ	sb	上标
-ᶜ	sb	上标
-ᵓ	sb	上标
-ᶝ	sb	上标
-ᴰ	sb	上标
-ᵈ	sb	上标
-ᶞ	sb	上标
-ᵟ	sb	上标
-ᴱ	sb	上标
-ᵉ	sb	上标
-ᴲ	sb	上标
-ᵊ	sb	上标
-ᵋ	sb	上标
-ᶟ	sb	上标
-ᵌ	sb	上标
-ᶠ	sb	上标
-ᶡ	sb	上标
-ᶲ	sb	上标
-ᵠ	sb	上标
-ᴳ	sb	上标
-ᵍ	sb	上标
-ᶢ	sb	上标
-ˠ	sb	上标
-ᵞ	sb	上标
-ᴴ	sb	上标
-ʰ	sb	上标
-ᶣ	sb	上标
-ʱ	sb	上标
-ᴵ	sb	上标
-ⁱ	sb	上标
-ᶤ	sb	上标
-ᵎ	sb	上标
-ᶥ	sb	上标
-ᴶ	sb	上标
-ʲ	sb	上标
-ᶨ	sb	上标
-ᴷ	sb	上标
-ᵏ	sb	上标
-ᴸ	sb	上标
-ᶫ	sb	上标
-ˡ	sb	上标
-ᶩ	sb	上标
-ᶪ	sb	上标
-ᴹ	sb	上标
-ᵐ	sb	上标
-ᶬ	sb	上标
-ᵚ	sb	上标
-ᶭ	sb	上标
-ᴺ	sb	上标
-ᴻ	sb	上标
-ⁿ	sb	上标
-ᵑ	sb	上标
-ᶮ	sb	上标
-ᶯ	sb	上标
-ᴼ	sb	上标
-ᵒ	sb	上标
-ᶱ	sb	上标
-ᴽ	sb	上标
-ᴾ	sb	上标
-ᵖ	sb	上标
-ᴿ	sb	上标
-ʳ	sb	上标
-ʶ	sb	上标
-ʴ	sb	上标
-ʵ	sb	上标
-ˢ	sb	上标
-ᶴ	sb	上标
-ᶳ	sb	上标
-ᵀ	sb	上标
-ᵗ	sb	上标
-ᶵ	sb	上标
-ᶿ	sb	上标
-ᵁ	sb	上标
-ᵘ	sb	上标
-ᶶ	sb	上标
-ᶷ	sb	上标
-ᵙ	sb	上标
-ⱽ	sb	上标
-ᵛ	sb	上标
-ᶺ	sb	上标
-ᶹ	sb	上标
-ᵂ	sb	上标
-ʷ	sb	上标
-ˣ	sb	上标
-ᵡ	sb	上标
-ʸ	sb	上标
-ᶻ	sb	上标
-ᶾ	sb	上标
-ᶽ	sb	上标
-ᶼ	sb	上标
-#sb:
-#上标#
-ʬ	ww	拉丁
-#ww:
-Ꝡ	VY	拉丁
-#VY:
-ꝡ	vy	拉丁
-#vy:
-ᵫ	ue	拉丁
-#ue:
-Ꜩ	TZ	拉丁
-#TZ:
-ꜩ	tz	拉丁
-#tz:
-ʦ	ts	拉丁
-ʧ	ts	拉丁
-#ts:
-ᵺ	th	拉丁
-#th:
-ʨ	tc	拉丁
-#tc:
-℞	Rx	拉丁
-#Rx:
-ȹ	qp	拉丁
-#qp:
-Ȣ	OU	拉丁
-ᴽ	OU	拉丁
-#OU:
-ȣ	ou	拉丁
-#ou:
-Ꝏ	OO	拉丁
-#OO:
-ꝏ	oo	拉丁
-#oo:
-Ƣ	OI	拉丁
-#OI:
-ƣ	oi	拉丁
-#oi:
-Œ	OE	拉丁
-ɶ	OE	拉丁
-#OE:
-œ	oe	拉丁
-ᴔ	oe	拉丁
-#oe:
-Ǌ	NJ	拉丁
-#NJ:
-ǋ	Nj	拉丁
-#Nj:
-ǌ	nj	拉丁
-#nj:
-ʫ	lz	拉丁
-ɮ	lz	拉丁
-#lz:
-ʪ	ls	拉丁
-#ls:
-Ỻ	LL	拉丁
-#LL:
-ỻ	ll	拉丁
-#ll:
-ǉ	lj	拉丁
-#lj:
-Ĳ	IJ	拉丁
-#IJ:
-ĳ	ij	拉丁
-#ij:
-Ƕ	HV	拉丁
-#HV:
-ƕ	hv	拉丁
-#hv:
-ʩ	fn	拉丁
-#fn:
-ﬂ	fl	拉丁
-#fl:
-ﬁ	fi	拉丁
-#fi:
-ﬄ	ffl	拉丁
-#ffl:
-ﬃ	ffi	拉丁
-#ffi:
-ﬀ	ff	拉丁
-#ff:
-ȸ	db	拉丁
-#db:
-Ꜽ	AY	拉丁
-#AY:
-ꜽ	ay	拉丁
-#ay:
-Ꜹ	AV	拉丁
-Ꜻ	AV	拉丁
-#AV:
-ꜹ	av	拉丁
-ꜻ	av	拉丁
-#av:
-Ꜷ	AU	拉丁
-#AU:
-ꜷ	au	拉丁
-#au:
-Ꜵ	AO	拉丁
-#AO:
-ꜵ	ao	拉丁
-#ao:
-Æ	AE	拉丁
-Ǣ	AE	拉丁
-Ǽ	AE	拉丁
-ᴭ	AE	拉丁
-ᴁ	AE	拉丁
-#AE:
-æ	ae	拉丁
-ǣ	ae	拉丁
-ǽ	ae	拉丁
-ᵆ	ae	拉丁
-ᴂ	ae	拉丁
-#ae:
-Ꜳ	AA	拉丁
-#AA:
-ꜳ	aa	拉丁
-#aa:
-Ź	Z	拉丁
-Ž	Z	拉丁
-Ẑ	Z	拉丁
-Ż	Z	拉丁
-ᴢ	Z	拉丁
-Ƶ	Z	拉丁
-Ẕ	Z	拉丁
-Ẓ	Z	拉丁
-Ȥ	Z	拉丁
-Ⱬ	Z	拉丁
-Ʒ	Z	拉丁
-ᴣ	Z	拉丁
-Ǯ	Z	拉丁
-Ƹ	Z	拉丁
-Ɀ	Z	拉丁
-Ꝣ	Z	拉丁
-#Z:
-ź	z	拉丁
-ž	z	拉丁
-ẑ	z	拉丁
-ż	z	拉丁
-ᶻ	z	拉丁
-ʐ	z	拉丁
-ᶼ	z	拉丁
-ʑ	z	拉丁
-ᶽ	z	拉丁
-ƶ	z	拉丁
-ẕ	z	拉丁
-ẓ	z	拉丁
-ᵶ	z	拉丁
-ȥ	z	拉丁
-ⱬ	z	拉丁
-ᶎ	z	拉丁
-ʒ	z	拉丁
-ᶾ	z	拉丁
-ǯ	z	拉丁
-ʓ	z	拉丁
-ƹ	z	拉丁
-ƺ	z	拉丁
-ᶚ	z	拉丁
-θ	z	拉丁
-ᶿ	z	拉丁
-ɀ	z	拉丁
-ꝣ	z	拉丁
-#z:
-Ȳ	Y	拉丁
-Ý	Y	拉丁
-Ỳ	Y	拉丁
-Ŷ	Y	拉丁
-Ẏ	Y	拉丁
-Ÿ	Y	拉丁
-Ỹ	Y	拉丁
-ʏ	Y	拉丁
-Ɏ	Y	拉丁
-Ỷ	Y	拉丁
-Ỵ	Y	拉丁
-Ƴ	Y	拉丁
-Ỿ	Y	拉丁
-#Y:
-ȳ	y	拉丁
-ý	y	拉丁
-ỳ	y	拉丁
-ŷ	y	拉丁
-ẏ	y	拉丁
-ÿ	y	拉丁
-ẙ	y	拉丁
-ỹ	y	拉丁
-ʸ	y	拉丁
-ɏ	y	拉丁
-ỷ	y	拉丁
-ỵ	y	拉丁
-ƴ	y	拉丁
-ʎ	y	拉丁
-ỿ	y	拉丁
-ꭚ	y	拉丁
-#y:
-Ẋ	X	拉丁
-Ẍ	X	拉丁
-#X:
-ẋ	x	拉丁
-ẍ	x	拉丁
-ᶍ	x	拉丁
-ˣ	x	拉丁
-ₓ	x	拉丁
-ꭖ	x	拉丁
-ꭗ	x	拉丁
-ꭘ	x	拉丁
-ꭙ	x	拉丁
-#x:
-Ẃ	W	拉丁
-Ẁ	W	拉丁
-Ŵ	W	拉丁
-Ẇ	W	拉丁
-Ẅ	W	拉丁
-W̊	W	拉丁
-ᴡ	W	拉丁
-ᵂ	W	拉丁
-Ẉ	W	拉丁
-Ƿ	W	拉丁
-Ⱳ	W	拉丁
-#W:
-ẃ	w	拉丁
-ẁ	w	拉丁
-ŵ	w	拉丁
-ẇ	w	拉丁
-ẅ	w	拉丁
-ẘ	w	拉丁
-ʷ	w	拉丁
-ẉ	w	拉丁
-ƿ	w	拉丁
-ʍ	w	拉丁
-ⱳ	w	拉丁
-#w:
-Ü	V	拉丁
-Ǖ	V	拉丁
-Ǘ	V	拉丁
-Ǚ	V	拉丁
-Ǜ	V	拉丁
-Ṽ	V	拉丁
-ᴠ	V	拉丁
-ⱽ	V	拉丁
-Ṿ	V	拉丁
-Ꝟ	V	拉丁
-Ʋ	V	拉丁
-Ỽ	V	拉丁
-Ʌ	V	拉丁
-#V:
-ü	v	拉丁
-ǖ	v	拉丁
-ǘ	v	拉丁
-ǚ	v	拉丁
-ǜ	v	拉丁
-ṽ	v	拉丁
-ᵛ	v	拉丁
-ᵥ	v	拉丁
-ṿ	v	拉丁
-ꝟ	v	拉丁
-ʋ	v	拉丁
-ᶹ	v	拉丁
-ᶌ	v	拉丁
-ⱴ	v	拉丁
-ⱱ	v	拉丁
-ỽ	v	拉丁
-ʌ	v	拉丁
-ᶺ	v	拉丁
-#v:
-Ū	U	拉丁
-Ú	U	拉丁
-Ű	U	拉丁
-Ǔ	U	拉丁
-Ù	U	拉丁
-Ȕ	U	拉丁
-Û	U	拉丁
-Ŭ	U	拉丁
-Ȗ	U	拉丁
-Ü	U	拉丁
-Ǖ	U	拉丁
-Ǘ	U	拉丁
-Ǚ	U	拉丁
-Ǜ	U	拉丁
-Ů	U	拉丁
-Ũ	U	拉丁
-ᴜ	U	拉丁
-ᵁ	U	拉丁
-ᶸ	U	拉丁
-Ʉ	U	拉丁
-Ủ	U	拉丁
-Ų	U	拉丁
-Ṷ	U	拉丁
-Ụ	U	拉丁
-Ṳ	U	拉丁
-Ṵ	U	拉丁
-Ư	U	拉丁
-Ʊ	U	拉丁
-Ṻ	U	拉丁
-Ṹ	U	拉丁
-Ứ	U	拉丁
-Ừ	U	拉丁
-Ữ	U	拉丁
-Ử	U	拉丁
-Ự	U	拉丁
-#U:
-ū	u	拉丁
-ú	u	拉丁
-ű	u	拉丁
-ǔ	u	拉丁
-ù	u	拉丁
-ȕ	u	拉丁
-û	u	拉丁
-ŭ	u	拉丁
-ȗ	u	拉丁
-ü	u	拉丁
-ǖ	u	拉丁
-ǘ	u	拉丁
-ǚ	u	拉丁
-ǜ	u	拉丁
-ů	u	拉丁
-ũ	u	拉丁
-ᵤ	u	拉丁
-ᵘ	u	拉丁
-ʉ	u	拉丁
-ᶶ	u	拉丁
-ủ	u	拉丁
-ų	u	拉丁
-ṷ	u	拉丁
-ụ	u	拉丁
-ṳ	u	拉丁
-ṵ	u	拉丁
-ư	u	拉丁
-ʊ	u	拉丁
-ᶷ	u	拉丁
-ᵿ	u	拉丁
-ᶙ	u	拉丁
-ṻ	u	拉丁
-ṹ	u	拉丁
-ứ	u	拉丁
-ừ	u	拉丁
-ữ	u	拉丁
-ử	u	拉丁
-ự	u	拉丁
-ꭒ	u	拉丁
-ꭟ	u	拉丁
-ꝸ	u	拉丁
-ꭎ	u	拉丁
-ꭏ	u	拉丁
-ᴝ	u	拉丁
-ᵙ	u	拉丁
-ᴞ	u	拉丁
-#u:
-Ť	T	拉丁
-Ṫ	T	拉丁
-ᴛ	T	拉丁
-ᵀ	T	拉丁
-Ʈ	T	拉丁
-Þ	T	拉丁
-Ꝥ	T	拉丁
-Ꝧ	T	拉丁
-Ŧ	T	拉丁
-Ⱦ	T	拉丁
-Ţ	T	拉丁
-Ṯ	T	拉丁
-Ṱ	T	拉丁
-Ṭ	T	拉丁
-Ț	T	拉丁
-Ƭ	T	拉丁
-Ʇ	T	拉丁
-#T:
-ť	t	拉丁
-ṫ	t	拉丁
-ẗ	t	拉丁
-ᵗ	t	拉丁
-ₜ	t	拉丁
-ʈ	t	拉丁
-þ	t	拉丁
-ꝥ	t	拉丁
-ꝧ	t	拉丁
-ŧ	t	拉丁
-ⱦ	t	拉丁
-ţ	t	拉丁
-ṯ	t	拉丁
-ṱ	t	拉丁
-ṭ	t	拉丁
-ț	t	拉丁
-ƭ	t	拉丁
-ᵵ	t	拉丁
-ƫ	t	拉丁
-ᶵ	t	拉丁
-ʇ	t	拉丁
-ȶ	t	拉丁
-ꝷ	t	拉丁
-#t:
-Ś	S	拉丁
-Ŝ	S	拉丁
-Š	S	拉丁
-Ṡ	S	拉丁
-ꜱ	S	拉丁
-Ꞩ	S	拉丁
-Ş	S	拉丁
-Ṣ	S	拉丁
-Ș	S	拉丁
-Ṥ	S	拉丁
-Ṧ	S	拉丁
-Ṩ	S	拉丁
-Ʃ	S	拉丁
-ẞ	S	拉丁,
-#S:
-Vs.	s	拉丁
-🆚	s	拉丁
-ś	s	拉丁
-ŝ	s	拉丁
-š	s	拉丁
-ṡ	s	拉丁
-ˢ	s	拉丁
-ʂ	s	拉丁
-ᶳ	s	拉丁
-ᵴ	s	拉丁
-ꞩ	s	拉丁
-ᶊ	s	拉丁
-ş	s	拉丁
-ṣ	s	拉丁
-ș	s	拉丁
-ȿ	s	拉丁
-ṥ	s	拉丁
-ṧ	s	拉丁
-ṩ	s	拉丁
-ʃ	s	拉丁
-ᶴ	s	拉丁
-ʆ	s	拉丁
-ᶘ	s	拉丁
-ʅ	s	拉丁
-ƪ	s	拉丁
-ß	s	拉丁
-ſ	s	拉丁
-ẛ	s	拉丁
-ẜ	s	拉丁
-ẝ	s	拉丁
-#s:
-Ŕ	R	拉丁
-Ř	R	拉丁
-Ȑ	R	拉丁
-Ȓ	R	拉丁
-Ṙ	R	拉丁
-ʀ	R	拉丁
-ᴙ	R	拉丁
-ᴿ	R	拉丁
-Ʀ	R	拉丁
-ꭆ	R	拉丁
-Ɍ	R	拉丁
-Ꞧ	R	拉丁
-Ŗ	R	拉丁
-Ṟ	R	拉丁
-Ṛ	R	拉丁
-Ṝ	R	拉丁
-Ɽ	R	拉丁
-ꝶ	R	拉丁
-ʶ	R	拉丁
-ʁ	R	拉丁
-Ꝛ	R	拉丁
-Ꝝ	R	拉丁
-#R:
-ŕ	r	拉丁
-ř	r	拉丁
-ȑ	r	拉丁
-ȓ	r	拉丁
-ṙ	r	拉丁
-ᵣ	r	拉丁
-ɍ	r	拉丁
-ꞧ	r	拉丁
-ᵲ	r	拉丁
-ŗ	r	拉丁
-ṟ	r	拉丁
-ṛ	r	拉丁
-ṝ	r	拉丁
-ᵳ	r	拉丁
-ɽ	r	拉丁
-ᶉ	r	拉丁
-ꭇ	r	拉丁
-ꭈ	r	拉丁
-ꭊ	r	拉丁
-ꭉ	r	拉丁
-ꝵ	r	拉丁
-ꭋ	r	拉丁
-ꭌ	r	拉丁
-ɹ	r	拉丁
-ʴ	r	拉丁
-ɺ	r	拉丁
-ɻ	r	拉丁
-ʵ	r	拉丁
-ⱹ	r	拉丁
-ɼ	r	拉丁
-ʳ	r	拉丁
-ɾ	r	拉丁
-ɿ	r	拉丁
-ꝛ	r	拉丁
-ꝝ	r	拉丁
-#r:
-Ɋ	Q	拉丁
-Ꝗ	Q	拉丁
-Ꝙ	Q	拉丁
-#Q:
-ɋ	q	拉丁
-ꝗ	q	拉丁
-ꝙ	q	拉丁
-ʠ	q	拉丁
-#q:
-Ṕ	P	拉丁
-Ṗ	P	拉丁
-ᴘ	P	拉丁
-ᴾ	P	拉丁
-Ᵽ	P	拉丁
-Ꝑ	P	拉丁
-Ƥ	P	拉丁
-Ꝓ	P	拉丁
-Ꝕ	P	拉丁
-ꟼ	P	拉丁
-#P:
-ṕ	p	拉丁
-ṗ	p	拉丁
-ᵖ	p	拉丁
-ᵽ	p	拉丁
-ꝑ	p	拉丁
-ᵱ	p	拉丁
-ƥ	p	拉丁
-ᶈ	p	拉丁
-ꝓ	p	拉丁
-ꝕ	p	拉丁
-ɸ	p	拉丁
-ᶲ	p	拉丁
-ⱷ	p	拉丁
-#p:
-Ō	O	拉丁
-Ó	O	拉丁
-Ő	O	拉丁
-Ǒ	O	拉丁
-Ò	O	拉丁
-Ô	O	拉丁
-Ŏ	O	拉丁
-Ȯ	O	拉丁
-Ö	O	拉丁
-Õ	O	拉丁
-ᴏ	O	拉丁
-ᴼ	O	拉丁
-Ɔ	O	拉丁
-ᴐ	O	拉丁
-Ø	O	拉丁
-Ǫ	O	拉丁
-Ọ	O	拉丁
-Ơ	O	拉丁
-Ɵ	O	拉丁
-Ꝋ	O	拉丁
-Ꝍ	O	拉丁
-Ṓ	O	拉丁
-Ṑ	O	拉丁
-Ố	O	拉丁
-Ồ	O	拉丁
-Ỗ	O	拉丁
-Ổ	O	拉丁
-Ȱ	O	拉丁
-Ȫ	O	拉丁
-Ȭ	O	拉丁
-Ṍ	O	拉丁
-Ṏ	O	拉丁
-Ộ	O	拉丁
-Ǭ	O	拉丁
-Ǿ	O	拉丁
-Ớ	O	拉丁
-Ờ	O	拉丁
-Ỡ	O	拉丁
-Ở	O	拉丁
-Ợ	O	拉丁
-#O:
-ō	o	拉丁
-ó	o	拉丁
-ő	o	拉丁
-ǒ	o	拉丁
-ò	o	拉丁
-ô	o	拉丁
-ŏ	o	拉丁
-ȯ	o	拉丁
-ö	o	拉丁
-õ	o	拉丁
-ₒ	o	拉丁
-ᵒ	o	拉丁
-º	o	拉丁
-ɔ	o	拉丁
-ᵓ	o	拉丁
-ᶗ	o	拉丁
-ꬿ	o	拉丁
-ø	o	拉丁
-ǫ	o	拉丁
-ọ	o	拉丁
-ơ	o	拉丁
-ɵ	o	拉丁
-ᶱ	o	拉丁
-ᴑ	o	拉丁
-ᴒ	o	拉丁
-ᴓ	o	拉丁
-ꝋ	o	拉丁
-ꝍ	o	拉丁
-ṓ	o	拉丁
-ṑ	o	拉丁
-ố	o	拉丁
-ồ	o	拉丁
-ỗ	o	拉丁
-ổ	o	拉丁
-ȱ	o	拉丁
-ȫ	o	拉丁
-ȭ	o	拉丁
-ṍ	o	拉丁
-ṏ	o	拉丁
-ộ	o	拉丁
-ǭ	o	拉丁
-ǿ	o	拉丁
-ớ	o	拉丁
-ờ	o	拉丁
-ỡ	o	拉丁
-ở	o	拉丁
-ợ	o	拉丁
-ɷ	o	拉丁
-ⱺ	o	拉丁
-ᴖ	o	拉丁
-ᵔ	o	拉丁
-ᴗ	o	拉丁
-ᵕ	o	拉丁
-#o:
-Ń	N	拉丁
-Ň	N	拉丁
-Ǹ	N	拉丁
-Ṅ	N	拉丁
-Ñ	N	拉丁
-ɴ	N	拉丁
-ᴺ	N	拉丁
-ᴻ	N	拉丁
-ᶰ	N	拉丁
-Ɲ	N	拉丁
-Ƞ	N	拉丁
-Ŋ	N	拉丁
-Ņ	N	拉丁
-Ṉ	N	拉丁
-Ṋ	N	拉丁
-Ṇ	N	拉丁
-Ꞑ	N	拉丁
-#N:
-ń	n	拉丁
-ň	n	拉丁
-ǹ	n	拉丁
-ṅ	n	拉丁
-ñ	n	拉丁
-ₙ	n	拉丁
-ⁿ	n	拉丁
-ɲ	n	拉丁
-ᶮ	n	拉丁
-ɳ	n	拉丁
-ᶯ	n	拉丁
-ȵ	n	拉丁
-ƞ	n	拉丁
-ŋ	n	拉丁
-ᵑ	n	拉丁
-ꬻ	n	拉丁
-ꬼ	n	拉丁
-ꝴ	n	拉丁
-ŉ	n	拉丁
-ꞥ	n	拉丁
-ņ	n	拉丁
-ṉ	n	拉丁
-ṋ	n	拉丁
-ṇ	n	拉丁
-ᵰ	n	拉丁
-ꞑ	n	拉丁
-ᶇ	n	拉丁
-#n:
-Ḿ	M	拉丁
-Ṁ	M	拉丁
-ᴍ	M	拉丁
-ᴹ	M	拉丁
-Ṃ	M	拉丁
-Ɱ	M	拉丁
-Ɯ	M	拉丁
-ꟽ	M	拉丁
-ꟿ	M	拉丁
-#M:
-ḿ	m	拉丁
-ṁ	m	拉丁
-ᵐ	m	拉丁
-ₘ	m	拉丁
-ṃ	m	拉丁
-ᵯ	m	拉丁
-ɱ	m	拉丁
-ᶬ	m	拉丁
-ꬺ	m	拉丁
-ᶆ	m	拉丁
-ꝳ	m	拉丁
-ɯ	m	拉丁
-ᵚ	m	拉丁
-ɰ	m	拉丁
-ᶭ	m	拉丁
-ᴟ	m	拉丁
-#m:
-Ĺ	L	拉丁
-ʟ	L	拉丁
-ᶫ	L	拉丁
-Ƚ	L	拉丁
-Ꝉ	L	拉丁
-Ł	L	拉丁
-ᴌ	L	拉丁
-Ⱡ	L	拉丁
-Ɫ	L	拉丁
-Ɬ	L	拉丁
-Ľ	L	拉丁
-Ļ	L	拉丁
-Ḻ	L	拉丁
-Ḽ	L	拉丁
-Ḷ	L	拉丁
-Ŀ	L	拉丁
-Ꝇ	L	拉丁
-#L:
-ĺ	l	拉丁
-ˡ	l	拉丁
-ł	l	拉丁
-ꝉ	l	拉丁
-ƚ	l	拉丁
-ⱡ	l	拉丁
-ɫ	l	拉丁
-ꭞ	l	拉丁
-ꬸ	l	拉丁
-ɬ	l	拉丁
-ľ	l	拉丁
-ļ	l	拉丁
-ḻ	l	拉丁
-ḽ	l	拉丁
-ḷ	l	拉丁
-ŀ	l	拉丁
-ꝲ	l	拉丁
-ƛ	l	拉丁
-ᶅ	l	拉丁
-ᶪ	l	拉丁
-ɭ	l	拉丁
-ᶩ	l	拉丁
-ḹ	l	拉丁
-ꬷ	l	拉丁
-ꭝ	l	拉丁
-ꬹ	l	拉丁
-ȴ	l	拉丁
-ꝇ	l	拉丁
-#l:
-Ḱ	K	拉丁
-Ǩ	K	拉丁
-ᴋ	K	拉丁
-ᴷ	K	拉丁
-Ꝁ	K	拉丁
-Ꝃ	K	拉丁
-Ꞣ	K	拉丁
-Ꝅ	K	拉丁
-Ķ	K	拉丁
-Ḵ	K	拉丁
-Ḳ	K	拉丁
-Ƙ	K	拉丁
-Ⱪ	K	拉丁
-Ʞ	K	拉丁
-#K:
-ḱ	k	拉丁
-ǩ	k	拉丁
-ₖ	k	拉丁
-ᵏ	k	拉丁
-ꝁ	k	拉丁
-ꝃ	k	拉丁
-ꞣ	k	拉丁
-ꝅ	k	拉丁
-ķ	k	拉丁
-ḵ	k	拉丁
-ḳ	k	拉丁
-ƙ	k	拉丁
-ᶄ	k	拉丁
-ⱪ	k	拉丁
-ʞ	k	拉丁
-ĸ	k	拉丁
-#k:
-Ĵ	J	拉丁
-ᴊ	J	拉丁
-ᴶ	J	拉丁
-Ɉ	J	拉丁
-Ʝ	J	拉丁
-#J:
-ĵ	j	拉丁
-ǰ	j	拉丁
-ⱼ	j	拉丁
-ʲ	j	拉丁
-ɉ	j	拉丁
-ȷ	j	拉丁
-ɟ	j	拉丁
-ᶡ	j	拉丁
-ʄ	j	拉丁
-ʝ	j	拉丁
-ᶨ	j	拉丁
-#j:
-Ī	I	拉丁
-Í	I	拉丁
-Ǐ	I	拉丁
-Ì	I	拉丁
-Ȉ	I	拉丁
-Î	I	拉丁
-Ĭ	I	拉丁
-Ȋ	I	拉丁
-Ï	I	拉丁
-Ĩ	I	拉丁
-ɪ	I	拉丁
-ᴵ	I	拉丁
-ᶦ	I	拉丁
-Ɨ	I	拉丁
-ᵻ	I	拉丁
-ᶧ	I	拉丁
-Ỉ	I	拉丁
-Į	I	拉丁
-Ị	I	拉丁
-Ḭ	I	拉丁
-Ḯ	I	拉丁
-ꟾ	I	拉丁
-Ɩ	I	拉丁
-#I:
-ī	i	拉丁
-í	i	拉丁
-ǐ	i	拉丁
-ì	i	拉丁
-ȉ	i	拉丁
-î	i	拉丁
-ĭ	i	拉丁
-ȋ	i	拉丁
-ï	i	拉丁
-ĩ	i	拉丁
-ᵢ	i	拉丁
-ı	i	拉丁
-ɨ	i	拉丁
-ᶤ	i	拉丁
-ỉ	i	拉丁
-į	i	拉丁
-ị	i	拉丁
-ḭ	i	拉丁
-ᴉ	i	拉丁
-ᵎ	i	拉丁
-ḯ	i	拉丁
-ᶖ	i	拉丁
-ɩ	i	拉丁
-ᶥ	i	拉丁
-ᵼ	i	拉丁
-#i:
-Ĥ	H	拉丁
-Ȟ	H	拉丁
-Ḣ	H	拉丁
-Ḧ	H	拉丁
-ʜ	H	拉丁
-ᴴ	H	拉丁
-Ħ	H	拉丁
-Ɦ	H	拉丁
-Ꜧ	H	拉丁
-Ḩ	H	拉丁
-Ḫ	H	拉丁
-Ḥ	H	拉丁
-Ⱨ	H	拉丁
-Ɥ	H	拉丁
-Ⱶ	H	拉丁
-#H:
-ĥ	h	拉丁
-ȟ	h	拉丁
-ḣ	h	拉丁
-ḧ	h	拉丁
-ͪ	h	拉丁
-ħ	h	拉丁
-ɦ	h	拉丁
-ʱ	h	拉丁
-ꜧ	h	拉丁
-ꭜ	h	拉丁
-ɧ	h	拉丁
-ḩ	h	拉丁
-ẖ	h	拉丁
-ḫ	h	拉丁
-ḥ	h	拉丁
-ⱨ	h	拉丁
-ꞕ	h	拉丁
-ɥ	h	拉丁
-ᶣ	h	拉丁
-ʮ	h	拉丁
-ʯ	h	拉丁
-ⱶ	h	拉丁
-#h:
-Ḡ	G	拉丁
-Ǵ	G	拉丁
-Ǧ	G	拉丁
-Ĝ	G	拉丁
-Ğ	G	拉丁
-Ġ	G	拉丁
-ʛ	G	拉丁
-ᴳ	G	拉丁
-Ǥ	G	拉丁
-Ꞡ	G	拉丁
-Ģ	G	拉丁
-Ɠ	G	拉丁
-Ɡ	G	拉丁
-Ɣ	G	拉丁
-#G:
-ḡ	g	拉丁
-ǵ	g	拉丁
-ǧ	g	拉丁
-ĝ	g	拉丁
-ğ	g	拉丁
-ġ	g	拉丁
-ᵍ	g	拉丁
-ǥ	g	拉丁
-ꞡ	g	拉丁
-ģ	g	拉丁
-ɠ	g	拉丁
-ᵷ	g	拉丁
-ᶃ	g	拉丁
-ɡ	g	拉丁
-ꬶ	g	拉丁
-ᶢ	g	拉丁
-ɣ	g	拉丁
-ˠ	g	拉丁
-ɤ	g	拉丁
-ᵹ	g	拉丁
-#g:
-Ḟ	F	拉丁
-ꜰ	F	拉丁
-Ƒ	F	拉丁
-Ꞙ	F	拉丁
-ꟻ	F	拉丁
-#F:
-ḟ	f	拉丁
-ᶠ	f	拉丁
-ƒ	f	拉丁
-ᵮ	f	拉丁
-ᶂ	f	拉丁
-ꞙ	f	拉丁
-#f:
-Ē	E	拉丁
-É	E	拉丁
-Ě	E	拉丁
-È	E	拉丁
-Ȅ	E	拉丁
-Ê	E	拉丁
-Ĕ	E	拉丁
-Ȇ	E	拉丁
-Ė	E	拉丁
-Ë	E	拉丁
-Ẽ	E	拉丁
-ᴇ	E	拉丁
-ᴱ	E	拉丁
-Ɇ	E	拉丁
-Ẻ	E	拉丁
-Ȩ	E	拉丁
-Ę	E	拉丁
-Ḙ	E	拉丁
-Ẹ	E	拉丁
-Ḛ	E	拉丁
-Ḗ	E	拉丁
-Ḕ	E	拉丁
-Ế	E	拉丁
-Ề	E	拉丁
-Ễ	E	拉丁
-Ể	E	拉丁
-Ḝ	E	拉丁
-Ệ	E	拉丁
-Ə	E	拉丁
-Ɛ	E	拉丁
-Ɜ	E	拉丁
-Ǝ	E	拉丁
-ⱻ	E	拉丁
-ᴲ	E	拉丁
-Ȝ	E	拉丁
-#E:
-ē	e	拉丁
-é	e	拉丁
-ě	e	拉丁
-è	e	拉丁
-ȅ	e	拉丁
-ê	e	拉丁
-ĕ	e	拉丁
-ȇ	e	拉丁
-ė	e	拉丁
-ë	e	拉丁
-ẽ	e	拉丁
-ₑ	e	拉丁
-ᵉ	e	拉丁
-ɇ	e	拉丁
-ꬳ	e	拉丁
-ẻ	e	拉丁
-ȩ	e	拉丁
-ę	e	拉丁
-ḙ	e	拉丁
-ẹ	e	拉丁
-ḛ	e	拉丁
-ḗ	e	拉丁
-ḕ	e	拉丁
-ế	e	拉丁
-ề	e	拉丁
-ễ	e	拉丁
-ể	e	拉丁
-ḝ	e	拉丁
-ệ	e	拉丁
-ᶒ	e	拉丁
-ꬴ	e	拉丁
-ɘ	e	拉丁
-ə	e	拉丁
-ɚ	e	拉丁
-ᶕ	e	拉丁
-ɛ	e	拉丁
-ᵋ	e	拉丁
-ᶓ	e	拉丁
-ɜ	e	拉丁
-ᵌ	e	拉丁
-ᴈ	e	拉丁
-ᶟ	e	拉丁
-ɝ	e	拉丁
-ᶔ	e	拉丁
-ɞ	e	拉丁
-ʚ	e	拉丁
-ǝ	e	拉丁
-ₔ	e	拉丁
-ᵊ	e	拉丁
-ȝ	e	拉丁
-ⱸ	e	拉丁
-#e:
-Ď	D	拉丁
-Ḋ	D	拉丁
-ᴅ	D	拉丁
-ᴆ	D	拉丁
-ᴰ	D	拉丁
-Đ	D	拉丁
-Ƌ	D	拉丁
-Ḑ	D	拉丁
-Ḓ	D	拉丁
-Ḏ	D	拉丁
-Ḍ	D	拉丁
-Ɖ	D	拉丁
-Ɗ	D	拉丁
-Ð	D	拉丁
-Ǳ	D	拉丁
-ǲ	D	拉丁
-Ǆ	D	拉丁
-ǅ	D	拉丁
-#D:
-ď	d	拉丁
-ḋ	d	拉丁
-ᵈ	d	拉丁
-đ	d	拉丁
-ƌ	d	拉丁
-ᵭ	d	拉丁
-ḑ	d	拉丁
-ḓ	d	拉丁
-ḏ	d	拉丁
-ḍ	d	拉丁
-ɖ	d	拉丁
-ɗ	d	拉丁
-ᶑ	d	拉丁
-ᶁ	d	拉丁
-ð	d	拉丁
-ᶞ	d	拉丁
-ꝱ	d	拉丁
-ʤ	d	拉丁
-ʣ	d	拉丁
-ʥ	d	拉丁
-ȡ	d	拉丁
-ƍ	d	拉丁
-ǳ	d	拉丁
-ǆ	d	拉丁
-ẟ	d	拉丁
-#d:
-Ç	C	拉丁
-Ć	C	拉丁
-Č	C	拉丁
-Ĉ	C	拉丁
-Ċ	C	拉丁
-ᴄ	C	拉丁
-Ȼ	C	拉丁
-Ꞓ	C	拉丁
-Ƈ	C	拉丁
-Ḉ	C	拉丁
-Ꜿ	C	拉丁
-#C:
-ç	c	拉丁
-ć	c	拉丁
-č	c	拉丁
-ĉ	c	拉丁
-ċ	c	拉丁
-ᶜ	c	拉丁
-ȼ	c	拉丁
-ꞓ	c	拉丁
-ƈ	c	拉丁
-ḉ	c	拉丁
-ꞔ	c	拉丁
-ɕ	c	拉丁
-ᶝ	c	拉丁
-ꜿ	c	拉丁
-#c:
-Ḃ	B	拉丁
-Ḅ	B	拉丁
-ʙ	B	拉丁
-ᴃ	B	拉丁
-ᴮ	B	拉丁
-ᴯ	B	拉丁
-Ƀ	B	拉丁
-Ƃ	B	拉丁
-Ḇ	B	拉丁
-Ɓ	B	拉丁
-Ꞗ	B	拉丁
-#B:
-ḃ	b	拉丁
-ḅ	b	拉丁
-ᵇ	b	拉丁
-ƀ	b	拉丁
-ƃ	b	拉丁
-ḇ	b	拉丁
-ɓ	b	拉丁
-ᵬ	b	拉丁
-ᶀ	b	拉丁
-ꞗ	b	拉丁
-#b:
-Ā	A	拉丁
-Á	A	拉丁
-Ǎ	A	拉丁
-À	A	拉丁
-Ȁ	A	拉丁
-Â	A	拉丁
-Ă	A	拉丁
-Ȃ	A	拉丁
-Ȧ	A	拉丁
-Ä	A	拉丁
-Å	A	拉丁
-Ã	A	拉丁
-ᴀ	A	拉丁
-ᴬ	A	拉丁
-Ⱥ	A	拉丁
-Ả	A	拉丁
-Ą	A	拉丁
-Ạ	A	拉丁
-Ḁ	A	拉丁
-Ấ	A	拉丁
-Ầ	A	拉丁
-Ẫ	A	拉丁
-Ẩ	A	拉丁
-Ắ	A	拉丁
-Ằ	A	拉丁
-Ẵ	A	拉丁
-Ẳ	A	拉丁
-Ǡ	A	拉丁
-Ǟ	A	拉丁
-Ǻ	A	拉丁
-Ậ	A	拉丁
-Ặ	A	拉丁
-Ɐ	A	拉丁
-Ɑ	A	拉丁
-Ɒ	A	拉丁
-#A:
-ā	a	拉丁
-á	a	拉丁
-ǎ	a	拉丁
-à	a	拉丁
-ȁ	a	拉丁
-â	a	拉丁
-ă	a	拉丁
-ȃ	a	拉丁
-ȧ	a	拉丁
-ä	a	拉丁
-å	a	拉丁
-ã	a	拉丁
-ₐ	a	拉丁
-ᵃ	a	拉丁
-ª	a	拉丁
-ⱥ	a	拉丁
-ꬰ	a	拉丁
-ả	a	拉丁
-ą	a	拉丁
-ạ	a	拉丁
-ḁ	a	拉丁
-ẚ	a	拉丁
-ấ	a	拉丁
-ầ	a	拉丁
-ẫ	a	拉丁
-ẩ	a	拉丁
-ắ	a	拉丁
-ằ	a	拉丁
-ẵ	a	拉丁
-ẳ	a	拉丁
-ǡ	a	拉丁
-ǟ	a	拉丁
-ǻ	a	拉丁
-ậ	a	拉丁
-ặ	a	拉丁
-ᶏ	a	拉丁
-ɐ	a	拉丁
-ᵄ	a	拉丁
-ɑ	a	拉丁
-ᵅ	a	拉丁
-ᶐ	a	拉丁
-ɒ	a	拉丁
-ᶛ	a	拉丁
-#a:
-#拉丁#
-Ⅰ	lmd	罗马数字大写
-Ⅱ	lmd	罗马数字大写
-Ⅲ	lmd	罗马数字大写
-Ⅳ	lmd	罗马数字大写
-Ⅴ	lmd	罗马数字大写
-Ⅵ	lmd	罗马数字大写
-Ⅶ	lmd	罗马数字大写
-Ⅷ	lmd	罗马数字大写
-Ⅸ	lmd	罗马数字大写
-Ⅹ	lmd	罗马数字大写
-Ⅺ	lmd	罗马数字大写
-Ⅻ	lmd	罗马数字大写
-Ⅼ	lmd	罗马数字大写
-Ⅽ	lmd	罗马数字大写
-Ⅾ	lmd	罗马数字大写
-Ⅿ	lmd	罗马数字大写
-#lmd:
-#罗马数字大写#
-ⅰ	lm	罗马数字
-ⅱ	lm	罗马数字
-ⅲ	lm	罗马数字
-ⅳ	lm	罗马数字
-ⅴ	lm	罗马数字
-ⅵ	lm	罗马数字
-ⅶ	lm	罗马数字
-ⅷ	lm	罗马数字
-ⅸ	lm	罗马数字
-ⅹ	lm	罗马数字
-ⅺ	lm	罗马数字
-ⅻ	lm	罗马数字
-ⅼ	lm	罗马数字
-ⅽ	lm	罗马数字
-ⅾ	lm	罗马数字
-ⅿ	lm	罗马数字
-#lm:
-#罗马数字#
-〡	szm	苏州码
-〢	szm	苏州码
-〣	szm	苏州码
-〤	szm	苏州码
-〥	szm	苏州码
-〦	szm	苏州码
-〧	szm	苏州码
-〨	szm	苏州码
-〩	szm	苏州码
-〸	szm	苏州码
-〹	szm	苏州码
-〺	szm	苏州码
-#szm:
-#苏州码#
-⅟	fs	分数
-½	fs	分数
-↉	fs	分数
-⅓	fs	分数
-⅔	fs	分数
-¼	fs	分数
-⅕	fs	分数
-⅖	fs	分数
-⅗	fs	分数
-⅘	fs	分数
-⅙	fs	分数
-⅚	fs	分数
-⅐	fs	分数
-⅛	fs	分数
-⅜	fs	分数
-⅝	fs	分数
-⅞	fs	分数
-⅑	fs	分数
-⅒	fs	分数
-#fs:
-#分数#
-十	10	数字
-拾	10	数字
-¹⁰	10	数字
-₁₀	10	数字
-Ⅹ	10	数字
-ⅹ	10	数字
-⑩	10	数字
-➉	10	数字
-❿	10	数字
-➓	10	数字
-⓾	10	数字
-⑽	10	数字
-⒑	10	数字
-１０	10	数字
-㊉	10	数字
-㈩	10	数字
-什	10	数字
-#10:
-九	9	数字
-玖	9	数字
-⁹	9	数字
-₉	9	数字
-Ⅸ	9	数字
-ⅸ	9	数字
-⑨	9	数字
-➈	9	数字
-❾	9	数字
-➒	9	数字
-⓽	9	数字
-⑼	9	数字
-⒐	9	数字
-９	9	数字
-㊈	9	数字
-㈨	9	数字
-#9:
-八	8	数字
-捌	8	数字
-⁸	8	数字
-₈	8	数字
-Ⅷ	8	数字
-ⅷ	8	数字
-⑧	8	数字
-➇	8	数字
-❽	8	数字
-➑	8	数字
-⓼	8	数字
-⑻	8	数字
-⒏	8	数字
-８	8	数字
-㊇	8	数字
-㈧	8	数字
-#8:
-七	7	数字
-柒	7	数字
-⁷	7	数字
-₇	7	数字
-Ⅶ	7	数字
-ⅶ	7	数字
-⑦	7	数字
-➆	7	数字
-❼	7	数字
-➐	7	数字
-⓻	7	数字
-⑺	7	数字
-⒎	7	数字
-７	7	数字
-㊆	7	数字
-㈦	7	数字
-漆	7	数字
-#7:
-六	6	数字
-陆	6	数字
-⁶	6	数字
-₆	6	数字
-Ⅵ	6	数字
-ⅵ	6	数字
-⑥	6	数字
-➅	6	数字
-❻	6	数字
-➏	6	数字
-⓺	6	数字
-⑹	6	数字
-⒍	6	数字
-６	6	数字
-㊅	6	数字
-㈥	6	数字
-ↅ	6	数字
-#6:
-五	5	数字
-伍	5	数字
-⁵	5	数字
-₅	5	数字
-Ⅴ	5	数字
-ⅴ	5	数字
-⑤	5	数字
-➄	5	数字
-❺	5	数字
-➎	5	数字
-⓹	5	数字
-⑸	5	数字
-⒌	5	数字
-５	5	数字
-㊄	5	数字
-㈤	5	数字
-㐅	5	数字
-㠪	5	数字
-𠄡	5	数字
-#5:
-四	4	数字
-肆	4	数字
-⁴	4	数字
-₄	4	数字
-Ⅳ	4	数字
-ⅳ	4	数字
-④	4	数字
-➃	4	数字
-❹	4	数字
-➍	4	数字
-⓸	4	数字
-⑷	4	数字
-⒋	4	数字
-４	4	数字
-㊃	4	数字
-㈣	4	数字
-亖	4	数字
-#4:
-三	3	数字
-³	3	数字
-₃	3	数字
-Ⅲ	3	数字
-ⅲ	3	数字
-③	3	数字
-➂	3	数字
-❸	3	数字
-➌	3	数字
-⓷	3	数字
-⑶	3	数字
-⒊	3	数字
-３	3	数字
-㊂	3	数字
-㈢	3	数字
-参	3	数字
-叁	3	数字
-弎	3	数字
-仨	3	数字
-㆔	3	数字
-#3:
-二	2	数字
-贰	2	数字
-²	2	数字
-₂	2	数字
-Ⅱ	2	数字
-ⅱ	2	数字
-②	2	数字
-➁	2	数字
-❷	2	数字
-➋	2	数字
-⓶	2	数字
-⑵	2	数字
-⒉	2	数字
-２	2	数字
-㊁	2	数字
-㈡	2	数字
-弍	2	数字
-弐	2	数字
-貮	2	数字
-㒃	2	数字
-㒳	2	数字
-两	2	数字
-俩	2	数字
-㆓	2	数字
-#2:
-一	1	数字
-壹	1	数字
-¹	1	数字
-₁	1	数字
-Ⅰ	1	数字
-ⅰ	1	数字
-①	1	数字
-➀	1	数字
-❶	1	数字
-➊	1	数字
-⓵	1	数字
-⑴	1	数字
-⒈	1	数字
-１	1	数字
-㊀	1	数字
-㈠	1	数字
-弌	1	数字
-壱	1	数字
-幺	1	数字
-㆒	1	数字
-#1:
-零	0	数字
-〇	0	数字
-⁰	0	数字
-₀	0	数字
-⓪	0	数字
-⓿	0	数字
-０	0	数字
-#0:
-#数字#
-⒜	zmh	字母+弧
-⒝	zmh	字母+弧
-⒞	zmh	字母+弧
-⒟	zmh	字母+弧
-⒠	zmh	字母+弧
-⒡	zmh	字母+弧
-⒢	zmh	字母+弧
-⒣	zmh	字母+弧
-⒤	zmh	字母+弧
-⒥	zmh	字母+弧
-⒦	zmh	字母+弧
-⒧	zmh	字母+弧
-⒨	zmh	字母+弧
-⒩	zmh	字母+弧
-⒪	zmh	字母+弧
-⒫	zmh	字母+弧
-⒬	zmh	字母+弧
-⒭	zmh	字母+弧
-⒮	zmh	字母+弧
-⒯	zmh	字母+弧
-⒰	zmh	字母+弧
-⒱	zmh	字母+弧
-⒲	zmh	字母+弧
-⒳	zmh	字母+弧
-⒴	zmh	字母+弧
-⒵	zmh	字母+弧
-#zmh:
-#字母+弧#
-ⓐ	zmq	字母+圈
-Ⓐ	zmq	字母+圈
-ⓑ	zmq	字母+圈
-Ⓑ	zmq	字母+圈
-ⓒ	zmq	字母+圈
-Ⓒ	zmq	字母+圈
-ⓓ	zmq	字母+圈
-Ⓓ	zmq	字母+圈
-ⓔ	zmq	字母+圈
-Ⓔ	zmq	字母+圈
-ⓕ	zmq	字母+圈
-Ⓕ	zmq	字母+圈
-ⓖ	zmq	字母+圈
-Ⓖ	zmq	字母+圈
-ⓗ	zmq	字母+圈
-Ⓗ	zmq	字母+圈
-ⓘ	zmq	字母+圈
-Ⓘ	zmq	字母+圈
-ⓙ	zmq	字母+圈
-Ⓙ	zmq	字母+圈
-ⓚ	zmq	字母+圈
-Ⓚ	zmq	字母+圈
-ⓛ	zmq	字母+圈
-Ⓛ	zmq	字母+圈
-ⓜ	zmq	字母+圈
-Ⓜ	zmq	字母+圈
-ⓝ	zmq	字母+圈
-Ⓝ	zmq	字母+圈
-ⓞ	zmq	字母+圈
-Ⓞ	zmq	字母+圈
-ⓟ	zmq	字母+圈
-Ⓟ	zmq	字母+圈
-ⓠ	zmq	字母+圈
-Ⓠ	zmq	字母+圈
-ⓡ	zmq	字母+圈
-Ⓡ	zmq	字母+圈
-ⓢ	zmq	字母+圈
-Ⓢ	zmq	字母+圈
-ⓣ	zmq	字母+圈
-Ⓣ	zmq	字母+圈
-ⓤ	zmq	字母+圈
-Ⓤ	zmq	字母+圈
-ⓥ	zmq	字母+圈
-Ⓥ	zmq	字母+圈
-ⓦ	zmq	字母+圈
-Ⓦ	zmq	字母+圈
-ⓧ	zmq	字母+圈
-Ⓧ	zmq	字母+圈
-ⓨ	zmq	字母+圈
-Ⓨ	zmq	字母+圈
-ⓩ	zmq	字母+圈
-Ⓩ	zmq	字母+圈
-#zmq:
-#字母+圈#
-⒈	szd	数字+点
-⒉	szd	数字+点
-⒊	szd	数字+点
-⒋	szd	数字+点
-⒌	szd	数字+点
-⒍	szd	数字+点
-⒎	szd	数字+点
-⒏	szd	数字+点
-⒐	szd	数字+点
-⒑	szd	数字+点
-⒒	szd	数字+点
-⒓	szd	数字+点
-⒔	szd	数字+点
-⒕	szd	数字+点
-⒖	szd	数字+点
-⒗	szd	数字+点
-⒘	szd	数字+点
-⒙	szd	数字+点
-⒚	szd	数字+点
-⒛	szd	数字+点
-#szd:
-#数字+点#
-⑴	szh	数字+弧
-⑵	szh	数字+弧
-⑶	szh	数字+弧
-⑷	szh	数字+弧
-⑸	szh	数字+弧
-⑹	szh	数字+弧
-⑺	szh	数字+弧
-⑻	szh	数字+弧
-⑼	szh	数字+弧
-⑽	szh	数字+弧
-⑾	szh	数字+弧
-⑿	szh	数字+弧
-⒀	szh	数字+弧
-⒁	szh	数字+弧
-⒂	szh	数字+弧
-⒃	szh	数字+弧
-⒄	szh	数字+弧
-⒅	szh	数字+弧
-⒆	szh	数字+弧
-⒇	szh	数字+弧
-#szh:
-#数字+弧#
-⓪	szq	数字+圆
-①	szq	数字+圆
-②	szq	数字+圆
-③	szq	数字+圆
-④	szq	数字+圆
-⑤	szq	数字+圆
-⑥	szq	数字+圆
-⑦	szq	数字+圆
-⑧	szq	数字+圆
-⑨	szq	数字+圆
-⑩	szq	数字+圆
-⑪	szq	数字+圆
-⑫	szq	数字+圆
-⑬	szq	数字+圆
-⑭	szq	数字+圆
-⑮	szq	数字+圆
-⑯	szq	数字+圆
-⑰	szq	数字+圆
-⑱	szq	数字+圆
-⑲	szq	数字+圆
-⑳	szq	数字+圆
-㉑	szq	数字+圆
-㉒	szq	数字+圆
-㉓	szq	数字+圆
-㉔	szq	数字+圆
-㉕	szq	数字+圆
-㉖	szq	数字+圆
-㉗	szq	数字+圆
-㉘	szq	数字+圆
-㉙	szq	数字+圆
-㉚	szq	数字+圆
-㉛	szq	数字+圆
-㉜	szq	数字+圆
-㉝	szq	数字+圆
-㉞	szq	数字+圆
-㉟	szq	数字+圆
-㊱	szq	数字+圆
-㊲	szq	数字+圆
-㊳	szq	数字+圆
-㊴	szq	数字+圆
-㊵	szq	数字+圆
-㊶	szq	数字+圆
-㊷	szq	数字+圆
-㊸	szq	数字+圆
-㊹	szq	数字+圆
-㊺	szq	数字+圆
-㊻	szq	数字+圆
-㊼	szq	数字+圆
-㊽	szq	数字+圆
-㊾	szq	数字+圆
-㊿	szq	数字+圆
-⓿	szq	数字+圆
-❶	szq	数字+圆
-❷	szq	数字+圆
-❸	szq	数字+圆
-❹	szq	数字+圆
-❺	szq	数字+圆
-❻	szq	数字+圆
-❼	szq	数字+圆
-❽	szq	数字+圆
-❾	szq	数字+圆
-❿	szq	数字+圆
-⓫	szq	数字+圆
-⓬	szq	数字+圆
-⓭	szq	数字+圆
-⓮	szq	数字+圆
-⓯	szq	数字+圆
-⓰	szq	数字+圆
-⓱	szq	数字+圆
-⓲	szq	数字+圆
-⓳	szq	数字+圆
-⓴	szq	数字+圆
-#szq:
-#数字+圆#
-±	sx	数学
-÷	sx	数学
-×	sx	数学
-∈	sx	数学
-∏	sx	数学
-∑	sx	数学
-－	sx	数学
-＋	sx	数学
-＜	sx	数学
-≮	sx	数学
-＝	sx	数学
-≠	sx	数学
-＞	sx	数学
-≯	sx	数学
-∕	sx	数学
-√	sx	数学
-∝	sx	数学
-∞	sx	数学
-∟	sx	数学
-∠	sx	数学
-∥	sx	数学
-∧	sx	数学
-∨	sx	数学
-∩	sx	数学
-∪	sx	数学
-∫	sx	数学
-∮	sx	数学
-∴	sx	数学
-∵	sx	数学
-∷	sx	数学
-∽	sx	数学
-≈	sx	数学
-≌	sx	数学
-≒	sx	数学
-≡	sx	数学
-≤	sx	数学
-≥	sx	数学
-≦	sx	数学
-≧	sx	数学
-⊕	sx	数学
-⊙	sx	数学
-⊥	sx	数学
-⊿	sx	数学
-㏑	sx	数学
-㏒	sx	数学
-#sx:
-#数学#
-↑	jt	箭头
-↓	jt	箭头
-←	jt	箭头
-→	jt	箭头
-↕	jt	箭头
-↔	jt	箭头
-↖	jt	箭头
-↗	jt	箭头
-↙	jt	箭头
-↘	jt	箭头
-↚	jt	箭头
-↛	jt	箭头
-↮	jt	箭头
-↜	jt	箭头
-↝	jt	箭头
-↞	jt	箭头
-↟	jt	箭头
-↠	jt	箭头
-↡	jt	箭头
-↢	jt	箭头
-↣	jt	箭头
-↤	jt	箭头
-↥	jt	箭头
-↦	jt	箭头
-↧	jt	箭头
-↨	jt	箭头
-↩	jt	箭头
-↪	jt	箭头
-↫	jt	箭头
-↬	jt	箭头
-↭	jt	箭头
-↯	jt	箭头
-↰	jt	箭头
-↱	jt	箭头
-↲	jt	箭头
-↳	jt	箭头
-↴	jt	箭头
-↵	jt	箭头
-↶	jt	箭头
-↷	jt	箭头
-↸	jt	箭头
-↹	jt	箭头
-↺	jt	箭头
-↻	jt	箭头
-↼	jt	箭头
-↽	jt	箭头
-↾	jt	箭头
-↿	jt	箭头
-⇀	jt	箭头
-⇁	jt	箭头
-⇂	jt	箭头
-⇃	jt	箭头
-⇄	jt	箭头
-⇅	jt	箭头
-⇆	jt	箭头
-⇇	jt	箭头
-⇈	jt	箭头
-⇉	jt	箭头
-⇊	jt	箭头
-⇋	jt	箭头
-⇌	jt	箭头
-⇐	jt	箭头
-⇍	jt	箭头
-⇑	jt	箭头
-⇒	jt	箭头
-⇏	jt	箭头
-⇓	jt	箭头
-⇔	jt	箭头
-⇎	jt	箭头
-⇕	jt	箭头
-⇖	jt	箭头
-⇗	jt	箭头
-⇘	jt	箭头
-⇙	jt	箭头
-⇚	jt	箭头
-⇛	jt	箭头
-⇜	jt	箭头
-⇝	jt	箭头
-⇞	jt	箭头
-⇟	jt	箭头
-⇠	jt	箭头
-⇡	jt	箭头
-⇢	jt	箭头
-⇣	jt	箭头
-⇤	jt	箭头
-⇥	jt	箭头
-⇦	jt	箭头
-⇧	jt	箭头
-⇨	jt	箭头
-⇩	jt	箭头
-⇪	jt	箭头
-⇫	jt	箭头
-⇬	jt	箭头
-⇭	jt	箭头
-⇮	jt	箭头
-⇯	jt	箭头
-⇰	jt	箭头
-⇱	jt	箭头
-⇲	jt	箭头
-⇳	jt	箭头
-⇴	jt	箭头
-⇵	jt	箭头
-⇶	jt	箭头
-⇷	jt	箭头
-⇸	jt	箭头
-⇹	jt	箭头
-⇺	jt	箭头
-⇻	jt	箭头
-⇼	jt	箭头
-⇽	jt	箭头
-➔	jt	箭头
-➘	jt	箭头
-➙	jt	箭头
-➚	jt	箭头
-➛	jt	箭头
-➜	jt	箭头
-➝	jt	箭头
-➞	jt	箭头
-➟	jt	箭头
-➠	jt	箭头
-➡	jt	箭头
-➢	jt	箭头
-➣	jt	箭头
-➤	jt	箭头
-➥	jt	箭头
-➦	jt	箭头
-➧	jt	箭头
-➨	jt	箭头
-➩	jt	箭头
-➪	jt	箭头
-➫	jt	箭头
-➬	jt	箭头
-➭	jt	箭头
-➮	jt	箭头
-➱	jt	箭头
-➲	jt	箭头
-➳	jt	箭头
-➴	jt	箭头
-➵	jt	箭头
-➶	jt	箭头
-➷	jt	箭头
-➸	jt	箭头
-➹	jt	箭头
-➺	jt	箭头
-➻	jt	箭头
-➼	jt	箭头
-➽	jt	箭头
-➾	jt	箭头
-#jt:
-#箭头#
-■	jh	几何
-□	jh	几何
-▢	jh	几何
-▣	jh	几何
-▤	jh	几何
-▥	jh	几何
-▦	jh	几何
-▧	jh	几何
-▨	jh	几何
-▩	jh	几何
-▪	jh	几何
-▫	jh	几何
-▬	jh	几何
-▭	jh	几何
-▮	jh	几何
-▯	jh	几何
-▰	jh	几何
-▱	jh	几何
-▲	jh	几何
-△	jh	几何
-▴	jh	几何
-▵	jh	几何
-▶	jh	几何
-▷	jh	几何
-▸	jh	几何
-▹	jh	几何
-►	jh	几何
-▻	jh	几何
-▼	jh	几何
-▽	jh	几何
-▾	jh	几何
-▿	jh	几何
-◀	jh	几何
-◁	jh	几何
-◂	jh	几何
-◃	jh	几何
-◄	jh	几何
-◅	jh	几何
-◆	jh	几何
-◇	jh	几何
-◈	jh	几何
-◉	jh	几何
-◊	jh	几何
-○	jh	几何
-◌	jh	几何
-◍	jh	几何
-◎	jh	几何
-●	jh	几何
-◐	jh	几何
-◑	jh	几何
-◒	jh	几何
-◓	jh	几何
-◔	jh	几何
-◕	jh	几何
-◖	jh	几何
-◗	jh	几何
-◘	jh	几何
-◙	jh	几何
-◚	jh	几何
-◛	jh	几何
-◜	jh	几何
-◝	jh	几何
-◞	jh	几何
-◟	jh	几何
-◠	jh	几何
-◡	jh	几何
-◢	jh	几何
-◣	jh	几何
-◤	jh	几何
-◥	jh	几何
-◦	jh	几何
-◧	jh	几何
-◨	jh	几何
-◩	jh	几何
-◪	jh	几何
-◫	jh	几何
-◬	jh	几何
-◭	jh	几何
-◮	jh	几何
-◯	jh	几何
-◰	jh	几何
-◱	jh	几何
-◲	jh	几何
-◳	jh	几何
-◴	jh	几何
-◵	jh	几何
-◶	jh	几何
-◷	jh	几何
-◸	jh	几何
-◹	jh	几何
-◺	jh	几何
-◻	jh	几何
-◼	jh	几何
-◽	jh	几何
-◾	jh	几何
-◿	jh	几何
-#jh:
-#几何#
-▀	fk	方块
-▁	fk	方块
-▂	fk	方块
-▃	fk	方块
-▄	fk	方块
-▅	fk	方块
-▆	fk	方块
-▇	fk	方块
-█	fk	方块
-▉	fk	方块
-▊	fk	方块
-▋	fk	方块
-▌	fk	方块
-▍	fk	方块
-▎	fk	方块
-▏	fk	方块
-▐	fk	方块
-░	fk	方块
-▒	fk	方块
-▓	fk	方块
-▔	fk	方块
-▕	fk	方块
-▖	fk	方块
-▗	fk	方块
-▘	fk	方块
-▙	fk	方块
-▚	fk	方块
-▛	fk	方块
-▜	fk	方块
-▝	fk	方块
-▞	fk	方块
-▟	fk	方块
-#fk:
-#方块#
-★	xh	星号
-☆	xh	星号
-⛤	xh	星号
-⛥	xh	星号
-⛦	xh	星号
-⛧	xh	星号
-✡	xh	星号
-❋	xh	星号
-❊	xh	星号
-❉	xh	星号
-❈	xh	星号
-❇	xh	星号
-❆	xh	星号
-❅	xh	星号
-❄	xh	星号
-❃	xh	星号
-❂	xh	星号
-❁	xh	星号
-❀	xh	星号
-✿	xh	星号
-✾	xh	星号
-✽	xh	星号
-✼	xh	星号
-✻	xh	星号
-✺	xh	星号
-✹	xh	星号
-✸	xh	星号
-✷	xh	星号
-✶	xh	星号
-✵	xh	星号
-✴	xh	星号
-✳	xh	星号
-✲	xh	星号
-✱	xh	星号
-✰	xh	星号
-✯	xh	星号
-✮	xh	星号
-✭	xh	星号
-✬	xh	星号
-✫	xh	星号
-✪	xh	星号
-✩	xh	星号
-✧	xh	星号
-✦	xh	星号
-✥	xh	星号
-✤	xh	星号
-✣	xh	星号
-✢	xh	星号
-#xh:
-#星号#
-白羊宫	xzg	十二宫
-金牛宫	xzg	十二宫
-双子宫	xzg	十二宫
-巨蟹宫	xzg	十二宫
-狮子宫	xzg	十二宫
-室女宫	xzg	十二宫
-天秤宫	xzg	十二宫
-天蝎宫	xzg	十二宫
-人马宫	xzg	十二宫
-摩羯宫	xzg	十二宫
-宝瓶宫	xzg	十二宫
-双	xzg	十二宫鱼宫
-#xzg:
-#十二宫#
-白羊座	xzm	星座名
-金牛座	xzm	星座名
-双子座	xzm	星座名
-巨蟹座	xzm	星座名
-狮子座	xzm	星座名
-室女座	xzm	星座名
-天秤座	xzm	星座名
-天蝎座	xzm	星座名
-人马座	xzm	星座名
-摩羯座	xzm	星座名
-宝瓶座	xzm	星座名
-双	xzm	星座名鱼座
-#xzm:
-#星座名#
-♈	xz	星座
-♉	xz	星座
-♊	xz	星座
-♋	xz	星座
-♌	xz	星座
-♍	xz	星座
-♎	xz	星座
-♏	xz	星座
-♐	xz	星座
-♑	xz	星座
-♒	xz	星座
-♓	xz	星座
-#xz:
-#星座#
-☄	tt	天体
-☼	tt	天体
-☽	tt	天体
-☾	tt	天体
-☿	tt	天体
-♀	tt	天体
-♁	tt	天体
-♂	tt	天体
-♃	tt	天体
-♄	tt	天体
-♅	tt	天体
-♆	tt	天体
-♇	tt	天体
-#tt:
-#天体#
-⚊	txj	太玄经
-⚋	txj	太玄经
-⚌	txj	太玄经
-⚍	txj	太玄经
-⚎	txj	太玄经
-⚏	txj	太玄经
-𝌀	txj	太玄经
-𝌁	txj	太玄经
-𝌂	txj	太玄经
-𝌃	txj	太玄经
-𝌄	txj	太玄经
-𝌅	txj	太玄经
-𝌆	txj	太玄经
-𝌇	txj	太玄经
-𝌈	txj	太玄经
-𝌉	txj	太玄经
-𝌊	txj	太玄经
-𝌋	txj	太玄经
-𝌌	txj	太玄经
-𝌍	txj	太玄经
-𝌎	txj	太玄经
-𝌏	txj	太玄经
-𝌐	txj	太玄经
-𝌑	txj	太玄经
-𝌒	txj	太玄经
-𝌓	txj	太玄经
-𝌔	txj	太玄经
-𝌕	txj	太玄经
-𝌖	txj	太玄经
-𝌗	txj	太玄经
-𝌘	txj	太玄经
-𝌙	txj	太玄经
-𝌚	txj	太玄经
-𝌛	txj	太玄经
-𝌜	txj	太玄经
-𝌝	txj	太玄经
-𝌞	txj	太玄经
-𝌟	txj	太玄经
-𝌠	txj	太玄经
-𝌡	txj	太玄经
-𝌢	txj	太玄经
-𝌣	txj	太玄经
-𝌤	txj	太玄经
-𝌥	txj	太玄经
-𝌦	txj	太玄经
-𝌧	txj	太玄经
-𝌨	txj	太玄经
-𝌩	txj	太玄经
-𝌪	txj	太玄经
-𝌫	txj	太玄经
-𝌬	txj	太玄经
-𝌭	txj	太玄经
-𝌮	txj	太玄经
-𝌯	txj	太玄经
-𝌰	txj	太玄经
-𝌱	txj	太玄经
-𝌲	txj	太玄经
-𝌳	txj	太玄经
-𝌴	txj	太玄经
-𝌵	txj	太玄经
-𝌶	txj	太玄经
-𝌷	txj	太玄经
-𝌸	txj	太玄经
-𝌹	txj	太玄经
-𝌺	txj	太玄经
-𝌻	txj	太玄经
-𝌼	txj	太玄经
-𝌽	txj	太玄经
-𝌾	txj	太玄经
-𝌿	txj	太玄经
-𝍀	txj	太玄经
-𝍁	txj	太玄经
-𝍂	txj	太玄经
-𝍃	txj	太玄经
-𝍄	txj	太玄经
-𝍅	txj	太玄经
-𝍆	txj	太玄经
-𝍇	txj	太玄经
-𝍈	txj	太玄经
-𝍉	txj	太玄经
-𝍊	txj	太玄经
-𝍋	txj	太玄经
-𝍌	txj	太玄经
-𝍍	txj	太玄经
-𝍎	txj	太玄经
-𝍏	txj	太玄经
-𝍐	txj	太玄经
-𝍑	txj	太玄经
-𝍒	txj	太玄经
-𝍓	txj	太玄经
-𝍔	txj	太玄经
-𝍕	txj	太玄经
-𝍖	txj	太玄经
-#txj:
-#太玄经#
-乾	lssgm	六十四卦名
-坤	lssgm	六十四卦名
-屯	lssgm	六十四卦名
-蒙	lssgm	六十四卦名
-需	lssgm	六十四卦名
-讼	lssgm	六十四卦名
-师	lssgm	六十四卦名
-比	lssgm	六十四卦名
-小畜	lssgm	六十四卦名
-履	lssgm	六十四卦名
-泰	lssgm	六十四卦名
-否	lssgm	六十四卦名
-同人	lssgm	六十四卦名
-大有	lssgm	六十四卦名
-谦	lssgm	六十四卦名
-豫	lssgm	六十四卦名
-随	lssgm	六十四卦名
-蛊	lssgm	六十四卦名
-临	lssgm	六十四卦名
-观	lssgm	六十四卦名
-噬嗑	lssgm	六十四卦名
-贲	lssgm	六十四卦名
-剥	lssgm	六十四卦名
-复	lssgm	六十四卦名
-无妄	lssgm	六十四卦名
-大畜	lssgm	六十四卦名
-颐	lssgm	六十四卦名
-大过	lssgm	六十四卦名
-坎	lssgm	六十四卦名
-离	lssgm	六十四卦名
-咸	lssgm	六十四卦名
-恒	lssgm	六十四卦名
-遯	lssgm	六十四卦名
-大壮	lssgm	六十四卦名
-晋	lssgm	六十四卦名
-明夷	lssgm	六十四卦名
-家人	lssgm	六十四卦名
-睽	lssgm	六十四卦名
-蹇	lssgm	六十四卦名
-解	lssgm	六十四卦名
-损	lssgm	六十四卦名
-益	lssgm	六十四卦名
-夬	lssgm	六十四卦名
-姤	lssgm	六十四卦名
-萃	lssgm	六十四卦名
-升	lssgm	六十四卦名
-困	lssgm	六十四卦名
-井	lssgm	六十四卦名
-革	lssgm	六十四卦名
-鼎	lssgm	六十四卦名
-震	lssgm	六十四卦名
-艮	lssgm	六十四卦名
-渐	lssgm	六十四卦名
-归妹	lssgm	六十四卦名
-丰	lssgm	六十四卦名
-旅	lssgm	六十四卦名
-巽	lssgm	六十四卦名
-兑	lssgm	六十四卦名
-涣	lssgm	六十四卦名
-节	lssgm	六十四卦名
-中孚	lssgm	六十四卦名
-小过	lssgm	六十四卦名
-既济	lssgm	六十四卦名
-未	lssgm	六十四卦名济
-#lssgm:
-#六十四卦名#
-䷀	lssg	六十四卦
-䷁	lssg	六十四卦
-䷂	lssg	六十四卦
-䷃	lssg	六十四卦
-䷄	lssg	六十四卦
-䷅	lssg	六十四卦
-䷆	lssg	六十四卦
-䷇	lssg	六十四卦
-䷈	lssg	六十四卦
-䷉	lssg	六十四卦
-䷊	lssg	六十四卦
-䷋	lssg	六十四卦
-䷌	lssg	六十四卦
-䷍	lssg	六十四卦
-䷎	lssg	六十四卦
-䷏	lssg	六十四卦
-䷐	lssg	六十四卦
-䷑	lssg	六十四卦
-䷒	lssg	六十四卦
-䷓	lssg	六十四卦
-䷔	lssg	六十四卦
-䷕	lssg	六十四卦
-䷖	lssg	六十四卦
-䷗	lssg	六十四卦
-䷘	lssg	六十四卦
-䷙	lssg	六十四卦
-䷚	lssg	六十四卦
-䷛	lssg	六十四卦
-䷜	lssg	六十四卦
-䷝	lssg	六十四卦
-䷞	lssg	六十四卦
-䷟	lssg	六十四卦
-䷠	lssg	六十四卦
-䷡	lssg	六十四卦
-䷢	lssg	六十四卦
-䷣	lssg	六十四卦
-䷤	lssg	六十四卦
-䷥	lssg	六十四卦
-䷦	lssg	六十四卦
-䷧	lssg	六十四卦
-䷨	lssg	六十四卦
-䷩	lssg	六十四卦
-䷪	lssg	六十四卦
-䷫	lssg	六十四卦
-䷬	lssg	六十四卦
-䷭	lssg	六十四卦
-䷮	lssg	六十四卦
-䷯	lssg	六十四卦
-䷰	lssg	六十四卦
-䷱	lssg	六十四卦
-䷲	lssg	六十四卦
-䷳	lssg	六十四卦
-䷴	lssg	六十四卦
-䷵	lssg	六十四卦
-䷶	lssg	六十四卦
-䷷	lssg	六十四卦
-䷸	lssg	六十四卦
-䷹	lssg	六十四卦
-䷺	lssg	六十四卦
-䷻	lssg	六十四卦
-䷼	lssg	六十四卦
-䷽	lssg	六十四卦
-䷾	lssg	六十四卦
-䷿	lssg	六十四卦
-#lssg:
-#六十四卦#
-乾	bgm	八卦名
-兑	bgm	八卦名
-离	bgm	八卦名
-震	bgm	八卦名
-巽	bgm	八卦名
-坎	bgm	八卦名
-艮	bgm	八卦名
-坤	bgm	八卦名
-#bgm:
-#八卦名#
-☰	bg	八卦
-☱	bg	八卦
-☲	bg	八卦
-☳	bg	八卦
-☴	bg	八卦
-☵	bg	八卦
-☶	bg	八卦
-☷	bg	八卦
-#bg:
-#八卦#
-♂	lx	两性
-♀	lx	两性
-⚢	lx	两性
-⚣	lx	两性
-⚤	lx	两性
-⚥	lx	两性
-⚦	lx	两性
-⚧	lx	两性
-⚨	lx	两性
-⚩	lx	两性
-⚪	lx	两性
-⚫	lx	两性
-⚬	lx	两性
-⚭	lx	两性
-⚮	lx	两性
-⚯	lx	两性
-#lx:
-#两性#
-𝄞	yy	音乐
-♩	yy	音乐
-♪	yy	音乐
-♫	yy	音乐
-♬	yy	音乐
-♭	yy	音乐
-♮	yy	音乐
-♯	yy	音乐
-#yy:
-#音乐#
-☀	tq	天气
-☁	tq	天气
-⛅	tq	天气
-⛈	tq	天气
-⛆	tq	天气
-☂	tq	天气
-☔	tq	天气
-☃	tq	天气
-⛄	tq	天气
-⛇	tq	天气
-#tq:
-#天气#
-☻	bq	表情
-☺	bq	表情
-☹	bq	表情
-#bq:
-#表情#
-♠	pk	扑克
-♥	pk	扑克
-♣	pk	扑克
-♦	pk	扑克
-♤	pk	扑克
-♡	pk	扑克
-♧	pk	扑克
-♢	pk	扑克
-#pk:
-#扑克#
-⚀	sz	色子
-⚁	sz	色子
-⚂	sz	色子
-⚃	sz	色子
-⚄	sz	色子
-⚅	sz	色子
-#sz:
-#色子#
-🀀	mj	麻将
-🀁	mj	麻将
-🀂	mj	麻将
-🀃	mj	麻将
-🀄	mj	麻将
-🀅	mj	麻将
-🀆	mj	麻将
-🀇	mj	麻将
-🀈	mj	麻将
-🀉	mj	麻将
-🀊	mj	麻将
-🀋	mj	麻将
-🀌	mj	麻将
-🀍	mj	麻将
-🀎	mj	麻将
-🀏	mj	麻将
-🀐	mj	麻将
-🀑	mj	麻将
-🀒	mj	麻将
-🀓	mj	麻将
-🀔	mj	麻将
-🀕	mj	麻将
-🀖	mj	麻将
-🀗	mj	麻将
-🀘	mj	麻将
-🀙	mj	麻将
-🀚	mj	麻将
-🀛	mj	麻将
-🀜	mj	麻将
-🀝	mj	麻将
-🀞	mj	麻将
-🀟	mj	麻将
-🀠	mj	麻将
-🀡	mj	麻将
-🀢	mj	麻将
-🀣	mj	麻将
-🀤	mj	麻将
-🀥	mj	麻将
-🀦	mj	麻将
-🀧	mj	麻将
-🀨	mj	麻将
-🀩	mj	麻将
-🀪	mj	麻将
-🀫	mj	麻将
-#mj:
-#麻将#
-♔	xq	象棋
-♕	xq	象棋
-♖	xq	象棋
-♗	xq	象棋
-♘	xq	象棋
-♙	xq	象棋
-♚	xq	象棋
-♛	xq	象棋
-♜	xq	象棋
-♝	xq	象棋
-♞	xq	象棋
-♟	xq	象棋
-#xq:
-#象棋#
-❖	dn	电脑
-⌘	dn	电脑
-⌃	dn	电脑
-⌥	dn	电脑
-⎇	dn	电脑
-⇧	dn	电脑
-⇪	dn	电脑
-␣	dn	电脑
-⇥	dn	电脑
-⇤	dn	电脑
-↩	dn	电脑
-⌅	dn	电脑
-⌤	dn	电脑
-⌫	dn	电脑
-⌦	dn	电脑
-⌧	dn	电脑
-⎋	dn	电脑
-⌨	dn	电脑
-◁	dn	电脑
-⌀	dn	电脑
-⌖	dn	电脑
-⌗	dn	电脑
-⏏	dn	电脑
-↖	dn	电脑
-↘	dn	电脑
-⇞	dn	电脑
-⇟	dn	电脑
-⌚	dn	电脑
-⏰	dn	电脑
-⏱	dn	电脑
-⏲	dn	电脑
-⏳	dn	电脑
-⌛	dn	电脑
-⌜	dn	电脑
-⌝⌞⌟	dn	电脑
-⍑	dn	电脑
-⏩	dn	电脑
-⏪	dn	电脑
-⏫	dn	电脑
-⏬	dn	电脑
-⏭	dn	电脑
-⏮	dn	电脑
-⏯	dn	电脑
-#dn:
-#电脑#
-©	fh	符号
-®	fh	符号
-℗	fh	符号
-℠	fh	符号
-™	fh	符号
-℡	fh	符号
-℻	fh	符号
-☇	fh	符号
-☈	fh	符号
-☉	fh	符号
-☊	fh	符号
-☋	fh	符号
-☌	fh	符号
-☍	fh	符号
-☎	fh	符号
-☏	fh	符号
-☐	fh	符号
-☑	fh	符号
-☒	fh	符号
-☓	fh	符号
-☕	fh	符号
-☖	fh	符号
-☗	fh	符号
-⛉	fh	符号
-⛊	fh	符号
-☘	fh	符号
-☙	fh	符号
-☚	fh	符号
-☛	fh	符号
-☜	fh	符号
-☝	fh	符号
-☞	fh	符号
-☟	fh	符号
-☠	fh	符号
-☡	fh	符号
-☢	fh	符号
-☣	fh	符号
-☤	fh	符号
-☥	fh	符号
-☦	fh	符号
-☧	fh	符号
-☨	fh	符号
-☩	fh	符号
-☪	fh	符号
-☫	fh	符号
-☬	fh	符号
-☭	fh	符号
-☮	fh	符号
-☯	fh	符号
-☸	fh	符号
-♨	fh	符号
-♰	fh	符号
-♱	fh	符号
-♲	fh	符号
-♳	fh	符号
-♴	fh	符号
-♵	fh	符号
-♶	fh	符号
-♷	fh	符号
-♸	fh	符号
-♹	fh	符号
-♺	fh	符号
-♻	fh	符号
-♼	fh	符号
-♽	fh	符号
-♾	fh	符号
-♿	fh	符号
-⚆	fh	符号
-⚇	fh	符号
-⚈	fh	符号
-⚉	fh	符号
-⚐	fh	符号
-⚑	fh	符号
-⚒	fh	符号
-⚓	fh	符号
-⚔	fh	符号
-⚕	fh	符号
-⚖	fh	符号
-⚗	fh	符号
-⚘	fh	符号
-⚙	fh	符号
-⚚	fh	符号
-⚛	fh	符号
-⚜	fh	符号
-⚝	fh	符号
-⚞	fh	符号
-⚟	fh	符号
-⚠	fh	符号
-⚡	fh	符号
-⚰	fh	符号
-⚱	fh	符号
-⚲	fh	符号
-⚳	fh	符号
-⚴	fh	符号
-⚵	fh	符号
-⚶	fh	符号
-⚷	fh	符号
-⚸	fh	符号
-⚹	fh	符号
-⚺	fh	符号
-⚻	fh	符号
-⚼	fh	符号
-⚽	fh	符号
-⚾	fh	符号
-⚿	fh	符号
-⛀	fh	符号
-⛁	fh	符号
-⛂	fh	符号
-⛃	fh	符号
-⛋	fh	符号
-⛌	fh	符号
-⛍	fh	符号
-⛎	fh	符号
-⛏	fh	符号
-⛐	fh	符号
-⛑	fh	符号
-⛒	fh	符号
-⛓	fh	符号
-⛔	fh	符号
-⛕	fh	符号
-⛖	fh	符号
-⛗	fh	符号
-⛘	fh	符号
-⛙	fh	符号
-⛚	fh	符号
-⛛	fh	符号
-⛜	fh	符号
-⛝	fh	符号
-⛞	fh	符号
-⛟	fh	符号
-⛠	fh	符号
-⛡	fh	符号
-⛢	fh	符号
-⛣	fh	符号
-⛨	fh	符号
-⛩	fh	符号
-⛪	fh	符号
-⛫	fh	符号
-⛬	fh	符号
-⛭	fh	符号
-⛮	fh	符号
-⛯	fh	符号
-⛰	fh	符号
-⛱	fh	符号
-⛲	fh	符号
-⛳	fh	符号
-⛴	fh	符号
-⛵	fh	符号
-⛶	fh	符号
-⛷	fh	符号
-⛸	fh	符号
-⛹	fh	符号
-⛺	fh	符号
-⛻	fh	符号
-⛼	fh	符号
-⛽	fh	符号
-⛾	fh	符号
-⛿	fh	符号
-#fh:
-#符号#
+suoyi	∴	其他
+yinwei	∵	其他
+yuan	圆	其他
+qian	仟	其他
+bai	佰	其他
+xi	卌	其他
+sa	卅	其他
+nian	廿	其他
+zhengfuhao	±	其他
+zhengfu	±	其他
+nacui	卐	其他
+wanzi	卍	其他
+pai	π	其他
+pi	π	其他
+du	°	其他
+du	°C	其他
+du	°F	其他
+hsd	°F	其他
+ssd	°C	其他
+budengyu	≠	其他
+budeng	≠	其他
+dayu	'>'	其他
+dayu	≥	其他
+xiaoyu	<	其他
+xiaoyu	≤	其他
+chu	÷	其他
+cheng	×	其他
+cuo	✗	其他
+cuo	✘	其他
+cuo	❎	其他
+cuo	❌	其他
+dui	✓	其他
+dui	✔	其他
+dui	✅	其他
+genhao	√	其他
+jgh	·	其他
+dian	·	其他
+zuoyou	↔︎	其他
+zuoyou	⇔	其他
+zuoyou	⇋	其他
+youxia	↘	其他
+zuoxia	↙	其他
+youshang	↗	其他
+zuoshang	↖	其他
+you	→	其他
+you	➡️	其他
+you	'V友'	其他
+zuo	←	其他
+zuo	⬅️	其他
+xia	↓	其他
+xia	⬇️	其他
+shang	↑	其他
+shang	⬆️	其他
+eject	⏏	键盘符号
+escape	⎋	键盘符号
+del	⌦	键盘符号
+backspace	⌫	键盘符号
+space	␣	键盘符号
+enter	⏎	键盘符号
+return	⏎	键盘符号
+caps	⇪	键盘符号
+cap	⇪	键盘符号
+shift	⇧	键盘符号
+opt	⌥	键盘符号
+ctrl	⌃	键盘符号
+cmd	⌘	键盘符号
+dianxin	🍮	Emoji
+dianxin	🍩	Emoji
+dianxin	🍪	Emoji
+dianxin	🍧	Emoji
+dianxin	🍨	Emoji
+dianxin	🍦	Emoji
+dianxin	🍰	Emoji
+dianxin	🧁	Emoji
+dianxin	🧇	Emoji
+dianxin	🧆	Emoji
+heiren	🧓🏿	Emoji
+heiren	🧑🏿	Emoji
+heiren	🧒🏿	Emoji
+heiren	👶🏿	Emoji
+huangzhongren	🧓🏻	Emoji
+huangzhongren	🧑🏻	Emoji
+huangzhongren	🧒🏻	Emoji
+huangzhongren	👶🏻	Emoji
+mianbao	🍞	Emoji
+mianbao	🥐	Emoji
+mianbao	🥖	Emoji
+mianbao	🥨	Emoji
+mianbao	🥯	Emoji
+mianbao	🍩	Emoji
+mianbao	🥮	Emoji
+niao	🦆	Emoji
+niao	🦅	Emoji
+niao	🦉	Emoji
+niao	🦇	Emoji
+niao	🐓	Emoji
+niao	🦃	Emoji
+niao	🕊️	Emoji
+niao	🐧	Emoji
+niao	🐦	Emoji
+niao	🦚	Emoji
+niao	🦜	Emoji
+niao	🦩	Emoji
+niao	🦤	Emoji
+niao	🦢	Emoji
+niao	🪿	Emoji
+niao	🐦‍⬛	Emoji
+yu	🐠	Emoji
+yu	🐟	Emoji
+yu	🐡	Emoji
+yu	🪼	Emoji
+yu	🐬	Emoji
+yu	🐳	Emoji
+yu	🐋	Emoji
+yu	🦈	Emoji
+yu	🦭	Emoji
+yu	🦦	Emoji
+fase	🦲	Emoji
+fase	🦰	Emoji
+fase	🦱	Emoji
+fase	🦳	Emoji
+faxing	🦲	Emoji
+faxing	🦰	Emoji
+faxing	🦱	Emoji
+faxing	🦳	Emoji
+canju	🥄	Emoji
+canju	🍴	Emoji
+canju	🍽️	Emoji
+canju	🥣	Emoji
+canju	🥢	Emoji
+canju	🫖	Emoji
+yinliao	🧋	Emoji
+yinliao	🍹	Emoji
+yinliao	🧃	Emoji
+yinliao	🍸	Emoji
+yinliao	🍵	Emoji
+yinliao	☕️	Emoji
+yinliao	🥛	Emoji
+yinliao	🍷	Emoji
+yinliao	🥃	Emoji
+yinliao	🍶	Emoji
+yinliao	🥂	Emoji
+yinliao	🍾	Emoji
+yinliao	🍻	Emoji
+yinliao	🍺	Emoji
+yinliao	🧉	Emoji
+feixingqi	🛩️	Emoji
+feixingqi	✈️	Emoji
+feixingqi	🚁	Emoji
+feixingqi	🚀	Emoji
+feixingqi	🛸	Emoji
+yanse	🟥	Emoji
+yanse	🟧	Emoji
+yanse	🟨	Emoji
+yanse	🟩	Emoji
+yanse	🟦	Emoji
+yanse	🟪	Emoji
+yanse	🟫	Emoji
+yanse	⬛️	Emoji
+yanse	⬜️	Emoji
+yanse	🔴	Emoji
+yanse	🟠	Emoji
+yanse	🟡	Emoji
+yanse	🟢	Emoji
+yanse	🔵	Emoji
+yanse	🟣	Emoji
+yanse	🟤	Emoji
+yanse	⚫️	Emoji
+yanse	⚪️	Emoji
+yanse	❤️	Emoji
+yanse	🧡	Emoji
+yanse	💛	Emoji
+yanse	💚	Emoji
+yanse	💙	Emoji
+yanse	🩵	Emoji
+yanse	🩷	Emoji
+yanse	💜	Emoji
+yanse	🤎	Emoji
+yanse	🖤	Emoji
+yanse	🩶	Emoji
+yanse	🤍	Emoji
+xiezi	👡	Emoji
+xiezi	👢	Emoji
+xiezi	👞	Emoji
+xiezi	👟	Emoji
+xiezi	🥾	Emoji
+xiezi	🥿	Emoji
+xiezi	👠	Emoji
+xiezi	🛼	Emoji
+xiezi	⛸️	Emoji
+xie	👡	Emoji
+xie	👢	Emoji
+xie	👞	Emoji
+xie	👟	Emoji
+xie	🥾	Emoji
+xie	🥿	Emoji
+xie	👠	Emoji
+xie	🛼	Emoji
+xie	⛸️	Emoji
+dianzi	⌚️	Emoji
+dianzi	📱	Emoji
+dianzi	💻	Emoji
+dianzi	⌨️	Emoji
+dianzi	🖥️	Emoji
+dianzi	🖨️	Emoji
+dianzi	🖱️	Emoji
+dianzi	📷	Emoji
+dianzi	📹	Emoji
+dianzi	💾	Emoji
+dianzi	💽	Emoji
+dianzi	💿	Emoji
+dianzi	📀	Emoji
+dianqi	💡	Emoji
+dianqi	📺	Emoji
+dianqi	☎️	Emoji
+dianqi	📟	Emoji
+dianqi	📞	Emoji
+dianqi	📠	Emoji
+dianqi	📻	Emoji
+dianqi	🕰️	Emoji
+dianqi	📡	Emoji
+dianqi	🔦	Emoji
+lingshi	🍭	Emoji
+lingshi	🍬	Emoji
+lingshi	🍫	Emoji
+lingshi	🍿	Emoji
+lingshi	🍩	Emoji
+lingshi	🍪	Emoji
+xue	❄️	Emoji
+xue	🌨️	Emoji
+xue	☃️	Emoji
+xue	⛄️	Emoji
+xue	🧊	Emoji
+alaboren	👳🏽	Emoji
+alaboren	🧔🏽	Emoji
+alaboren	🧕🏽	Emoji
+alabo	👳🏽	Emoji
+alabo	🧔🏽	Emoji
+alabo	🧕🏽	Emoji
+weishengdongwu	🦉	Emoji
+weishengdongwu	🦇	Emoji
+weishengdongwu	🐍	Emoji
+weishengdongwu	🐢	Emoji
+weishengdongwu	🦝	Emoji
+weishengdongwu	🦨	Emoji
+weishengdongwu	🦡	Emoji
+weishengdongwu	🦫	Emoji
+weishengdongwu	🐿️	Emoji
+weishengdongwu	🦦	Emoji
+weishengdongwu	🦥	Emoji
+weishengdongwu	🦔	Emoji
+weishengdongwu	🐺	Emoji
+weishengdongwu	🐗	Emoji
+weishengdongwu	🐡	Emoji
+weishengdongwu	🐬	Emoji
+weishengdongwu	🐳	Emoji
+weishengdongwu	🐋	Emoji
+weishengdongwu	🦈	Emoji
+weishengdongwu	🦭	Emoji
+weishengdongwu	🐊	Emoji
+weishengdongwu	🐅	Emoji
+weishengdongwu	🐆	Emoji
+weishengdongwu	🦓	Emoji
+weishengdongwu	🦍	Emoji
+weishengdongwu	🦧	Emoji
+weishengdongwu	🐘	Emoji
+weishengdongwu	🦛	Emoji
+weishengdongwu	🦏	Emoji
+weishengdongwu	🦒	Emoji
+weishengdongwu	🦘	Emoji
+weishengdongwu	🦩	Emoji
+weishengdongwu	🫏	Emoji
+weishengdongwu	,	Emoji🫎
+yewei	🦉	Emoji
+yewei	🦇	Emoji
+yewei	🐍	Emoji
+yewei	🐢	Emoji
+yewei	🦝	Emoji
+yewei	🦨	Emoji
+yewei	🦡	Emoji
+yewei	🦫	Emoji
+yewei	🐿️	Emoji
+yewei	🦦	Emoji
+yewei	🦥	Emoji
+yewei	🦔	Emoji
+yewei	🐺	Emoji
+yewei	🐗	Emoji
+yewei	🐡	Emoji
+yewei	🐬	Emoji
+yewei	🐳	Emoji
+yewei	🐋	Emoji
+yewei	🦈	Emoji
+yewei	🦭	Emoji
+yewei	🐊	Emoji
+yewei	🐅	Emoji
+yewei	🐆	Emoji
+yewei	🦓	Emoji
+yewei	🦍	Emoji
+yewei	🦧	Emoji
+yewei	🐘	Emoji
+yewei	🦛	Emoji
+yewei	🦏	Emoji
+yewei	🦒	Emoji
+yewei	🦘	Emoji
+yewei	🦩	Emoji
+yewei	🫏	Emoji
+yewei	,	Emoji🫎
+jiu	🍷	Emoji
+jiu	🥃	Emoji
+jiu	🍺	Emoji
+jiu	🍶	Emoji
+jiu	🍾	Emoji
+jiu	🍸	Emoji
+youleyuan	🏟️	Emoji
+youleyuan	🎡	Emoji
+youleyuan	🎢	Emoji
+youleyuan	🎠	Emoji
+youleyuan	🛝	Emoji
+tiaoliao	🧄	Emoji
+tiaoliao	🫚	Emoji
+tiaoliao	🧅	Emoji
+tiaoliao	🧂	Emoji
+tiaoliao	🧀	Emoji
+xican	🍕	Emoji
+xican	🥓	Emoji
+xican	🧀	Emoji
+xican	🥖	Emoji
+xican	🥐	Emoji
+xican	🍝	Emoji
+xican	🌯	Emoji
+xican	🌮	Emoji
+xican	🥙	Emoji
+xican	🍟	Emoji
+xican	🍔	Emoji
+xican	🌭	Emoji
+xican	🥞	Emoji
+xican	🥪	Emoji
+xican	🥯	Emoji
+xican	🧇	Emoji
+xican	🫕	Emoji
+yifu	🧥	Emoji
+yifu	👚	Emoji
+yifu	👕	Emoji
+yifu	👖	Emoji
+yifu	🩳	Emoji
+yifu	👔	Emoji
+yifu	👗	Emoji
+yifu	👘	Emoji
+yifu	🥻	Emoji
+yifu	🩲	Emoji
+yifu	👙	Emoji
+yifu	🩱	Emoji
+yifu	🥼	Emoji
+xuexing	🅰️	Emoji
+xuexing	🅱️	Emoji
+xuexing	🅾️	Emoji
+xuexing	🆎️	Emoji
+chong	🐛	Emoji
+chong	🪱	Emoji
+chong	🐞	Emoji
+chong	🪲	Emoji
+chong	🪳	Emoji
+chong	🦗	Emoji
+chong	🦟	Emoji
+chong	🐜	Emoji
+chong	🪰	Emoji
+chong	🐌	Emoji
+chong	🐝	Emoji
+ye	🍃	Emoji
+ye	🍂	Emoji
+ye	🍁	Emoji
+ye	🌱	Emoji
+ye	🌿	Emoji
+ye	🥬	Emoji
+shucai	🍅	Emoji
+shucai	🍆	Emoji
+shucai	🥒	Emoji
+shucai	🥕	Emoji
+shucai	🌶️	Emoji
+shucai	🥦	Emoji
+shucai	🥗	Emoji
+shucai	🥬	Emoji
+shucai	🫒	Emoji
+shucai	🫑	Emoji
+shucai	🫘	Emoji
+shucai	🫛	Emoji
+cai	🍅	Emoji
+cai	🍆	Emoji
+cai	🥒	Emoji
+cai	🥕	Emoji
+cai	🌶️	Emoji
+cai	🥦	Emoji
+cai	🥗	Emoji
+cai	🥬	Emoji
+cai	🫒	Emoji
+cai	🫑	Emoji
+cai	🫘	Emoji
+cai	🫛	Emoji
+huaduo	🌸	Emoji
+huaduo	🌺	Emoji
+huaduo	🌼	Emoji
+huaduo	🌻	Emoji
+huaduo	🌷	Emoji
+huaduo	🌹	Emoji
+huaduo	💐	Emoji
+huaduo	🥀	Emoji
+huaduo	🪷	Emoji
+huaduo	🪻	Emoji
+hua	🌸	Emoji
+hua	🌺	Emoji
+hua	🌼	Emoji
+hua	🌻	Emoji
+hua	🌷	Emoji
+hua	🌹	Emoji
+hua	💐	Emoji
+hua	🥀	Emoji
+hua	🪷	Emoji
+hua	🪻	Emoji
+chuan	🚢	Emoji
+chuan	⛴️	Emoji
+chuan	🛳️	Emoji
+chuan	🛥️	Emoji
+chuan	🚤	Emoji
+chuan	⛵️	Emoji
+chuan	🛶	Emoji
+chuan	⚓️	Emoji
+fuse	🏻	Emoji
+fuse	🏼	Emoji
+fuse	🏽	Emoji
+fuse	🏾	Emoji
+fuse	🏿	Emoji
+rou	🥩	Emoji
+rou	🥓	Emoji
+rou	🍗	Emoji
+rou	🍖	Emoji
+rou	🍤	Emoji
+liang	🌽	Emoji
+liang	🥔	Emoji
+liang	🍠	Emoji
+liang	🥜	Emoji
+liang	🌰	Emoji
+jingguai	🧙🏻	Emoji
+jingguai	🧝🏻	Emoji
+jingguai	🧛🏻	Emoji
+jingguai	🧟	Emoji
+jingguai	🧞	Emoji
+jingguai	🧜🏻	Emoji
+jingguai	🧚🏻	Emoji
+jingguai	🦹🏻	Emoji
+culiang	🌽	Emoji
+culiang	🥔	Emoji
+culiang	🍠	Emoji
+culiang	🥜	Emoji
+culiang	🌰	Emoji
+jieri	🎊	Emoji
+jieri	🎉	Emoji
+jieri	🪅	Emoji
+jieri	🎏	Emoji
+jieri	🎎	Emoji
+jieri	🏮	Emoji
+jieri	🎐	Emoji
+jieri	🧧	Emoji
+jieri	🎁	Emoji
+jieri	🧨	Emoji
+jieri	🎇	Emoji
+jieri	🎆	Emoji
+jieri	🎑	Emoji
+jieri	🎄	Emoji
+jieri	🧑🏻‍🎄	Emoji
+musilin	👳🏽	Emoji
+kexue	🔬	Emoji
+kexue	🔭	Emoji
+kexue	⚗️	Emoji
+kexue	⚛️	Emoji
+kexue	🧑🏻‍🔬	Emoji
+kexue	🧬	Emoji
+kexue	🧪	Emoji
+kexue	🧫	Emoji
+kexue	🩺	Emoji
+kexue	🩻	Emoji
+yanjing	👓	Emoji
+yanjing	🕶️	Emoji
+yanjing	🥽	Emoji
+baizhongren	🧓🏼	Emoji
+baizhongren	🧑🏼	Emoji
+baizhongren	👱🏼	Emoji
+baizhongren	🧒🏼	Emoji
+baizhongren	👶🏼	Emoji
+bairen	🧓🏼	Emoji
+bairen	🧑🏼	Emoji
+bairen	👱🏼	Emoji
+bairen	🧒🏼	Emoji
+bairen	👶🏼	Emoji
+chusheng	🐄	Emoji
+chusheng	🐃	Emoji
+chusheng	🐂	Emoji
+chusheng	🦬	Emoji
+chusheng	🐐	Emoji
+chusheng	🐏	Emoji
+chusheng	🐖	Emoji
+chusheng	🐑	Emoji
+chusheng	🐕	Emoji
+chusheng	🦮	Emoji
+chusheng	🐕‍🦺	Emoji
+chusheng	🐩	Emoji
+chusheng	🐈	Emoji
+chusheng	🐈‍⬛️	Emoji
+chusheng	🫏	Emoji
+chusheng	🫎	Emoji
+shengxiao	🐁	Emoji
+shengxiao	🐀	Emoji
+shengxiao	🐂	Emoji
+shengxiao	🐃	Emoji
+shengxiao	🐄	Emoji
+shengxiao	🦬	Emoji
+shengxiao	🐅	Emoji
+shengxiao	🐆	Emoji
+shengxiao	🐇	Emoji
+shengxiao	🐉	Emoji
+shengxiao	🐍	Emoji
+shengxiao	🐎	Emoji
+shengxiao	🐏	Emoji
+shengxiao	🐐	Emoji
+shengxiao	🐑	Emoji
+shengxiao	🐒	Emoji
+shengxiao	🦧	Emoji
+shengxiao	🦍	Emoji
+shengxiao	🦃	Emoji
+shengxiao	🐓	Emoji
+shengxiao	🐕	Emoji
+shengxiao	🦮	Emoji
+shengxiao	🐕‍🦺	Emoji
+shengxiao	🐖	Emoji
+shengxiao	🐗	Emoji
+tiandian	🍮	Emoji
+tiandian	🍩	Emoji
+tiandian	🍪	Emoji
+tiandian	🍧	Emoji
+tiandian	🍨	Emoji
+tiandian	🍦	Emoji
+tiandian	🍰	Emoji
+tiandian	🧁	Emoji
+tiandian	🧇	Emoji
+tiandian	🧆	Emoji
+tianshi	🍯	Emoji
+tianshi	🍰	Emoji
+tianshi	🍮	Emoji
+tianshi	🎂	Emoji
+tianshi	🍭	Emoji
+tianshi	🍬	Emoji
+tianshi	🍫	Emoji
+tianshi	🍩	Emoji
+tianshi	🍪	Emoji
+tianshi	🍦	Emoji
+tianshi	🧁	Emoji
+qiu	⚽️	Emoji
+qiu	🏀	Emoji
+qiu	🏈	Emoji
+qiu	🏐	Emoji
+qiu	🏉	Emoji
+qiu	⚾️	Emoji
+qiu	🥎️	Emoji
+qiu	🎾	Emoji
+qiu	🎱	Emoji
+qiu	🪀	Emoji
+qiu	🏓	Emoji
+qiu	🏸	Emoji
+qiu	🏒	Emoji
+qiu	🏑	Emoji
+qiu	🏏	Emoji
+qiu	🛹	Emoji
+qiu	🥍	Emoji
+jiangpai	🏅	Emoji
+jiangpai	🎖️	Emoji
+jiangpai	🥇	Emoji
+jiangpai	🥈	Emoji
+jiangpai	🥉	Emoji
+jiangpai	🏆	Emoji
+jiangxiang	🏅	Emoji
+jiangxiang	🎖️	Emoji
+jiangxiang	🥇	Emoji
+jiangxiang	🥈	Emoji
+jiangxiang	🥉	Emoji
+jiangxiang	🏆	Emoji
+jiang	🏅	Emoji
+jiang	🎖️	Emoji
+jiang	🥇	Emoji
+jiang	🥈	Emoji
+jiang	🥉	Emoji
+jiang	🏆	Emoji
+shengchu	🐄	Emoji
+shengchu	🐃	Emoji
+shengchu	🐂	Emoji
+shengchu	🦬	Emoji
+shengchu	🐐	Emoji
+shengchu	🐏	Emoji
+shengchu	🐖	Emoji
+shengchu	🐑	Emoji
+shengchu	🐕	Emoji
+shengchu	🦮	Emoji
+shengchu	🐕‍🦺	Emoji
+shengchu	🐩	Emoji
+shengchu	🐈	Emoji
+shengchu	🐈‍⬛️	Emoji
+shengchu	🫏	Emoji
+shengchu	🫎	Emoji
+reyin	☕️	Emoji
+reyin	🍵	Emoji
+huoche	🚄	Emoji
+huoche	🚅	Emoji
+huoche	🚝	Emoji
+huoche	🚆	Emoji
+huoche	🚂	Emoji
+huoche	🚉	Emoji
+qiche	🚗	Emoji
+qiche	🚕	Emoji
+qiche	🚙	Emoji
+qiche	🚌	Emoji
+qiche	🚎	Emoji
+qiche	🏎️	Emoji
+qiche	🚓	Emoji
+qiche	🚑	Emoji
+qiche	🚒	Emoji
+qiche	🚐	Emoji
+qiche	🚚	Emoji
+qiche	🚛	Emoji
+qiche	🎢	Emoji
+qiche	🛻	Emoji
+qiche	🚔	Emoji
+qiche	🚍	Emoji
+qiche	🚘	Emoji
+qiche	🚖	Emoji
+qiche	🛺	Emoji
+che	🚗	Emoji
+che	🚕	Emoji
+che	🚙	Emoji
+che	🚌	Emoji
+che	🚎	Emoji
+che	🏎️	Emoji
+che	🚓	Emoji
+che	🚑	Emoji
+che	🚒	Emoji
+che	🚐	Emoji
+che	🚚	Emoji
+che	🚛	Emoji
+che	🎢	Emoji
+che	🛻	Emoji
+che	🚔	Emoji
+che	🚍	Emoji
+che	🚘	Emoji
+che	🚖	Emoji
+che	🛺	Emoji
+wuqi	🔫	Emoji
+wuqi	🗡️	Emoji
+wuqi	⚔️	Emoji
+wuqi	🔪	Emoji
+wuqi	🛡️	Emoji
+wuqi	🪓	Emoji
+wuqi	🚀	Emoji
+zhengcan	🥘	Emoji
+zhengcan	🍜	Emoji
+zhengcan	🍲	Emoji
+zhengcan	🍛	Emoji
+zhengcan	🍝	Emoji
+zhengcan	🍱	Emoji
+zhengcan	🍚	Emoji
+zhengcan	🥗	Emoji
+jixie	⚙️	Emoji
+jixie	🔩	Emoji
+jixie	⛏️	Emoji
+jixie	🛠️	Emoji
+jixie	⚒️	Emoji
+jixie	🔨	Emoji
+jixie	🔧	Emoji
+jixie	⛓️	Emoji
+jixie	🧰	Emoji
+jixie	🪒	Emoji
+jixie	🪚	Emoji
+jixie	🪛	Emoji
+jixie	🪜	Emoji
+jixie	🪡	Emoji
+yueqi	🎻	Emoji
+yueqi	🎸	Emoji
+yueqi	🎹	Emoji
+yueqi	🎷	Emoji
+yueqi	🎺	Emoji
+yueqi	🥁	Emoji
+yueqi	🪕	Emoji
+yueqi	🪘	Emoji
+yueqi	🪗	Emoji
+yueqi	🪈	Emoji
+yueqi	🪇	Emoji
+zhiwu	🌲	Emoji
+zhiwu	🌳	Emoji
+zhiwu	🎄	Emoji
+zhiwu	🌵	Emoji
+zhiwu	🌴	Emoji
+zhiwu	🌱	Emoji
+zhiwu	🌿	Emoji
+zhiwu	☘️	Emoji
+zhiwu	🍀	Emoji
+zhiwu	🎍	Emoji
+zhiwu	🪴	Emoji
+zhiwu	🌾	Emoji
+zhiwu	🥬	Emoji
+zhiwu	🪻	Emoji
+zongserenzhong	🧓🏽	Emoji
+zongserenzhong	🧑🏽	Emoji
+zongserenzhong	🧒🏽	Emoji
+zongserenzhong	👶🏽	Emoji
+zongseren	🧓🏽	Emoji
+zongseren	🧑🏽	Emoji
+zongseren	🧒🏽	Emoji
+zongseren	👶🏽	Emoji
+shuiguo	🍏	Emoji
+shuiguo	🍎	Emoji
+shuiguo	🍐	Emoji
+shuiguo	🍊	Emoji
+shuiguo	🍋	Emoji
+shuiguo	🍌	Emoji
+shuiguo	🍉	Emoji
+shuiguo	🍇	Emoji
+shuiguo	🍓	Emoji
+shuiguo	🫐	Emoji
+shuiguo	🍈	Emoji
+shuiguo	🍒	Emoji
+shuiguo	🍑	Emoji
+shuiguo	🍍	Emoji
+shuiguo	🥝	Emoji
+shuiguo	🥑	Emoji
+shuiguo	🥥	Emoji
+shuiguo	🥭	Emoji
+guo	🍏	Emoji
+guo	🍎	Emoji
+guo	🍐	Emoji
+guo	🍊	Emoji
+guo	🍋	Emoji
+guo	🍌	Emoji
+guo	🍉	Emoji
+guo	🍇	Emoji
+guo	🍓	Emoji
+guo	🫐	Emoji
+guo	🍈	Emoji
+guo	🍒	Emoji
+guo	🍑	Emoji
+guo	🍍	Emoji
+guo	🥝	Emoji
+guo	🥑	Emoji
+guo	🥥	Emoji
+guo	🥭	Emoji
+dongyayi	🧓🏻	Emoji
+dongyayi	🧑🏻	Emoji
+dongyayi	🧒🏻	Emoji
+dongyayi	👶🏻	Emoji
+dongyaren	🧓🏻	Emoji
+dongyaren	🧑🏻	Emoji
+dongyaren	🧒🏻	Emoji
+dongyaren	👶🏻	Emoji
+fushi	🧥	Emoji
+fushi	👚	Emoji
+fushi	👕	Emoji
+fushi	👖	Emoji
+fushi	🩳	Emoji
+fushi	👔	Emoji
+fushi	👗	Emoji
+fushi	👘	Emoji
+fushi	🥻	Emoji
+fushi	🩲	Emoji
+fushi	👙	Emoji
+fushi	🩱	Emoji
+fushi	🥼	Emoji
+fuzhuang	🧥	Emoji
+fuzhuang	👚	Emoji
+fuzhuang	👕	Emoji
+fuzhuang	👖	Emoji
+fuzhuang	🩳	Emoji
+fuzhuang	👔	Emoji
+fuzhuang	👗	Emoji
+fuzhuang	👘	Emoji
+fuzhuang	🥻	Emoji
+fuzhuang	🩲	Emoji
+fuzhuang	👙	Emoji
+fuzhuang	🩱	Emoji
+fuzhuang	🥼	Emoji
+youhai	☢️	Emoji
+youhai	☣️	Emoji
+youhai	🦠	Emoji
+yuexiang	🌕	Emoji
+yuexiang	🌖	Emoji
+yuexiang	🌗	Emoji
+yuexiang	🌘	Emoji
+yuexiang	🌑	Emoji
+yuexiang	🌒	Emoji
+yuexiang	🌓	Emoji
+yuexiang	🌔	Emoji
+jingdian	🗽	Emoji
+jingdian	🏰	Emoji
+jingdian	🗼	Emoji
+jingdian	🗻	Emoji
+jingdian	🏯	Emoji
+jingdian	🏝️	Emoji
+jingdian	🏖️	Emoji
+jingdian	🌁	Emoji
+jingdian	🌉	Emoji
+jingdian	🏞️	Emoji
+shizhong	🕛	Emoji
+shizhong	🕧	Emoji
+shizhong	🕐	Emoji
+shizhong	🕜	Emoji
+shizhong	🕑	Emoji
+shizhong	🕝	Emoji
+shizhong	🕒	Emoji
+shizhong	🕞	Emoji
+shizhong	🕓	Emoji
+shizhong	🕟	Emoji
+shizhong	🕔	Emoji
+shizhong	🕠	Emoji
+shizhong	🕕	Emoji
+shizhong	🕡	Emoji
+shizhong	🕖	Emoji
+shizhong	🕢	Emoji
+shizhong	🕗	Emoji
+shizhong	🕣	Emoji
+shizhong	🕘	Emoji
+shizhong	🕤	Emoji
+shizhong	🕙	Emoji
+shizhong	🕥	Emoji
+shizhong	🕚	Emoji
+shizhong	🕦	Emoji
+xingzuo	♒️	Emoji
+xingzuo	♓️	Emoji
+xingzuo	♈️	Emoji
+xingzuo	♉️	Emoji
+xingzuo	♊️	Emoji
+xingzuo	♋️	Emoji
+xingzuo	♌️	Emoji
+xingzuo	♍️	Emoji
+xingzuo	♎️	Emoji
+xingzuo	♏️	Emoji
+xingzuo	♐️	Emoji
+xingzuo	♑️	Emoji
+zaodian	🍳	Emoji
+zaodian	🥚	Emoji
+zaodian	🧀	Emoji
+zaodian	🥖	Emoji
+zaodian	🥛	Emoji
+zaodian	🍯	Emoji
+zaodian	🥪	Emoji
+zaodian	🥫	Emoji
+zaodian	🥯	Emoji
+zaodian	🧇	Emoji
+zaodian	🫓	Emoji
+zaocan	🍳	Emoji
+zaocan	🥚	Emoji
+zaocan	🧀	Emoji
+zaocan	🥖	Emoji
+zaocan	🥛	Emoji
+zaocan	🍯	Emoji
+zaocan	🥪	Emoji
+zaocan	🥫	Emoji
+zaocan	🥯	Emoji
+zaocan	🧇	Emoji
+zaocan	🫓	Emoji
+riyong	🧴	Emoji
+riyong	🧼	Emoji
+riyong	🧻	Emoji
+riyong	🧽	Emoji
+riyong	🪥	Emoji
+riyong	🪒	Emoji
+riyong	💄	Emoji
+riyong	🪣	Emoji
+ribencai	🍥	Emoji
+ribencai	🍣	Emoji
+ribencai	🍱	Emoji
+ribencai	🍙	Emoji
+ribencai	🍘	Emoji
+rishiliaoli	🍥	Emoji
+rishiliaoli	🍣	Emoji
+rishiliaoli	🍱	Emoji
+rishiliaoli	🍙	Emoji
+rishiliaoli	🍘	Emoji
+riliao	🍥	Emoji
+riliao	🍣	Emoji
+riliao	🍱	Emoji
+riliao	🍙	Emoji
+riliao	🍘	Emoji
+zhengfangxing	🟥	Emoji
+zhengfangxing	🟧	Emoji
+zhengfangxing	🟨	Emoji
+zhengfangxing	🟩	Emoji
+zhengfangxing	🟦	Emoji
+zhengfangxing	🟪	Emoji
+zhengfangxing	🟫	Emoji
+zhengfangxing	⬛️	Emoji
+zhengfangxing	⬜️	Emoji
+fangxing	🟥	Emoji
+fangxing	🟧	Emoji
+fangxing	🟨	Emoji
+fangxing	🟩	Emoji
+fangxing	🟦	Emoji
+fangxing	🟪	Emoji
+fangxing	🟫	Emoji
+fangxing	⬛️	Emoji
+fangxing	⬜️	Emoji
+shuma	⌚️	Emoji
+shuma	📱	Emoji
+shuma	💻	Emoji
+shuma	⌨️	Emoji
+shuma	🖥️	Emoji
+shuma	🖨️	Emoji
+shuma	🖱️	Emoji
+shuma	📷	Emoji
+shuma	📹	Emoji
+shuma	💾	Emoji
+shuma	💽	Emoji
+shuma	💿	Emoji
+shuma	📀	Emoji
+juan	🥙	Emoji
+juan	🌮	Emoji
+juan	🌯	Emoji
+juan	🫔	Emoji
+lameiyi	🧓🏽	Emoji
+lameiyi	🧑🏽	Emoji
+lameiyi	🧒🏽	Emoji
+lameiyi	👶🏽	Emoji
+lameiren	🧓🏽	Emoji
+lameiren	🧑🏽	Emoji
+lameiren	🧒🏽	Emoji
+lameiren	👶🏽	Emoji
+lamei	🧓🏽	Emoji
+lamei	🧑🏽	Emoji
+lamei	🧒🏽	Emoji
+lamei	👶🏽	Emoji
+ladingyi	🧓🏽	Emoji
+ladingyi	🧑🏽	Emoji
+ladingyi	🧒🏽	Emoji
+ladingyi	👶🏽	Emoji
+lading	🧓🏽	Emoji
+lading	🧑🏽	Emoji
+lading	🧒🏽	Emoji
+lading	👶🏽	Emoji
+guaiwu	🦄	Emoji
+guaiwu	🤖	Emoji
+guaiwu	👾	Emoji
+guaiwu	👹	Emoji
+guaiwu	👺	Emoji
+kuaican	🍔	Emoji
+kuaican	🌭	Emoji
+kuaican	🍟	Emoji
+kuaican	🥞	Emoji
+kuaican	🥡	Emoji
+kuaican	🥫	Emoji
+xinxing	❤️	Emoji
+xinxing	🧡	Emoji
+xinxing	💛	Emoji
+xinxing	💚	Emoji
+xinxing	💙	Emoji
+xinxing	🩵	Emoji
+xinxing	🩷	Emoji
+xinxing	💜	Emoji
+xinxing	🤎	Emoji
+xinxing	🖤	Emoji
+xinxing	🩶	Emoji
+xinxing	🤍	Emoji
+maozi	👒	Emoji
+maozi	🧢	Emoji
+maozi	🎩	Emoji
+maozi	🎓	Emoji
+maozi	⛑️	Emoji
+maozi	🪖	Emoji
+mao	👒	Emoji
+mao	🧢	Emoji
+mao	🎩	Emoji
+mao	🎓	Emoji
+mao	⛑️	Emoji
+mao	🪖	Emoji
+gongju	⚙️	Emoji
+gongju	🔩	Emoji
+gongju	⛏️	Emoji
+gongju	🛠️	Emoji
+gongju	⚒️	Emoji
+gongju	🔨	Emoji
+gongju	🔧	Emoji
+gongju	⛓️	Emoji
+gongju	🧰	Emoji
+gongju	🪒	Emoji
+gongju	🪚	Emoji
+gongju	🪛	Emoji
+gongju	🪜	Emoji
+gongju	🪡	Emoji
+hanleng	❄️	Emoji
+hanleng	🌨️	Emoji
+hanleng	☃️	Emoji
+hanleng	⛄️	Emoji
+hanleng	🧊	Emoji
+leng	❄️	Emoji
+leng	🌨️	Emoji
+leng	☃️	Emoji
+leng	⛄️	Emoji
+leng	🧊	Emoji
+jiaqin	🦆	Emoji
+jiaqin	🐓	Emoji
+jiaqin	🦃	Emoji
+jiaqin	🐔	Emoji
+jiaqin	🐤	Emoji
+jiaqin	🐣	Emoji
+jiaqin	🐥	Emoji
+jiaqin	🦚	Emoji
+jiaqin	🪿	Emoji
+zongjiao	✝️	Emoji
+zongjiao	☪️	Emoji
+zongjiao	🕉️	Emoji
+zongjiao	☸️	Emoji
+zongjiao	🔯	Emoji
+zongjiao	🕎	Emoji
+zongjiao	☯️	Emoji
+zongjiao	☦️	Emoji
+zongjiao	🪯	Emoji
+zongjiao	🛐	Emoji
+zongjiao	⛪️	Emoji
+zongjiao	🕌	Emoji
+zongjiao	🕍	Emoji
+zongjiao	🕋	Emoji
+zongjiao	⛩️	Emoji
+zongjiao	🛕	Emoji
+yule	🎮	Emoji
+yule	🎰	Emoji
+yule	🎲	Emoji
+yule	🎯	Emoji
+yule	🎳	Emoji
+yule	🎧	Emoji
+yule	🎤️	Emoji
+yule	🎪	Emoji
+yule	🎫	Emoji
+yule	🎟️	Emoji
+yule	♟️	Emoji
+yule	🕹️	Emoji
+yule	🖲️	Emoji
+yule	🪀	Emoji
+yule	🪩	Emoji
+tianqi	☀️	Emoji
+tianqi	🌤️	Emoji
+tianqi	⛅️	Emoji
+tianqi	🌦️	Emoji
+tianqi	🌥️	Emoji
+tianqi	☁️	Emoji
+tianqi	🌨️	Emoji
+tianqi	🌧️	Emoji
+tianqi	🌩️	Emoji
+tianqi	⛈️	Emoji
+tianqi	❄️	Emoji
+tianqi	💨	Emoji
+tianqi	🌪️	Emoji
+tianqi	🌫️	Emoji
+tianqi	🌊	Emoji
+qixiang	☀️	Emoji
+qixiang	🌤️	Emoji
+qixiang	⛅️	Emoji
+qixiang	🌦️	Emoji
+qixiang	🌥️	Emoji
+qixiang	☁️	Emoji
+qixiang	🌨️	Emoji
+qixiang	🌧️	Emoji
+qixiang	🌩️	Emoji
+qixiang	⛈️	Emoji
+qixiang	❄️	Emoji
+qixiang	💨	Emoji
+qixiang	🌪️	Emoji
+qixiang	🌫️	Emoji
+qixiang	🌊	Emoji
+ziran	🔥	Emoji
+ziran	💧	Emoji
+ziran	🌬️	Emoji
+ziran	🫧	Emoji
+ziran	☀️	Emoji
+ziran	🌤️	Emoji
+ziran	⛅️	Emoji
+ziran	🌦️	Emoji
+ziran	🌥️	Emoji
+ziran	☁️	Emoji
+ziran	🌨️	Emoji
+ziran	🌧️	Emoji
+ziran	🌩️	Emoji
+ziran	⛈️	Emoji
+ziran	❄️	Emoji
+ziran	💨	Emoji
+ziran	🌪️	Emoji
+ziran	🌫️	Emoji
+ziran	🌊	Emoji
+ziran	🧊	Emoji
+ziran	🪨	Emoji
+daziran	🔥	Emoji
+daziran	💧	Emoji
+daziran	🌬️	Emoji
+daziran	🫧	Emoji
+daziran	☀️	Emoji
+daziran	🌤️	Emoji
+daziran	⛅️	Emoji
+daziran	🌦️	Emoji
+daziran	🌥️	Emoji
+daziran	☁️	Emoji
+daziran	🌨️	Emoji
+daziran	🌧️	Emoji
+daziran	🌩️	Emoji
+daziran	⛈️	Emoji
+daziran	❄️	Emoji
+daziran	💨	Emoji
+daziran	🌪️	Emoji
+daziran	🌫️	Emoji
+daziran	🌊	Emoji
+daziran	🧊	Emoji
+daziran	🪨	Emoji
+yekong	🌙	Emoji
+yekong	💫	Emoji
+yekong	⭐️	Emoji
+yekong	🌟	Emoji
+yekong	✨	Emoji
+yekong	🌛	Emoji
+yekong	🌜	Emoji
+ye	🌙	Emoji
+ye	💫	Emoji
+ye	⭐️	Emoji
+ye	🌟	Emoji
+ye	✨	Emoji
+ye	🌛	Emoji
+ye	🌜	Emoji
+duomeiti	📽️	Emoji
+duomeiti	🎥	Emoji
+duomeiti	📹	Emoji
+duomeiti	📷	Emoji
+duomeiti	🎙️	Emoji
+duomeiti	📡	Emoji
+huobi	💵	Emoji
+huobi	💶	Emoji
+huobi	💷	Emoji
+huobi	💴	Emoji
+zhibi	💵	Emoji
+zhibi	💶	Emoji
+zhibi	💷	Emoji
+zhibi	💴	Emoji
+qian	💵	Emoji
+qian	💶	Emoji
+qian	💷	Emoji
+qian	💴	Emoji
+waihui	💵	Emoji
+waihui	💶	Emoji
+waihui	💷	Emoji
+waihui	💴	Emoji
+jianguo	🥜	Emoji
+jianguo	🌰️	Emoji
+chenggui	🚈	Emoji
+chenggui	🚇	Emoji
+chenggui	🚊	Emoji
+chenggui	🚞	Emoji
+chenggui	🚋	Emoji
+chenggui	🚃	Emoji
+chenggui	🚟	Emoji
+ditie	🚈	Emoji
+ditie	🚇	Emoji
+ditie	🚊	Emoji
+ditie	🚞	Emoji
+ditie	🚋	Emoji
+ditie	🚃	Emoji
+ditie	🚟	Emoji
+yuanxing	🔴	Emoji
+yuanxing	🟠	Emoji
+yuanxing	🟡	Emoji
+yuanxing	🟢	Emoji
+yuanxing	🔵	Emoji
+yuanxing	🟣	Emoji
+yuanxing	🟤	Emoji
+yuanxing	⚫️	Emoji
+yuanxing	⚪️	Emoji
+yuan	🔴	Emoji
+yuan	🟠	Emoji
+yuan	🟡	Emoji
+yuan	🟢	Emoji
+yuan	🔵	Emoji
+yuan	🟣	Emoji
+yuan	🟤	Emoji
+yuan	⚫️	Emoji
+yuan	⚪️	Emoji
+qiguan	👁️	Emoji
+qiguan	👂🏻	Emoji
+qiguan	👃🏻	Emoji
+qiguan	👄	Emoji
+qiguan	🦷	Emoji
+qiguan	🧠	Emoji
+qiguan	🫁	Emoji
+qiguan	🫀	Emoji
+qiguan	🦵🏻	Emoji
+qiguan	🦶🏻	Emoji
+qiguan	🖐🏻	Emoji
+qiguan	👅	Emoji
+mingsheng	🗽	Emoji
+mingsheng	🏰	Emoji
+mingsheng	🗼	Emoji
+mingsheng	🗻	Emoji
+mingsheng	🏯	Emoji
+mingsheng	🏝️	Emoji
+mingsheng	🏖️	Emoji
+mingsheng	🌁	Emoji
+mingsheng	🌉	Emoji
+mingsheng	🏞️	Emoji
+fan	🍛	Emoji
+fan	🍲	Emoji
+fan	🍝	Emoji
+fan	🍜	Emoji
+fan	🥘	Emoji
+fan	🍣	Emoji
+fan	🍱	Emoji
+fan	🍘	Emoji
+fan	🍙	Emoji
+fan	🍚	Emoji
+fan	🥡	Emoji
+wucan	🍛	Emoji
+wucan	🍲	Emoji
+wucan	🍝	Emoji
+wucan	🍜	Emoji
+wucan	🥘	Emoji
+wucan	🍣	Emoji
+wucan	🍱	Emoji
+wucan	🍘	Emoji
+wucan	🍙	Emoji
+wucan	🍚	Emoji
+wucan	🥡	Emoji
+bao	👝	Emoji
+bao	👛	Emoji
+bao	👜	Emoji
+bao	💼	Emoji
+bao	🧳	Emoji
+bao	🎒	Emoji
+dongwulian	🐶	Emoji
+dongwulian	🐱	Emoji
+dongwulian	🐭	Emoji
+dongwulian	🐹	Emoji
+dongwulian	🐰	Emoji
+dongwulian	🦊	Emoji
+dongwulian	🐻	Emoji
+dongwulian	🐻‍❄️	Emoji
+dongwulian	🐼	Emoji
+dongwulian	🐨	Emoji
+dongwulian	🐯	Emoji
+dongwulian	🦁	Emoji
+dongwulian	🐮	Emoji
+dongwulian	🐷	Emoji
+dongwulian	🐽	Emoji
+dongwulian	🐸	Emoji
+dongwulian	🐵	Emoji
+dongwu	🦆	Emoji
+dongwu	🦅	Emoji
+dongwu	🦉	Emoji
+dongwu	🦇	Emoji
+dongwu	🐺	Emoji
+dongwu	🐗	Emoji
+dongwu	🦄	Emoji
+dongwu	🐴	Emoji
+dongwu	🐝	Emoji
+dongwu	🐛	Emoji
+dongwu	🐞	Emoji
+dongwu	🪲	Emoji
+dongwu	🦟	Emoji
+dongwu	🐚	Emoji
+dongwu	🐌	Emoji
+dongwu	🦋	Emoji
+dongwu	🐜	Emoji
+dongwu	🕷️	Emoji
+dongwu	🐢	Emoji
+dongwu	🐍	Emoji
+dongwu	🦎	Emoji
+dongwu	🦂	Emoji
+dongwu	🦀	Emoji
+dongwu	🦑	Emoji
+dongwu	🐙	Emoji
+dongwu	🦐	Emoji
+dongwu	🦞	Emoji
+dongwu	🦪	Emoji
+dongwu	🐠	Emoji
+dongwu	🐟	Emoji
+dongwu	🐡	Emoji
+dongwu	🪼	Emoji
+dongwu	🐬	Emoji
+dongwu	🦈	Emoji
+dongwu	🐋	Emoji
+dongwu	🐊	Emoji
+dongwu	🐆	Emoji
+dongwu	🐅	Emoji
+dongwu	🐃	Emoji
+dongwu	🐂	Emoji
+dongwu	🐄	Emoji
+dongwu	🦬	Emoji
+dongwu	🦌	Emoji
+dongwu	🐪	Emoji
+dongwu	🐫	Emoji
+dongwu	🐘	Emoji
+dongwu	🦏	Emoji
+dongwu	🦍	Emoji
+dongwu	🦧	Emoji
+dongwu	🦣	Emoji
+dongwu	🐎	Emoji
+dongwu	🐖	Emoji
+dongwu	🐐	Emoji
+dongwu	🐏	Emoji
+dongwu	🐑	Emoji
+dongwu	🐕	Emoji
+dongwu	🐩	Emoji
+dongwu	🐈	Emoji
+dongwu	🐈‍⬛️	Emoji
+dongwu	🐇	Emoji
+dongwu	🐁	Emoji
+dongwu	🐀	Emoji
+dongwu	🐿️	Emoji
+dongwu	🐉	Emoji
+dongwu	🐒	Emoji
+dongwu	🦙	Emoji
+dongwu	🦛	Emoji
+dongwu	🫏	Emoji
+dongwu	🫎	Emoji
+dongwu	🦖	Emoji
+dongwu	🦕	Emoji
+dongwu	🦡	Emoji
+dongwu	🦝	Emoji
+dongwu	🦨	Emoji
+dongwu	🦫	Emoji
+dongwu	🦦	Emoji
+dongwu	🦭	Emoji
+dongwu	🦥	Emoji
+dongwu	🐓	Emoji
+dongwu	🦃	Emoji
+dongwu	🕊️	Emoji
+dongwu	🦩	Emoji
+dongwu	🪿	Emoji
+dongwu	🦢	Emoji
+dongwu	🦜	Emoji
+dongwu	🦤	Emoji
+dongwu	🦚	Emoji
+dongwu	🐦‍⬛	Emoji
+gongjiao	🚌	Emoji
+gongjiao	🚎	Emoji
+gongjiao	🚍	Emoji
+gongjiao	🚈	Emoji
+gongjiao	🚇	Emoji
+gongjiao	🚊	Emoji
+yuansu	💧	Emoji
+yuansu	🔥	Emoji
+yuansu	🌪️	Emoji
+yuansu	🪨	Emoji
+yuansu	🪵	Emoji
+yuansu	⚡️	Emoji
+yuansu	🧊	Emoji
+yundongyuan	⛷️	Emoji
+yundongyuan	🏂🏻	Emoji
+yundongyuan	🏋🏻	Emoji
+yundongyuan	🤺	Emoji
+yundongyuan	🤼🏻	Emoji
+yundongyuan	🤸🏻	Emoji
+yundongyuan	⛹🏻	Emoji
+yundongyuan	🤾🏻	Emoji
+yundongyuan	🏌🏻	Emoji
+yundongyuan	🏄🏻	Emoji
+yundongyuan	🏊🏻	Emoji
+yundongyuan	🤽🏻	Emoji
+yundongyuan	🚣🏻	Emoji
+yundongyuan	🏇🏻	Emoji
+yundongyuan	🚴🏻	Emoji
+yundongyuan	🚵🏻	Emoji
+yundongyuan	🧗🏻	Emoji
+yundongyuan	🤹🏻	Emoji
+yundong	🏒	Emoji
+yundong	🏸	Emoji
+yundong	🏓	Emoji
+yundong	🏑	Emoji
+yundong	🏏	Emoji
+yundong	⛳️	Emoji
+yundong	🏹	Emoji
+yundong	⚽️	Emoji
+yundong	🏀	Emoji
+yundong	🏈	Emoji
+yundong	⚾️	Emoji
+yundong	🥎️	Emoji
+yundong	🎾	Emoji
+yundong	🏐	Emoji
+yundong	🏉	Emoji
+yundong	🎱	Emoji
+yundong	⛸️	Emoji
+yundong	🛼	Emoji
+yundong	🎿	Emoji
+yundong	🎳	Emoji
+yundong	🥏	Emoji
+yundong	🥍	Emoji
+yundong	🛹	Emoji
+yundong	🤿	Emoji
+yundong	🪂	Emoji
+yundong	🛷	Emoji
+yundong	🥌	Emoji
+yundong	🪃	Emoji
+yundong	🪁	Emoji
+yayinan	👴🏻	Emoji
+yayinan	👨🏻	Emoji
+yayinan	👦🏻	Emoji
+yayinv	👵🏻	Emoji
+yayinv	👩🏻	Emoji
+yayinv	👧🏻	Emoji
+yayi	🧓🏻	Emoji
+yayi	🧑🏻	Emoji
+yayi	🧒🏻	Emoji
+yayi	👶🏻	Emoji
+chuandian	🍢	Emoji
+chuandian	🍡	Emoji
+zhongcan	🍜	Emoji
+zhongcan	🍚	Emoji
+zhongcan	🍲	Emoji
+zhongcan	🥘	Emoji
+zhongcan	🥟	Emoji
+zhongcan	🥠	Emoji
+zhongcan	🥡	Emoji
+zhongcan	🥢	Emoji
+zhonghua	🧧	Emoji
+zhonghua	🥮	Emoji
+zhonghua	🧨	Emoji
+zhonghua	🧮	Emoji
+hwh	㈀	韩文+弧
+hwh	㈁	韩文+弧
+hwh	㈂	韩文+弧
+hwh	㈃	韩文+弧
+hwh	㈄	韩文+弧
+hwh	㈅	韩文+弧
+hwh	㈆	韩文+弧
+hwh	㈇	韩文+弧
+hwh	㈈	韩文+弧
+hwh	㈉	韩文+弧
+hwh	㈊	韩文+弧
+hwh	㈋	韩文+弧
+hwh	㈌	韩文+弧
+hwh	㈍	韩文+弧
+hwh	㈎	韩文+弧
+hwh	㈏	韩文+弧
+hwh	㈐	韩文+弧
+hwh	㈑	韩文+弧
+hwh	㈒	韩文+弧
+hwh	㈓	韩文+弧
+hwh	㈔	韩文+弧
+hwh	㈕	韩文+弧
+hwh	㈖	韩文+弧
+hwh	㈗	韩文+弧
+hwh	㈘	韩文+弧
+hwh	㈙	韩文+弧
+hwh	㈚	韩文+弧
+hwh	㈛	韩文+弧
+hwh	㈜	韩文+弧
+hwh	㈝	韩文+弧
+hwh	㈞	韩文+弧
+hwq	㉠	韩文+圈
+hwq	㉡	韩文+圈
+hwq	㉢	韩文+圈
+hwq	㉣	韩文+圈
+hwq	㉤	韩文+圈
+hwq	㉥	韩文+圈
+hwq	㉦	韩文+圈
+hwq	㉧	韩文+圈
+hwq	㉨	韩文+圈
+hwq	㉩	韩文+圈
+hwq	㉪	韩文+圈
+hwq	㉫	韩文+圈
+hwq	㉬	韩文+圈
+hwq	㉭	韩文+圈
+hwq	㉮	韩文+圈
+hwq	㉯	韩文+圈
+hwq	㉰	韩文+圈
+hwq	㉱	韩文+圈
+hwq	㉲	韩文+圈
+hwq	㉳	韩文+圈
+hwq	㉴	韩文+圈
+hwq	㉵	韩文+圈
+hwq	㉶	韩文+圈
+hwq	㉷	韩文+圈
+hwq	㉸	韩文+圈
+hwq	㉹	韩文+圈
+hwq	㉺	韩文+圈
+hwq	㉻	韩文+圈
+hwq	㉼	韩文+圈
+hwq	㉽	韩文+圈
+hwq	㉾	韩文+圈
+hwq	㉿	韩文+圈
+hw	ㄱ	韩文
+hw	ㄴ	韩文
+hw	ㄷ	韩文
+hw	ㄹ	韩文
+hw	ㅁ	韩文
+hw	ㅂ	韩文
+hw	ㅅ	韩文
+hw	ㅇ	韩文
+hw	ㅈ	韩文
+hw	ㅊ	韩文
+hw	ㅋ	韩文
+hw	ㅌ	韩文
+hw	ㅍ	韩文
+hw	ㅎ	韩文
+jmbj	ｱ	假名+半角
+jmbj	ｧ	假名+半角
+jmbj	ｲ	假名+半角
+jmbj	ｨ	假名+半角
+jmbj	ｳ	假名+半角
+jmbj	ｩ	假名+半角
+jmbj	ｴ	假名+半角
+jmbj	ｪ	假名+半角
+jmbj	ｵ	假名+半角
+jmbj	ｫ	假名+半角
+jmbj	ｶ	假名+半角
+jmbj	ｷ	假名+半角
+jmbj	ｸ	假名+半角
+jmbj	ｹ	假名+半角
+jmbj	ｺ	假名+半角
+jmbj	ｻ	假名+半角
+jmbj	ｼ	假名+半角
+jmbj	ｽ	假名+半角
+jmbj	ｾ	假名+半角
+jmbj	ｿ	假名+半角
+jmbj	ﾀ	假名+半角
+jmbj	ﾁ	假名+半角
+jmbj	ﾂ	假名+半角
+jmbj	ｯ	假名+半角
+jmbj	ﾃ	假名+半角
+jmbj	ﾄ	假名+半角
+jmbj	ﾅ	假名+半角
+jmbj	ﾆ	假名+半角
+jmbj	ﾇ	假名+半角
+jmbj	ﾈ	假名+半角
+jmbj	ﾉ	假名+半角
+jmbj	ﾊ	假名+半角
+jmbj	ﾋ	假名+半角
+jmbj	ﾌ	假名+半角
+jmbj	ﾍ	假名+半角
+jmbj	ﾎ	假名+半角
+jmbj	ﾏ	假名+半角
+jmbj	ﾐ	假名+半角
+jmbj	ﾑ	假名+半角
+jmbj	ﾒ	假名+半角
+jmbj	ﾓ	假名+半角
+jmbj	ﾔ	假名+半角
+jmbj	ｬ	假名+半角
+jmbj	ﾕ	假名+半角
+jmbj	ｭ	假名+半角
+jmbj	ﾖ	假名+半角
+jmbj	ｮ	假名+半角
+jmbj	ﾗ	假名+半角
+jmbj	ﾘ	假名+半角
+jmbj	ﾙ	假名+半角
+jmbj	ﾚ	假名+半角
+jmbj	ﾛ	假名+半角
+jmbj	ﾜ	假名+半角
+jmbj	ｦ	假名+半角
+jmbj	ﾝ	假名+半角
+jmbj	･	假名+半角
+jmbj	ｰ	假名+半角
+jmbj	ﾞ	假名+半角
+jmbj	ﾟ	假名+半角
+jmq	㋐	假名+圈
+jmq	㋑	假名+圈
+jmq	㋒	假名+圈
+jmq	㋓	假名+圈
+jmq	㋔	假名+圈
+jmq	㋕	假名+圈
+jmq	㋖	假名+圈
+jmq	㋗	假名+圈
+jmq	㋘	假名+圈
+jmq	㋙	假名+圈
+jmq	㋚	假名+圈
+jmq	㋛	假名+圈
+jmq	㋜	假名+圈
+jmq	㋝	假名+圈
+jmq	㋞	假名+圈
+jmq	㋟	假名+圈
+jmq	㋠	假名+圈
+jmq	㋡	假名+圈
+jmq	㋢	假名+圈
+jmq	㋣	假名+圈
+jmq	㋤	假名+圈
+jmq	㋥	假名+圈
+jmq	㋦	假名+圈
+jmq	㋧	假名+圈
+jmq	㋨	假名+圈
+jmq	㋩	假名+圈
+jmq	㋪	假名+圈
+jmq	㋫	假名+圈
+jmq	㋬	假名+圈
+jmq	㋭	假名+圈
+jmq	㋮	假名+圈
+jmq	㋯	假名+圈
+jmq	㋰	假名+圈
+jmq	㋱	假名+圈
+jmq	㋲	假名+圈
+jmq	㋳	假名+圈
+jmq	㋴	假名+圈
+jmq	㋵	假名+圈
+jmq	㋶	假名+圈
+jmq	㋷	假名+圈
+jmq	㋸	假名+圈
+jmq	㋹	假名+圈
+jmq	㋺	假名+圈
+jmq	㋻	假名+圈
+jmq	㋼	假名+圈
+jmq	㋽	假名+圈
+jmq	㋾	假名+圈
+jmo	お	假名o
+jmo	こ	假名o
+jmo	ご	假名o
+jmo	そ	假名o
+jmo	ぞ	假名o
+jmo	と	假名o
+jmo	ど	假名o
+jmo	の	假名o
+jmo	ほ	假名o
+jmo	ぼ	假名o
+jmo	ぽ	假名o
+jmo	も	假名o
+jmo	ろ	假名o
+jmo	を	假名o
+jmo	オ	假名o
+jmo	コ	假名o
+jmo	ゴ	假名o
+jmo	ソ	假名o
+jmo	ゾ	假名o
+jmo	ト	假名o
+jmo	ド	假名o
+jmo	ノ	假名o
+jmo	ホ	假名o
+jmo	ボ	假名o
+jmo	ポ	假名o
+jmo	モ	假名o
+jmo	ロ	假名o
+jmo	ヲ	假名o
+jme	え	假名e
+jme	け	假名e
+jme	げ	假名e
+jme	せ	假名e
+jme	ぜ	假名e
+jme	て	假名e
+jme	で	假名e
+jme	ね	假名e
+jme	へ	假名e
+jme	べ	假名e
+jme	ぺ	假名e
+jme	め	假名e
+jme	れ	假名e
+jme	ゑ	假名e
+jme	エ	假名e
+jme	ケ	假名e
+jme	ゲ	假名e
+jme	セ	假名e
+jme	ゼ	假名e
+jme	テ	假名e
+jme	デ	假名e
+jme	ネ	假名e
+jme	ヘ	假名e
+jme	ベ	假名e
+jme	ペ	假名e
+jme	メ	假名e
+jme	レ	假名e
+jme	ヱ	假名e
+jmu	う	假名u
+jmu	く	假名u
+jmu	ぐ	假名u
+jmu	す	假名u
+jmu	ず	假名u
+jmu	つ	假名u
+jmu	づ	假名u
+jmu	ぬ	假名u
+jmu	ふ	假名u
+jmu	ぶ	假名u
+jmu	ぷ	假名u
+jmu	む	假名u
+jmu	る	假名u
+jmu	ウ	假名u
+jmu	ク	假名u
+jmu	グ	假名u
+jmu	ス	假名u
+jmu	ズ	假名u
+jmu	ツ	假名u
+jmu	ヅ	假名u
+jmu	ヌ	假名u
+jmu	フ	假名u
+jmu	ブ	假名u
+jmu	プ	假名u
+jmu	ム	假名u
+jmu	ル	假名u
+jmi	い	假名i
+jmi	き	假名i
+jmi	ぎ	假名i
+jmi	し	假名i
+jmi	じ	假名i
+jmi	ち	假名i
+jmi	ぢ	假名i
+jmi	に	假名i
+jmi	ひ	假名i
+jmi	び	假名i
+jmi	ぴ	假名i
+jmi	み	假名i
+jmi	り	假名i
+jmi	ゐ	假名i
+jmi	イ	假名i
+jmi	キ	假名i
+jmi	ギ	假名i
+jmi	シ	假名i
+jmi	ジ	假名i
+jmi	チ	假名i
+jmi	ヂ	假名i
+jmi	ニ	假名i
+jmi	ヒ	假名i
+jmi	ビ	假名i
+jmi	ピ	假名i
+jmi	ミ	假名i
+jmi	リ	假名i
+jmi	ヰ	假名i
+jma	あ	假名a
+jma	か	假名a
+jma	が	假名a
+jma	さ	假名a
+jma	ざ	假名a
+jma	た	假名a
+jma	だ	假名a
+jma	な	假名a
+jma	は	假名a
+jma	ば	假名a
+jma	ぱ	假名a
+jma	ま	假名a
+jma	や	假名a
+jma	ら	假名a
+jma	わ	假名a
+jma	ア	假名a
+jma	カ	假名a
+jma	ガ	假名a
+jma	サ	假名a
+jma	ザ	假名a
+jma	タ	假名a
+jma	ダ	假名a
+jma	ナ	假名a
+jma	ハ	假名a
+jma	バ	假名a
+jma	パ	假名a
+jma	マ	假名a
+jma	ヤ	假名a
+jma	ラ	假名a
+jma	ワ	假名a
+jmw	わ	假名w
+jmw	ゐ	假名w
+jmw	ゑ	假名w
+jmw	を	假名w
+jmw	ワ	假名w
+jmw	ヰ	假名w
+jmw	ヱ	假名w
+jmw	ヲ	假名w
+jmr	ら	假名r
+jmr	り	假名r
+jmr	る	假名r
+jmr	れ	假名r
+jmr	ろ	假名r
+jmr	ラ	假名r
+jmr	リ	假名r
+jmr	ル	假名r
+jmr	レ	假名r
+jmr	ロ	假名r
+jmy	や	假名y
+jmy	ゃ	假名y
+jmy	ゆ	假名y
+jmy	ゅ	假名y
+jmy	よ	假名y
+jmy	ょ	假名y
+jmy	ヤ	假名y
+jmy	ャ	假名y
+jmy	ユ	假名y
+jmy	ュ	假名y
+jmy	ヨ	假名y
+jmy	ョ	假名y
+jmm	ま	假名m
+jmm	み	假名m
+jmm	む	假名m
+jmm	め	假名m
+jmm	も	假名m
+jmm	マ	假名m
+jmm	ミ	假名m
+jmm	ム	假名m
+jmm	メ	假名m
+jmm	モ	假名m
+jmp	ぱ	假名p
+jmp	ぴ	假名p
+jmp	ぷ	假名p
+jmp	ぺ	假名p
+jmp	ぽ	假名p
+jmp	パ	假名p
+jmp	ピ	假名p
+jmp	プ	假名p
+jmp	ペ	假名p
+jmp	ポ	假名p
+jmb	ば	假名b
+jmb	び	假名b
+jmb	ぶ	假名b
+jmb	べ	假名b
+jmb	ぼ	假名b
+jmb	バ	假名b
+jmb	ビ	假名b
+jmb	ブ	假名b
+jmb	ベ	假名b
+jmb	ボ	假名b
+jmh	は	假名h
+jmh	ひ	假名h
+jmh	ふ	假名h
+jmh	へ	假名h
+jmh	ほ	假名h
+jmh	ハ	假名h
+jmh	ヒ	假名h
+jmh	フ	假名h
+jmh	ヘ	假名h
+jmh	ホ	假名h
+jmn	な	假名n
+jmn	に	假名n
+jmn	ぬ	假名n
+jmn	ね	假名n
+jmn	の	假名n
+jmn	ん	假名n
+jmn	ナ	假名n
+jmn	ニ	假名n
+jmn	ヌ	假名n
+jmn	ネ	假名n
+jmn	ノ	假名n
+jmn	ン	假名n
+jmd	だ	假名d
+jmd	ぢ	假名d
+jmd	づ	假名d
+jmd	で	假名d
+jmd	ど	假名d
+jmd	ダ	假名d
+jmd	ヂ	假名d
+jmd	ヅ	假名d
+jmd	デ	假名d
+jmd	ド	假名d
+jmt	た	假名t
+jmt	ち	假名t
+jmt	つ	假名t
+jmt	っ	假名t
+jmt	て	假名t
+jmt	と	假名t
+jmt	タ	假名t
+jmt	チ	假名t
+jmt	ツ	假名t
+jmt	ッ	假名t
+jmt	テ	假名t
+jmt	ト	假名t
+jmz	ざ	假名z
+jmz	じ	假名z
+jmz	ず	假名z
+jmz	ぜ	假名z
+jmz	ぞ	假名z
+jmz	ザ	假名z
+jmz	ジ	假名z
+jmz	ズ	假名z
+jmz	ゼ	假名z
+jmz	ゾ	假名z
+jms	さ	假名s
+jms	し	假名s
+jms	す	假名s
+jms	せ	假名s
+jms	そ	假名s
+jms	サ	假名s
+jms	シ	假名s
+jms	ス	假名s
+jms	セ	假名s
+jms	ソ	假名s
+jmg	が	假名g
+jmg	ぎ	假名g
+jmg	ぐ	假名g
+jmg	げ	假名g
+jmg	ご	假名g
+jmg	ガ	假名g
+jmg	ギ	假名g
+jmg	グ	假名g
+jmg	ゲ	假名g
+jmg	ゴ	假名g
+jmk	か	假名k
+jmk	ゕ	假名k
+jmk	き	假名k
+jmk	く	假名k
+jmk	け	假名k
+jmk	ゖ	假名k
+jmk	こ	假名k
+jmk	カ	假名k
+jmk	ヵ	假名k
+jmk	キ	假名k
+jmk	ク	假名k
+jmk	ケ	假名k
+jmk	ヶ	假名k
+jmk	コ	假名k
+pjm	ア	平假名
+pjm	ァ	平假名
+pjm	イ	平假名
+pjm	ィ	平假名
+pjm	ウ	平假名
+pjm	ゥ	平假名
+pjm	エ	平假名
+pjm	ェ	平假名
+pjm	オ	平假名
+pjm	ォ	平假名
+pjm	カ	平假名
+pjm	ヵ	平假名
+pjm	ガ	平假名
+pjm	キ	平假名
+pjm	ギ	平假名
+pjm	ク	平假名
+pjm	グ	平假名
+pjm	ケ	平假名
+pjm	ヶ	平假名
+pjm	ゲ	平假名
+pjm	コ	平假名
+pjm	ゴ	平假名
+pjm	サ	平假名
+pjm	ザ	平假名
+pjm	シ	平假名
+pjm	ジ	平假名
+pjm	ス	平假名
+pjm	ズ	平假名
+pjm	セ	平假名
+pjm	ゼ	平假名
+pjm	ソ	平假名
+pjm	ゾ	平假名
+pjm	タ	平假名
+pjm	ダ	平假名
+pjm	チ	平假名
+pjm	ヂ	平假名
+pjm	ツ	平假名
+pjm	ッ	平假名
+pjm	ヅ	平假名
+pjm	テ	平假名
+pjm	デ	平假名
+pjm	ト	平假名
+pjm	ド	平假名
+pjm	ナ	平假名
+pjm	ニ	平假名
+pjm	ヌ	平假名
+pjm	ネ	平假名
+pjm	ノ	平假名
+pjm	ハ	平假名
+pjm	バ	平假名
+pjm	パ	平假名
+pjm	ヒ	平假名
+pjm	ビ	平假名
+pjm	ピ	平假名
+pjm	フ	平假名
+pjm	ブ	平假名
+pjm	プ	平假名
+pjm	ヘ	平假名
+pjm	ベ	平假名
+pjm	ペ	平假名
+pjm	ホ	平假名
+pjm	ボ	平假名
+pjm	ポ	平假名
+pjm	マ	平假名
+pjm	ミ	平假名
+pjm	ム	平假名
+pjm	メ	平假名
+pjm	モ	平假名
+pjm	ヤ	平假名
+pjm	ャ	平假名
+pjm	ユ	平假名
+pjm	ュ	平假名
+pjm	ヨ	平假名
+pjm	ョ	平假名
+pjm	ラ	平假名
+pjm	リ	平假名
+pjm	ル	平假名
+pjm	レ	平假名
+pjm	ロ	平假名
+pjm	ワ	平假名
+pjm	ヮ	平假名
+pjm	ヰ	平假名
+pjm	ヸ	平假名
+pjm	ヴ	平假名
+pjm	ヱ	平假名
+pjm	ヹ	平假名
+pjm	ヲ	平假名
+pjm	ヺ	平假名
+pjm	ン	平假名
+pjm	・	平假名
+pjm	ー	平假名
+pjm	ヽ	平假名
+pjm	ヾ	平假名
+pjm	ヿ	平假名
+pjm	ㇰ	平假名
+pjm	ㇱ	平假名
+pjm	ㇲ	平假名
+pjm	ㇳ	平假名
+pjm	ㇴ	平假名
+pjm	ㇵ	平假名
+pjm	ㇶ	平假名
+pjm	ㇷ	平假名
+pjm	ㇸ	平假名
+pjm	ㇹ	平假名
+pjm	ㇺ	平假名
+pjm	ㇻ	平假名
+pjm	ㇼ	平假名
+pjm	ㇽ	平假名
+pjm	ㇾ	平假名
+pjm	ㇿ	平假名
+jm	あ	假名
+jm	ぁ	假名
+jm	い	假名
+jm	ぃ	假名
+jm	う	假名
+jm	ぅ	假名
+jm	え	假名
+jm	ぇ	假名
+jm	お	假名
+jm	ぉ	假名
+jm	か	假名
+jm	ゕ	假名
+jm	が	假名
+jm	き	假名
+jm	ぎ	假名
+jm	く	假名
+jm	ぐ	假名
+jm	け	假名
+jm	ゖ	假名
+jm	げ	假名
+jm	こ	假名
+jm	ご	假名
+jm	さ	假名
+jm	ざ	假名
+jm	し	假名
+jm	じ	假名
+jm	す	假名
+jm	ず	假名
+jm	せ	假名
+jm	ぜ	假名
+jm	そ	假名
+jm	ぞ	假名
+jm	た	假名
+jm	だ	假名
+jm	ち	假名
+jm	ぢ	假名
+jm	つ	假名
+jm	っ	假名
+jm	づ	假名
+jm	て	假名
+jm	で	假名
+jm	と	假名
+jm	ど	假名
+jm	な	假名
+jm	に	假名
+jm	ぬ	假名
+jm	ね	假名
+jm	の	假名
+jm	は	假名
+jm	ば	假名
+jm	ぱ	假名
+jm	ひ	假名
+jm	び	假名
+jm	ぴ	假名
+jm	ふ	假名
+jm	ぶ	假名
+jm	ぷ	假名
+jm	へ	假名
+jm	べ	假名
+jm	ぺ	假名
+jm	ほ	假名
+jm	ぼ	假名
+jm	ぽ	假名
+jm	ま	假名
+jm	み	假名
+jm	む	假名
+jm	め	假名
+jm	も	假名
+jm	や	假名
+jm	ゃ	假名
+jm	ゆ	假名
+jm	ゅ	假名
+jm	よ	假名
+jm	ょ	假名
+jm	ら	假名
+jm	り	假名
+jm	る	假名
+jm	れ	假名
+jm	ろ	假名
+jm	わ	假名
+jm	ゎ	假名
+jm	ゐ	假名
+jm	ゔ	假名
+jm	ゑ	假名
+jm	を	假名
+jm	ん	假名
+jm	・	假名
+jm	ー	假名
+jm	ゝ	假名
+jm	ゞ	假名
+jm	ゟ	假名
+iro	い	いろは順
+iro	ろ	いろは順
+iro	は	いろは順
+iro	に	いろは順
+iro	ほ	いろは順
+iro	へ	いろは順
+iro	と	いろは順
+iro	ち	いろは順
+iro	り	いろは順
+iro	ぬ	いろは順
+iro	る	いろは順
+iro	を	いろは順
+iro	わ	いろは順
+iro	か	いろは順
+iro	よ	いろは順
+iro	た	いろは順
+iro	れ	いろは順
+iro	そ	いろは順
+iro	つ	いろは順
+iro	ね	いろは順
+iro	な	いろは順
+iro	ら	いろは順
+iro	む	いろは順
+iro	う	いろは順
+iro	ゐ	いろは順
+iro	の	いろは順
+iro	お	いろは順
+iro	く	いろは順
+iro	や	いろは順
+iro	ま	いろは順
+iro	け	いろは順
+iro	ふ	いろは順
+iro	こ	いろは順
+iro	え	いろは順
+iro	て	いろは順
+iro	あ	いろは順
+iro	さ	いろは順
+iro	き	いろは順
+iro	ゆ	いろは順
+iro	め	いろは順
+iro	み	いろは順
+iro	し	いろは順
+iro	ゑ	いろは順
+iro	ひ	いろは順
+iro	も	いろは順
+iro	せ	いろは順
+iro	す	いろは順
+hzh	㈠	汉字+弧
+hzh	㈡	汉字+弧
+hzh	㈢	汉字+弧
+hzh	㈣	汉字+弧
+hzh	㈤	汉字+弧
+hzh	㈥	汉字+弧
+hzh	㈦	汉字+弧
+hzh	㈧	汉字+弧
+hzh	㈨	汉字+弧
+hzh	㈩	汉字+弧
+hzh	㈪	汉字+弧
+hzh	㈫	汉字+弧
+hzh	㈬	汉字+弧
+hzh	㈭	汉字+弧
+hzh	㈮	汉字+弧
+hzh	㈯	汉字+弧
+hzh	㈰	汉字+弧
+hzh	㈱	汉字+弧
+hzh	㈲	汉字+弧
+hzh	㈳	汉字+弧
+hzh	㈴	汉字+弧
+hzh	㈵	汉字+弧
+hzh	㈶	汉字+弧
+hzh	㈷	汉字+弧
+hzh	㈸	汉字+弧
+hzh	㈹	汉字+弧
+hzh	㈺	汉字+弧
+hzh	㈻	汉字+弧
+hzh	㈼	汉字+弧
+hzh	㈽	汉字+弧
+hzh	㈾	汉字+弧
+hzh	㈿	汉字+弧
+hzh	㉀	汉字+弧
+hzh	㉁	汉字+弧
+hzh	㉂	汉字+弧
+hzh	㉃	汉字+弧
+hzq	㊀	汉字+圈
+hzq	㊁	汉字+圈
+hzq	㊂	汉字+圈
+hzq	㊃	汉字+圈
+hzq	㊄	汉字+圈
+hzq	㊅	汉字+圈
+hzq	㊆	汉字+圈
+hzq	㊇	汉字+圈
+hzq	㊈	汉字+圈
+hzq	㊉	汉字+圈
+hzq	㊊	汉字+圈
+hzq	㊋	汉字+圈
+hzq	㊌	汉字+圈
+hzq	㊍	汉字+圈
+hzq	㊎	汉字+圈
+hzq	㊏	汉字+圈
+hzq	㊐	汉字+圈
+hzq	㊑	汉字+圈
+hzq	㊒	汉字+圈
+hzq	㊓	汉字+圈
+hzq	㊔	汉字+圈
+hzq	㊕	汉字+圈
+hzq	㊖	汉字+圈
+hzq	㊗	汉字+圈
+hzq	㊘	汉字+圈
+hzq	㊙	汉字+圈
+hzq	㊚	汉字+圈
+hzq	㊛	汉字+圈
+hzq	㊜	汉字+圈
+hzq	㊝	汉字+圈
+hzq	㊞	汉字+圈
+hzq	㊟	汉字+圈
+hzq	㊠	汉字+圈
+hzq	㊡	汉字+圈
+hzq	㊢	汉字+圈
+hzq	㊣	汉字+圈
+hzq	㊤	汉字+圈
+hzq	㊥	汉字+圈
+hzq	㊦	汉字+圈
+hzq	㊧	汉字+圈
+hzq	㊨	汉字+圈
+hzq	㊩	汉字+圈
+hzq	㊪	汉字+圈
+hzq	㊫	汉字+圈
+hzq	㊬	汉字+圈
+hzq	㊭	汉字+圈
+hzq	㊮	汉字+圈
+hzq	㊯	汉字+圈
+hzq	㊰	汉字+圈
+hzq	㉄	汉字+圈
+hzq	㉅	汉字+圈
+hzq	㉆	汉字+圈
+hzq	㉇	汉字+圈
+sd	ˉ	声调
+sd	ˊ	声调
+sd	ˇ	声调
+sd	ˋ	声调
+sd	ˆ	声调
+sd	˙	声调
+sd	˜	声调
+sd	˥	声调
+sd	˦	声调
+sd	˧	声调
+sd	˨	声调
+sd	˩	声调
+sd	꜀	声调
+sd	꜁	声调
+sd	꜂	声调
+sd	꜃	声调
+sd	꜄	声调
+sd	꜅	声调
+sd	꜆	声调
+sd	꜇	声调
+sd	'〪'	声调
+sd	'〫'	声调
+sd	'〬'	声调
+sd	'	声调〭'
+zy	ㄅ	注音
+zy	ㄆ	注音
+zy	ㄇ	注音
+zy	ㄈ	注音
+zy	ㄉ	注音
+zy	ㄊ	注音
+zy	ㄋ	注音
+zy	ㄌ	注音
+zy	ㄍ	注音
+zy	ㄎ	注音
+zy	ㄏ	注音
+zy	ㄐ	注音
+zy	ㄑ	注音
+zy	ㄒ	注音
+zy	ㄓ	注音
+zy	ㄔ	注音
+zy	ㄕ	注音
+zy	ㄖ	注音
+zy	ㄗ	注音
+zy	ㄘ	注音
+zy	ㄙ	注音
+zy	ㄧ	注音
+zy	ㄨ	注音
+zy	ㄩ	注音
+zy	ㄚ	注音
+zy	ㄛ	注音
+zy	ㄜ	注音
+zy	ㄝ	注音
+zy	ㄞ	注音
+zy	ㄟ	注音
+zy	ㄠ	注音
+zy	ㄡ	注音
+zy	ㄢ	注音
+zy	ㄣ	注音
+zy	ㄤ	注音
+zy	ㄥ	注音
+zy	ㄦ	注音
+zy	ㄪ	注音
+zy	ㄫ	注音
+zy	ㄬ	注音
+zy	ㄭ	注音
+zy	ㆠ	注音
+zy	ㆡ	注音
+zy	ㆢ	注音
+zy	ㆣ	注音
+zy	ㆤ	注音
+zy	ㆥ	注音
+zy	ㆦ	注音
+zy	ㆧ	注音
+zy	ㆨ	注音
+zy	ㆩ	注音
+zy	ㆪ	注音
+zy	ㆫ	注音
+zy	ㆬ	注音
+zy	ㆭ	注音
+zy	ㆮ	注音
+zy	ㆯ	注音
+zy	ㆰ	注音
+zy	ㆱ	注音
+zy	ㆲ	注音
+zy	ㆳ	注音
+zy	ㆴ	注音
+zy	ㆵ	注音
+zy	ㆶ	注音
+zy	ㆷ	注音
+pyd	Ā	拼音大写
+pyd	Á	拼音大写
+pyd	Ǎ	拼音大写
+pyd	À	拼音大写
+pyd	Ō	拼音大写
+pyd	Ó	拼音大写
+pyd	Ǒ	拼音大写
+pyd	Ò	拼音大写
+pyd	Ê	拼音大写
+pyd	Ê̄	拼音大写
+pyd	Ế	拼音大写
+pyd	Ê̌	拼音大写
+pyd	Ề	拼音大写
+pyd	Ē	拼音大写
+pyd	É	拼音大写
+pyd	Ě	拼音大写
+pyd	È	拼音大写
+pyd	Ī	拼音大写
+pyd	Í	拼音大写
+pyd	Ǐ	拼音大写
+pyd	Ì	拼音大写
+pyd	Ū	拼音大写
+pyd	Ú	拼音大写
+pyd	Ǔ	拼音大写
+pyd	Ù	拼音大写
+pyd	Ü	拼音大写
+pyd	Ǖ	拼音大写
+pyd	Ǘ	拼音大写
+pyd	Ǚ	拼音大写
+pyd	Ǜ	拼音大写
+pyd	Ḿ	拼音大写
+pyd	M̀	拼音大写
+pyd	Ń	拼音大写
+pyd	Ň	拼音大写
+pyd	Ǹ	拼音大写
+pyd	Ẑ	拼音大写
+pyd	Ĉ	拼音大写
+pyd	Ŝ	拼音大写
+pyd	Ŋ	拼音大写
+py	ā	拼音
+py	á	拼音
+py	ǎ	拼音
+py	à	拼音
+py	ō	拼音
+py	ó	拼音
+py	ǒ	拼音
+py	ò	拼音
+py	ê	拼音
+py	ê̄	拼音
+py	ế	拼音
+py	ê̌	拼音
+py	ề	拼音
+py	ē	拼音
+py	é	拼音
+py	ě	拼音
+py	è	拼音
+py	ī	拼音
+py	í	拼音
+py	ǐ	拼音
+py	ì	拼音
+py	ū	拼音
+py	ú	拼音
+py	ǔ	拼音
+py	ù	拼音
+py	ü	拼音
+py	ǖ	拼音
+py	ǘ	拼音
+py	ǚ	拼音
+py	ǜ	拼音
+py	ḿ	拼音
+py	m̀	拼音
+py	ń	拼音
+py	ň	拼音
+py	ǹ	拼音
+py	ẑ	拼音
+py	ĉ	拼音
+py	ŝ	拼音
+py	ŋ	拼音
+bdz	﹅	标点竖
+bdz	﹆	标点竖
+bdz	﹁	标点竖
+bdz	﹂	标点竖
+bdz	﹃	标点竖
+bdz	﹄	标点竖
+bdz	︙	标点竖
+bdz	︱	标点竖
+bdz	︻	标点竖
+bdz	︼	标点竖
+bdz	︗	标点竖
+bdz	︘	标点竖
+bdz	︵	标点竖
+bdz	︶	标点竖
+bdz	︷	标点竖
+bdz	︸	标点竖
+bdz	︹	标点竖
+bdz	︺	标点竖
+bdz	︿	标点竖
+bdz	﹀	标点竖
+bdz	︽	标点竖
+bdz	︾	标点竖
+bdz	︰	标点竖
+bdz	︲	标点竖
+bdz	︳	标点竖
+bdz	︴	标点竖
+bdz	﹉	标点竖
+bdz	﹊	标点竖
+bdz	﹋	标点竖
+bdz	﹌	标点竖
+bdz	﹍	标点竖
+bdz	﹎	标点竖
+bdz	﹏	标点竖
+bdz	﹇	标点竖
+bdz	﹈	标点竖
+bdz	︐	标点竖
+bdz	︑	标点竖
+bdz	︒	标点竖
+bdz	︔	标点竖
+bdz	︕	标点竖
+bdz	︖	标点竖
+bd	、	标点
+bd	。	标点
+bd	「	标点
+bd	」	标点
+bd	『	标点
+bd	』	标点
+bd	【	标点
+bd	】	标点
+bd	〈	标点
+bd	〉	标点
+bd	《	标点
+bd	》	标点
+bd	₋	标点
+bd	⁻	标点
+bd	―	标点
+bd	˗	标点
+bd	ˉ	标点
+bd	＿	标点
+bd	﹍	标点
+bd	﹎	标点
+bd	．	标点
+bd	¡	标点
+bd	‼	标点
+bd	⁉	标点
+bd	¿	标点
+bd	؟	标点
+bd	⁈	标点
+bd	⁇	标点
+bd	､	标点
+bd	｡	标点
+bd	〃	标点
+bd	〄	标点
+bd	々	标点
+bd	〆	标点
+bd	〇	标点
+bd	〒	标点
+bd	〓	标点
+bd	〔	标点
+bd	〕	标点
+bd	〖	标点
+bd	〗	标点
+bd	〘	标点
+bd	〙	标点
+bd	〚	标点
+bd	〛	标点
+bd	〜	标点
+bd	〝	标点
+bd	〞	标点
+bd	〟	标点
+bd	〠	标点
+bd	〰	标点
+bd	〱	标点
+bd	〲	标点
+bd	〳	标点
+bd	〴	标点
+bd	〵	标点
+bd	〶	标点
+bd	〷	标点
+bd	〻	标点
+bd	〼	标点
+bd	〽	标点
+bh	㇀	笔画
+bh	㇁	笔画
+bh	㇂	笔画
+bh	㇃	笔画
+bh	㇄	笔画
+bh	㇅	笔画
+bh	㇆	笔画
+bh	㇇	笔画
+bh	㇈	笔画
+bh	㇉	笔画
+bh	㇊	笔画
+bh	㇋	笔画
+bh	㇌	笔画
+bh	㇍	笔画
+bh	㇎	笔画
+bh	㇏	笔画
+bh	㇐	笔画
+bh	㇑	笔画
+bh	㇒	笔画
+bh	㇓	笔画
+bh	㇔	笔画
+bh	㇕	笔画
+bh	㇖	笔画
+bh	㇗	笔画
+bh	㇘	笔画
+bh	㇙	笔画
+bh	㇚	笔画
+bh	㇛	笔画
+bh	㇜	笔画
+bh	㇝	笔画
+bh	㇞	笔画
+bh	㇟	笔画
+bh	㇠	笔画
+bh	㇡	笔画
+bh	㇢	笔画
+bh	㇣	笔画
+kx	一	康熙
+kx	丨	康熙
+kx	丶	康熙
+kx	丿	康熙
+kx	乙	康熙
+kx	亅	康熙
+kx	二	康熙
+kx	亠	康熙
+kx	人	康熙
+kx	儿	康熙
+kx	入	康熙
+kx	八	康熙
+kx	冂	康熙
+kx	冖	康熙
+kx	冫	康熙
+kx	几	康熙
+kx	凵	康熙
+kx	刀	康熙
+kx	力	康熙
+kx	勹	康熙
+kx	匕	康熙
+kx	匚	康熙
+kx	匸	康熙
+kx	十	康熙
+kx	卜	康熙
+kx	卩	康熙
+kx	厂	康熙
+kx	厶	康熙
+kx	又	康熙
+kx	口	康熙
+kx	囗	康熙
+kx	土	康熙
+kx	士	康熙
+kx	夂	康熙
+kx	夊	康熙
+kx	夕	康熙
+kx	大	康熙
+kx	女	康熙
+kx	子	康熙
+kx	宀	康熙
+kx	寸	康熙
+kx	小	康熙
+kx	尢	康熙
+kx	尸	康熙
+kx	屮	康熙
+kx	山	康熙
+kx	巛	康熙
+kx	工	康熙
+kx	己	康熙
+kx	巾	康熙
+kx	干	康熙
+kx	幺	康熙
+kx	广	康熙
+kx	廴	康熙
+kx	廾	康熙
+kx	弋	康熙
+kx	弓	康熙
+kx	彐	康熙
+kx	彡	康熙
+kx	彳	康熙
+kx	心	康熙
+kx	戈	康熙
+kx	戶	康熙
+kx	手	康熙
+kx	支	康熙
+kx	攴	康熙
+kx	文	康熙
+kx	斗	康熙
+kx	斤	康熙
+kx	方	康熙
+kx	无	康熙
+kx	日	康熙
+kx	曰	康熙
+kx	月	康熙
+kx	木	康熙
+kx	欠	康熙
+kx	止	康熙
+kx	歹	康熙
+kx	殳	康熙
+kx	毋	康熙
+kx	比	康熙
+kx	毛	康熙
+kx	氏	康熙
+kx	气	康熙
+kx	水	康熙
+kx	火	康熙
+kx	爪	康熙
+kx	父	康熙
+kx	爻	康熙
+kx	爿	康熙
+kx	片	康熙
+kx	牙	康熙
+kx	牛	康熙
+kx	犬	康熙
+kx	玄	康熙
+kx	玉	康熙
+kx	瓜	康熙
+kx	瓦	康熙
+kx	甘	康熙
+kx	生	康熙
+kx	用	康熙
+kx	田	康熙
+kx	疋	康熙
+kx	疒	康熙
+kx	癶	康熙
+kx	白	康熙
+kx	皮	康熙
+kx	皿	康熙
+kx	目	康熙
+kx	矛	康熙
+kx	矢	康熙
+kx	石	康熙
+kx	示	康熙
+kx	禸	康熙
+kx	禾	康熙
+kx	穴	康熙
+kx	立	康熙
+kx	竹	康熙
+kx	米	康熙
+kx	糸	康熙
+kx	缶	康熙
+kx	网	康熙
+kx	羊	康熙
+kx	羽	康熙
+kx	老	康熙
+kx	而	康熙
+kx	耒	康熙
+kx	耳	康熙
+kx	聿	康熙
+kx	肉	康熙
+kx	臣	康熙
+kx	自	康熙
+kx	至	康熙
+kx	臼	康熙
+kx	舌	康熙
+kx	舛	康熙
+kx	舟	康熙
+kx	艮	康熙
+kx	色	康熙
+kx	艸	康熙
+kx	虍	康熙
+kx	虫	康熙
+kx	血	康熙
+kx	行	康熙
+kx	衣	康熙
+kx	襾	康熙
+kx	見	康熙
+kx	角	康熙
+kx	言	康熙
+kx	谷	康熙
+kx	豆	康熙
+kx	豕	康熙
+kx	豸	康熙
+kx	貝	康熙
+kx	赤	康熙
+kx	走	康熙
+kx	足	康熙
+kx	身	康熙
+kx	車	康熙
+kx	辛	康熙
+kx	辰	康熙
+kx	辵	康熙
+kx	邑	康熙
+kx	酉	康熙
+kx	釆	康熙
+kx	里	康熙
+kx	金	康熙
+kx	長	康熙
+kx	門	康熙
+kx	阜	康熙
+kx	隶	康熙
+kx	隹	康熙
+kx	雨	康熙
+kx	靑	康熙
+kx	非	康熙
+kx	面	康熙
+kx	革	康熙
+kx	韋	康熙
+kx	韭	康熙
+kx	音	康熙
+kx	頁	康熙
+kx	風	康熙
+kx	飛	康熙
+kx	食	康熙
+kx	首	康熙
+kx	香	康熙
+kx	馬	康熙
+kx	骨	康熙
+kx	高	康熙
+kx	髟	康熙
+kx	鬥	康熙
+kx	鬯	康熙
+kx	鬲	康熙
+kx	鬼	康熙
+kx	魚	康熙
+kx	鳥	康熙
+kx	鹵	康熙
+kx	鹿	康熙
+kx	麥	康熙
+kx	麻	康熙
+kx	黃	康熙
+kx	黍	康熙
+kx	黑	康熙
+kx	黹	康熙
+kx	黽	康熙
+kx	鼎	康熙
+kx	鼓	康熙
+kx	鼠	康熙
+kx	鼻	康熙
+kx	齊	康熙
+kx	齒	康熙
+kx	龍	康熙
+kx	龜	康熙
+kx	龠	康熙
+pp	乛	部首
+pp	冫	部首
+pp	丷	部首
+pp	龹	部首
+pp	⺌	部首
+pp	龸	部首
+pp	亻	部首
+pp	亼	部首
+pp	亽	部首
+pp	仒	部首
+pp	冖	部首
+pp	冂	部首
+pp	冃	部首
+pp	冄	部首
+pp	宀	部首
+pp	罒	部首
+pp	㓁	部首
+pp	罓	部首
+pp	冈	部首
+pp	凵	部首
+pp	厶	部首
+pp	刂	部首
+pp	勹	部首
+pp	匚	部首
+pp	匸	部首
+pp	卩	部首
+pp	阝	部首
+pp	厂	部首
+pp	丆	部首
+pp	广	部首
+pp	壬	部首
+pp	訁	部首
+pp	讠	部首
+pp	釒	部首
+pp	钅	部首
+pp	飠	部首
+pp	饣	部首
+pp	龺	部首
+pp	攵	部首
+pp	夂	部首
+pp	夊	部首
+pp	尢	部首
+pp	尣	部首
+pp	兂	部首
+pp	旡	部首
+pp	巜	部首
+pp	巛	部首
+pp	彐	部首
+pp	彑	部首
+pp	彡	部首
+pp	彳	部首
+pp	龰	部首
+pp	辶	部首
+pp	廴	部首
+pp	㞢	部首
+pp	忄	部首
+pp	㣺	部首
+pp	扌	部首
+pp	爫	部首
+pp	龵	部首
+pp	廾	部首
+pp	歺	部首
+pp	癶	部首
+pp	氵	部首
+pp	氺	部首
+pp	火	部首
+pp	灬	部首
+pp	爿	部首
+pp	丬	部首
+pp	疒	部首
+pp	牜	部首
+pp	⺶	部首
+pp	犭	部首
+pp	豕	部首
+pp	豸	部首
+pp	虍	部首
+pp	艹	部首
+pp	卝	部首
+pp	龷	部首
+pp	丗	部首
+pp	龶	部首
+pp	芈	部首
+pp	丵	部首
+pp	菐	部首
+pp	黹	部首
+pp	礻	部首
+pp	衤	部首
+pp	糸	部首
+pp	糹	部首
+pp	纟	部首
+pp	龻	部首
+pp	镸	部首
+pp	髟	部首
+pp	襾	部首
+pp	覀	部首
+pp	吅	部首
+pp	㗊	部首
+pp	㠭	部首
+pp	㸚	部首
+pp	叕	部首
+jg	⿰	结构
+jg	⿱	结构
+jg	⿲	结构
+jg	⿳	结构
+jg	⿴	结构
+jg	⿵	结构
+jg	⿶	结构
+jg	⿷	结构
+jg	⿸	结构
+jg	⿹	结构
+jg	⿺	结构
+jg	⿻	结构
+jg	〾	结构
+hb	￥	货币
+hb	¥	货币
+hb	¤	货币
+hb	￠	货币
+hb	＄	货币
+hb	$	货币
+hb	￡	货币
+hb	£	货币
+hb	৳	货币
+hb	฿	货币
+hb	₠	货币
+hb	₡	货币
+hb	₢	货币
+hb	₣	货币
+hb	₤	货币
+hb	₥	货币
+hb	₦	货币
+hb	₧	货币
+hb	₩	货币
+hb	₪	货币
+hb	₫	货币
+hb	€	货币
+hb	₭	货币
+hb	₮	货币
+hb	₯	货币
+hb	₰	货币
+hb	₱	货币
+hb	₲	货币
+hb	₳	货币
+hb	₴	货币
+hb	₵	货币
+hb	₶	货币
+hb	₷	货币
+hb	₸	货币
+hb	₹	货币
+hb	₺	货币
+hb	₨	货币
+hb	﷼	货币
+dw	Å	单位
+dw	℃	单位
+dw	％	单位
+dw	‰	单位
+dw	‱	单位
+dw	°	单位
+dw	℉	单位
+dw	㏃	单位
+dw	㏆	单位
+dw	㎈	单位
+dw	㏄	单位
+dw	㏅	单位
+dw	㎝	单位
+dw	㎠	单位
+dw	㎤	单位
+dw	㏈	单位
+dw	㎗	单位
+dw	㎙	单位
+dw	㎓	单位
+dw	㎬	单位
+dw	㏉	单位
+dw	㏊	单位
+dw	㏋	单位
+dw	㎐	单位
+dw	㏌	单位
+dw	㎄	单位
+dw	㎅	单位
+dw	㎉	单位
+dw	㎏	单位
+dw	㎑	单位
+dw	㏍	单位
+dw	㎘	单位
+dw	㎞	单位
+dw	㏎	单位
+dw	㎢	单位
+dw	㎦	单位
+dw	㎪	单位
+dw	㏏	单位
+dw	㎸	单位
+dw	㎾	单位
+dw	㏀	单位
+dw	㏐	单位
+dw	㏓	单位
+dw	㎧	单位
+dw	㎨	单位
+dw	㎡	单位
+dw	㎥	单位
+dw	㎃	单位
+dw	㏔	单位
+dw	㎆	单位
+dw	㎎	单位
+dw	㎒	单位
+dw	㏕	单位
+dw	㎖	单位
+dw	㎜	单位
+dw	㎟	单位
+dw	㎣	单位
+dw	㏖	单位
+dw	㎫	单位
+dw	㎳	单位
+dw	㎷	单位
+dw	㎹	单位
+dw	㎽	单位
+dw	㎿	单位
+dw	㏁	单位
+dw	㎁	单位
+dw	㎋	单位
+dw	㎚	单位
+dw	㎱	单位
+dw	㎵	单位
+dw	㎻	单位
+dw	㏘	单位
+dw	㎩	单位
+dw	㎀	单位
+dw	㎊	单位
+dw	㏗	单位
+dw	㏙	单位
+dw	㏚	单位
+dw	㎰	单位
+dw	㎴	单位
+dw	㎺	单位
+dw	㎭	单位
+dw	㎮	单位
+dw	㎯	单位
+dw	㏛	单位
+dw	㏜	单位
+dw	㎔	单位
+dw	㏝	单位
+dw	㎂	单位
+dw	㎌	单位
+dw	㎍	单位
+dw	㎕	单位
+dw	㎛	单位
+dw	㎲	单位
+dw	㎶	单位
+dw	㎼	单位
+jq	立春	节气
+jq	雨水	节气
+jq	惊蛰	节气
+jq	春分	节气
+jq	清明	节气
+jq	谷雨	节气
+jq	立夏	节气
+jq	小满	节气
+jq	芒种	节气
+jq	夏至	节气
+jq	小暑	节气
+jq	大暑	节气
+jq	立秋	节气
+jq	处暑	节气
+jq	白露	节气
+jq	秋分	节气
+jq	寒露	节气
+jq	霜降	节气
+jq	立冬	节气
+jq	小雪	节气
+jq	大雪	节气
+jq	冬至	节气
+jq	小寒	节气
+jq	大	节气寒
+gz	甲子	天干地支
+gz	乙丑	天干地支
+gz	丙寅	天干地支
+gz	丁卯	天干地支
+gz	戊辰	天干地支
+gz	己巳	天干地支
+gz	庚午	天干地支
+gz	辛未	天干地支
+gz	壬申	天干地支
+gz	癸酉	天干地支
+gz	甲戌	天干地支
+gz	乙亥	天干地支
+gz	丙子	天干地支
+gz	丁丑	天干地支
+gz	戊寅	天干地支
+gz	己卯	天干地支
+gz	庚辰	天干地支
+gz	辛巳	天干地支
+gz	壬午	天干地支
+gz	癸未	天干地支
+gz	甲申	天干地支
+gz	乙酉	天干地支
+gz	丙戌	天干地支
+gz	丁亥	天干地支
+gz	戊子	天干地支
+gz	己丑	天干地支
+gz	庚寅	天干地支
+gz	辛卯	天干地支
+gz	壬辰	天干地支
+gz	癸巳	天干地支
+gz	甲午	天干地支
+gz	乙未	天干地支
+gz	丙申	天干地支
+gz	丁酉	天干地支
+gz	戊戌	天干地支
+gz	己亥	天干地支
+gz	庚子	天干地支
+gz	辛丑	天干地支
+gz	壬寅	天干地支
+gz	癸卯	天干地支
+gz	甲辰	天干地支
+gz	乙巳	天干地支
+gz	丙午	天干地支
+gz	丁未	天干地支
+gz	戊申	天干地支
+gz	己酉	天干地支
+gz	庚戌	天干地支
+gz	辛亥	天干地支
+gz	壬子	天干地支
+gz	癸丑	天干地支
+gz	甲寅	天干地支
+gz	乙卯	天干地支
+gz	丙辰	天干地支
+gz	丁巳	天干地支
+gz	戊午	天干地支
+gz	己未	天干地支
+gz	庚申	天干地支
+gz	辛酉	天干地支
+gz	壬戌	天干地支
+gz	癸	天干地支亥
+dz	子	地支
+dz	丑	地支
+dz	寅	地支
+dz	卯	地支
+dz	辰	地支
+dz	巳	地支
+dz	午	地支
+dz	未	地支
+dz	申	地支
+dz	酉	地支
+dz	戌	地支
+dz	亥	地支
+tg	甲	天干
+tg	乙	天干
+tg	丙	天干
+tg	丁	天干
+tg	戊	天干
+tg	己	天干
+tg	庚	天干
+tg	辛	天干
+tg	壬	天干
+tg	癸	天干
+sj	㍘	时间
+sj	㍙	时间
+sj	㍚	时间
+sj	㍛	时间
+sj	㍜	时间
+sj	㍝	时间
+sj	㍞	时间
+sj	㍟	时间
+sj	㍠	时间
+sj	㍡	时间
+sj	㍢	时间
+sj	㍣	时间
+sj	㍤	时间
+sj	㍥	时间
+sj	㍦	时间
+sj	㍧	时间
+sj	㍨	时间
+sj	㍩	时间
+sj	㍪	时间
+sj	㍫	时间
+sj	㍬	时间
+sj	㍭	时间
+sj	㍮	时间
+sj	㍯	时间
+sj	㍰	时间
+yr	月	曜日
+yr	火	曜日
+yr	水	曜日
+yr	木	曜日
+yr	金	曜日
+yr	土	曜日
+yr	日	曜日
+yr	㊊	曜日
+yr	㊋	曜日
+yr	㊌	曜日
+yr	㊍	曜日
+yr	㊎	曜日
+yr	㊏	曜日
+yr	㊐	曜日
+yr	㊗	曜日
+yr	㊡	曜日
+yr	㈪	曜日
+yr	㈫	曜日
+yr	㈬	曜日
+yr	㈭	曜日
+yr	㈮	曜日
+yr	㈯	曜日
+yr	㈰	曜日
+yr	㈷	曜日
+yr	㉁	曜日
+yr	㉀	曜日
+rq	㏠	日期
+rq	㏡	日期
+rq	㏢	日期
+rq	㏣	日期
+rq	㏤	日期
+rq	㏥	日期
+rq	㏦	日期
+rq	㏧	日期
+rq	㏨	日期
+rq	㏩	日期
+rq	㏪	日期
+rq	㏫	日期
+rq	㏬	日期
+rq	㏭	日期
+rq	㏮	日期
+rq	㏯	日期
+rq	㏰	日期
+rq	㏱	日期
+rq	㏲	日期
+rq	㏳	日期
+rq	㏴	日期
+rq	㏵	日期
+rq	㏶	日期
+rq	㏷	日期
+rq	㏸	日期
+rq	㏹	日期
+rq	㏺	日期
+rq	㏻	日期
+rq	㏼	日期
+rq	㏽	日期
+rq	㏾	日期
+yf	㋀	月份
+yf	㋁	月份
+yf	㋂	月份
+yf	㋃	月份
+yf	㋄	月份
+yf	㋅	月份
+yf	㋆	月份
+yf	㋇	月份
+yf	㋈	月份
+yf	㋉	月份
+yf	㋊	月份
+yf	㋋	月份
+eyd	А	俄语大写
+eyd	Б	俄语大写
+eyd	В	俄语大写
+eyd	Г	俄语大写
+eyd	Д	俄语大写
+eyd	Е	俄语大写
+eyd	Ё	俄语大写
+eyd	Ж	俄语大写
+eyd	З	俄语大写
+eyd	И	俄语大写
+eyd	Й	俄语大写
+eyd	К	俄语大写
+eyd	Л	俄语大写
+eyd	М	俄语大写
+eyd	Н	俄语大写
+eyd	О	俄语大写
+eyd	П	俄语大写
+eyd	Р	俄语大写
+eyd	С	俄语大写
+eyd	Т	俄语大写
+eyd	У	俄语大写
+eyd	Ф	俄语大写
+eyd	Х	俄语大写
+eyd	Ц	俄语大写
+eyd	Ч	俄语大写
+eyd	Ш	俄语大写
+eyd	Щ	俄语大写
+eyd	Ъ	俄语大写
+eyd	Ы	俄语大写
+eyd	Ь	俄语大写
+eyd	Э	俄语大写
+eyd	Ю	俄语大写
+eyd	Я	俄语大写
+ey	а	俄语
+ey	б	俄语
+ey	в	俄语
+ey	г	俄语
+ey	д	俄语
+ey	е	俄语
+ey	ё	俄语
+ey	ж	俄语
+ey	з	俄语
+ey	и	俄语
+ey	й	俄语
+ey	к	俄语
+ey	л	俄语
+ey	м	俄语
+ey	н	俄语
+ey	о	俄语
+ey	п	俄语
+ey	р	俄语
+ey	с	俄语
+ey	т	俄语
+ey	у	俄语
+ey	ф	俄语
+ey	х	俄语
+ey	ц	俄语
+ey	ч	俄语
+ey	ш	俄语
+ey	щ	俄语
+ey	ъ	俄语
+ey	ы	俄语
+ey	ь	俄语
+ey	э	俄语
+ey	ю	俄语
+ey	я	俄语
+xld	Α	希腊
+xld	Β	希腊
+xld	Γ	希腊
+xld	Δ	希腊
+xld	Ε	希腊
+xld	Ζ	希腊
+xld	Η	希腊
+xld	Θ	希腊
+xld	Ι	希腊
+xld	Κ	希腊
+xld	Λ	希腊
+xld	Μ	希腊
+xld	Ν	希腊
+xld	Ξ	希腊
+xld	Ο	希腊
+xld	Π	希腊
+xld	Ρ	希腊
+xld	Σ	希腊
+xld	Τ	希腊
+xld	Υ	希腊
+xld	Φ	希腊
+xld	Χ	希腊
+xld	Ψ	希腊
+xld	Ω	希腊
+xl	α	希腊
+xl	β	希腊
+xl	γ	希腊
+xl	δ	希腊
+xl	ε	希腊
+xl	ζ	希腊
+xl	η	希腊
+xl	θ	希腊
+xl	ι	希腊
+xl	κ	希腊
+xl	λ	希腊
+xl	μ	希腊
+xl	ν	希腊
+xl	ξ	希腊
+xl	ο	希腊
+xl	π	希腊
+xl	ρ	希腊
+xl	σ	希腊
+xl	τ	希腊
+xl	υ	希腊
+xl	φ	希腊
+xl	χ	希腊
+xl	ψ	希腊
+xl	ω	希腊
+xb	₀	下标
+xb	₁	下标
+xb	₂	下标
+xb	₃	下标
+xb	₄	下标
+xb	₅	下标
+xb	₆	下标
+xb	₇	下标
+xb	₈	下标
+xb	₉	下标
+xb	₊	下标
+xb	₋	下标
+xb	₌	下标
+xb	₍	下标
+xb	₎	下标
+xb	‸	下标
+xb	ᴀ	下标
+xb	ₐ	下标
+xb	ᴁ	下标
+xb	ʙ	下标
+xb	ᴃ	下标
+xb	ᵦ	下标
+xb	ᴄ	下标
+xb	ᴐ	下标
+xb	ᴒ	下标
+xb	ᴅ	下标
+xb	ᴆ	下标
+xb	ᴇ	下标
+xb	ₑ	下标
+xb	ₔ	下标
+xb	ᵩ	下标
+xb	ɢ	下标
+xb	ʛ	下标
+xb	ᴦ	下标
+xb	ᵧ	下标
+xb	ʜ	下标
+xb	ₕ	下标
+xb	ɪ	下标
+xb	ᵻ	下标
+xb	ᵢ	下标
+xb	ᴊ	下标
+xb	ⱼ	下标
+xb	ᴋ	下标
+xb	ₖ	下标
+xb	ʟ	下标
+xb	ₗ	下标
+xb	ᴌ	下标
+xb	ᴧ	下标
+xb	ᴍ	下标
+xb	ₘ	下标
+xb	ꟺ	下标
+xb	ɴ	下标
+xb	ᴎ	下标
+xb	ₙ	下标
+xb	ᴏ	下标
+xb	ₒ	下标
+xb	ɶ	下标
+xb	ʘ	下标
+xb	ᴓ	下标
+xb	ᴑ	下标
+xb	ᴘ	下标
+xb	ₚ	下标
+xb	ᴨ	下标
+xb	ᴪ	下标
+xb	ʀ	下标
+xb	ᵣ	下标
+xb	ᴙ	下标
+xb	ʁ	下标
+xb	ᴚ	下标
+xb	ᵨ	下标
+xb	ₛ	下标
+xb	ᴛ	下标
+xb	ₜ	下标
+xb	ᴜ	下标
+xb	ᵤ	下标
+xb	ᵾ	下标
+xb	ᴠ	下标
+xb	ᵥ	下标
+xb	ᴡ	下标
+xb	ₓ	下标
+xb	ᵪ	下标
+xb	ʏ	下标
+xb	ᴢ	下标
+xb	ᴣ	下标
+sb	⁰	上标
+sb	¹	上标
+sb	²	上标
+sb	³	上标
+sb	⁴	上标
+sb	⁵	上标
+sb	⁶	上标
+sb	⁷	上标
+sb	⁸	上标
+sb	⁹	上标
+sb	˜	上标
+sb	⁺	上标
+sb	⁻	上标
+sb	⁼	上标
+sb	⁽	上标
+sb	⁾	上标
+sb	ᴬ	上标
+sb	ᵃ	上标
+sb	ᵄ	上标
+sb	ᵅ	上标
+sb	ᶛ	上标
+sb	ᴭ	上标
+sb	ᵆ	上标
+sb	ᴮ	上标
+sb	ᴯ	上标
+sb	ᵇ	上标
+sb	ᵝ	上标
+sb	ᶜ	上标
+sb	ᵓ	上标
+sb	ᶝ	上标
+sb	ᴰ	上标
+sb	ᵈ	上标
+sb	ᶞ	上标
+sb	ᵟ	上标
+sb	ᴱ	上标
+sb	ᵉ	上标
+sb	ᴲ	上标
+sb	ᵊ	上标
+sb	ᵋ	上标
+sb	ᶟ	上标
+sb	ᵌ	上标
+sb	ᶠ	上标
+sb	ᶡ	上标
+sb	ᶲ	上标
+sb	ᵠ	上标
+sb	ᴳ	上标
+sb	ᵍ	上标
+sb	ᶢ	上标
+sb	ˠ	上标
+sb	ᵞ	上标
+sb	ᴴ	上标
+sb	ʰ	上标
+sb	ᶣ	上标
+sb	ʱ	上标
+sb	ᴵ	上标
+sb	ⁱ	上标
+sb	ᶤ	上标
+sb	ᵎ	上标
+sb	ᶥ	上标
+sb	ᴶ	上标
+sb	ʲ	上标
+sb	ᶨ	上标
+sb	ᴷ	上标
+sb	ᵏ	上标
+sb	ᴸ	上标
+sb	ᶫ	上标
+sb	ˡ	上标
+sb	ᶩ	上标
+sb	ᶪ	上标
+sb	ᴹ	上标
+sb	ᵐ	上标
+sb	ᶬ	上标
+sb	ᵚ	上标
+sb	ᶭ	上标
+sb	ᴺ	上标
+sb	ᴻ	上标
+sb	ⁿ	上标
+sb	ᵑ	上标
+sb	ᶮ	上标
+sb	ᶯ	上标
+sb	ᴼ	上标
+sb	ᵒ	上标
+sb	ᶱ	上标
+sb	ᴽ	上标
+sb	ᴾ	上标
+sb	ᵖ	上标
+sb	ᴿ	上标
+sb	ʳ	上标
+sb	ʶ	上标
+sb	ʴ	上标
+sb	ʵ	上标
+sb	ˢ	上标
+sb	ᶴ	上标
+sb	ᶳ	上标
+sb	ᵀ	上标
+sb	ᵗ	上标
+sb	ᶵ	上标
+sb	ᶿ	上标
+sb	ᵁ	上标
+sb	ᵘ	上标
+sb	ᶶ	上标
+sb	ᶷ	上标
+sb	ᵙ	上标
+sb	ⱽ	上标
+sb	ᵛ	上标
+sb	ᶺ	上标
+sb	ᶹ	上标
+sb	ᵂ	上标
+sb	ʷ	上标
+sb	ˣ	上标
+sb	ᵡ	上标
+sb	ʸ	上标
+sb	ᶻ	上标
+sb	ᶾ	上标
+sb	ᶽ	上标
+sb	ᶼ	上标
+ww	ʬ	拉丁
+VY	Ꝡ	拉丁
+vy	ꝡ	拉丁
+ue	ᵫ	拉丁
+TZ	Ꜩ	拉丁
+tz	ꜩ	拉丁
+ts	ʦ	拉丁
+ts	ʧ	拉丁
+th	ᵺ	拉丁
+tc	ʨ	拉丁
+Rx	℞	拉丁
+qp	ȹ	拉丁
+OU	Ȣ	拉丁
+OU	ᴽ	拉丁
+ou	ȣ	拉丁
+OO	Ꝏ	拉丁
+oo	ꝏ	拉丁
+OI	Ƣ	拉丁
+oi	ƣ	拉丁
+OE	Œ	拉丁
+OE	ɶ	拉丁
+oe	œ	拉丁
+oe	ᴔ	拉丁
+NJ	Ǌ	拉丁
+Nj	ǋ	拉丁
+nj	ǌ	拉丁
+lz	ʫ	拉丁
+lz	ɮ	拉丁
+ls	ʪ	拉丁
+LL	Ỻ	拉丁
+ll	ỻ	拉丁
+lj	ǉ	拉丁
+IJ	Ĳ	拉丁
+ij	ĳ	拉丁
+HV	Ƕ	拉丁
+hv	ƕ	拉丁
+fn	ʩ	拉丁
+fl	ﬂ	拉丁
+fi	ﬁ	拉丁
+ffl	ﬄ	拉丁
+ffi	ﬃ	拉丁
+ff	ﬀ	拉丁
+db	ȸ	拉丁
+AY	Ꜽ	拉丁
+ay	ꜽ	拉丁
+AV	Ꜹ	拉丁
+AV	Ꜻ	拉丁
+av	ꜹ	拉丁
+av	ꜻ	拉丁
+AU	Ꜷ	拉丁
+au	ꜷ	拉丁
+AO	Ꜵ	拉丁
+ao	ꜵ	拉丁
+AE	Æ	拉丁
+AE	Ǣ	拉丁
+AE	Ǽ	拉丁
+AE	ᴭ	拉丁
+AE	ᴁ	拉丁
+ae	æ	拉丁
+ae	ǣ	拉丁
+ae	ǽ	拉丁
+ae	ᵆ	拉丁
+ae	ᴂ	拉丁
+AA	Ꜳ	拉丁
+aa	ꜳ	拉丁
+Z	Ź	拉丁
+Z	Ž	拉丁
+Z	Ẑ	拉丁
+Z	Ż	拉丁
+Z	ᴢ	拉丁
+Z	Ƶ	拉丁
+Z	Ẕ	拉丁
+Z	Ẓ	拉丁
+Z	Ȥ	拉丁
+Z	Ⱬ	拉丁
+Z	Ʒ	拉丁
+Z	ᴣ	拉丁
+Z	Ǯ	拉丁
+Z	Ƹ	拉丁
+Z	Ɀ	拉丁
+Z	Ꝣ	拉丁
+z	ź	拉丁
+z	ž	拉丁
+z	ẑ	拉丁
+z	ż	拉丁
+z	ᶻ	拉丁
+z	ʐ	拉丁
+z	ᶼ	拉丁
+z	ʑ	拉丁
+z	ᶽ	拉丁
+z	ƶ	拉丁
+z	ẕ	拉丁
+z	ẓ	拉丁
+z	ᵶ	拉丁
+z	ȥ	拉丁
+z	ⱬ	拉丁
+z	ᶎ	拉丁
+z	ʒ	拉丁
+z	ᶾ	拉丁
+z	ǯ	拉丁
+z	ʓ	拉丁
+z	ƹ	拉丁
+z	ƺ	拉丁
+z	ᶚ	拉丁
+z	θ	拉丁
+z	ᶿ	拉丁
+z	ɀ	拉丁
+z	ꝣ	拉丁
+Y	Ȳ	拉丁
+Y	Ý	拉丁
+Y	Ỳ	拉丁
+Y	Ŷ	拉丁
+Y	Ẏ	拉丁
+Y	Ÿ	拉丁
+Y	Ỹ	拉丁
+Y	ʏ	拉丁
+Y	Ɏ	拉丁
+Y	Ỷ	拉丁
+Y	Ỵ	拉丁
+Y	Ƴ	拉丁
+Y	Ỿ	拉丁
+y	ȳ	拉丁
+y	ý	拉丁
+y	ỳ	拉丁
+y	ŷ	拉丁
+y	ẏ	拉丁
+y	ÿ	拉丁
+y	ẙ	拉丁
+y	ỹ	拉丁
+y	ʸ	拉丁
+y	ɏ	拉丁
+y	ỷ	拉丁
+y	ỵ	拉丁
+y	ƴ	拉丁
+y	ʎ	拉丁
+y	ỿ	拉丁
+y	ꭚ	拉丁
+X	Ẋ	拉丁
+X	Ẍ	拉丁
+x	ẋ	拉丁
+x	ẍ	拉丁
+x	ᶍ	拉丁
+x	ˣ	拉丁
+x	ₓ	拉丁
+x	ꭖ	拉丁
+x	ꭗ	拉丁
+x	ꭘ	拉丁
+x	ꭙ	拉丁
+W	Ẃ	拉丁
+W	Ẁ	拉丁
+W	Ŵ	拉丁
+W	Ẇ	拉丁
+W	Ẅ	拉丁
+W	W̊	拉丁
+W	ᴡ	拉丁
+W	ᵂ	拉丁
+W	Ẉ	拉丁
+W	Ƿ	拉丁
+W	Ⱳ	拉丁
+w	ẃ	拉丁
+w	ẁ	拉丁
+w	ŵ	拉丁
+w	ẇ	拉丁
+w	ẅ	拉丁
+w	ẘ	拉丁
+w	ʷ	拉丁
+w	ẉ	拉丁
+w	ƿ	拉丁
+w	ʍ	拉丁
+w	ⱳ	拉丁
+V	Ü	拉丁
+V	Ǖ	拉丁
+V	Ǘ	拉丁
+V	Ǚ	拉丁
+V	Ǜ	拉丁
+V	Ṽ	拉丁
+V	ᴠ	拉丁
+V	ⱽ	拉丁
+V	Ṿ	拉丁
+V	Ꝟ	拉丁
+V	Ʋ	拉丁
+V	Ỽ	拉丁
+V	Ʌ	拉丁
+v	ü	拉丁
+v	ǖ	拉丁
+v	ǘ	拉丁
+v	ǚ	拉丁
+v	ǜ	拉丁
+v	ṽ	拉丁
+v	ᵛ	拉丁
+v	ᵥ	拉丁
+v	ṿ	拉丁
+v	ꝟ	拉丁
+v	ʋ	拉丁
+v	ᶹ	拉丁
+v	ᶌ	拉丁
+v	ⱴ	拉丁
+v	ⱱ	拉丁
+v	ỽ	拉丁
+v	ʌ	拉丁
+v	ᶺ	拉丁
+U	Ū	拉丁
+U	Ú	拉丁
+U	Ű	拉丁
+U	Ǔ	拉丁
+U	Ù	拉丁
+U	Ȕ	拉丁
+U	Û	拉丁
+U	Ŭ	拉丁
+U	Ȗ	拉丁
+U	Ü	拉丁
+U	Ǖ	拉丁
+U	Ǘ	拉丁
+U	Ǚ	拉丁
+U	Ǜ	拉丁
+U	Ů	拉丁
+U	Ũ	拉丁
+U	ᴜ	拉丁
+U	ᵁ	拉丁
+U	ᶸ	拉丁
+U	Ʉ	拉丁
+U	Ủ	拉丁
+U	Ų	拉丁
+U	Ṷ	拉丁
+U	Ụ	拉丁
+U	Ṳ	拉丁
+U	Ṵ	拉丁
+U	Ư	拉丁
+U	Ʊ	拉丁
+U	Ṻ	拉丁
+U	Ṹ	拉丁
+U	Ứ	拉丁
+U	Ừ	拉丁
+U	Ữ	拉丁
+U	Ử	拉丁
+U	Ự	拉丁
+u	ū	拉丁
+u	ú	拉丁
+u	ű	拉丁
+u	ǔ	拉丁
+u	ù	拉丁
+u	ȕ	拉丁
+u	û	拉丁
+u	ŭ	拉丁
+u	ȗ	拉丁
+u	ü	拉丁
+u	ǖ	拉丁
+u	ǘ	拉丁
+u	ǚ	拉丁
+u	ǜ	拉丁
+u	ů	拉丁
+u	ũ	拉丁
+u	ᵤ	拉丁
+u	ᵘ	拉丁
+u	ʉ	拉丁
+u	ᶶ	拉丁
+u	ủ	拉丁
+u	ų	拉丁
+u	ṷ	拉丁
+u	ụ	拉丁
+u	ṳ	拉丁
+u	ṵ	拉丁
+u	ư	拉丁
+u	ʊ	拉丁
+u	ᶷ	拉丁
+u	ᵿ	拉丁
+u	ᶙ	拉丁
+u	ṻ	拉丁
+u	ṹ	拉丁
+u	ứ	拉丁
+u	ừ	拉丁
+u	ữ	拉丁
+u	ử	拉丁
+u	ự	拉丁
+u	ꭒ	拉丁
+u	ꭟ	拉丁
+u	ꝸ	拉丁
+u	ꭎ	拉丁
+u	ꭏ	拉丁
+u	ᴝ	拉丁
+u	ᵙ	拉丁
+u	ᴞ	拉丁
+T	Ť	拉丁
+T	Ṫ	拉丁
+T	ᴛ	拉丁
+T	ᵀ	拉丁
+T	Ʈ	拉丁
+T	Þ	拉丁
+T	Ꝥ	拉丁
+T	Ꝧ	拉丁
+T	Ŧ	拉丁
+T	Ⱦ	拉丁
+T	Ţ	拉丁
+T	Ṯ	拉丁
+T	Ṱ	拉丁
+T	Ṭ	拉丁
+T	Ț	拉丁
+T	Ƭ	拉丁
+T	Ʇ	拉丁
+t	ť	拉丁
+t	ṫ	拉丁
+t	ẗ	拉丁
+t	ᵗ	拉丁
+t	ₜ	拉丁
+t	ʈ	拉丁
+t	þ	拉丁
+t	ꝥ	拉丁
+t	ꝧ	拉丁
+t	ŧ	拉丁
+t	ⱦ	拉丁
+t	ţ	拉丁
+t	ṯ	拉丁
+t	ṱ	拉丁
+t	ṭ	拉丁
+t	ț	拉丁
+t	ƭ	拉丁
+t	ᵵ	拉丁
+t	ƫ	拉丁
+t	ᶵ	拉丁
+t	ʇ	拉丁
+t	ȶ	拉丁
+t	ꝷ	拉丁
+S	Ś	拉丁
+S	Ŝ	拉丁
+S	Š	拉丁
+S	Ṡ	拉丁
+S	ꜱ	拉丁
+S	Ꞩ	拉丁
+S	Ş	拉丁
+S	Ṣ	拉丁
+S	Ș	拉丁
+S	Ṥ	拉丁
+S	Ṧ	拉丁
+S	Ṩ	拉丁
+S	Ʃ	拉丁
+S	ẞ	拉丁,
+s	Vs.	拉丁
+s	🆚	拉丁
+s	ś	拉丁
+s	ŝ	拉丁
+s	š	拉丁
+s	ṡ	拉丁
+s	ˢ	拉丁
+s	ʂ	拉丁
+s	ᶳ	拉丁
+s	ᵴ	拉丁
+s	ꞩ	拉丁
+s	ᶊ	拉丁
+s	ş	拉丁
+s	ṣ	拉丁
+s	ș	拉丁
+s	ȿ	拉丁
+s	ṥ	拉丁
+s	ṧ	拉丁
+s	ṩ	拉丁
+s	ʃ	拉丁
+s	ᶴ	拉丁
+s	ʆ	拉丁
+s	ᶘ	拉丁
+s	ʅ	拉丁
+s	ƪ	拉丁
+s	ß	拉丁
+s	ſ	拉丁
+s	ẛ	拉丁
+s	ẜ	拉丁
+s	ẝ	拉丁
+R	Ŕ	拉丁
+R	Ř	拉丁
+R	Ȑ	拉丁
+R	Ȓ	拉丁
+R	Ṙ	拉丁
+R	ʀ	拉丁
+R	ᴙ	拉丁
+R	ᴿ	拉丁
+R	Ʀ	拉丁
+R	ꭆ	拉丁
+R	Ɍ	拉丁
+R	Ꞧ	拉丁
+R	Ŗ	拉丁
+R	Ṟ	拉丁
+R	Ṛ	拉丁
+R	Ṝ	拉丁
+R	Ɽ	拉丁
+R	ꝶ	拉丁
+R	ʶ	拉丁
+R	ʁ	拉丁
+R	Ꝛ	拉丁
+R	Ꝝ	拉丁
+r	ŕ	拉丁
+r	ř	拉丁
+r	ȑ	拉丁
+r	ȓ	拉丁
+r	ṙ	拉丁
+r	ᵣ	拉丁
+r	ɍ	拉丁
+r	ꞧ	拉丁
+r	ᵲ	拉丁
+r	ŗ	拉丁
+r	ṟ	拉丁
+r	ṛ	拉丁
+r	ṝ	拉丁
+r	ᵳ	拉丁
+r	ɽ	拉丁
+r	ᶉ	拉丁
+r	ꭇ	拉丁
+r	ꭈ	拉丁
+r	ꭊ	拉丁
+r	ꭉ	拉丁
+r	ꝵ	拉丁
+r	ꭋ	拉丁
+r	ꭌ	拉丁
+r	ɹ	拉丁
+r	ʴ	拉丁
+r	ɺ	拉丁
+r	ɻ	拉丁
+r	ʵ	拉丁
+r	ⱹ	拉丁
+r	ɼ	拉丁
+r	ʳ	拉丁
+r	ɾ	拉丁
+r	ɿ	拉丁
+r	ꝛ	拉丁
+r	ꝝ	拉丁
+Q	Ɋ	拉丁
+Q	Ꝗ	拉丁
+Q	Ꝙ	拉丁
+q	ɋ	拉丁
+q	ꝗ	拉丁
+q	ꝙ	拉丁
+q	ʠ	拉丁
+P	Ṕ	拉丁
+P	Ṗ	拉丁
+P	ᴘ	拉丁
+P	ᴾ	拉丁
+P	Ᵽ	拉丁
+P	Ꝑ	拉丁
+P	Ƥ	拉丁
+P	Ꝓ	拉丁
+P	Ꝕ	拉丁
+P	ꟼ	拉丁
+p	ṕ	拉丁
+p	ṗ	拉丁
+p	ᵖ	拉丁
+p	ᵽ	拉丁
+p	ꝑ	拉丁
+p	ᵱ	拉丁
+p	ƥ	拉丁
+p	ᶈ	拉丁
+p	ꝓ	拉丁
+p	ꝕ	拉丁
+p	ɸ	拉丁
+p	ᶲ	拉丁
+p	ⱷ	拉丁
+O	Ō	拉丁
+O	Ó	拉丁
+O	Ő	拉丁
+O	Ǒ	拉丁
+O	Ò	拉丁
+O	Ô	拉丁
+O	Ŏ	拉丁
+O	Ȯ	拉丁
+O	Ö	拉丁
+O	Õ	拉丁
+O	ᴏ	拉丁
+O	ᴼ	拉丁
+O	Ɔ	拉丁
+O	ᴐ	拉丁
+O	Ø	拉丁
+O	Ǫ	拉丁
+O	Ọ	拉丁
+O	Ơ	拉丁
+O	Ɵ	拉丁
+O	Ꝋ	拉丁
+O	Ꝍ	拉丁
+O	Ṓ	拉丁
+O	Ṑ	拉丁
+O	Ố	拉丁
+O	Ồ	拉丁
+O	Ỗ	拉丁
+O	Ổ	拉丁
+O	Ȱ	拉丁
+O	Ȫ	拉丁
+O	Ȭ	拉丁
+O	Ṍ	拉丁
+O	Ṏ	拉丁
+O	Ộ	拉丁
+O	Ǭ	拉丁
+O	Ǿ	拉丁
+O	Ớ	拉丁
+O	Ờ	拉丁
+O	Ỡ	拉丁
+O	Ở	拉丁
+O	Ợ	拉丁
+o	ō	拉丁
+o	ó	拉丁
+o	ő	拉丁
+o	ǒ	拉丁
+o	ò	拉丁
+o	ô	拉丁
+o	ŏ	拉丁
+o	ȯ	拉丁
+o	ö	拉丁
+o	õ	拉丁
+o	ₒ	拉丁
+o	ᵒ	拉丁
+o	º	拉丁
+o	ɔ	拉丁
+o	ᵓ	拉丁
+o	ᶗ	拉丁
+o	ꬿ	拉丁
+o	ø	拉丁
+o	ǫ	拉丁
+o	ọ	拉丁
+o	ơ	拉丁
+o	ɵ	拉丁
+o	ᶱ	拉丁
+o	ᴑ	拉丁
+o	ᴒ	拉丁
+o	ᴓ	拉丁
+o	ꝋ	拉丁
+o	ꝍ	拉丁
+o	ṓ	拉丁
+o	ṑ	拉丁
+o	ố	拉丁
+o	ồ	拉丁
+o	ỗ	拉丁
+o	ổ	拉丁
+o	ȱ	拉丁
+o	ȫ	拉丁
+o	ȭ	拉丁
+o	ṍ	拉丁
+o	ṏ	拉丁
+o	ộ	拉丁
+o	ǭ	拉丁
+o	ǿ	拉丁
+o	ớ	拉丁
+o	ờ	拉丁
+o	ỡ	拉丁
+o	ở	拉丁
+o	ợ	拉丁
+o	ɷ	拉丁
+o	ⱺ	拉丁
+o	ᴖ	拉丁
+o	ᵔ	拉丁
+o	ᴗ	拉丁
+o	ᵕ	拉丁
+N	Ń	拉丁
+N	Ň	拉丁
+N	Ǹ	拉丁
+N	Ṅ	拉丁
+N	Ñ	拉丁
+N	ɴ	拉丁
+N	ᴺ	拉丁
+N	ᴻ	拉丁
+N	ᶰ	拉丁
+N	Ɲ	拉丁
+N	Ƞ	拉丁
+N	Ŋ	拉丁
+N	Ņ	拉丁
+N	Ṉ	拉丁
+N	Ṋ	拉丁
+N	Ṇ	拉丁
+N	Ꞑ	拉丁
+n	ń	拉丁
+n	ň	拉丁
+n	ǹ	拉丁
+n	ṅ	拉丁
+n	ñ	拉丁
+n	ₙ	拉丁
+n	ⁿ	拉丁
+n	ɲ	拉丁
+n	ᶮ	拉丁
+n	ɳ	拉丁
+n	ᶯ	拉丁
+n	ȵ	拉丁
+n	ƞ	拉丁
+n	ŋ	拉丁
+n	ᵑ	拉丁
+n	ꬻ	拉丁
+n	ꬼ	拉丁
+n	ꝴ	拉丁
+n	ŉ	拉丁
+n	ꞥ	拉丁
+n	ņ	拉丁
+n	ṉ	拉丁
+n	ṋ	拉丁
+n	ṇ	拉丁
+n	ᵰ	拉丁
+n	ꞑ	拉丁
+n	ᶇ	拉丁
+M	Ḿ	拉丁
+M	Ṁ	拉丁
+M	ᴍ	拉丁
+M	ᴹ	拉丁
+M	Ṃ	拉丁
+M	Ɱ	拉丁
+M	Ɯ	拉丁
+M	ꟽ	拉丁
+M	ꟿ	拉丁
+m	ḿ	拉丁
+m	ṁ	拉丁
+m	ᵐ	拉丁
+m	ₘ	拉丁
+m	ṃ	拉丁
+m	ᵯ	拉丁
+m	ɱ	拉丁
+m	ᶬ	拉丁
+m	ꬺ	拉丁
+m	ᶆ	拉丁
+m	ꝳ	拉丁
+m	ɯ	拉丁
+m	ᵚ	拉丁
+m	ɰ	拉丁
+m	ᶭ	拉丁
+m	ᴟ	拉丁
+L	Ĺ	拉丁
+L	ʟ	拉丁
+L	ᶫ	拉丁
+L	Ƚ	拉丁
+L	Ꝉ	拉丁
+L	Ł	拉丁
+L	ᴌ	拉丁
+L	Ⱡ	拉丁
+L	Ɫ	拉丁
+L	Ɬ	拉丁
+L	Ľ	拉丁
+L	Ļ	拉丁
+L	Ḻ	拉丁
+L	Ḽ	拉丁
+L	Ḷ	拉丁
+L	Ŀ	拉丁
+L	Ꝇ	拉丁
+l	ĺ	拉丁
+l	ˡ	拉丁
+l	ł	拉丁
+l	ꝉ	拉丁
+l	ƚ	拉丁
+l	ⱡ	拉丁
+l	ɫ	拉丁
+l	ꭞ	拉丁
+l	ꬸ	拉丁
+l	ɬ	拉丁
+l	ľ	拉丁
+l	ļ	拉丁
+l	ḻ	拉丁
+l	ḽ	拉丁
+l	ḷ	拉丁
+l	ŀ	拉丁
+l	ꝲ	拉丁
+l	ƛ	拉丁
+l	ᶅ	拉丁
+l	ᶪ	拉丁
+l	ɭ	拉丁
+l	ᶩ	拉丁
+l	ḹ	拉丁
+l	ꬷ	拉丁
+l	ꭝ	拉丁
+l	ꬹ	拉丁
+l	ȴ	拉丁
+l	ꝇ	拉丁
+K	Ḱ	拉丁
+K	Ǩ	拉丁
+K	ᴋ	拉丁
+K	ᴷ	拉丁
+K	Ꝁ	拉丁
+K	Ꝃ	拉丁
+K	Ꞣ	拉丁
+K	Ꝅ	拉丁
+K	Ķ	拉丁
+K	Ḵ	拉丁
+K	Ḳ	拉丁
+K	Ƙ	拉丁
+K	Ⱪ	拉丁
+K	Ʞ	拉丁
+k	ḱ	拉丁
+k	ǩ	拉丁
+k	ₖ	拉丁
+k	ᵏ	拉丁
+k	ꝁ	拉丁
+k	ꝃ	拉丁
+k	ꞣ	拉丁
+k	ꝅ	拉丁
+k	ķ	拉丁
+k	ḵ	拉丁
+k	ḳ	拉丁
+k	ƙ	拉丁
+k	ᶄ	拉丁
+k	ⱪ	拉丁
+k	ʞ	拉丁
+k	ĸ	拉丁
+J	Ĵ	拉丁
+J	ᴊ	拉丁
+J	ᴶ	拉丁
+J	Ɉ	拉丁
+J	Ʝ	拉丁
+j	ĵ	拉丁
+j	ǰ	拉丁
+j	ⱼ	拉丁
+j	ʲ	拉丁
+j	ɉ	拉丁
+j	ȷ	拉丁
+j	ɟ	拉丁
+j	ᶡ	拉丁
+j	ʄ	拉丁
+j	ʝ	拉丁
+j	ᶨ	拉丁
+I	Ī	拉丁
+I	Í	拉丁
+I	Ǐ	拉丁
+I	Ì	拉丁
+I	Ȉ	拉丁
+I	Î	拉丁
+I	Ĭ	拉丁
+I	Ȋ	拉丁
+I	Ï	拉丁
+I	Ĩ	拉丁
+I	ɪ	拉丁
+I	ᴵ	拉丁
+I	ᶦ	拉丁
+I	Ɨ	拉丁
+I	ᵻ	拉丁
+I	ᶧ	拉丁
+I	Ỉ	拉丁
+I	Į	拉丁
+I	Ị	拉丁
+I	Ḭ	拉丁
+I	Ḯ	拉丁
+I	ꟾ	拉丁
+I	Ɩ	拉丁
+i	ī	拉丁
+i	í	拉丁
+i	ǐ	拉丁
+i	ì	拉丁
+i	ȉ	拉丁
+i	î	拉丁
+i	ĭ	拉丁
+i	ȋ	拉丁
+i	ï	拉丁
+i	ĩ	拉丁
+i	ᵢ	拉丁
+i	ı	拉丁
+i	ɨ	拉丁
+i	ᶤ	拉丁
+i	ỉ	拉丁
+i	į	拉丁
+i	ị	拉丁
+i	ḭ	拉丁
+i	ᴉ	拉丁
+i	ᵎ	拉丁
+i	ḯ	拉丁
+i	ᶖ	拉丁
+i	ɩ	拉丁
+i	ᶥ	拉丁
+i	ᵼ	拉丁
+H	Ĥ	拉丁
+H	Ȟ	拉丁
+H	Ḣ	拉丁
+H	Ḧ	拉丁
+H	ʜ	拉丁
+H	ᴴ	拉丁
+H	Ħ	拉丁
+H	Ɦ	拉丁
+H	Ꜧ	拉丁
+H	Ḩ	拉丁
+H	Ḫ	拉丁
+H	Ḥ	拉丁
+H	Ⱨ	拉丁
+H	Ɥ	拉丁
+H	Ⱶ	拉丁
+h	ĥ	拉丁
+h	ȟ	拉丁
+h	ḣ	拉丁
+h	ḧ	拉丁
+h	ͪ	拉丁
+h	ħ	拉丁
+h	ɦ	拉丁
+h	ʱ	拉丁
+h	ꜧ	拉丁
+h	ꭜ	拉丁
+h	ɧ	拉丁
+h	ḩ	拉丁
+h	ẖ	拉丁
+h	ḫ	拉丁
+h	ḥ	拉丁
+h	ⱨ	拉丁
+h	ꞕ	拉丁
+h	ɥ	拉丁
+h	ᶣ	拉丁
+h	ʮ	拉丁
+h	ʯ	拉丁
+h	ⱶ	拉丁
+G	Ḡ	拉丁
+G	Ǵ	拉丁
+G	Ǧ	拉丁
+G	Ĝ	拉丁
+G	Ğ	拉丁
+G	Ġ	拉丁
+G	ʛ	拉丁
+G	ᴳ	拉丁
+G	Ǥ	拉丁
+G	Ꞡ	拉丁
+G	Ģ	拉丁
+G	Ɠ	拉丁
+G	Ɡ	拉丁
+G	Ɣ	拉丁
+g	ḡ	拉丁
+g	ǵ	拉丁
+g	ǧ	拉丁
+g	ĝ	拉丁
+g	ğ	拉丁
+g	ġ	拉丁
+g	ᵍ	拉丁
+g	ǥ	拉丁
+g	ꞡ	拉丁
+g	ģ	拉丁
+g	ɠ	拉丁
+g	ᵷ	拉丁
+g	ᶃ	拉丁
+g	ɡ	拉丁
+g	ꬶ	拉丁
+g	ᶢ	拉丁
+g	ɣ	拉丁
+g	ˠ	拉丁
+g	ɤ	拉丁
+g	ᵹ	拉丁
+F	Ḟ	拉丁
+F	ꜰ	拉丁
+F	Ƒ	拉丁
+F	Ꞙ	拉丁
+F	ꟻ	拉丁
+f	ḟ	拉丁
+f	ᶠ	拉丁
+f	ƒ	拉丁
+f	ᵮ	拉丁
+f	ᶂ	拉丁
+f	ꞙ	拉丁
+E	Ē	拉丁
+E	É	拉丁
+E	Ě	拉丁
+E	È	拉丁
+E	Ȅ	拉丁
+E	Ê	拉丁
+E	Ĕ	拉丁
+E	Ȇ	拉丁
+E	Ė	拉丁
+E	Ë	拉丁
+E	Ẽ	拉丁
+E	ᴇ	拉丁
+E	ᴱ	拉丁
+E	Ɇ	拉丁
+E	Ẻ	拉丁
+E	Ȩ	拉丁
+E	Ę	拉丁
+E	Ḙ	拉丁
+E	Ẹ	拉丁
+E	Ḛ	拉丁
+E	Ḗ	拉丁
+E	Ḕ	拉丁
+E	Ế	拉丁
+E	Ề	拉丁
+E	Ễ	拉丁
+E	Ể	拉丁
+E	Ḝ	拉丁
+E	Ệ	拉丁
+E	Ə	拉丁
+E	Ɛ	拉丁
+E	Ɜ	拉丁
+E	Ǝ	拉丁
+E	ⱻ	拉丁
+E	ᴲ	拉丁
+E	Ȝ	拉丁
+e	ē	拉丁
+e	é	拉丁
+e	ě	拉丁
+e	è	拉丁
+e	ȅ	拉丁
+e	ê	拉丁
+e	ĕ	拉丁
+e	ȇ	拉丁
+e	ė	拉丁
+e	ë	拉丁
+e	ẽ	拉丁
+e	ₑ	拉丁
+e	ᵉ	拉丁
+e	ɇ	拉丁
+e	ꬳ	拉丁
+e	ẻ	拉丁
+e	ȩ	拉丁
+e	ę	拉丁
+e	ḙ	拉丁
+e	ẹ	拉丁
+e	ḛ	拉丁
+e	ḗ	拉丁
+e	ḕ	拉丁
+e	ế	拉丁
+e	ề	拉丁
+e	ễ	拉丁
+e	ể	拉丁
+e	ḝ	拉丁
+e	ệ	拉丁
+e	ᶒ	拉丁
+e	ꬴ	拉丁
+e	ɘ	拉丁
+e	ə	拉丁
+e	ɚ	拉丁
+e	ᶕ	拉丁
+e	ɛ	拉丁
+e	ᵋ	拉丁
+e	ᶓ	拉丁
+e	ɜ	拉丁
+e	ᵌ	拉丁
+e	ᴈ	拉丁
+e	ᶟ	拉丁
+e	ɝ	拉丁
+e	ᶔ	拉丁
+e	ɞ	拉丁
+e	ʚ	拉丁
+e	ǝ	拉丁
+e	ₔ	拉丁
+e	ᵊ	拉丁
+e	ȝ	拉丁
+e	ⱸ	拉丁
+D	Ď	拉丁
+D	Ḋ	拉丁
+D	ᴅ	拉丁
+D	ᴆ	拉丁
+D	ᴰ	拉丁
+D	Đ	拉丁
+D	Ƌ	拉丁
+D	Ḑ	拉丁
+D	Ḓ	拉丁
+D	Ḏ	拉丁
+D	Ḍ	拉丁
+D	Ɖ	拉丁
+D	Ɗ	拉丁
+D	Ð	拉丁
+D	Ǳ	拉丁
+D	ǲ	拉丁
+D	Ǆ	拉丁
+D	ǅ	拉丁
+d	ď	拉丁
+d	ḋ	拉丁
+d	ᵈ	拉丁
+d	đ	拉丁
+d	ƌ	拉丁
+d	ᵭ	拉丁
+d	ḑ	拉丁
+d	ḓ	拉丁
+d	ḏ	拉丁
+d	ḍ	拉丁
+d	ɖ	拉丁
+d	ɗ	拉丁
+d	ᶑ	拉丁
+d	ᶁ	拉丁
+d	ð	拉丁
+d	ᶞ	拉丁
+d	ꝱ	拉丁
+d	ʤ	拉丁
+d	ʣ	拉丁
+d	ʥ	拉丁
+d	ȡ	拉丁
+d	ƍ	拉丁
+d	ǳ	拉丁
+d	ǆ	拉丁
+d	ẟ	拉丁
+C	Ç	拉丁
+C	Ć	拉丁
+C	Č	拉丁
+C	Ĉ	拉丁
+C	Ċ	拉丁
+C	ᴄ	拉丁
+C	Ȼ	拉丁
+C	Ꞓ	拉丁
+C	Ƈ	拉丁
+C	Ḉ	拉丁
+C	Ꜿ	拉丁
+c	ç	拉丁
+c	ć	拉丁
+c	č	拉丁
+c	ĉ	拉丁
+c	ċ	拉丁
+c	ᶜ	拉丁
+c	ȼ	拉丁
+c	ꞓ	拉丁
+c	ƈ	拉丁
+c	ḉ	拉丁
+c	ꞔ	拉丁
+c	ɕ	拉丁
+c	ᶝ	拉丁
+c	ꜿ	拉丁
+B	Ḃ	拉丁
+B	Ḅ	拉丁
+B	ʙ	拉丁
+B	ᴃ	拉丁
+B	ᴮ	拉丁
+B	ᴯ	拉丁
+B	Ƀ	拉丁
+B	Ƃ	拉丁
+B	Ḇ	拉丁
+B	Ɓ	拉丁
+B	Ꞗ	拉丁
+b	ḃ	拉丁
+b	ḅ	拉丁
+b	ᵇ	拉丁
+b	ƀ	拉丁
+b	ƃ	拉丁
+b	ḇ	拉丁
+b	ɓ	拉丁
+b	ᵬ	拉丁
+b	ᶀ	拉丁
+b	ꞗ	拉丁
+A	Ā	拉丁
+A	Á	拉丁
+A	Ǎ	拉丁
+A	À	拉丁
+A	Ȁ	拉丁
+A	Â	拉丁
+A	Ă	拉丁
+A	Ȃ	拉丁
+A	Ȧ	拉丁
+A	Ä	拉丁
+A	Å	拉丁
+A	Ã	拉丁
+A	ᴀ	拉丁
+A	ᴬ	拉丁
+A	Ⱥ	拉丁
+A	Ả	拉丁
+A	Ą	拉丁
+A	Ạ	拉丁
+A	Ḁ	拉丁
+A	Ấ	拉丁
+A	Ầ	拉丁
+A	Ẫ	拉丁
+A	Ẩ	拉丁
+A	Ắ	拉丁
+A	Ằ	拉丁
+A	Ẵ	拉丁
+A	Ẳ	拉丁
+A	Ǡ	拉丁
+A	Ǟ	拉丁
+A	Ǻ	拉丁
+A	Ậ	拉丁
+A	Ặ	拉丁
+A	Ɐ	拉丁
+A	Ɑ	拉丁
+A	Ɒ	拉丁
+a	ā	拉丁
+a	á	拉丁
+a	ǎ	拉丁
+a	à	拉丁
+a	ȁ	拉丁
+a	â	拉丁
+a	ă	拉丁
+a	ȃ	拉丁
+a	ȧ	拉丁
+a	ä	拉丁
+a	å	拉丁
+a	ã	拉丁
+a	ₐ	拉丁
+a	ᵃ	拉丁
+a	ª	拉丁
+a	ⱥ	拉丁
+a	ꬰ	拉丁
+a	ả	拉丁
+a	ą	拉丁
+a	ạ	拉丁
+a	ḁ	拉丁
+a	ẚ	拉丁
+a	ấ	拉丁
+a	ầ	拉丁
+a	ẫ	拉丁
+a	ẩ	拉丁
+a	ắ	拉丁
+a	ằ	拉丁
+a	ẵ	拉丁
+a	ẳ	拉丁
+a	ǡ	拉丁
+a	ǟ	拉丁
+a	ǻ	拉丁
+a	ậ	拉丁
+a	ặ	拉丁
+a	ᶏ	拉丁
+a	ɐ	拉丁
+a	ᵄ	拉丁
+a	ɑ	拉丁
+a	ᵅ	拉丁
+a	ᶐ	拉丁
+a	ɒ	拉丁
+a	ᶛ	拉丁
+lmd	Ⅰ	罗马数字大写
+lmd	Ⅱ	罗马数字大写
+lmd	Ⅲ	罗马数字大写
+lmd	Ⅳ	罗马数字大写
+lmd	Ⅴ	罗马数字大写
+lmd	Ⅵ	罗马数字大写
+lmd	Ⅶ	罗马数字大写
+lmd	Ⅷ	罗马数字大写
+lmd	Ⅸ	罗马数字大写
+lmd	Ⅹ	罗马数字大写
+lmd	Ⅺ	罗马数字大写
+lmd	Ⅻ	罗马数字大写
+lmd	Ⅼ	罗马数字大写
+lmd	Ⅽ	罗马数字大写
+lmd	Ⅾ	罗马数字大写
+lmd	Ⅿ	罗马数字大写
+lm	ⅰ	罗马数字
+lm	ⅱ	罗马数字
+lm	ⅲ	罗马数字
+lm	ⅳ	罗马数字
+lm	ⅴ	罗马数字
+lm	ⅵ	罗马数字
+lm	ⅶ	罗马数字
+lm	ⅷ	罗马数字
+lm	ⅸ	罗马数字
+lm	ⅹ	罗马数字
+lm	ⅺ	罗马数字
+lm	ⅻ	罗马数字
+lm	ⅼ	罗马数字
+lm	ⅽ	罗马数字
+lm	ⅾ	罗马数字
+lm	ⅿ	罗马数字
+szm	〡	苏州码
+szm	〢	苏州码
+szm	〣	苏州码
+szm	〤	苏州码
+szm	〥	苏州码
+szm	〦	苏州码
+szm	〧	苏州码
+szm	〨	苏州码
+szm	〩	苏州码
+szm	〸	苏州码
+szm	〹	苏州码
+szm	〺	苏州码
+fs	⅟	分数
+fs	½	分数
+fs	↉	分数
+fs	⅓	分数
+fs	⅔	分数
+fs	¼	分数
+fs	⅕	分数
+fs	⅖	分数
+fs	⅗	分数
+fs	⅘	分数
+fs	⅙	分数
+fs	⅚	分数
+fs	⅐	分数
+fs	⅛	分数
+fs	⅜	分数
+fs	⅝	分数
+fs	⅞	分数
+fs	⅑	分数
+fs	⅒	分数
+10	十	数字
+10	拾	数字
+10	¹⁰	数字
+10	₁₀	数字
+10	Ⅹ	数字
+10	ⅹ	数字
+10	⑩	数字
+10	➉	数字
+10	❿	数字
+10	➓	数字
+10	⓾	数字
+10	⑽	数字
+10	⒑	数字
+10	１０	数字
+10	㊉	数字
+10	㈩	数字
+10	什	数字
+9	九	数字
+9	玖	数字
+9	⁹	数字
+9	₉	数字
+9	Ⅸ	数字
+9	ⅸ	数字
+9	⑨	数字
+9	➈	数字
+9	❾	数字
+9	➒	数字
+9	⓽	数字
+9	⑼	数字
+9	⒐	数字
+9	９	数字
+9	㊈	数字
+9	㈨	数字
+8	八	数字
+8	捌	数字
+8	⁸	数字
+8	₈	数字
+8	Ⅷ	数字
+8	ⅷ	数字
+8	⑧	数字
+8	➇	数字
+8	❽	数字
+8	➑	数字
+8	⓼	数字
+8	⑻	数字
+8	⒏	数字
+8	８	数字
+8	㊇	数字
+8	㈧	数字
+7	七	数字
+7	柒	数字
+7	⁷	数字
+7	₇	数字
+7	Ⅶ	数字
+7	ⅶ	数字
+7	⑦	数字
+7	➆	数字
+7	❼	数字
+7	➐	数字
+7	⓻	数字
+7	⑺	数字
+7	⒎	数字
+7	７	数字
+7	㊆	数字
+7	㈦	数字
+7	漆	数字
+6	六	数字
+6	陆	数字
+6	⁶	数字
+6	₆	数字
+6	Ⅵ	数字
+6	ⅵ	数字
+6	⑥	数字
+6	➅	数字
+6	❻	数字
+6	➏	数字
+6	⓺	数字
+6	⑹	数字
+6	⒍	数字
+6	６	数字
+6	㊅	数字
+6	㈥	数字
+6	ↅ	数字
+5	五	数字
+5	伍	数字
+5	⁵	数字
+5	₅	数字
+5	Ⅴ	数字
+5	ⅴ	数字
+5	⑤	数字
+5	➄	数字
+5	❺	数字
+5	➎	数字
+5	⓹	数字
+5	⑸	数字
+5	⒌	数字
+5	５	数字
+5	㊄	数字
+5	㈤	数字
+5	㐅	数字
+5	㠪	数字
+5	𠄡	数字
+4	四	数字
+4	肆	数字
+4	⁴	数字
+4	₄	数字
+4	Ⅳ	数字
+4	ⅳ	数字
+4	④	数字
+4	➃	数字
+4	❹	数字
+4	➍	数字
+4	⓸	数字
+4	⑷	数字
+4	⒋	数字
+4	４	数字
+4	㊃	数字
+4	㈣	数字
+4	亖	数字
+3	三	数字
+3	³	数字
+3	₃	数字
+3	Ⅲ	数字
+3	ⅲ	数字
+3	③	数字
+3	➂	数字
+3	❸	数字
+3	➌	数字
+3	⓷	数字
+3	⑶	数字
+3	⒊	数字
+3	３	数字
+3	㊂	数字
+3	㈢	数字
+3	参	数字
+3	叁	数字
+3	弎	数字
+3	仨	数字
+3	㆔	数字
+2	二	数字
+2	贰	数字
+2	²	数字
+2	₂	数字
+2	Ⅱ	数字
+2	ⅱ	数字
+2	②	数字
+2	➁	数字
+2	❷	数字
+2	➋	数字
+2	⓶	数字
+2	⑵	数字
+2	⒉	数字
+2	２	数字
+2	㊁	数字
+2	㈡	数字
+2	弍	数字
+2	弐	数字
+2	貮	数字
+2	㒃	数字
+2	㒳	数字
+2	两	数字
+2	俩	数字
+2	㆓	数字
+1	一	数字
+1	壹	数字
+1	¹	数字
+1	₁	数字
+1	Ⅰ	数字
+1	ⅰ	数字
+1	①	数字
+1	➀	数字
+1	❶	数字
+1	➊	数字
+1	⓵	数字
+1	⑴	数字
+1	⒈	数字
+1	１	数字
+1	㊀	数字
+1	㈠	数字
+1	弌	数字
+1	壱	数字
+1	幺	数字
+1	㆒	数字
+0	零	数字
+0	〇	数字
+0	⁰	数字
+0	₀	数字
+0	⓪	数字
+0	⓿	数字
+0	０	数字
+zmh	⒜	字母+弧
+zmh	⒝	字母+弧
+zmh	⒞	字母+弧
+zmh	⒟	字母+弧
+zmh	⒠	字母+弧
+zmh	⒡	字母+弧
+zmh	⒢	字母+弧
+zmh	⒣	字母+弧
+zmh	⒤	字母+弧
+zmh	⒥	字母+弧
+zmh	⒦	字母+弧
+zmh	⒧	字母+弧
+zmh	⒨	字母+弧
+zmh	⒩	字母+弧
+zmh	⒪	字母+弧
+zmh	⒫	字母+弧
+zmh	⒬	字母+弧
+zmh	⒭	字母+弧
+zmh	⒮	字母+弧
+zmh	⒯	字母+弧
+zmh	⒰	字母+弧
+zmh	⒱	字母+弧
+zmh	⒲	字母+弧
+zmh	⒳	字母+弧
+zmh	⒴	字母+弧
+zmh	⒵	字母+弧
+zmq	ⓐ	字母+圈
+zmq	Ⓐ	字母+圈
+zmq	ⓑ	字母+圈
+zmq	Ⓑ	字母+圈
+zmq	ⓒ	字母+圈
+zmq	Ⓒ	字母+圈
+zmq	ⓓ	字母+圈
+zmq	Ⓓ	字母+圈
+zmq	ⓔ	字母+圈
+zmq	Ⓔ	字母+圈
+zmq	ⓕ	字母+圈
+zmq	Ⓕ	字母+圈
+zmq	ⓖ	字母+圈
+zmq	Ⓖ	字母+圈
+zmq	ⓗ	字母+圈
+zmq	Ⓗ	字母+圈
+zmq	ⓘ	字母+圈
+zmq	Ⓘ	字母+圈
+zmq	ⓙ	字母+圈
+zmq	Ⓙ	字母+圈
+zmq	ⓚ	字母+圈
+zmq	Ⓚ	字母+圈
+zmq	ⓛ	字母+圈
+zmq	Ⓛ	字母+圈
+zmq	ⓜ	字母+圈
+zmq	Ⓜ	字母+圈
+zmq	ⓝ	字母+圈
+zmq	Ⓝ	字母+圈
+zmq	ⓞ	字母+圈
+zmq	Ⓞ	字母+圈
+zmq	ⓟ	字母+圈
+zmq	Ⓟ	字母+圈
+zmq	ⓠ	字母+圈
+zmq	Ⓠ	字母+圈
+zmq	ⓡ	字母+圈
+zmq	Ⓡ	字母+圈
+zmq	ⓢ	字母+圈
+zmq	Ⓢ	字母+圈
+zmq	ⓣ	字母+圈
+zmq	Ⓣ	字母+圈
+zmq	ⓤ	字母+圈
+zmq	Ⓤ	字母+圈
+zmq	ⓥ	字母+圈
+zmq	Ⓥ	字母+圈
+zmq	ⓦ	字母+圈
+zmq	Ⓦ	字母+圈
+zmq	ⓧ	字母+圈
+zmq	Ⓧ	字母+圈
+zmq	ⓨ	字母+圈
+zmq	Ⓨ	字母+圈
+zmq	ⓩ	字母+圈
+zmq	Ⓩ	字母+圈
+szd	⒈	数字+点
+szd	⒉	数字+点
+szd	⒊	数字+点
+szd	⒋	数字+点
+szd	⒌	数字+点
+szd	⒍	数字+点
+szd	⒎	数字+点
+szd	⒏	数字+点
+szd	⒐	数字+点
+szd	⒑	数字+点
+szd	⒒	数字+点
+szd	⒓	数字+点
+szd	⒔	数字+点
+szd	⒕	数字+点
+szd	⒖	数字+点
+szd	⒗	数字+点
+szd	⒘	数字+点
+szd	⒙	数字+点
+szd	⒚	数字+点
+szd	⒛	数字+点
+szh	⑴	数字+弧
+szh	⑵	数字+弧
+szh	⑶	数字+弧
+szh	⑷	数字+弧
+szh	⑸	数字+弧
+szh	⑹	数字+弧
+szh	⑺	数字+弧
+szh	⑻	数字+弧
+szh	⑼	数字+弧
+szh	⑽	数字+弧
+szh	⑾	数字+弧
+szh	⑿	数字+弧
+szh	⒀	数字+弧
+szh	⒁	数字+弧
+szh	⒂	数字+弧
+szh	⒃	数字+弧
+szh	⒄	数字+弧
+szh	⒅	数字+弧
+szh	⒆	数字+弧
+szh	⒇	数字+弧
+szq	⓪	数字+圆
+szq	①	数字+圆
+szq	②	数字+圆
+szq	③	数字+圆
+szq	④	数字+圆
+szq	⑤	数字+圆
+szq	⑥	数字+圆
+szq	⑦	数字+圆
+szq	⑧	数字+圆
+szq	⑨	数字+圆
+szq	⑩	数字+圆
+szq	⑪	数字+圆
+szq	⑫	数字+圆
+szq	⑬	数字+圆
+szq	⑭	数字+圆
+szq	⑮	数字+圆
+szq	⑯	数字+圆
+szq	⑰	数字+圆
+szq	⑱	数字+圆
+szq	⑲	数字+圆
+szq	⑳	数字+圆
+szq	㉑	数字+圆
+szq	㉒	数字+圆
+szq	㉓	数字+圆
+szq	㉔	数字+圆
+szq	㉕	数字+圆
+szq	㉖	数字+圆
+szq	㉗	数字+圆
+szq	㉘	数字+圆
+szq	㉙	数字+圆
+szq	㉚	数字+圆
+szq	㉛	数字+圆
+szq	㉜	数字+圆
+szq	㉝	数字+圆
+szq	㉞	数字+圆
+szq	㉟	数字+圆
+szq	㊱	数字+圆
+szq	㊲	数字+圆
+szq	㊳	数字+圆
+szq	㊴	数字+圆
+szq	㊵	数字+圆
+szq	㊶	数字+圆
+szq	㊷	数字+圆
+szq	㊸	数字+圆
+szq	㊹	数字+圆
+szq	㊺	数字+圆
+szq	㊻	数字+圆
+szq	㊼	数字+圆
+szq	㊽	数字+圆
+szq	㊾	数字+圆
+szq	㊿	数字+圆
+szq	⓿	数字+圆
+szq	❶	数字+圆
+szq	❷	数字+圆
+szq	❸	数字+圆
+szq	❹	数字+圆
+szq	❺	数字+圆
+szq	❻	数字+圆
+szq	❼	数字+圆
+szq	❽	数字+圆
+szq	❾	数字+圆
+szq	❿	数字+圆
+szq	⓫	数字+圆
+szq	⓬	数字+圆
+szq	⓭	数字+圆
+szq	⓮	数字+圆
+szq	⓯	数字+圆
+szq	⓰	数字+圆
+szq	⓱	数字+圆
+szq	⓲	数字+圆
+szq	⓳	数字+圆
+szq	⓴	数字+圆
+sx	±	数学
+sx	÷	数学
+sx	×	数学
+sx	∈	数学
+sx	∏	数学
+sx	∑	数学
+sx	－	数学
+sx	＋	数学
+sx	＜	数学
+sx	≮	数学
+sx	＝	数学
+sx	≠	数学
+sx	＞	数学
+sx	≯	数学
+sx	∕	数学
+sx	√	数学
+sx	∝	数学
+sx	∞	数学
+sx	∟	数学
+sx	∠	数学
+sx	∥	数学
+sx	∧	数学
+sx	∨	数学
+sx	∩	数学
+sx	∪	数学
+sx	∫	数学
+sx	∮	数学
+sx	∴	数学
+sx	∵	数学
+sx	∷	数学
+sx	∽	数学
+sx	≈	数学
+sx	≌	数学
+sx	≒	数学
+sx	≡	数学
+sx	≤	数学
+sx	≥	数学
+sx	≦	数学
+sx	≧	数学
+sx	⊕	数学
+sx	⊙	数学
+sx	⊥	数学
+sx	⊿	数学
+sx	㏑	数学
+sx	㏒	数学
+jt	↑	箭头
+jt	↓	箭头
+jt	←	箭头
+jt	→	箭头
+jt	↕	箭头
+jt	↔	箭头
+jt	↖	箭头
+jt	↗	箭头
+jt	↙	箭头
+jt	↘	箭头
+jt	↚	箭头
+jt	↛	箭头
+jt	↮	箭头
+jt	↜	箭头
+jt	↝	箭头
+jt	↞	箭头
+jt	↟	箭头
+jt	↠	箭头
+jt	↡	箭头
+jt	↢	箭头
+jt	↣	箭头
+jt	↤	箭头
+jt	↥	箭头
+jt	↦	箭头
+jt	↧	箭头
+jt	↨	箭头
+jt	↩	箭头
+jt	↪	箭头
+jt	↫	箭头
+jt	↬	箭头
+jt	↭	箭头
+jt	↯	箭头
+jt	↰	箭头
+jt	↱	箭头
+jt	↲	箭头
+jt	↳	箭头
+jt	↴	箭头
+jt	↵	箭头
+jt	↶	箭头
+jt	↷	箭头
+jt	↸	箭头
+jt	↹	箭头
+jt	↺	箭头
+jt	↻	箭头
+jt	↼	箭头
+jt	↽	箭头
+jt	↾	箭头
+jt	↿	箭头
+jt	⇀	箭头
+jt	⇁	箭头
+jt	⇂	箭头
+jt	⇃	箭头
+jt	⇄	箭头
+jt	⇅	箭头
+jt	⇆	箭头
+jt	⇇	箭头
+jt	⇈	箭头
+jt	⇉	箭头
+jt	⇊	箭头
+jt	⇋	箭头
+jt	⇌	箭头
+jt	⇐	箭头
+jt	⇍	箭头
+jt	⇑	箭头
+jt	⇒	箭头
+jt	⇏	箭头
+jt	⇓	箭头
+jt	⇔	箭头
+jt	⇎	箭头
+jt	⇕	箭头
+jt	⇖	箭头
+jt	⇗	箭头
+jt	⇘	箭头
+jt	⇙	箭头
+jt	⇚	箭头
+jt	⇛	箭头
+jt	⇜	箭头
+jt	⇝	箭头
+jt	⇞	箭头
+jt	⇟	箭头
+jt	⇠	箭头
+jt	⇡	箭头
+jt	⇢	箭头
+jt	⇣	箭头
+jt	⇤	箭头
+jt	⇥	箭头
+jt	⇦	箭头
+jt	⇧	箭头
+jt	⇨	箭头
+jt	⇩	箭头
+jt	⇪	箭头
+jt	⇫	箭头
+jt	⇬	箭头
+jt	⇭	箭头
+jt	⇮	箭头
+jt	⇯	箭头
+jt	⇰	箭头
+jt	⇱	箭头
+jt	⇲	箭头
+jt	⇳	箭头
+jt	⇴	箭头
+jt	⇵	箭头
+jt	⇶	箭头
+jt	⇷	箭头
+jt	⇸	箭头
+jt	⇹	箭头
+jt	⇺	箭头
+jt	⇻	箭头
+jt	⇼	箭头
+jt	⇽	箭头
+jt	➔	箭头
+jt	➘	箭头
+jt	➙	箭头
+jt	➚	箭头
+jt	➛	箭头
+jt	➜	箭头
+jt	➝	箭头
+jt	➞	箭头
+jt	➟	箭头
+jt	➠	箭头
+jt	➡	箭头
+jt	➢	箭头
+jt	➣	箭头
+jt	➤	箭头
+jt	➥	箭头
+jt	➦	箭头
+jt	➧	箭头
+jt	➨	箭头
+jt	➩	箭头
+jt	➪	箭头
+jt	➫	箭头
+jt	➬	箭头
+jt	➭	箭头
+jt	➮	箭头
+jt	➱	箭头
+jt	➲	箭头
+jt	➳	箭头
+jt	➴	箭头
+jt	➵	箭头
+jt	➶	箭头
+jt	➷	箭头
+jt	➸	箭头
+jt	➹	箭头
+jt	➺	箭头
+jt	➻	箭头
+jt	➼	箭头
+jt	➽	箭头
+jt	➾	箭头
+jh	■	几何
+jh	□	几何
+jh	▢	几何
+jh	▣	几何
+jh	▤	几何
+jh	▥	几何
+jh	▦	几何
+jh	▧	几何
+jh	▨	几何
+jh	▩	几何
+jh	▪	几何
+jh	▫	几何
+jh	▬	几何
+jh	▭	几何
+jh	▮	几何
+jh	▯	几何
+jh	▰	几何
+jh	▱	几何
+jh	▲	几何
+jh	△	几何
+jh	▴	几何
+jh	▵	几何
+jh	▶	几何
+jh	▷	几何
+jh	▸	几何
+jh	▹	几何
+jh	►	几何
+jh	▻	几何
+jh	▼	几何
+jh	▽	几何
+jh	▾	几何
+jh	▿	几何
+jh	◀	几何
+jh	◁	几何
+jh	◂	几何
+jh	◃	几何
+jh	◄	几何
+jh	◅	几何
+jh	◆	几何
+jh	◇	几何
+jh	◈	几何
+jh	◉	几何
+jh	◊	几何
+jh	○	几何
+jh	◌	几何
+jh	◍	几何
+jh	◎	几何
+jh	●	几何
+jh	◐	几何
+jh	◑	几何
+jh	◒	几何
+jh	◓	几何
+jh	◔	几何
+jh	◕	几何
+jh	◖	几何
+jh	◗	几何
+jh	◘	几何
+jh	◙	几何
+jh	◚	几何
+jh	◛	几何
+jh	◜	几何
+jh	◝	几何
+jh	◞	几何
+jh	◟	几何
+jh	◠	几何
+jh	◡	几何
+jh	◢	几何
+jh	◣	几何
+jh	◤	几何
+jh	◥	几何
+jh	◦	几何
+jh	◧	几何
+jh	◨	几何
+jh	◩	几何
+jh	◪	几何
+jh	◫	几何
+jh	◬	几何
+jh	◭	几何
+jh	◮	几何
+jh	◯	几何
+jh	◰	几何
+jh	◱	几何
+jh	◲	几何
+jh	◳	几何
+jh	◴	几何
+jh	◵	几何
+jh	◶	几何
+jh	◷	几何
+jh	◸	几何
+jh	◹	几何
+jh	◺	几何
+jh	◻	几何
+jh	◼	几何
+jh	◽	几何
+jh	◾	几何
+jh	◿	几何
+fk	▀	方块
+fk	▁	方块
+fk	▂	方块
+fk	▃	方块
+fk	▄	方块
+fk	▅	方块
+fk	▆	方块
+fk	▇	方块
+fk	█	方块
+fk	▉	方块
+fk	▊	方块
+fk	▋	方块
+fk	▌	方块
+fk	▍	方块
+fk	▎	方块
+fk	▏	方块
+fk	▐	方块
+fk	░	方块
+fk	▒	方块
+fk	▓	方块
+fk	▔	方块
+fk	▕	方块
+fk	▖	方块
+fk	▗	方块
+fk	▘	方块
+fk	▙	方块
+fk	▚	方块
+fk	▛	方块
+fk	▜	方块
+fk	▝	方块
+fk	▞	方块
+fk	▟	方块
+xh	★	星号
+xh	☆	星号
+xh	⛤	星号
+xh	⛥	星号
+xh	⛦	星号
+xh	⛧	星号
+xh	✡	星号
+xh	❋	星号
+xh	❊	星号
+xh	❉	星号
+xh	❈	星号
+xh	❇	星号
+xh	❆	星号
+xh	❅	星号
+xh	❄	星号
+xh	❃	星号
+xh	❂	星号
+xh	❁	星号
+xh	❀	星号
+xh	✿	星号
+xh	✾	星号
+xh	✽	星号
+xh	✼	星号
+xh	✻	星号
+xh	✺	星号
+xh	✹	星号
+xh	✸	星号
+xh	✷	星号
+xh	✶	星号
+xh	✵	星号
+xh	✴	星号
+xh	✳	星号
+xh	✲	星号
+xh	✱	星号
+xh	✰	星号
+xh	✯	星号
+xh	✮	星号
+xh	✭	星号
+xh	✬	星号
+xh	✫	星号
+xh	✪	星号
+xh	✩	星号
+xh	✧	星号
+xh	✦	星号
+xh	✥	星号
+xh	✤	星号
+xh	✣	星号
+xh	✢	星号
+xzg	白羊宫	十二宫
+xzg	金牛宫	十二宫
+xzg	双子宫	十二宫
+xzg	巨蟹宫	十二宫
+xzg	狮子宫	十二宫
+xzg	室女宫	十二宫
+xzg	天秤宫	十二宫
+xzg	天蝎宫	十二宫
+xzg	人马宫	十二宫
+xzg	摩羯宫	十二宫
+xzg	宝瓶宫	十二宫
+xzg	双	十二宫鱼宫
+xzm	白羊座	星座名
+xzm	金牛座	星座名
+xzm	双子座	星座名
+xzm	巨蟹座	星座名
+xzm	狮子座	星座名
+xzm	室女座	星座名
+xzm	天秤座	星座名
+xzm	天蝎座	星座名
+xzm	人马座	星座名
+xzm	摩羯座	星座名
+xzm	宝瓶座	星座名
+xzm	双	星座名鱼座
+xz	♈	星座
+xz	♉	星座
+xz	♊	星座
+xz	♋	星座
+xz	♌	星座
+xz	♍	星座
+xz	♎	星座
+xz	♏	星座
+xz	♐	星座
+xz	♑	星座
+xz	♒	星座
+xz	♓	星座
+tt	☄	天体
+tt	☼	天体
+tt	☽	天体
+tt	☾	天体
+tt	☿	天体
+tt	♀	天体
+tt	♁	天体
+tt	♂	天体
+tt	♃	天体
+tt	♄	天体
+tt	♅	天体
+tt	♆	天体
+tt	♇	天体
+txj	⚊	太玄经
+txj	⚋	太玄经
+txj	⚌	太玄经
+txj	⚍	太玄经
+txj	⚎	太玄经
+txj	⚏	太玄经
+txj	𝌀	太玄经
+txj	𝌁	太玄经
+txj	𝌂	太玄经
+txj	𝌃	太玄经
+txj	𝌄	太玄经
+txj	𝌅	太玄经
+txj	𝌆	太玄经
+txj	𝌇	太玄经
+txj	𝌈	太玄经
+txj	𝌉	太玄经
+txj	𝌊	太玄经
+txj	𝌋	太玄经
+txj	𝌌	太玄经
+txj	𝌍	太玄经
+txj	𝌎	太玄经
+txj	𝌏	太玄经
+txj	𝌐	太玄经
+txj	𝌑	太玄经
+txj	𝌒	太玄经
+txj	𝌓	太玄经
+txj	𝌔	太玄经
+txj	𝌕	太玄经
+txj	𝌖	太玄经
+txj	𝌗	太玄经
+txj	𝌘	太玄经
+txj	𝌙	太玄经
+txj	𝌚	太玄经
+txj	𝌛	太玄经
+txj	𝌜	太玄经
+txj	𝌝	太玄经
+txj	𝌞	太玄经
+txj	𝌟	太玄经
+txj	𝌠	太玄经
+txj	𝌡	太玄经
+txj	𝌢	太玄经
+txj	𝌣	太玄经
+txj	𝌤	太玄经
+txj	𝌥	太玄经
+txj	𝌦	太玄经
+txj	𝌧	太玄经
+txj	𝌨	太玄经
+txj	𝌩	太玄经
+txj	𝌪	太玄经
+txj	𝌫	太玄经
+txj	𝌬	太玄经
+txj	𝌭	太玄经
+txj	𝌮	太玄经
+txj	𝌯	太玄经
+txj	𝌰	太玄经
+txj	𝌱	太玄经
+txj	𝌲	太玄经
+txj	𝌳	太玄经
+txj	𝌴	太玄经
+txj	𝌵	太玄经
+txj	𝌶	太玄经
+txj	𝌷	太玄经
+txj	𝌸	太玄经
+txj	𝌹	太玄经
+txj	𝌺	太玄经
+txj	𝌻	太玄经
+txj	𝌼	太玄经
+txj	𝌽	太玄经
+txj	𝌾	太玄经
+txj	𝌿	太玄经
+txj	𝍀	太玄经
+txj	𝍁	太玄经
+txj	𝍂	太玄经
+txj	𝍃	太玄经
+txj	𝍄	太玄经
+txj	𝍅	太玄经
+txj	𝍆	太玄经
+txj	𝍇	太玄经
+txj	𝍈	太玄经
+txj	𝍉	太玄经
+txj	𝍊	太玄经
+txj	𝍋	太玄经
+txj	𝍌	太玄经
+txj	𝍍	太玄经
+txj	𝍎	太玄经
+txj	𝍏	太玄经
+txj	𝍐	太玄经
+txj	𝍑	太玄经
+txj	𝍒	太玄经
+txj	𝍓	太玄经
+txj	𝍔	太玄经
+txj	𝍕	太玄经
+txj	𝍖	太玄经
+lssgm	乾	六十四卦名
+lssgm	坤	六十四卦名
+lssgm	屯	六十四卦名
+lssgm	蒙	六十四卦名
+lssgm	需	六十四卦名
+lssgm	讼	六十四卦名
+lssgm	师	六十四卦名
+lssgm	比	六十四卦名
+lssgm	小畜	六十四卦名
+lssgm	履	六十四卦名
+lssgm	泰	六十四卦名
+lssgm	否	六十四卦名
+lssgm	同人	六十四卦名
+lssgm	大有	六十四卦名
+lssgm	谦	六十四卦名
+lssgm	豫	六十四卦名
+lssgm	随	六十四卦名
+lssgm	蛊	六十四卦名
+lssgm	临	六十四卦名
+lssgm	观	六十四卦名
+lssgm	噬嗑	六十四卦名
+lssgm	贲	六十四卦名
+lssgm	剥	六十四卦名
+lssgm	复	六十四卦名
+lssgm	无妄	六十四卦名
+lssgm	大畜	六十四卦名
+lssgm	颐	六十四卦名
+lssgm	大过	六十四卦名
+lssgm	坎	六十四卦名
+lssgm	离	六十四卦名
+lssgm	咸	六十四卦名
+lssgm	恒	六十四卦名
+lssgm	遯	六十四卦名
+lssgm	大壮	六十四卦名
+lssgm	晋	六十四卦名
+lssgm	明夷	六十四卦名
+lssgm	家人	六十四卦名
+lssgm	睽	六十四卦名
+lssgm	蹇	六十四卦名
+lssgm	解	六十四卦名
+lssgm	损	六十四卦名
+lssgm	益	六十四卦名
+lssgm	夬	六十四卦名
+lssgm	姤	六十四卦名
+lssgm	萃	六十四卦名
+lssgm	升	六十四卦名
+lssgm	困	六十四卦名
+lssgm	井	六十四卦名
+lssgm	革	六十四卦名
+lssgm	鼎	六十四卦名
+lssgm	震	六十四卦名
+lssgm	艮	六十四卦名
+lssgm	渐	六十四卦名
+lssgm	归妹	六十四卦名
+lssgm	丰	六十四卦名
+lssgm	旅	六十四卦名
+lssgm	巽	六十四卦名
+lssgm	兑	六十四卦名
+lssgm	涣	六十四卦名
+lssgm	节	六十四卦名
+lssgm	中孚	六十四卦名
+lssgm	小过	六十四卦名
+lssgm	既济	六十四卦名
+lssgm	未	六十四卦名济
+lssg	䷀	六十四卦
+lssg	䷁	六十四卦
+lssg	䷂	六十四卦
+lssg	䷃	六十四卦
+lssg	䷄	六十四卦
+lssg	䷅	六十四卦
+lssg	䷆	六十四卦
+lssg	䷇	六十四卦
+lssg	䷈	六十四卦
+lssg	䷉	六十四卦
+lssg	䷊	六十四卦
+lssg	䷋	六十四卦
+lssg	䷌	六十四卦
+lssg	䷍	六十四卦
+lssg	䷎	六十四卦
+lssg	䷏	六十四卦
+lssg	䷐	六十四卦
+lssg	䷑	六十四卦
+lssg	䷒	六十四卦
+lssg	䷓	六十四卦
+lssg	䷔	六十四卦
+lssg	䷕	六十四卦
+lssg	䷖	六十四卦
+lssg	䷗	六十四卦
+lssg	䷘	六十四卦
+lssg	䷙	六十四卦
+lssg	䷚	六十四卦
+lssg	䷛	六十四卦
+lssg	䷜	六十四卦
+lssg	䷝	六十四卦
+lssg	䷞	六十四卦
+lssg	䷟	六十四卦
+lssg	䷠	六十四卦
+lssg	䷡	六十四卦
+lssg	䷢	六十四卦
+lssg	䷣	六十四卦
+lssg	䷤	六十四卦
+lssg	䷥	六十四卦
+lssg	䷦	六十四卦
+lssg	䷧	六十四卦
+lssg	䷨	六十四卦
+lssg	䷩	六十四卦
+lssg	䷪	六十四卦
+lssg	䷫	六十四卦
+lssg	䷬	六十四卦
+lssg	䷭	六十四卦
+lssg	䷮	六十四卦
+lssg	䷯	六十四卦
+lssg	䷰	六十四卦
+lssg	䷱	六十四卦
+lssg	䷲	六十四卦
+lssg	䷳	六十四卦
+lssg	䷴	六十四卦
+lssg	䷵	六十四卦
+lssg	䷶	六十四卦
+lssg	䷷	六十四卦
+lssg	䷸	六十四卦
+lssg	䷹	六十四卦
+lssg	䷺	六十四卦
+lssg	䷻	六十四卦
+lssg	䷼	六十四卦
+lssg	䷽	六十四卦
+lssg	䷾	六十四卦
+lssg	䷿	六十四卦
+bgm	乾	八卦名
+bgm	兑	八卦名
+bgm	离	八卦名
+bgm	震	八卦名
+bgm	巽	八卦名
+bgm	坎	八卦名
+bgm	艮	八卦名
+bgm	坤	八卦名
+bg	☰	八卦
+bg	☱	八卦
+bg	☲	八卦
+bg	☳	八卦
+bg	☴	八卦
+bg	☵	八卦
+bg	☶	八卦
+bg	☷	八卦
+lx	♂	两性
+lx	♀	两性
+lx	⚢	两性
+lx	⚣	两性
+lx	⚤	两性
+lx	⚥	两性
+lx	⚦	两性
+lx	⚧	两性
+lx	⚨	两性
+lx	⚩	两性
+lx	⚪	两性
+lx	⚫	两性
+lx	⚬	两性
+lx	⚭	两性
+lx	⚮	两性
+lx	⚯	两性
+yy	𝄞	音乐
+yy	♩	音乐
+yy	♪	音乐
+yy	♫	音乐
+yy	♬	音乐
+yy	♭	音乐
+yy	♮	音乐
+yy	♯	音乐
+tq	☀	天气
+tq	☁	天气
+tq	⛅	天气
+tq	⛈	天气
+tq	⛆	天气
+tq	☂	天气
+tq	☔	天气
+tq	☃	天气
+tq	⛄	天气
+tq	⛇	天气
+bq	☻	表情
+bq	☺	表情
+bq	☹	表情
+pk	♠	扑克
+pk	♥	扑克
+pk	♣	扑克
+pk	♦	扑克
+pk	♤	扑克
+pk	♡	扑克
+pk	♧	扑克
+pk	♢	扑克
+sz	⚀	色子
+sz	⚁	色子
+sz	⚂	色子
+sz	⚃	色子
+sz	⚄	色子
+sz	⚅	色子
+mj	🀀	麻将
+mj	🀁	麻将
+mj	🀂	麻将
+mj	🀃	麻将
+mj	🀄	麻将
+mj	🀅	麻将
+mj	🀆	麻将
+mj	🀇	麻将
+mj	🀈	麻将
+mj	🀉	麻将
+mj	🀊	麻将
+mj	🀋	麻将
+mj	🀌	麻将
+mj	🀍	麻将
+mj	🀎	麻将
+mj	🀏	麻将
+mj	🀐	麻将
+mj	🀑	麻将
+mj	🀒	麻将
+mj	🀓	麻将
+mj	🀔	麻将
+mj	🀕	麻将
+mj	🀖	麻将
+mj	🀗	麻将
+mj	🀘	麻将
+mj	🀙	麻将
+mj	🀚	麻将
+mj	🀛	麻将
+mj	🀜	麻将
+mj	🀝	麻将
+mj	🀞	麻将
+mj	🀟	麻将
+mj	🀠	麻将
+mj	🀡	麻将
+mj	🀢	麻将
+mj	🀣	麻将
+mj	🀤	麻将
+mj	🀥	麻将
+mj	🀦	麻将
+mj	🀧	麻将
+mj	🀨	麻将
+mj	🀩	麻将
+mj	🀪	麻将
+mj	🀫	麻将
+xq	♔	象棋
+xq	♕	象棋
+xq	♖	象棋
+xq	♗	象棋
+xq	♘	象棋
+xq	♙	象棋
+xq	♚	象棋
+xq	♛	象棋
+xq	♜	象棋
+xq	♝	象棋
+xq	♞	象棋
+xq	♟	象棋
+dn	❖	电脑
+dn	⌘	电脑
+dn	⌃	电脑
+dn	⌥	电脑
+dn	⎇	电脑
+dn	⇧	电脑
+dn	⇪	电脑
+dn	␣	电脑
+dn	⇥	电脑
+dn	⇤	电脑
+dn	↩	电脑
+dn	⌅	电脑
+dn	⌤	电脑
+dn	⌫	电脑
+dn	⌦	电脑
+dn	⌧	电脑
+dn	⎋	电脑
+dn	⌨	电脑
+dn	◁	电脑
+dn	⌀	电脑
+dn	⌖	电脑
+dn	⌗	电脑
+dn	⏏	电脑
+dn	↖	电脑
+dn	↘	电脑
+dn	⇞	电脑
+dn	⇟	电脑
+dn	⌚	电脑
+dn	⏰	电脑
+dn	⏱	电脑
+dn	⏲	电脑
+dn	⏳	电脑
+dn	⌛	电脑
+dn	⌜	电脑
+dn	⌝⌞⌟	电脑
+dn	⍑	电脑
+dn	⏩	电脑
+dn	⏪	电脑
+dn	⏫	电脑
+dn	⏬	电脑
+dn	⏭	电脑
+dn	⏮	电脑
+dn	⏯	电脑
+fh	©	符号
+fh	®	符号
+fh	℗	符号
+fh	℠	符号
+fh	™	符号
+fh	℡	符号
+fh	℻	符号
+fh	☇	符号
+fh	☈	符号
+fh	☉	符号
+fh	☊	符号
+fh	☋	符号
+fh	☌	符号
+fh	☍	符号
+fh	☎	符号
+fh	☏	符号
+fh	☐	符号
+fh	☑	符号
+fh	☒	符号
+fh	☓	符号
+fh	☕	符号
+fh	☖	符号
+fh	☗	符号
+fh	⛉	符号
+fh	⛊	符号
+fh	☘	符号
+fh	☙	符号
+fh	☚	符号
+fh	☛	符号
+fh	☜	符号
+fh	☝	符号
+fh	☞	符号
+fh	☟	符号
+fh	☠	符号
+fh	☡	符号
+fh	☢	符号
+fh	☣	符号
+fh	☤	符号
+fh	☥	符号
+fh	☦	符号
+fh	☧	符号
+fh	☨	符号
+fh	☩	符号
+fh	☪	符号
+fh	☫	符号
+fh	☬	符号
+fh	☭	符号
+fh	☮	符号
+fh	☯	符号
+fh	☸	符号
+fh	♨	符号
+fh	♰	符号
+fh	♱	符号
+fh	♲	符号
+fh	♳	符号
+fh	♴	符号
+fh	♵	符号
+fh	♶	符号
+fh	♷	符号
+fh	♸	符号
+fh	♹	符号
+fh	♺	符号
+fh	♻	符号
+fh	♼	符号
+fh	♽	符号
+fh	♾	符号
+fh	♿	符号
+fh	⚆	符号
+fh	⚇	符号
+fh	⚈	符号
+fh	⚉	符号
+fh	⚐	符号
+fh	⚑	符号
+fh	⚒	符号
+fh	⚓	符号
+fh	⚔	符号
+fh	⚕	符号
+fh	⚖	符号
+fh	⚗	符号
+fh	⚘	符号
+fh	⚙	符号
+fh	⚚	符号
+fh	⚛	符号
+fh	⚜	符号
+fh	⚝	符号
+fh	⚞	符号
+fh	⚟	符号
+fh	⚠	符号
+fh	⚡	符号
+fh	⚰	符号
+fh	⚱	符号
+fh	⚲	符号
+fh	⚳	符号
+fh	⚴	符号
+fh	⚵	符号
+fh	⚶	符号
+fh	⚷	符号
+fh	⚸	符号
+fh	⚹	符号
+fh	⚺	符号
+fh	⚻	符号
+fh	⚼	符号
+fh	⚽	符号
+fh	⚾	符号
+fh	⚿	符号
+fh	⛀	符号
+fh	⛁	符号
+fh	⛂	符号
+fh	⛃	符号
+fh	⛋	符号
+fh	⛌	符号
+fh	⛍	符号
+fh	⛎	符号
+fh	⛏	符号
+fh	⛐	符号
+fh	⛑	符号
+fh	⛒	符号
+fh	⛓	符号
+fh	⛔	符号
+fh	⛕	符号
+fh	⛖	符号
+fh	⛗	符号
+fh	⛘	符号
+fh	⛙	符号
+fh	⛚	符号
+fh	⛛	符号
+fh	⛜	符号
+fh	⛝	符号
+fh	⛞	符号
+fh	⛟	符号
+fh	⛠	符号
+fh	⛡	符号
+fh	⛢	符号
+fh	⛣	符号
+fh	⛨	符号
+fh	⛩	符号
+fh	⛪	符号
+fh	⛫	符号
+fh	⛬	符号
+fh	⛭	符号
+fh	⛮	符号
+fh	⛯	符号
+fh	⛰	符号
+fh	⛱	符号
+fh	⛲	符号
+fh	⛳	符号
+fh	⛴	符号
+fh	⛵	符号
+fh	⛶	符号
+fh	⛷	符号
+fh	⛸	符号
+fh	⛹	符号
+fh	⛺	符号
+fh	⛻	符号
+fh	⛼	符号
+fh	⛽	符号
+fh	⛾	符号
+fh	⛿	符号

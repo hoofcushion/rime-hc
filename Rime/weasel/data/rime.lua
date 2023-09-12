@@ -22,7 +22,6 @@ ts_cn_quanpin=require("ts_cn_quanpin")
 ts_en=require("ts_en")
 ts_triple=require("ts_triple")
 unicode=require("unicode")
-
 do
  local a=require("ts_mini_linga")
  ts_mini_linga_find=a[1]
@@ -38,5 +37,4 @@ do
  ts_fanganlianxi_p=a[1]
  ts_fanganlianxi_t=a[2]
 end
-
 calculator_translator=require("calculator_translator")
