@@ -1,41 +1,40 @@
--- package.path = "./lua/?.lua;" .. package.path
-require("rimeTools")
-require("utf8Sub")
-custom_phrase=require("custom_phrase")
-custom_symbol=require("custom_symbol")
-custom_time=require("custom_time")
-en_saver=require("en_saver")
-fil=require("fil")
-fil_KijinSeija=require("fil_KijinSeija")
-fil_Unicode=require("fil_Unicode")
-module_cn_en=require("module_cn_en")
-module_dmma=require("module_dmma")
-module_dmma_upper=require("module_dmma_upper")
-module_fnua_cn=require("module_fnua_cn")
-module_fnua_triple=require("module_fnua_triple")
-module_fnua_processor=require("module_fnua_processor")
-number_uppercaser=require("number_uppercaser")
-quick_wrap=require("quick_wrap")
-recorder=require("recorder")
-select_character=require("select_character")
-ts_cn=require("ts_cn")
-ts_cn_quanpin=require("ts_cn_quanpin")
-ts_en=require("ts_en")
-ts_triple=require("ts_triple")
-unicode=require("unicode")
-do
- local a=require("ts_mini_linga")
- ts_mini_linga_find=a[1]
- ts_mini_linga=a[2]
-end
-do
- local a=require("quickstart")
- quickstart=a[1]
- quickstarthint=a[2]
-end
-do
- local a=require("ts_fanganlianxi")
- ts_fanganlianxi_p=a[1]
- ts_fanganlianxi_t=a[2]
-end
-calculator_translator=require("calculator_translator")
+-- package.path      = "./lua/?.lua;" .. package.path
+require "dependency/rimeTools"
+require "dependency/utf8Sub"
+reverse_pro         = require "processor/reverse_pro"
+select_char         = require "processor/select_char"
+quick_wrap          = require "processor/quick_wrap"
+plain_return        = require "processor/plain_return"
+
+module_cn_en        = require "translator/module_cn_en"
+module_dmma         = require "translator/module_dmma"
+module_dmma_upper   = require "translator/module_dmma_upper"
+module_fnua_cn      = require "translator/module_fnua_cn"
+module_fnua_triple  = require "translator/module_fnua_triple"
+
+custom_phrase       = require "translator/custom_phrase"
+custom_symbol       = require "translator/custom_symbol"
+custom_time         = require "translator/custom_time"
+save_entry          = require "translator/save_entry"
+chinese_number      = require "translator/chinese_number"
+ts_cn               = require "translator/ts_cn"
+ts_cn_quanpin       = require "translator/ts_cn_quanpin"
+ts_en               = require "translator/ts_en"
+ts_triple           = require "translator/ts_triple"
+unicode             = require "translator/unicode"
+execute             = require "translator/execute"
+
+fil_Uniquifier      = require "filter/Uniquifier"
+fil_KijinSeija      = require "filter/KijinSeija"
+fil_Unicode         = require "filter/Unicode"
+
+recorder            = require "other/recorder"
+
+ts_mini_linga_find,
+ts_mini_linga       = table.unpack((require"mixed/ts_mini_linga"))
+
+quick_start_p,
+quick_start_t       = table.unpack((require"mixed/quick_start"))
+
+ts_fanganlianxi_p,
+ts_fanganlianxi_t   = table.unpack((require"mixed/ts_fanganlianxi"))

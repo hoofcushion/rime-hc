@@ -1,5 +1,12 @@
 --例子:
---["cmd"]={{"cmd","命令行",false}},
+--cmd={
+--  {
+--   command="cmd",
+--   text="命令行",
+--   comment=false,
+--   batch=false
+--  },
+-- },
 --下标"/cmd"代表命令的编码
 --键值是一个表:
 --表中第一个值 "cmd",代表lua将执行的cmd命令,此处会打开一个cmd窗口
@@ -13,44 +20,186 @@ local user=rime_api:get_user_data_dir()
 local data=rime_api:get_shared_data_dir()
 local program=data:sub(1,-6)
 return {
-["cmd"]={{"cmd","命令行",false}},
-["explorer"]={{"explorer","启动资源管理器",false}},
-["task"]={{"Taskmgr","任务管理器",false}},
-["run"]={{"explorer shell:::{2559a1f3-21d7-11d4-bdaf-00c04f60b9f0}","打开运行窗口",false}},
-["jsq"]={{"calc","Windows计算器",false}},
-["regedit"]={{"%%windir%%"..Sep.."regedit.exe","注册表编辑器",true}},
-["user"]={{user,"Rime 用户目录",true}},
-["build"]={{user..Sep.."build","Rime 部署目录",true}},
-["data"]={{data,"Rime 共享目录",true}},
-["weasel"]={{data..Sep.."weasel.yaml","Rime 主题文件",true}},
-["prog"]={{program,"Rime 程序目录",true}},
-["lua"]={{data..Sep.."rime.lua","Rime.lua 文件",true}},
-["lua/"]={{data..Sep.."lua","Rime lua 目录",true}},
-["source"]={{data..Sep.."lua"..Sep.."quickstart.lua","查看源码",true}},
-["new"]={
-{user..Sep.."custom_command.txt","添加新指令",true},
-{user..Sep.."custom_time.txt","添加新日期",true},
-{user..Sep.."custom_phrase.dict.yaml","添加新短语",true},
-{user..Sep.."custom_symbol.dict.yaml","添加新符号",true},
-},
-["desk"]={{desk,"桌面",true}},
-["temp"]={{"%%temp%%","Windows缓存目录",true}},
-["search"]={
-{"start https://www.baidu.com","百度",false},
-{"start https://www.bing.com","必应",false},
-{"start https://www.yandex.com","Yandex",false},
-{"start https://www.google.com","谷歌",false},
-},
-["chat"]={
-{"start https://nav.free2gpt.xyz/","Free2gpt",false},
-},
-["mini"]={{"start https://minilanguage.com/","Mini语网站",false}},
-["youtube"]={{"start https://www.youtube.com/","YouTube",false}},
-["rime"]={
- {"start https://github.com/iDvel/rime-ice","雾凇拼音GitHub页面",false},
- {"start https://github.com/abcdefg233/rime-hc","蹄垫方案GitHub页面",false},
-},
-["rimeice"]={{"start https://github.com/iDvel/rime-ice","雾凇拼音GitHub页面",false}},
-["rimehc"]={{"start https://github.com/abcdefg233/rime-hc","蹄垫方案GitHub页面",false}},
-["bilibili"]={{"start https://www.bilibili.com/","哔哩哔哩",false}},
+ [""]={
+  {
+   command="cmd",
+   text="/",
+   comment="按Tab补全",
+   batch=false,
+  },
+ },
+ ['cmd']={
+  {
+   command="cmd",
+   text="命令行",
+   comment=false,
+   batch=false,
+  },
+ },
+ ['explorer']={
+  {
+   command="explorer",
+   text="启动资源管理器",
+   comment=false,
+   batch=false,
+  },
+ },
+ ['task']={
+  {
+   command="Taskmgr",
+   text="任务管理器",
+   comment=false,
+   batch=false,
+  },
+ },
+ ['run']={
+  {
+   command="explorer shell:::{2559a1f3-21d7-11d4-bdaf-00c04f60b9f0},",
+   text="打开运行窗口",
+   comment=false,
+   batch=false,
+  },
+ },
+ ['jsq']={
+  {
+   command="calc",
+   text="Windows计算器",
+   comment=false,
+   batch=false,
+  },
+ },
+ ['regedit']={
+  {
+   command="regedit.exe",
+   text="注册表编辑器",
+   comment=false,
+   batch=false,
+  },
+ },
+ ['user']={
+  {
+   command=user,
+   text="Rime 用户目录",
+   comment=false,
+   batch=true,
+  },
+ },
+ ['build']={
+  {
+   command=user..Sep.."build",
+   text="Rime 部署目录",
+   comment=false,
+   batch=true,
+  },
+ },
+ ['data']={
+  {
+   command=data,
+   text="Rime 共享目录",
+   comment=false,
+   batch=true,
+  },
+ },
+ ['weasel']={
+  {
+   command=data..Sep.."weasel.yaml",
+   text="Rime 主题文件",
+   comment=false,
+   batch=true,
+  },
+ },
+ ['prog']={
+  {
+   command=program,
+   text="Rime 程序目录",
+   comment=false,
+   batch=true,
+  },
+ },
+ ['lua']={
+  {
+   command=data..Sep.."rime.lua",
+   text="Rime.lua 文件",
+   comment=false,
+   batch=true,
+  },
+ },
+ ['lua/']={
+  {
+   command=data..Sep.."lua",
+   text="Rime lua 目录",
+   comment=false,
+   batch=true,
+  },
+ },
+ ['source']={
+  {
+   command=data..Sep.."lua"..Sep.."quick_start.lua",
+   text="查看源码",
+   comment=false,
+   batch=true,
+  },
+ },
+ ['new']={
+  {
+   command=user..Sep.."custom_command.txt",
+   text="添加新指令",
+   comment=false,
+   batch=true,
+  },{
+   command=user..Sep.."custom_time.txt",
+   text="添加新日期",
+   comment=false,
+   batch=true,
+  },{
+   command=user..Sep.."custom_phrase.dict.yaml",
+   text="添加新短语",
+   comment=false,
+   batch=true,
+  },{
+   command=user..Sep.."custom_symbol.dict.yaml",
+   text="添加新符号",
+   comment=false,
+   batch=true,
+  },
+ },
+ ['desk']={
+  {
+   command=desk,
+   text="桌面",
+   comment=false,
+   batch=true,
+  },
+ },
+ ['temp']={
+  {
+   command="%%temp%%",
+   text="Windows缓存目录",
+   comment=false,
+   batch=true,
+  },
+ },
+ ['search']={
+  {
+   command="start https://www.baidu.com",
+   text="百度",
+   comment=false,
+   batch=false,
+  },{
+   command="start https://www.bing.com",
+   text="必应",
+   comment=false,
+   batch=false,
+  },{
+   command="start https://www.yandex.com",
+   text="Yandex",
+   comment=false,
+   batch=false,
+  },{
+   command="start https://www.google.com",
+   text="谷歌",
+   comment=false,
+   batch=false,
+  },
+ },
 }

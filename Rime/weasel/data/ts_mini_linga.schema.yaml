@@ -15,6 +15,7 @@ schema:
 __patch:
  - engine/translators/@after last:  "lua_translator@ts_mini_linga_find"
  - engine/translators/@after last:  "lua_translator@ts_mini_linga"
+ - ts_mini_linga.custom:/patch?
 translator: {initial_quality: 1, dictionary: ts_mini_linga, enable_user_dict: false, enable_sentence: true, preedit_format: ["xlit/hwy/@^-/", "xform/(?<!^)[A-Z]/\\L$0/"], comment_format: [xform/.+//], contextual_suggestions: false}
 recognizer:
  lua:

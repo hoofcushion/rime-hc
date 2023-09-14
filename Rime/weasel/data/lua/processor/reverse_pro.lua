@@ -2,7 +2,7 @@ local prefix_len
 return
 {
  init=function(env)
-  prefix_len=#env.engine.schema.config:get_string("recognizer/lua/module_fnua")
+  prefix_len=#env.engine.schema.config:get_string("recognizer/lua/"..env.name_space)
  end,
  func=function(key,env)
   if not env.engine.context:has_menu() or key:repr()~="space" then

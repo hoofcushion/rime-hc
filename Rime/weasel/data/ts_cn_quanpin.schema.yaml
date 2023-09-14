@@ -20,12 +20,13 @@ __patch:
   - module_cn_en_quanpin # 混输
 __patch:
  - engine/processors/@after 5:      "lua_processor@quick_wrap"
- - engine/processors/@after 5:      "lua_processor@select_character"
+ - engine/processors/@after 5:      "lua_processor@select_char"
  - engine/translators/@after last:  "lua_translator@module_dmma_upper"
  - engine/translators/@after last:  "lua_translator@ts_cn_quanpin"
  - engine/translators/@after last:  "lua_translator@ts_en"
  - engine/translators/@after last:  "lua_translator@module_cn_en"
  - engine/translators/@after last:  "lua_translator@recorder"
+ - ts_cn_quanpin.custom:/patch?
 abc_segmentor: {extra_tags: [ts_en, abc]}
 module_cn_jian: {initial_quality: 64, dictionary: module_cn_jian, enable_user_dict: false, enable_sentence: false, enable_completion: false}
 module_lock: {initial_quality: 1, dictionary: module_lock_quanpin, enable_user_dict: false, enable_sentence: false, comment_format: [xform/.+//]}
@@ -35,14 +36,14 @@ module_en: {__include: ts_en.schema.yaml:/translator, tag: ts_en}
 module_dmma: {dictionary: module_dmma_quanpin, enable_user_dict: false, spelling_hints: 99, comment_format: {__include: _schema_settings/ts_cn:/map/module_dmma/comment_format}}
 recognizer:
  lua:
-  calculator: '\'                                     #计算器
-  quickstart: '/'                                     #快速启动
+  execute: '\'                                        #计算器
+  quick_start: '/'                                    #快速启动
   unicode: 'U'                                        #Unicode
-  number_uppercaser: 'V'                              #汉字数字+金额 整数支持最高52位
+  chinese_number: 'V'                                 #汉字数字+金额 整数支持最高52位
   custom_symbol: 'v'                                  #符号
  patterns:                                            #pattern 中单个 \ 要用 \\\\ 双重转义来表示
-  calculator: "^\\\\.*"                               #计算器
-  quickstart: "^/.*"                                  #快速启动
-  unicode: "^U(?:[HDOB]?[a-f0-9]*|[a-f0-9]*[HDOB]?)$" #Unicode
-  number_uppercaser: "^V.*"                           #汉字数字+金额 整数支持最高52位
-  custom_symbol: "^v(?:[0-9]|10|[A-Za-z]+)?"          #符号
+  execute: '^\\.*'                                  #计算器
+  quick_start: '^/.*'                                 #快速启动
+  unicode: '^U(?:[HDOB]?[a-f0-9]*|[a-f0-9]*[HDOB]?)$' #Unicode
+  chinese_number: '^V.*'                              #汉字数字+金额 整数支持最高52位
+  custom_symbol: '^v(?:[0-9]|10|[A-Za-z]+)?'          #符号

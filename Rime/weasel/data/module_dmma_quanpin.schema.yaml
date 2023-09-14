@@ -3,7 +3,7 @@ schema:
  name: 「插件_辅助码_全拼」
 translator: {dictionary: module_dmma_quanpin}
 speller:
- __patch: 
-  - algebra/@before 0: "xform/[A-Z]/\\L$0/"
-  - algebra/@before 0: {__include: ts_cn.schema.yaml:/module_dmma/comment_format/@0}
-  - algebra/@after last: "xform/'//"
+ algebra:
+  - {__include: ts_cn.schema.yaml:/module_dmma/comment_format/@0}
+  - 'xform/[A-Z]/\L$0/'
+  - "xform/'//"

@@ -24,74 +24,75 @@ local map=
  }
 }
 map.intMax=#map.upper.quatermag*#map.upper.unit
+
+local function tranInteger(str,style)
+ local len=#str
+ if len==1 then
+  return style.unit[tonumber(str)]
+ end
+ local result={}
+ local after,mag=false,false
+ for i=1,len do
+  local digit=tonumber(str:sub(i,i))
+  if digit~=0 then
+   if after then
+    table.insert(result,style.unit[0])
+    after=false
+   end
+   if not mag then
+    mag=true
+   end
+   table.insert(result,style.unit[digit])
+   table.insert(result,style.magnitude[(len-i)%4])
+  else
+   after=true
+  end
+  if mag and (len-i)%4==0 then
+   table.insert(result,style.quatermag[(len-i+1)//4])
+   mag=false
+  end
+ end
+ return table.concat(result)
+end
+local function tranDecimal(str,style,money)
+ local result={}
+ if not money then
+  for i=1,#str do
+   local digit=tonumber(str:sub(i,i))
+   table.insert(result,style.unit[digit])
+  end
+  return table.concat(result)
+ end
+ local before,after=false,false
+ local len=math.min(#str,#style.decimag)
+ for i=1,len do
+  local digit=tonumber(str:sub(i,i))
+  if digit~=0 then
+   if before and after then
+    table.insert(result,style.unit[0])
+    after=false
+    before=false
+   end
+   table.insert(result,style.unit[digit])
+   table.insert(result,style.decimag[i])
+   after=true
+  else
+   before=true
+  end
+ end
+ return table.concat(result)
+end
+local function numberSep(partInteger,partDecimal,money)
+ return
+  partDecimal and
+  (money and "元"   or "点") or
+  (money and "元整" or  "" )
+end
 local characterizer=function(str,map,mode)
  local style=map[mode%2==1 and "upper" or "lower"]
  local money=(mode+1)%4<=1
  local partInteger=str:match("^(%d+)")
  local partDecimal=str:match("%.(%d+)$")
- local function tranInteger(str,style)
-  local len=#str
-  if len==1 then
-   return style.unit[tonumber(str)]
-  end
-  local result={}
-  local after,mag=false,false
-  for i=1,len do
-   local digit=tonumber(str:sub(i,i))
-   if digit~=0 then
-    if after then
-     table.insert(result,style.unit[0])
-     after=false
-    end
-    if not mag then
-     mag=true
-    end
-    table.insert(result,style.unit[digit])
-    table.insert(result,style.magnitude[(len-i)%4])
-   else
-    after=true
-   end
-   if mag and (len-i)%4==0 then
-    table.insert(result,style.quatermag[(len-i+1)//4])
-    mag=false
-   end
-  end
-  return table.concat(result)
- end
- local function tranDecimal(str,style,money)
-  local result={}
-  if not money then
-   for i=1,#str do
-    local digit=tonumber(str:sub(i,i))
-    table.insert(result,style.unit[digit])
-   end
-   return table.concat(result)
-  end
-  local before,after=false,false
-  local len=math.min(#str,#style.decimag)
-  for i=1,len do
-   local digit=tonumber(str:sub(i,i))
-   if digit~=0 then
-    if before and after then
-     table.insert(result,style.unit[0])
-     after=false
-     before=false
-    end
-    table.insert(result,style.unit[digit])
-    table.insert(result,style.decimag[i])
-    after=true
-   else
-    before=true
-   end
-  end
-  return table.concat(result)
- end
- local function numberSep(partInteger,partDecimal,money)
-  return
-   partDecimal and
-   (money and "元"   or "点") or
-   (money and "元整" or  "" )
- end
  local result={}
  if not (partInteger=="0" and money and partDecimal)  then --金额模式整数为0时 不转换整数部分
   table.insert(result,tranInteger(partInteger,style))
@@ -119,11 +120,11 @@ local code_start
 return
 {
  init=function(env)
-  symbol=env.engine.schema.config:get_string("recognizer/lua/number_uppercaser")
+  symbol=env.engine.schema.config:get_string("recognizer/lua/"..env.name_space)
   code_start=#symbol+1
  end,
  func=function(input,seg,env)
-  if not seg:has_tag("number_uppercaser") then return end
+  if not seg:has_tag(env.name_space) then return end
   local code=input:sub(code_start)
   if code=="" then
    tipsAdd(env,"〔请输入数字〕")

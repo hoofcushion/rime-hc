@@ -1,5 +1,4 @@
 schema:
  schema_id: module_custom_phrase
  name: 「插件_短语」
-translator:
- dictionary: custom_phrase
+translator: {dictionary: custom_phrase}

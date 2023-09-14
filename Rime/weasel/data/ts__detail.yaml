@@ -5,12 +5,13 @@ schema:
 engine:
  processors:
   - ascii_composer
+  - lua_processor@quick_start_p@quick_start
   - recognizer
-  - lua_processor@quickstart
   - key_binder
   - speller
   - punctuator
   #- lua_processor@stcs
+  - lua_processor@plain_return
   - selector
   - navigator
   - express_editor
@@ -22,11 +23,11 @@ engine:
   - fallback_segmentor
  translators:
   - punct_translator
-  - lua_translator@quickstarthint
-  - lua_translator@calculator_translator # 计算器
-  - lua_translator@number_uppercaser
+  - lua_translator@quick_start_t@quick_start
+  - lua_translator@execute # 计算器
+  - lua_translator@chinese_number
   - lua_translator@unicode
-  - lua_translator@en_saver
+  - lua_translator@save_entry
   - lua_translator@custom_time
   - lua_translator@custom_phrase # 自定义短语
   - lua_translator@custom_symbol # 自定义符号
@@ -38,7 +39,7 @@ engine:
   - simplifier@fil_zhuyin
   - simplifier@fil_huoxin
   - simplifier@fil_trans
-  - lua_filter@fil
+  - lua_filter@fil_Uniquifier
   - lua_filter@fil_KijinSeija
   - lua_filter@fil_Unicode
 custom_phrase: {dictionary: custom_phrase, initial_quality: 64, enable_user_dict: false, enable_completion: false, enable_sentence: false}
@@ -59,17 +60,17 @@ punctuator:
  half_shape: {',' : '，', '.' : '。', '<' : '《', '>' : '》', '/' : '/', '?' : '？', ';' : '；', ':' : '：', '''' : { pair: [ '‘', '’' ] }, '"' : { pair: [ '“', '”' ] }, '\' : '、', '|' : '|', '`' : '`', '~' : '~', '!' : '！', '@' : '@', '# ' : '# ', '%' : '%', '$' : '¥', '^' : '……', '&' : '&', '*' : '*', '(' : '（', ')' : '）', '-' : '-', '_' : ——, '+' : '+', '=' : '=', '[' : '【', ']' : '】', '{' : '「', '}' : '」'}
 recognizer:
  lua:
-  calculator: '//'                                    #计算器
-  quickstart: '/'                                     #快速启动
+  execute: '//'                                       #计算器
+  quick_start: '/'                                    #快速启动
   unicode: 'U'                                        #Unicode
-  number_uppercaser: '/J'                             #汉字数字+金额 整数支持最高52位
+  chinese_number: '/J'                                #汉字数字+金额 整数支持最高52位
   custom_symbol: '\'                                  #符号
  patterns:                                            #pattern 中单个 \ 要用 \\\\ 双重转义来表示
-  calculator: "^//.*"                                 #计算器
-  quickstart: "^/(?!/).*"                                  #快速启动
-  unicode: "^U(?:[HDOB]?[a-f0-9]*|[a-f0-9]*[HDOB]?)$" #Unicode
-  number_uppercaser: "^/J.*"                          #汉字数字+金额 整数支持最高52位
-  custom_symbol: "^\\\\(?:[0-9]|10|[A-Za-z]+)?"       #符号
+  execute: '^//.*'                                    #计算器
+  quick_start: '^/(?!/).*'                            #快速启动
+  unicode: '^U(?:[HDOB]?[a-f0-9]*|[a-f0-9]*[HDOB]?)$' #Unicode
+  chinese_number: '^/J.*'                             #汉字数字+金额 整数支持最高52位
+  custom_symbol: '^\\(?:[0-9]|10|[A-Za-z]+)?'         #符号
 ascii_composer:
  good_old_caps_lock: true
  switch_key:

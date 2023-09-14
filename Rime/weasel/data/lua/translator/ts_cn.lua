@@ -1,4 +1,4 @@
-local length=3
+local length=2
 local tran={}
 return {
  init=function(env)
@@ -22,7 +22,7 @@ return {
   query=tran.lock:query(input,seg) if not query then return end
   local yielded={}
   for cand in query:iter() do
-   if cand._end~=ctxInpLen then break end
+   if cand._end-cand.start~=ctxInpLen then break end
    yielded[cand.text]=cand
   end
   query=tran.main:query(input,seg) if not query then return end

@@ -316,11 +316,11 @@ local code_start
 return
  {
   init=function(env)
-   symbol=env.engine.schema.config:get_string("recognizer/lua/calculator")
+   symbol=env.engine.schema.config:get_string("recognizer/lua/"..env.name_space)
    code_start=#symbol+1
   end,
   func=function(input,seg,env)
-  if not seg:has_tag("calculator") then return end
+  if not seg:has_tag(env.name_space) then return end
   tipsAdd(env,"〔表达式〕")
   local expfin=greedy or input:find(";$")
   local exp=(greedy or not expfin) and input:sub(code_start) or input:sub(code_start,-2)
