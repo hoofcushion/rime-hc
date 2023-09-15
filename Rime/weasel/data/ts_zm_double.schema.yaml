@@ -34,6 +34,5 @@ module_en: {__include: ts_en.schema.yaml:/translator, tag: ts_en}
 speller:
  algebra:
   - derive/(?<=^[a-z][a-z]).+$//
-  - derive/^[a-z]$/$0$0/
   #- xform/(?<=^[a-z][a-z]).+$//
-  #- xform/^[a-z]$/$0$0/
+  - xform/^[a-z]$/$0$0/
