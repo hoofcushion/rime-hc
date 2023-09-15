@@ -36,11 +36,11 @@ return
 {
  {
   init=function(env)
-   symbol=env.engine.schema.config:get_string("recognizer/lua/ts_mini_linga_find")
+   symbol=env.engine.schema.config:get_string("recognizer/lua/"..env.name_space)
    code_start=#symbol+1
   end,
   func=function(_,seg,env)
-   if not seg:has_tag("ts_mini_linga_find") then return end
+   if not seg:has_tag(env.name_space) then return end
    local input=env.engine.context.input
    if not input:find("^"..symbol) then return end
    tipsAdd(env,"〔Mini Name Jage〕")
@@ -57,7 +57,7 @@ return
  },
  {
   init=function(env)
-   module=env.engine.schema.config:get_map("ts_mini_linga")
+   module=env.name_space=="translator"
    local name_space=module and "ts_mini_linga" or "translator"
    tran[1]=Component.Translator(env.engine,"","script_translator@"..name_space)
    tran[2]=Component.Translator(env.engine,"","table_translator@"..name_space)

@@ -4,7 +4,6 @@ local function auto_uppercase(input,text)
  end
  return text:gsub("^(.)",string.upper)
 end
-local module
 local tran
 local fmain=function(input,seg)
  local query=tran:query(input:lower(),seg) if not query then return end
@@ -24,6 +23,9 @@ local fmodule=function(input,seg)
  local query=tran:query(input:lower(),seg) if not query then return end
  local count=0
  for cand in query:iter() do
+  if cand.type=="completion" then
+   cand.quality=cand.quality-0.0625
+  end
   if input:find("^[A-Z]") then
    yield(ShadowCandidate(cand,"",auto_uppercase(input,cand.text),""))
   else
@@ -33,11 +35,12 @@ local fmodule=function(input,seg)
   if count>1 then return end
  end
 end
+local module
 local func
 return {
  init=function(env)
-  module=env.engine.schema.config:get_map("module_en")
-  tran=Component.Translator(env.engine,"","table_translator@"..(module and "module_en" or "translator"))
+  module=env.name_space~="translator"
+  tran=Component.Translator(env.engine,"","table_translator@"..env.name_space)
   func=module and fmodule or fmain
  end,
  func=function(input,seg)

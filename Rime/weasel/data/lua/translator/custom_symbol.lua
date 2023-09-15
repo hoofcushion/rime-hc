@@ -387,12 +387,12 @@ local code_start
 return
 {
  init=function(env)
-  symbol=env.engine.schema.config:get_string("recognizer/lua/custom_symbol")
+  symbol=env.engine.schema.config:get_string("recognizer/lua/"..env.name_space)
   code_start=#symbol+1
-  tran=Component.Translator(env.engine,"","table_translator@custom_symbol")
+  tran=Component.Translator(env.engine,"","table_translator@"..env.name_space)
  end,
  func=function(_,seg,env)
-  if not seg:has_tag("custom_symbol") then return end
+  if not seg:has_tag(env.name_space) then return end
   tipsAdd(env,"〔符号输出〕")
   local input=env.engine.context.input:sub(code_start) if input=="" then return end
   local seg_end=#env.engine.context.input

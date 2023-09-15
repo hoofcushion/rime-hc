@@ -116,7 +116,8 @@ key_binder:
   - {accept: "Control+KP_1", select: ts_cn, when: always}
   - {accept: "Control+KP_2", select: ts_cn_quanpin, when: always}
   - {accept: "Control+KP_3", select: ts_triple, when: always}
-  - {accept: "Control+KP_4", select: ts_en, when: always}
-  - {accept: "Control+KP_5", select: ts_mini_linga, when: always}
-  - {accept: "Control+KP_6", select: ts_fanganlianxi, when: always}
+  - {accept: "Control+KP_4", select: ts_zmpy, when: always}
+  - {accept: "Control+KP_5", select: ts_en, when: always}
+  - {accept: "Control+KP_6", select: ts_mini_linga, when: always}
+  - {accept: "Control+KP_7", select: ts_fanganlianxi, when: always}
   - {accept: "Control+KP_0", select: .next, when: always}
