@@ -17,22 +17,34 @@ schema:
   基于郑码, 允许两码一字造长句
 __patch:
  schema/dependencies/+:
+  - ts_cn_quanpin # 英文
   - ts_en # 英文
   - module_jian_zm
 __patch:
- - engine/processors/@after 5:      "lua_processor@quick_wrap"
- - engine/processors/@after 5:      "lua_processor@select_char"
+ - engine/processors/@after 6:      "lua_processor@reverse_pro"
+ - engine/processors/@after 6:      "lua_processor@quick_wrap"
+ - engine/processors/@after 6:      "lua_processor@select_char"
+ - engine/segmentors/@after 1:      "affix_segmentor@module_fnua_zm"
+ - engine/translators/@before last: "lua_translator@module_fnua_zm"
  - engine/translators/@after last:  "lua_translator@ts_zm_double@translator"
  - engine/translators/@after last:  "table_translator@module_jian_zm"
  - engine/translators/@after last:  "lua_translator@ts_en@module_en"
  - engine/translators/@after last:  "lua_translator@recorder"
  - ts_zm_double.custom:/patch?
 abc_segmentor: {extra_tags: [ts_en, abc]}
+module_fnua_zm: {dictionary: ts_cn, enable_user_dict: false, tag: module_fnua_zm, prefix: "`", tips: 〔拆字〕}
 module_jian_zm: {dictionary: module_jian_zm, enable_completion: false, enable_user_dict: false, enable_sentence: false, initial_quality: 99}
-translator: {initial_quality: 1, dictionary: ts_zm_double, enable_user_dict: true, enable_sentence: true, enable_encoder: true, comment_format: ['xform/~//']}
+translator: {initial_quality: 1, dictionary: ts_zm_double, enable_user_dict: true, comment_format: ['xform/~//']}
 module_en: {__include: ts_en.schema.yaml:/translator, tag: ts_en}
+recognizer:
+ lua:
+  reverse_pro: '`'
+ patterns:
+  module_fnua_zm: "`[^0-9]*$"
 speller:
+ alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-=|"
+ initials: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA"
  algebra:
-  - derive/(?<=^[a-z][a-z]).+$//
-  #- xform/(?<=^[a-z][a-z]).+$//
-  - xform/^[a-z]$/$0$0/
+  - fuzz/(?<=^[a-z][a-z][a-z]).+$//
+  - fuzz/(?<=^[a-z][a-z]).+$//
+  - derive/^[a-z]$/$0$0/

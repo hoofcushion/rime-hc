@@ -13,7 +13,7 @@ schema:
  description: |
   蹄垫系列方案之英语
 __patch:
- - engine/translators/@after last:  "lua_translator@ts_en@translator"
+ - engine/translators/@after last: "lua_translator@ts_en@translator"
  - ts_en.custom:/patch?
 fil_trans: {tags: [abc]}
 translator: {initial_quality: 1, dictionary: ts_en, enable_user_dict: false, enable_sentence: false, comment_format: [xform/^.*$//], contextual_suggestions: false}

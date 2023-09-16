@@ -23,9 +23,7 @@ local fmodule=function(input,seg)
  local query=tran:query(input:lower(),seg) if not query then return end
  local count=0
  for cand in query:iter() do
-  if cand.type=="completion" then
-   cand.quality=cand.quality-0.0625
-  end
+  cand.quality=cand.quality-0.0625
   if input:find("^[A-Z]") then
    yield(ShadowCandidate(cand,"",auto_uppercase(input,cand.text),""))
   else

@@ -57,7 +57,7 @@ return
  },
  {
   init=function(env)
-   module=env.name_space=="translator"
+   module=env.name_space~="translator"
    local name_space=module and "ts_mini_linga" or "translator"
    tran[1]=Component.Translator(env.engine,"","script_translator@"..name_space)
    tran[2]=Component.Translator(env.engine,"","table_translator@"..name_space)

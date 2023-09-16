@@ -5,6 +5,5 @@ sort: by_weight
 import_tables:
  - _dict/_dic_zm/char
  - _dict/_dic_zm/base
- - _dict/_dic_zm/tencent
- - _dict/_dic_zm/ext
+ - _dict/_dic_zm/expand
 ...

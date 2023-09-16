@@ -1,6 +1,8 @@
-switches: {__include: _schema_settings/ts_cn_quanpin.yaml:/switches}
+switches: {__include: _schema_settings/ts_fanganlianxi.yaml:/switches}
 __patch:
- key_binder/bindings/+: {__include: _schema_settings/ts_cn_quanpin.yaml:/array/bindings}
+ key_binder/bindings/+: {__include: _schema_settings/ts_fanganlianxi.yaml:/array/bindings}
+__patch:
+ - ts_fanganlianxi.custom:/patch?
 schema:
  __include: _schema_settings/_global:/schema
  name: "『方案练习』"
@@ -20,5 +22,5 @@ engine:
  translators:
   - lua_translator@ts_fanganlianxi_t
 speller:
- alphabet: qwertyuiopasdfghjkl;z
+ alphabet: abcdefghijklmnopqrstuvwxyz;
  initials: z

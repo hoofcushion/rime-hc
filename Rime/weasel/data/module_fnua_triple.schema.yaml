@@ -5,4 +5,4 @@ translator:
  dictionary: module_fnua_triple
 speller:
  alphabet: "zyxwvutsrqponmlkjihgfedcba12345"
- algebra: ["derive/[0-9]//"]
+ algebra: ['derive/[0-9]//']

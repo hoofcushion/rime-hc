@@ -4,7 +4,7 @@ do
  local file=io.open(exist("ts_fanganlianxi.txt"),"r")
  for line in file:lines() do
   local a,b=line:match("^(.-)\t(.+)$")
-  if a and b then
+  if a then
    word[a]=b
   end
  end
@@ -14,7 +14,7 @@ do
  local file=io.open(exist("ts_fanganlianxi_algebra.txt"),"r")
  for line in file:lines() do
   local a,b=line:match("^(.-)\t(.+)$")
-  if a and b then
+  if a then
    map[a]=b
   end
  end

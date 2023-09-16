@@ -20,13 +20,14 @@ local rangeMap={
 }
 local function isPureChinese(str)
  for i=1,utf8.len(str) do
+  print(utf8.sub(str,i,i))
   local uCode=utf8.codepoint(utf8.sub(str,i,i))
   if uCode<rangeMap.min or uCode>rangeMap.max then return false end
-  for _,range in pairs(rangeMap) do
-   if uCode>=range.min and uCode<=range.max then return true end
+  for _,range in ipairs(rangeMap) do
+   if uCode<range.min and uCode>range.max then return false end
   end
  end
- return false
+ return true
 end
 local function saveRecord(lct)
  if not isPureChinese(lct) then return end

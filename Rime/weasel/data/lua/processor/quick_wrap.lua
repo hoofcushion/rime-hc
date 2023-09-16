@@ -1,35 +1,32 @@
 local wrap_mode=false
-local keyMap={[48]=10,[49]=1,[50]=2,[51]=3,[52]=4,[53]=5,[54]=6,[55]=7,[56]=8,[57]=9,[65456]=10,[65457]=1,[65458]=2,[65459]=3,[65460]=4,[65461]=5,[65462]=6,[65463]=7,[65464]=8,[65465]=9,}
-local function get_pos(str)
- local result_tab={[10]=#str}
+local keyMap={['0']=10,['1']=1,['2']=2,['3']=3,['4']=4,['5']=5,['6']=6,['7']=7,['8']=8,['9']=9,['KP_0']=10,['KP_1']=1,['KP_2']=2,['KP_3']=3,['KP_4']=4,['KP_5']=5,['KP_6']=6,['KP_7']=7,['KP_8']=8,['KP_9']=9,}
+local function get_pos(script_text,rank)
+ local result_tab={[10]=#script_text}
  local position=0
- for sub in str:gmatch("[^ ]+") do
+ for sub in script_text:gmatch("[^ ]+") do
   position=position+#sub
   table.insert(result_tab,position)
  end
- return result_tab
+ return result_tab[rank] or result_tab[10]
 end
 return
 {
  func=function(key,env)
-  if key:release() then return 2 end
+  if not env.engine.context:has_menu() then return 2 end
+  local keyName=key:repr()
   local ctx=env.engine.context
-  if not ctx:has_menu() then return 2 end
-  if key.keycode==65508 then
+  if wrap_mode and keyMap[keyName] then
+   wrap_mode=false
+   ctx.caret_pos=get_pos(ctx:get_script_text(),keyMap[keyName])
+   tipsRep(env,"跳转完毕")
+  elseif keyName=="Control+Control_R" then
+   wrap_mode=true
    ctx.caret_pos=0
    ctx.caret_pos=#ctx.input
-   wrap_mode=true
    tipsRep(env,"跳转模式")
-   return 1
+  else
+   return 2
   end
-  if not keyMap[key.keycode] then return 2 end
-  if not wrap_mode then return 2 end
-  wrap_mode=false
-  local wrap_position=get_pos(ctx:get_script_text())[keyMap[key.keycode]]
-  if wrap_position then
-   ctx.caret_pos=wrap_position
-  end
-  tipsRep(env,"")
   return 1
  end
 }
