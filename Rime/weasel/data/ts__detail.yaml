@@ -15,6 +15,7 @@ engine:
   - selector
   - navigator
   - express_editor
+  - lua_processor@recorder
  segmentors:
   - ascii_segmentor
   - matcher

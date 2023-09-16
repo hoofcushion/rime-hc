@@ -56,6 +56,7 @@ return {
   commit_notifier=env.engine.context.commit_notifier:connect(function(ctx)saveRecord(ctx:get_commit_text())end)
  end,
  func=function()
+  return 2
  end,
  fini=function()
   commit_notifier:disconnect()

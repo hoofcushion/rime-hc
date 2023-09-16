@@ -29,7 +29,6 @@ __patch:
  - engine/translators/@after last:  "lua_translator@ts_zm_double@translator"
  - engine/translators/@after last:  "table_translator@module_jian_zm"
  - engine/translators/@after last:  "lua_translator@ts_en@module_en"
- - engine/translators/@after last:  "lua_translator@recorder"
  - ts_zm_double.custom:/patch?
 abc_segmentor: {extra_tags: [ts_en, abc]}
 module_fnua_zm: {dictionary: ts_cn, enable_user_dict: false, tag: module_fnua_zm, prefix: "`", tips: 〔拆字〕}

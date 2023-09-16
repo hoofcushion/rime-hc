@@ -397,7 +397,7 @@ return
   local input=env.engine.context.input:sub(code_start) if input=="" then return end
   local seg_end=#env.engine.context.input
   local query=tran:query(input,seg) if not query then return end
-  local comment="『"..comment_map[input].."』"
+  local comment="『"..(comment_map[input] or "符号").."』"
   for cand in query:iter() do
    cand.comment=comment
    cand._end=seg_end

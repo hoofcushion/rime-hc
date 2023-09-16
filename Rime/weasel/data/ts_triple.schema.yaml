@@ -30,7 +30,6 @@ __patch:
  - engine/translators/@before last: "lua_translator@module_fnua_triple"
  - engine/translators/@after last:  "lua_translator@ts_triple@translator"
  - engine/translators/@after last:  "lua_translator@ts_en@module_en"
- - engine/translators/@after last:  "lua_translator@recorder"
  - ts_triple.custom:/patch?
 abc_segmentor: {extra_tags: [ts_en, abc]}
 module_cn_jian: {initial_quality: 64, dictionary: module_cn_jian, enable_user_dict: false, enable_sentence: false, enable_completion: false}
