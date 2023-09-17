@@ -84,7 +84,7 @@ local processor={
    if not sendCommand then return 2 end
    sendCommand=false
    os.execute(command)--os.execute 会导致lua暂停,因此用 sendCommand 变量指示在键 Release 时执行
-   return 0
+   return 1
   end
 
   local ctx=env.engine.context

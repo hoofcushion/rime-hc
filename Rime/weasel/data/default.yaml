@@ -1,6 +1,7 @@
 menu:
   page_size: 6
   alternative_select_labels: [①,②,③,④,⑤,⑥,⑦,⑧,⑨,⑩]
+  # alternative_select_keys: ASDFGHJKL  # 如编码字符占用数字键，则需另设选字键
 schema_list:
   - schema: ts_cn
   - schema: ts_cn_quanpin

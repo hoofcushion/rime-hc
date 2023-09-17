@@ -1,9 +1,21 @@
-local prefix_len
+local keyMap={['space']=-1,['0']=9,['1']=0,['2']=1,['3']=2,['4']=3,['5']=4,['6']=5,['7']=6,['8']=7,['9']=8}
+local function keyMapInitialize(env)
+ local select_keys=env.engine.schema.select_keys
+ if select_keys and select_keys~="" then
+  keyMap={['space']=-1}
+  local count=0
+  for substr in select_keys:gmatch(".") do
+   keyMap[substr]=count
+   count=count+1
+  end
+ end
+end
 local symbol
-local keyMap={['space']=-1,['0']=9,['1']=0,['2']=1,['3']=2,['4']=3,['5']=4,['6']=5,['7']=6,['8']=7,['9']=8,['KP_0']=9,['KP_1']=0,['KP_2']=1,['KP_3']=2,['KP_4']=3,['KP_5']=4,['KP_6']=5,['KP_7']=6,['KP_8']=7,['KP_9']=8,}
+local prefix_len
 return
 {
  init=function(env)
+  keyMapInitialize(env)
   symbol=env.engine.schema.config:get_string("recognizer/lua/"..env.name_space)
   prefix_len=#symbol
  end,
@@ -11,9 +23,7 @@ return
   local ctx=env.engine.context
   if ctx:has_menu() then
    local index=keyMap[key:repr()]
-   if not index then
-    return 2
-   end
+   if not index then return 2 end
    local seg=ctx.composition:back()
    if index>-1 then
     local page_size=env.engine.schema.page_size

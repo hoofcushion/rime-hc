@@ -17,7 +17,7 @@ schema:
   基于郑码, 允许两码一字造长句
 __patch:
  schema/dependencies/+:
-  - ts_cn_quanpin # 英文
+  - ts_cn_quanpin # 全拼
   - ts_en # 英文
   - module_jian_zm
 __patch:
@@ -31,7 +31,7 @@ __patch:
  - engine/translators/@after last:  "lua_translator@ts_en@module_en"
  - ts_zm_double.custom:/patch?
 abc_segmentor: {extra_tags: [ts_en, abc]}
-module_fnua_zm: {dictionary: ts_cn, enable_user_dict: false, tag: module_fnua_zm, prefix: "`", tips: 〔拆字〕}
+module_fnua_zm: {dictionary: ts_cn, enable_user_dict: false, tag: module_fnua_zm, prefix: "`"}
 module_jian_zm: {dictionary: module_jian_zm, enable_completion: false, enable_user_dict: false, enable_sentence: false, initial_quality: 99}
 translator: {initial_quality: 1, dictionary: ts_zm_double, enable_user_dict: true, comment_format: ['xform/~//']}
 module_en: {__include: ts_en.schema.yaml:/translator, tag: ts_en}
