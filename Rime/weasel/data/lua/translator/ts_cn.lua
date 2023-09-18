@@ -44,7 +44,7 @@ return {
     comp_count=0
    end
    ::yield::
-   if text_len==1 or cand._end~=seg._end then
+   if cand._end~=seg._end and text_len==1 then
     local ncand=Candidate(cand.type,cand.start,cand._end,cand.text,cand.comment)
     ncand.quality=cand.quality
     ncand.preedit=cand.preedit
