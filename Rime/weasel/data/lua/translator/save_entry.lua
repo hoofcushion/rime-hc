@@ -11,7 +11,7 @@ return
    local inp=input:sub(1,-3):gsub("|"," ")
    local code=inp:gsub("[^%a]+",""):lower()
    local unconfirm=inp.."\t"..code.."\t"..en[1]
-   yield(Candidate("ensaver_cand",seg.start,seg._end,inp,""))--yield出来
+   yield(Candidate("ensaver_cand",seg.start,seg._end,inp,""))
    yield(Candidate("ensaver_done",seg.start,seg._end,"^",sucVfail(save_dict(en[2],unconfirm))))
    yield(Candidate("ensaver_comment",seg.start,seg._end,"v",unconfirm))
   end

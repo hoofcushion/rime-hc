@@ -18,7 +18,7 @@ return
  func=function(input)
   for cand in input:iter() do
    cand:get_genuine().preedit=strUincode(cand.preedit)
-   yield(ShadowCandidate(cand,strUincode(cand.type),strUincode(cand.text),strUincode(cand.comment)))
+   yield(ShadowCandidate(cand,cand.type,strUincode(cand.text),strUincode(cand.comment)))
   end
  end
 }

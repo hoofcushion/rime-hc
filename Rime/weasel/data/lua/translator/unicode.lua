@@ -1,6 +1,3 @@
--- 来自 https://github.com/shewer/librime-lua-script/blob/main/lua/component/unicode.lua
--- 没有许可信息
--- 做了一部分修改
 local symbol
 local code_start
 local baseMap={
@@ -51,6 +48,6 @@ return
    cand.preedit=code
    yield(cand)
   end
-  tipsAdd(env,tip) --一切正常
+  tipsAdd(env,tip)
  end
 }

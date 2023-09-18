@@ -96,19 +96,18 @@ local processor={
   local action_type=keyMap[key:repr()]
   if not action_type then return 2 end
 
-  local input=ctx.input
-  local code=input:sub(code_start)
+  local code=ctx.input:sub(code_start)
   return Action[action_type](ctx,code)
  end
 }
 
 local translator=function(_,seg,env)
  if not seg:has_tag(env.name_space) then return end
-
  tipsAdd(env,"〔命令行〕")
+
  local input=env.engine.context.input
  local code=input:sub(code_start)
- if not cmdMap[code] then return 2 end
+ if not cmdMap[code] then return end
 
  for index,cmdEntry in ipairs(cmdMap[code]) do
   local cand=Candidate(index,seg.start,seg._end,cmdEntry.text,cmdEntry.comment or "快速启动")

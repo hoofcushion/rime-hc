@@ -13,9 +13,6 @@
 .\weasel\data\lua\execute.lua
 来自 https://github.com/baopaau/rime-lua-collection
 
-.\weasel\data\lua\unicode.lua
-来自 https://github.com/shewer/librime-lua-script/blob/main/lua/component/unicode.lua
-
 .\weasel\data\_dict\_dic_zm
 来自 http://ys-k.ysepan.com/373776334/418917248/n443W2K87IIOU7UUjHSkf1/zm2020%20%E5%8D%95%E5%AD%97.zip?lx=xz
 

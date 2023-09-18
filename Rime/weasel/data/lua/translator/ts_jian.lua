@@ -1,16 +1,20 @@
 local tran
+local quality
 return {
  init=function(env)
-  tran=Component.Translator(env.engine,"","table_translator@"..env.name_space)
+  mem=Memory(env.engine,Schema(env.name_space),"translator")
+  quality=env.engine.schema.config:get_int(env.name_space.."/initial_quality") or 1
  end,
- func=function(input,seg,env)
-  if #env.engine.context.input~=1 then return end
-  local query=tran:query(input,seg) if not query then return end
+ func=function(input,seg)
+  if seg._end~=1 then return end
+  mem:dict_lookup(input,false,1)
   local count=0
-  for cand in query:iter() do
+  for entry in mem:iter_dict() do
+   local cand=Candidate("jian",seg.start,seg._end,entry.text,"")
+   cand.quality=quality
    yield(cand)
    count=count+1
-   if count==12 then break end
+   if count==30 then break end
   end
  end
 }

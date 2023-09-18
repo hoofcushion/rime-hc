@@ -1,7 +1,7 @@
 local tran
 return {
  init=function(env) tran=Component.Translator(env.engine,"","script_translator@"..env.name_space) end,
- func=function(input,seg,env)
+ func=function(input,seg)
   local query=tran:query(input,seg) if not query then return end
   for cand in query:iter() do
    local comment=cand.comment
@@ -15,7 +15,12 @@ return {
     yield(ShadowCandidate(cand,"fancha",commentjq:gsub("|['`][A-Z]+",""),"【左手简拼】"))
     yield(ShadowCandidate(cand,"fancha",commentjq:gsub("['`][A-Z]+|",""),"【右手简拼】"))
    else
-    yield(ShadowCandidate(cand,"fancha",comment,cand.text:gsub(" $","")))
+    if comment:find("|") then
+     yield(ShadowCandidate(cand,"fancha",comment:gsub("|.+","]"),cand.text))
+     yield(ShadowCandidate(cand,"fancha",comment:gsub(".+|","["),cand.text))
+    else
+     yield(ShadowCandidate(cand,"fancha",comment,cand.text:gsub(" $","")))
+    end
    end
   end
  end

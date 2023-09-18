@@ -6,10 +6,11 @@ engine:
  processors:
   - ascii_composer
   - lua_processor@quick_start_p@quick_start
+  - lua_processor@option_swither_p@option_swither
   - recognizer
   - key_binder
   - speller
-  - lua_processor@auto_digital
+  - lua_processor@smart_punct
   - punctuator
   - lua_processor@plain_return
   - selector
@@ -25,13 +26,14 @@ engine:
  translators:
   - punct_translator
   - lua_translator@quick_start_t@quick_start
+  - lua_translator@option_swither_t@option_swither
   - lua_translator@execute # 计算器
   - lua_translator@chinese_number
   - lua_translator@unicode
   - lua_translator@save_entry
   - lua_translator@custom_time
-  - lua_translator@custom_phrase # 自定义短语
   - lua_translator@custom_symbol # 自定义符号
+  - table_translator@custom_phrase # 自定义短语
  filters:
   - simplifier@fil_s2t
   - simplifier@fil_emoji
@@ -43,8 +45,8 @@ engine:
   - lua_filter@fil_Uniquifier
   - lua_filter@fil_KijinSeija
   - lua_filter@fil_Unicode
-custom_phrase: {dictionary: custom_phrase, initial_quality: 64, enable_user_dict: false, enable_completion: false, enable_sentence: false}
-custom_symbol: {dictionary: custom_symbol, initial_quality: 64, enable_user_dict: true , tag: custom_symbol}
+custom_phrase: {initial_quality: 64, dictionary: custom_phrase, enable_user_dict: false, enable_completion: false, enable_sentence: false}
+custom_symbol: {initial_quality: 64, dictionary: custom_symbol, enable_user_dict: true , tag: custom_symbol}
 fil_s2t: {option_name: fil_s2t, opencc_config: s2t.json, tips: all, tags: [abc]}
 fil_emoji: {option_name: fil_emoji, opencc_config: emoji.json, tips: all, tags: [abc]}
 fil_users: {option_name: fil_emoji, opencc_config: users.json, tips: all, tags: [abc]}
@@ -131,12 +133,14 @@ recognizer:
   unicode: 'U'                                        #Unicode
   chinese_number: '/J'                                #汉字数字+金额 整数支持最高52位
   custom_symbol: '\'                                  #符号
+  option_swither: '/O'                                #切换选项
  patterns:                                            #pattern 中单个 \ 要用 \\\\ 双重转义来表示
   execute: '^//.*'                                    #计算器
   quick_start: '^/(?!/).*'                            #快速启动
   unicode: '^U(?:[HDOB]?[a-f0-9]*|[a-f0-9]*[HDOB]?)$' #Unicode
   chinese_number: '^/J.*'                             #汉字数字+金额 整数支持最高52位
   custom_symbol: '^\\(?:[0-9]|10|[A-Za-z]+)?'         #符号
+  option_swither: '/O.*'                              #切换选项
 ascii_composer:
  good_old_caps_lock: true
  switch_key:

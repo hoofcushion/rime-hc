@@ -1,0 +1,4 @@
+schema:
+ schema_id: module_jian_shape
+ name: 「插件_简码_郑码」
+translator: {dictionary: module_jian_shape_yuhao}

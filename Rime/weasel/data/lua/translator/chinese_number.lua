@@ -94,7 +94,7 @@ local characterizer=function(str,map,mode)
  local partInteger=str:match("^(%d+)")
  local partDecimal=str:match("%.(%d+)$")
  local result={}
- if not (partInteger=="0" and money and partDecimal)  then --金额模式整数为0时 不转换整数部分
+ if not (partInteger=="0" and money and partDecimal)  then
   table.insert(result,tranInteger(partInteger,style))
   table.insert(result,numberSep(partInteger,partDecimal,money))
  end

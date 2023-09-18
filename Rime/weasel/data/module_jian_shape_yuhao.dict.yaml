@@ -1,0 +1,7 @@
+---
+name: module_jian_shape_yuhao
+version: "2018.1.11"
+sort: by_weight
+import_tables:
+ - _dict/_dic_shape/jian/yuhao
+...

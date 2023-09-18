@@ -20,14 +20,6 @@ local user=rime_api:get_user_data_dir()
 local data=rime_api:get_shared_data_dir()
 local program=data:sub(1,-6)
 return {
- [""]={
-  {
-   command="cmd",
-   text="/",
-   comment="按Tab补全",
-   batch=false,
-  },
- },
  ['cmd']={
   {
    command="cmd",

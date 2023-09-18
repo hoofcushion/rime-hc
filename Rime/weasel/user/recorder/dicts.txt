@@ -4,4 +4,5 @@ return{
 "../../data/_dict/rime-ice/cn_dicts/others.dict.yaml",
 "../../data/_dict/rime-ice/cn_dicts/tencent.dict.yaml",
 "../../data/_dict/rime-ice/cn_dicts/tencent.dict.yaml",
+"ex.txt"
 }

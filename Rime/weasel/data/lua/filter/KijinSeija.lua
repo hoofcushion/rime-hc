@@ -18,7 +18,7 @@ return
  func=function(input)
   for cand in input:iter() do
    cand:get_genuine().preedit=strReverse(cand.preedit)
-   yield(ShadowCandidate(cand,strReverse(cand.type),strReverse(cand.text),strReverse(cand.comment)))
+   yield(ShadowCandidate(cand,cand.type,strReverse(cand.text),strReverse(cand.comment)))
   end
  end
 }

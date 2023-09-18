@@ -1,9 +1,0 @@
----
-name: ts_zm_double
-version: "2018.1.11"
-sort: by_weight
-import_tables:
- - _dict/_dic_zm/char
- - _dict/_dic_zm/base
- - _dict/_dic_zm/expand
-...

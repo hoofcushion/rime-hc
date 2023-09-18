@@ -1,6 +1,6 @@
 local function loadInput(minWeight,mapOriginal)
  local map={}
- local file=io.open("recorder.txt","r")
+ local file=io.open("recorder_words.txt","r")
  if not file then error("没有 input 文件") end
  if minWeight==0 then
   for line in file:lines() do

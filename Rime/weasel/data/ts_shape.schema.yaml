@@ -1,0 +1,47 @@
+# 引用通用配置文件：
+__include: ts__detail.yaml:/
+# 引用特殊配置文件：
+__include: _schema_settings/ts_shape.yaml:/map
+switches: {__include: _schema_settings/ts_shape.yaml:/switches}
+# 引用方案快捷键：
+__patch:
+ key_binder/bindings/+: {__include: _schema_settings/ts_shape.yaml:/array/bindings}
+schema:
+ __include: _schema_settings/_global:/schema
+ schema_id: ts_shape
+ name: 『形码』
+ description: |
+  蹄垫系列方案之形码
+  基于郑码, 允许两码一字造长句
+__patch:
+ schema/dependencies/+:
+  - ts_cn_quanpin # 全拼
+  - ts_en # 英文
+  - module_jian_shape
+__patch:
+ - engine/processors/@after 7:      "lua_processor@reverse_pro"
+ - engine/processors/@after 7:      "lua_processor@quick_wrap"
+ - engine/processors/@after 7:      "lua_processor@select_char"
+ - engine/segmentors/@after 1:      "affix_segmentor@module_fnua_shape"
+ - engine/translators/@before last: "lua_translator@module_fnua_shape"
+ - engine/translators/@after last:  "table_translator@module_jian_shape"
+ - engine/translators/@after last:  "lua_translator@ts_shape@translator"
+ - engine/translators/@after last:  "lua_translator@ts_en@module_en"
+ - abc_segmentor/extra_tags/@after last: "ts_en"
+ - ts_shape.custom:/patch?
+module_fnua_shape: {dictionary: ts_cn, enable_user_dict: false, tag: module_fnua_shape, prefix: "`"}
+module_jian_shape: {initial_quality: 64,dictionary: module_jian_shape_yuhao, enable_completion: false, enable_user_dict: false, enable_sentence: false}
+translator: {initial_quality: 1, dictionary: ts_shape_yuhao, enable_user_dict: true, comment_format: ['xform/~//']}
+module_en: {__include: ts_en.schema.yaml:/translator, tag: ts_en}
+recognizer:
+ lua:
+  reverse_pro: '`'
+ patterns:
+  module_fnua_shape: "`[^0-9]*$"
+speller:
+ alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-=|"
+ initials: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA"
+ algebra:
+  - fuzz/(?<=^[a-z][a-z][a-z]).+$//
+  - fuzz/(?<=^[a-z][a-z]).+$//
+  - derive/^[a-z]$/$0$0/

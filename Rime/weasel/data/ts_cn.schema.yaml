@@ -21,21 +21,22 @@ __patch:
   - module_fnua_cn # 反查
   - module_cn_jian # 简码
 __patch:
- - engine/processors/@after 6:      "lua_processor@reverse_pro"
- - engine/processors/@after 6:      "lua_processor@quick_wrap"
- - engine/processors/@after 6:      "lua_processor@select_char"
+ - engine/processors/@after 7:      "lua_processor@reverse_pro"
+ - engine/processors/@after 7:      "lua_processor@quick_wrap"
+ - engine/processors/@after 7:      "lua_processor@select_char"
  - engine/segmentors/@after 1:      "affix_segmentor@module_fnua_cn"
  - engine/translators/@before last: "lua_translator@module_fnua_cn"
  - engine/translators/@after last:  "lua_translator@module_dmma_upper@module_dmma"
  - engine/translators/@after last:  "lua_translator@module_dmma"
+ - engine/translators/@after last:  "lua_translator@ts_jian@module_cn_jian"
  - engine/translators/@after last:  "lua_translator@ts_cn@translator"
  - engine/translators/@after last:  "lua_translator@ts_en@module_en"
  - engine/translators/@after last:  "lua_translator@module_cn_en"
+ - abc_segmentor/extra_tags/@after last: "ts_en"
  - ts_cn.custom:/patch?
-abc_segmentor: {extra_tags: [ts_en, abc]}
 module_cn_jian: {initial_quality: 64, dictionary: module_cn_jian, enable_user_dict: false, enable_sentence: false, enable_completion: false}
 module_lock: {initial_quality: 1, dictionary: module_lock, enable_user_dict: false, enable_sentence: false, enable_completion: false, comment_format: [xform/.+//]}
-translator: {initial_quality: 1, dictionary: ts_cn, user_dict: ts_cn_double, prism: ts_cn_double}
+translator: {initial_quality: 1, dictionary: ts_cn, user_dict: ts_cn_double, prism: ts_cn_double, least_code_length: 2}
 module_cn_en: {initial_quality: 1, dictionary: module_cn_en, user_dict: module_cn_en}
 module_en: {__include: ts_en.schema.yaml:/translator, tag: ts_en}
 module_dmma: {initial_quality: 1, dictionary: module_dmma, enable_user_dict: false, spelling_hints: 99}

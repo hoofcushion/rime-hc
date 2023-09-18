@@ -394,6 +394,7 @@ return
  func=function(_,seg,env)
   if not seg:has_tag(env.name_space) then return end
   tipsAdd(env,"〔符号输出〕")
+
   local input=env.engine.context.input:sub(code_start) if input=="" then return end
   local seg_end=#env.engine.context.input
   local query=tran:query(input,seg) if not query then return end

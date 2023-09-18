@@ -1,0 +1,9 @@
+---
+name: ts_shape_yuhao
+version: "2018.1.11"
+sort: by_weight
+import_tables:
+ - _dict/_dic_shape/chars/yuhao
+ - _dict/_dic_shape/words/base
+ - _dict/_dic_shape/words/expand
+...
