@@ -44,7 +44,7 @@ return
    if nCode>1114111 then
     break;
    end;
-   local cand <const> =Candidate("unicode",seg.start,seg._end,utf8.char(nCode),"0x"..nCode);
+   local cand <const> =Candidate("unicode",seg.start,seg._end,utf8.char(nCode),nCode);
    cand.preedit=code;
    yield(cand);
   end;
