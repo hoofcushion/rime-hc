@@ -1,10 +1,10 @@
 --例子:
 --cmd={
 --  {
---   command="cmd",
+--   command="start cmd",
 --   text="命令行",
 --   comment=false,
---   batch=false
+--   batch=false,
 --  },
 -- },
 --下标"/cmd"代表命令的编码
@@ -22,7 +22,7 @@ local program=data:sub(1,-6)
 return {
  ['cmd']={
   {
-   command="cmd",
+   command="start cmd",
    text="命令行",
    comment=false,
    batch=false,

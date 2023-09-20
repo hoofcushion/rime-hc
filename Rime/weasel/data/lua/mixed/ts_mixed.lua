@@ -1,71 +1,75 @@
-local limit=60
-local tran={}
-local actions={
+local limit <const> =60;
+local pinyin;
+local zhengma;
+local actions <const> =
+{
  function(input,seg,query)
-  local cand_count=0
+  local cand_count=0;
   for cand in query[1]:iter() do
-   yield(cand)
-   cand_count=cand_count+1
-   if cand_count>=limit then return end
-  end
+   yield(cand);
+   cand_count=cand_count+1;
+   if cand_count>=limit then return; end;
+  end;
  end,
  function(input,seg,query)
-  local cand_count=0
+  local cand_count=0;
   for cand in query[2]:iter() do
-   yield(cand)
-   cand_count=cand_count+1
-   if cand_count>=limit then return end
-  end
+   yield(cand);
+   cand_count=cand_count+1;
+   if cand_count>=limit then return; end;
+  end;
  end,
  function(input,seg,query)
-  local cand_count=0
-  local count=0
+  local cand_count=0;
+  local count=0;
   for cand in query[2]:iter() do
-   yield(cand)
-   count=count+1
-   if count==3 then break end
-  end
-  cand_count=cand_count+count
-  count=0
+   yield(cand);
+   count=count+1;
+   if count==3 then break; end;
+  end;
+  cand_count=cand_count+count;
+  count=0;
   for cand in query[1]:iter() do
-   yield(cand)
-   count=count+1
-   if count==3 then break end
-  end
-  cand_count=cand_count+count
+   yield(cand);
+   count=count+1;
+   if count==3 then break; end;
+  end;
+  cand_count=cand_count+count;
   for cand in query[2]:iter() do
-   yield(cand)
-   cand_count=cand_count+1
-   if cand_count>=limit then return end
-  end
+   yield(cand);
+   cand_count=cand_count+1;
+   if cand_count>=limit then return; end;
+  end;
   for cand in query[1]:iter() do
-   yield(cand)
-   cand_count=cand_count+1
-   if cand_count>=limit then return end
-  end
- end
-}
-return {
+   yield(cand);
+   cand_count=cand_count+1;
+   if cand_count>=limit then return; end;
+  end;
+ end,
+};
+return
+{
  init=function(env)
-  tran.pinyin=Component.Translator(env.engine,"","script_translator@ts_cn")
-  tran.zhengma=Component.Translator(env.engine,"","table_translator@"..env.name_space)
+  pinyin=Component.Translator(env.engine,"","script_translator@ts_cn");
+  zhengma=Component.Translator(env.engine,"","table_translator@"..env.name_space);
  end,
  func=function(input,seg,env)
-  if #env.engine.context.input>=4 then
-   local query=tran.pinyin:query(input,seg) if not query then return end
-   local cand_count=0
+  if #env.engine.context.input>4 then
+   local query <const> =pinyin:query(input,seg);
+   if not query then return; end;
+   local cand_count=0;
    for cand in query:iter() do
-    yield(cand)
-    cand_count=cand_count+1
-    if cand_count>=limit then return end
-   end
-   return
-  end
-  local query={}
-  table.insert(query,tran.pinyin:query(input,seg))
-  table.insert(query,tran.zhengma:query(input,seg))
+    yield(cand);
+    cand_count=cand_count+1;
+    if cand_count>=limit then return; end;
+   end;
+   return;
+  end;
+  local query={};
+  table.insert(query,pinyin:query(input,seg));
+  table.insert(query,zhengma:query(input,seg));
   if query[1] or query[2] then
-   actions[(query[1] and 1 or 0)+(query[2] and 2 or 0)](input,seg,query)
-  end
- end
-}
+   actions[(query[1] and 1 or 0)+(query[2] and 2 or 0)](input,seg,query);
+  end;
+ end,
+};
