@@ -21,7 +21,7 @@ __patch:
   - module_cn_en_quanpin # 混输
 __patch:
  - engine/processors/@after 7:      "lua_processor@quick_wrap"
- - engine/processors/@after 7:      "lua_processor@select_char"
+ - engine/processors/@after 6:      "lua_processor@select_char"
  - engine/translators/@after last:  "lua_translator@module_dmma_upper@module_dmma"
  - engine/translators/@after last:  "lua_translator@ts_jian@module_cn_jian"
  - engine/translators/@after last:  "lua_translator@ts_cn_quanpin@translator"

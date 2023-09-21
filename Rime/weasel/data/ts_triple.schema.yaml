@@ -25,7 +25,7 @@ __patch:
 __patch:
  - engine/processors/@after 7:      "lua_processor@reverse_pro"
  - engine/processors/@after 7:      "lua_processor@quick_wrap"
- - engine/processors/@after 7:      "lua_processor@select_char"
+ - engine/processors/@after 6:      "lua_processor@select_char"
  - engine/segmentors/@after 1:      "affix_segmentor@module_fnua_triple"
  - engine/translators/@before last: "lua_translator@module_fnua_triple"
  - engine/translators/@after last:  "lua_translator@ts_jian@module_cn_jian"
