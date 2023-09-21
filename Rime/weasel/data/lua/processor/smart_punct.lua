@@ -1,4 +1,4 @@
-local keyMap <const> ={[44]=true,[46]=true};
+local keyMap <const> ={[44]=true,[46]=true}
 local beforeMap <const> =
 {
  [","]=true,
@@ -13,17 +13,17 @@ local beforeMap <const> =
  ["7"]=true,
  ["8"]=true,
  ["9"]=true,
-};
+}
 return function(key,env)
  if
  keyMap[key.keycode] and not env.engine.context:is_composing()
  then
-  local lc <const> =env.engine.context.commit_history:back();
+  local lc <const> =env.engine.context.commit_history:back()
   if lc then
    if beforeMap[lc.text:sub(-1)] then
-    return 0;
-   end;
-  end;
- end;
- return 2;
-end;
+    return 0
+   end
+  end
+ end
+ return 2
+end

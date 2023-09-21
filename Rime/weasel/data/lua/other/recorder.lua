@@ -19,60 +19,60 @@ local rangeMap <const> =
  {min=194560,max=195103},
  {min=196608,max=201551},
  {min=201552,max=205743},
-};
+}
 local isPureChinese <const> =function(str)
  for i=1,utf8.len(str) do
-  local uCode=utf8.codepoint(utf8.sub(str,i,i));
-  if uCode<rangeMap.min or uCode>rangeMap.max then return false; end;
+  local uCode=utf8.codepoint(utf8.sub(str,i,i))
+  if uCode<rangeMap.min or uCode>rangeMap.max then return false; end
   for _,range in ipairs(rangeMap) do
-   if uCode<range.min and uCode>range.max then return false; end;
-  end;
- end;
- return true;
-end;
+   if uCode<range.min and uCode>range.max then return false; end
+  end
+ end
+ return true
+end
 local saveRecord <const> =function(lct,filename)
- local path=user.."/recorder/"..filename;
- local file=io.open(path,"r") or io.open(path,"w"):close() and io.open(path,"r");
- if not file then return; end;
- local lines={[0]=lct.."\t1"};
+ local path=user.."/recorder/"..filename
+ local file=io.open(path,"r") or io.open(path,"w"):close() and io.open(path,"r")
+ if not file then return; end
+ local lines={[0]=lct.."\t1"}
  for line in file:lines() do
-  local v=line:match("^"..lct.."\t(%d+)$");
+  local v=line:match("^"..lct.."\t(%d+)$")
   if v then
-   lines[0]=lct.."\t"..tostring(1+tonumber(v));
+   lines[0]=lct.."\t"..tostring(1+tonumber(v))
   else
-   table.insert(lines,line);
-  end;
- end;
- file:close();
- file=io.open(path,"w");
+   table.insert(lines,line)
+  end
+ end
+ file:close()
+ file=io.open(path,"w")
  for i=0,#lines do
-  file:write(lines[i].."\n");
- end;
- file:close();
-end;
-local commit_notifier;
+  file:write(lines[i].."\n")
+ end
+ file:close()
+end
+local commit_notifier
 return
 {
  init=function(env)
   commit_notifier=env.engine.context.commit_notifier:connect(function(ctx)
-   local lct=ctx:get_commit_text();
-   local filename;
+   local lct=ctx:get_commit_text()
+   local filename
    if isPureChinese(lct) then
     if utf8.len(lct)==1 then
-     filename="recorder_characters.txt";
+     filename="recorder_characters.txt"
     else
-     filename="recorder_words.txt";
-    end;
+     filename="recorder_words.txt"
+    end
    else
-    filename="recorder_others.txt";
-   end;
-   saveRecord(lct,filename);
-  end);
+    filename="recorder_others.txt"
+   end
+   saveRecord(lct,filename)
+  end)
  end,
  func=function()
-  return 2;
+  return 2
  end,
  fini=function()
-  commit_notifier:disconnect();
+  commit_notifier:disconnect()
  end,
-};
+}
