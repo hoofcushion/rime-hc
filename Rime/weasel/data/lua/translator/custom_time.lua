@@ -12,7 +12,7 @@ do
    if not Reverse[code] then
     Reverse[code]={}
    end
-   table.insert(Reverse[code],index)  -- 插入索引
+   table.insert(Reverse[code],index) -- 插入索引
   end
  end
 end

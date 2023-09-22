@@ -45,3 +45,4 @@ speller:
   - fuzz/(?<=^[a-z][a-z][a-z]).+$//
   - fuzz/(?<=^[a-z][a-z]).+$//
   - derive/^[a-z]$/$0$0/
+  - derive/$/z/

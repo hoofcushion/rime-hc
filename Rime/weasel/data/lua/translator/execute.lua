@@ -27,7 +27,7 @@ mod=math.fmod
 gcd=function(a,b) --接收两个数字
  a,b=b,a%b
  return b~=0 and gcd(a,b) or a
-end  --返回最大公约数
+end --返回最大公约数
 trunc=function(x,dc)
  if dc==nil then
   return math.modf(x)

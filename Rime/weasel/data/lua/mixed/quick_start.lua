@@ -1,7 +1,7 @@
-local BATCH_DIR <const> =user..Sep.."build"..Sep.."run.bat"  --获取 batch 路径
+local BATCH_DIR <const> =user..Sep.."build"..Sep.."run.bat" --获取 batch 路径
 io.open(BATCH_DIR,"w")
     :write('@echo off\nchcp 65001\nif exist "%1" (start "" "%1")')
-    :close()  --清空 batch 命令
+    :close() --清空 batch 命令
 local BATCH_CMD <const> ='start "'..BATCH_DIR..'" '
 local cmdMap=dofile(exist("custom_command.txt"))
 for name,item in pairs(cmdMap) do
@@ -43,7 +43,7 @@ local ACTION <const> =
   if cmdEntry.batch then
    command=BATCH_CMD..cmdEntry.command
   else
-   command=cmdEntry.command
+   command="start /b cmd /c "..cmdEntry.command
   end
   sendCommand=true
   ctx:clear()
@@ -75,9 +75,10 @@ return
    if key:release() then
     if sendCommand then
      sendCommand=false
-     os.execute(command)  --os.execute 会导致lua暂停,因此用 sendCommand 变量指示在键 Release 时执行
+     os.execute(command) --os.execute 会导致lua暂停,因此用 sendCommand 变量指示在键 Release 时执行
+     return 1
     end
-    return 1
+    return 2
    end
    local ctx <const> =env.engine.context
    if not ctx.input:find("^"..symbol) then

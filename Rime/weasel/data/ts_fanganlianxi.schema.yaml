@@ -22,5 +22,7 @@ engine:
  translators:
   - lua_translator@ts_fanganlianxi_t
 speller:
- alphabet: abcdefghijklmnopqrstuvwxyz;
- initials: z
+ alphabet: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890;:/'
+ initials: ":/"
+ initial_code: ":"
+ symbol: "/"

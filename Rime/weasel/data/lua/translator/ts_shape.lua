@@ -10,7 +10,7 @@ return
   local last_len,text_len,dup=0,0,1
   local count=0
   for cand in query:iter() do
-   if cand._end~=seg._end or seg.length<5 and utf8.len(cand.text)>1 then
+   if seg.length<4 and utf8.len(cand.text)>1 then
     goto next
    end
    text_len=utf8.len(cand.text)

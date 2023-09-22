@@ -1,5 +1,5 @@
 local wrap_mode=false
-local keyMap=
+local keyMap <const> =
 {
  ["0"]=10,
  ["1"]=1,
@@ -23,7 +23,7 @@ local keyMap=
  ["KP_9"]=9,
 }
 local get_pos <const> =function(script_text,rank)
- local result_tab={[10]=#script_text}
+ local result_tab <const> ={[10]=#script_text}
  local position=0
  for sub in script_text:gmatch("[^ ]+") do
   position=position+#sub

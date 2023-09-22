@@ -139,7 +139,7 @@ recognizer:
   quick_start: '^/(?!/).*'                            #快速启动
   unicode: '^U(?:[HDOB]?[a-f0-9]*|[a-f0-9]*[HDOB]?)$' #Unicode
   chinese_number: '^/J.*'                             #汉字数字+金额 整数支持最高52位
-  custom_symbol: '^\\(?:[0-9]|10|[A-Za-z]+)?'         #符号
+  custom_symbol: '^\\(?:10?|[0-9]|[A-Za-z]+)?'         #符号
   option_swither: '/O.*'                              #切换选项
 ascii_composer:
  good_old_caps_lock: true
