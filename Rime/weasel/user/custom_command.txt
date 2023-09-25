@@ -15,7 +15,7 @@
 --false代表直接运行(不兼容utf8,但速度更快)
 --true代表通过生成bat文件间接运行(兼容utf8,会花额外时间调用bat文件)
 local Sep=package.config:sub(1, 1)
-local desk="%%USERPROFILE%%"..Sep.."Desktop"
+local desk="%USERPROFILE%"..Sep.."Desktop"
 local user=rime_api:get_user_data_dir()
 local data=rime_api:get_shared_data_dir()
 local program=data:sub(1,-6)

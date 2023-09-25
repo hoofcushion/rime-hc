@@ -35,18 +35,3 @@ translator: {initial_quality: 1, dictionary: ts_cn, user_dict: ts_cn_quanpin, le
 module_cn_en: {initial_quality: 1, dictionary: module_cn_en_quanpin, user_dict: module_cn_en_quanpin}
 module_en: {__include: ts_en.schema.yaml:/translator, tag: ts_en}
 module_dmma: {dictionary: module_dmma_quanpin, enable_user_dict: false, spelling_hints: 99, comment_format: {__include: _schema_settings/ts_cn:/map/module_dmma/comment_format}}
-recognizer:
- lua:
-  execute: '\'                                        #计算器
-  quick_start: '/'                                    #快速启动
-  unicode: 'U'                                        #Unicode
-  chinese_number: 'i'                                 #汉字数字+金额 整数支持最高52位
-  custom_symbol: 'v'                                  #符号
-  option_swither: 'O'                                 #切换选项
- patterns:                                            #pattern 中单个 \ 要用 \\\\ 双重转义来表示
-  execute: '^\\.*'                                    #计算器
-  quick_start: '^/.*'                                 #快速启动
-  unicode: '^U(?:[HDOB]?[a-f0-9]*|[a-f0-9]*[HDOB]?)$' #Unicode
-  chinese_number: '^i.*'                              #汉字数字+金额 整数支持最高52位
-  custom_symbol: '^v(?:10?|[0-9]|[A-Za-z]+)?'          #符号
-  option_swither: 'O.*'                               #切换选项
