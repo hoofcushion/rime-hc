@@ -25,7 +25,7 @@ __patch:
  - engine/segmentors/@after 1:      "affix_segmentor@module_fnua_shape"
  - engine/translators/@before last: "lua_translator@module_fnua_shape"
  - engine/translators/@after last:  "table_translator@module_jian_shape"
- - engine/translators/@after last:  "lua_translator@ts_shape@translator"
+ - engine/translators/@after last:  "script_translator"
  - engine/translators/@after last:  "lua_translator@ts_en@module_en"
  - abc_segmentor/extra_tags/@after last: "ts_en"
  - ts_shape.custom:/patch?

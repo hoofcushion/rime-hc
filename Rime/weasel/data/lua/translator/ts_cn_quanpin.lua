@@ -1,13 +1,10 @@
-local least_code_length
 local tran
 return
 {
  init=function(env)
   tran=Component.Translator(env.engine,"","script_translator@"..env.name_space)
-  least_code_length=env.engine.schema.config:get_int(env.name_space.."/least_code_length") or 1
  end,
  func=function(input,seg,env)
-  if seg._end<least_code_length then return; end
   local query <const> =tran:query(input,seg)
   if not query then return; end
   local last_len,text_len,dup=0,0,1

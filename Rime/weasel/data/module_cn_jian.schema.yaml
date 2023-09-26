@@ -1,7 +1,0 @@
-schema:
- schema_id: module_cn_jian
- name: 「插件_简码」
-translator: {dictionary: module_cn_jian}
-speller: {algebra: {__include: ts_cn.schema.yaml:/speller/jian}}
-__patch:
- speller/algebra/@after last: xform/(?<=^.).+//

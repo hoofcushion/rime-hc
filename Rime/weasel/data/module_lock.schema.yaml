@@ -1,5 +1,0 @@
-schema:
- schema_id: module_lock
- name: 「插件_固顶」
-translator: {dictionary: module_lock}
-speller: {__include: ts_cn.schema.yaml:/speller}

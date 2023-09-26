@@ -1,8 +1,8 @@
 ---
 name: ts_triple
-version: "2021.08.05"
-vocabulary: essay-zh-hans
+version: "20230926035251"
 sort: by_weight
+vocabulary: char_weight
 import_tables:
  - _dict/_dic_triple/terra_pinyin_char # 主词库
  - _dict/_dic_triple/terra_pinyin      # 主词库

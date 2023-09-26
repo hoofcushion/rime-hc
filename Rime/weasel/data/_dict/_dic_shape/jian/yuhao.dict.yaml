@@ -2045,6 +2045,7 @@ sort: original
 抃	aom
 擅	aon
 抗	aoq
+攘	aos
 捽	aot
 摘	aou
 撤	aov
@@ -2412,10 +2413,10 @@ sort: original
 妨	cog
 陔	coi
 婶	cok
-孃	col
 嬗	con
 姹	coq
 婉	cor
+孃	cos
 姣	cot
 嫡	cou
 娘	cov
@@ -3340,10 +3341,10 @@ sort: original
 玉	god
 瑄	gof
 琮	goh
-釀	gol
 琼	gom
 璇	goq
 琬	gor
+釀	gos
 醉	got
 酿	gov
 瑯	gox
@@ -3554,11 +3555,11 @@ sort: original
 坊	hog
 鬃	hoh
 垓	hoi
-壤	hol
 壞	hom
 壇	hon
 坑	hoq
 坨	hor
+壤	hos
 墒	hou
 辙	hov
 迓	hpd
@@ -4028,6 +4029,7 @@ sort: original
 嵩	jol
 景	jom
 畹	jor
+曩	jos
 暾	jov
 嵝	jpc
 嶙	jpr
@@ -4417,10 +4419,9 @@ sort: original
 喧	lof
 咳	loi
 咏	lok
-嚷	lol
 咤	loq
 裴	lor
-噻	los
+嚷	los
 啐	lot
 啼	lou
 唷	lov
@@ -4902,7 +4903,6 @@ sort: original
 诽	oli
 谴	olk
 宮	olr
-襄	ols
 识	olt
 京	oma
 敲	omb
@@ -4958,6 +4958,7 @@ sort: original
 宽	osk
 寬	osm
 宸	osn
+襄	osr
 谋	oss
 寨	ost
 谎	osu
@@ -5430,7 +5431,7 @@ sort: original
 鲫	qxv
 筷	qyb
 篩	qyf
-籲	qyl
+籲	qyn
 簷	qys
 筝	qyx
 彻	rab
@@ -6082,6 +6083,7 @@ sort: original
 铈	tom
 镞	toq
 铱	tor
+镶	tos
 铰	tot
 镑	tou
 贪	tov
@@ -6304,10 +6306,10 @@ sort: original
 炷	uog
 該	uoi
 詠	uok
-讓	uol
 誼	uom
 廪	uon
 詫	uoq
+讓	uos
 熵	uou
 廓	uov
 廊	uox
@@ -6728,6 +6730,7 @@ sort: original
 膻	won
 肮	woq
 腕	wor
+鑲	wos
 胶	wot
 膀	wou
 臃	wov
@@ -6826,7 +6829,7 @@ sort: original
 胁	wxt
 芻	wxw
 膠	wxx
-鑰	wyl
+鑰	wyn
 脓	wyr
 脆	wys
 鎢	wyw
@@ -6874,8 +6877,8 @@ sort: original
 驾	xlx
 驻	xog
 骇	xoi
-骧	xol
 驼	xor
+骧	xos
 驯	xqc
 君	xql
 尹	xqp
@@ -6980,7 +6983,7 @@ sort: original
 象	yld
 悱	yli
 愦	ylk
-龠	yll
+愕	yll
 忡	yln
 勉	ylq
 負	ymb
@@ -6993,6 +6996,7 @@ sort: original
 惧	ymt
 帥	ymv
 悄	ymw
+龠	ync
 惝	yns
 慍	ynt
 歸	ynx
@@ -14318,6 +14322,7 @@ sort: original
 𩚍	ymv
 𢝸	yna
 𩝄	yna
+𠎤	ync
 𢡀	yne
 𧴔	yne
 𧿍	ynf
@@ -16195,6 +16200,7 @@ sort: original
 𰷠	kcy
 𰛐	kei
 𰃧	ken
+𰋙	kgd
 𰐍	kgy
 𰲬	khc
 𰿗	kmo
@@ -16934,6 +16940,7 @@ sort: original
 ⾊	ycb
 ⾩	ydi
 ⿔	yjm
+⿕	ync
 ⾓	ytn
 切	abd
 拓	adh

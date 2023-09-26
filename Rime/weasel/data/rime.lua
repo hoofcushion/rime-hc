@@ -23,7 +23,6 @@ custom_time         = require "translator/custom_time"
 ts_cn               = require "translator/ts_cn"
 ts_cn_quanpin       = require "translator/ts_cn_quanpin"
 ts_triple           = require "translator/ts_triple"
-ts_jian             = require "translator/ts_jian"
 ts_shape            = require "translator/ts_shape"
 ts_en               = require "translator/ts_en"
 

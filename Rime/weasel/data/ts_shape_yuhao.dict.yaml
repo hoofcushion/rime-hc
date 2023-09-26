@@ -1,6 +1,7 @@
 ---
 name: ts_shape_yuhao
-version: "2018.1.11"
+version: "20230926035256"
+vocabulary: char_weight
 sort: by_weight
 import_tables:
  - _dict/_dic_shape/chars/yuhao

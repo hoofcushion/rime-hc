@@ -2,10 +2,11 @@
 name: ts_cn
 version: "2023-07-13 23:45:08"
 sort: by_weight
+vocabulary: char_weight
 import_tables:
 #基本词库
  - _dict/rime-ice/cn_dicts/8105    # 字表
- - _dict/_dic_cn/char     # 字表
+ - _dict/_dic_cn/char              # 字表
  - _dict/rime-ice/cn_dicts/41448   # 字表+
  - _dict/rime-ice/cn_dicts/base    # 基础词库
  - _dict/rime-ice/cn_dicts/ext     # 扩展词库
