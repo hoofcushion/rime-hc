@@ -1,6 +1,5 @@
 -- package.path      = "./lua/?.lua;" .. package.path
 require "dependency/rimeTools"
-require "dependency/utf8Sub"
 reverse_pro         = require "processor/reverse_pro"
 select_char         = require "processor/select_char"
 quick_wrap          = require "processor/quick_wrap"
