@@ -31,7 +31,7 @@ local get_pos <const> =function(script_text,rank)
  end
  return result_tab[rank] or result_tab[10]
 end
-return
+local processor <const> =
 {
  func=function(key,env)
   if not env.engine.context:has_menu() then return 2; end
@@ -52,3 +52,4 @@ return
   return 1
  end,
 }
+return processor

@@ -19,7 +19,7 @@ local save_dict <const> =function(dict_dir,unconfirm)
 end
 local QUALITY <const> =1000000
 local PATH=exist("_dict/_dic_en/user_en.dict.yaml")
-return
+local translator <const> =
 {
  func=function(_,seg,env)
   local input <const> =env.engine.context.input
@@ -34,3 +34,4 @@ return
   end
  end,
 }
+return translator

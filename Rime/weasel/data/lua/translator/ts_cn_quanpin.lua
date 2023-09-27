@@ -1,5 +1,5 @@
 local tran
-return
+local translator <const> =
 {
  init=function(env)
   tran=Component.Translator(env.engine,"","script_translator@"..env.name_space)
@@ -12,7 +12,6 @@ return
    text_len=utf8.len(cand.text)
    if text_len==1 then
     dup=1
-    comp_count=0
     goto yield
    end
    if text_len==last_len then
@@ -36,3 +35,4 @@ return
   end
  end,
 }
+return translator

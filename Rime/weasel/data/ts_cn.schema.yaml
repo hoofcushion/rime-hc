@@ -16,7 +16,6 @@ __patch:
  schema/dependencies/+:
   - ts_en # 英文
   - module_cn_en # 混输
-  - module_lock # 固定
   - module_dmma # 辅助码
   - module_fnua_cn # 反查
 __patch:

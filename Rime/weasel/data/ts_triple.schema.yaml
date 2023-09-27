@@ -19,7 +19,6 @@ schema:
 __patch:
  schema/dependencies/+:
   - ts_en # 英文
-  - module_lock_triple # 固定
   - module_fnua_triple # 反查
 __patch:
  - engine/processors/@after 7:      "lua_processor@reverse_pro"

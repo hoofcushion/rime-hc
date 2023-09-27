@@ -117,7 +117,7 @@ local code_start
 --  end
 -- end
 -- dubug("0.010101010")
-return
+local translator <const> =
 {
  init=function(env)
   symbol=env.engine.schema.config:get_string("recognizer/lua/"..env.name_space)
@@ -145,3 +145,4 @@ return
   end
  end,
 }
+return translator

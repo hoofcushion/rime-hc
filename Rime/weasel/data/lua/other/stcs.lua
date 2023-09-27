@@ -25,7 +25,7 @@ local keyMapInitialize <const> =function(env)
 end
 local filter
 local option_name
-return
+local processor <const> =
 {
  init=function(env)
   keyMapInitialize(env)
@@ -55,3 +55,4 @@ return
   return 2
  end,
 }
+return processor

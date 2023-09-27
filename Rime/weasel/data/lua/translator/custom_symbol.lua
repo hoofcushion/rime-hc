@@ -2,7 +2,7 @@ local tran
 local symbol
 local code_start
 local comment <const> ="『符号』"
-return
+local translator <const> =
 {
  init=function(env)
   symbol=env.engine.schema.config:get_string("recognizer/lua/"..env.name_space)
@@ -23,3 +23,4 @@ return
   end
  end,
 }
+return translator

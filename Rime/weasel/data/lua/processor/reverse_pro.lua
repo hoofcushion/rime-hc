@@ -25,7 +25,7 @@ local keyMapInitialize <const> =function(env)
 end
 local symbol
 local prefix_len
-return
+local processor <const> =
 {
  init=function(env)
   keyMapInitialize(env)
@@ -61,3 +61,4 @@ return
   return 2
  end,
 }
+return processor

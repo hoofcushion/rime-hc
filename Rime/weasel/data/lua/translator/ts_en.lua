@@ -37,7 +37,7 @@ local fmodule=function(input,seg)
 end
 local module
 local func
-return
+local translator <const> =
 {
  init=function(env)
   module=env.name_space~="translator"
@@ -48,3 +48,4 @@ return
   func(input,seg)
  end,
 }
+return translator

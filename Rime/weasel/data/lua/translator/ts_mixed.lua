@@ -47,7 +47,7 @@ local actions <const> =
   end
  end,
 }
-return
+local translator <const> =
 {
  init=function(env)
   pinyin=Component.Translator(env.engine,"","script_translator@ts_cn")
@@ -73,3 +73,4 @@ return
   end
  end,
 }
+return translator

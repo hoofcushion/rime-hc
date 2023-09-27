@@ -64,34 +64,35 @@ local ACTION <const> =
   return 1
  end,
 }
-return
+local prosessor <const> =
 {
- {
-  init=function(env)
-   symbol=env.engine.schema.config:get_string("recognizer/lua/"..env.name_space)
-   code_start=#symbol+1
-  end,
-  func=function(key,env)
-   if key:release() then
-    if sendCommand then
-     sendCommand=false
-     os.execute(command) --os.execute 会导致lua暂停,因此用 sendCommand 变量指示在键 Release 时执行
-     return 1
-    end
-    return 2
+ init=function(env)
+  symbol=env.engine.schema.config:get_string("recognizer/lua/"..env.name_space)
+  code_start=#symbol+1
+ end,
+ func=function(key,env)
+  if key:release() then
+   if sendCommand then
+    sendCommand=false
+    os.execute(command) --os.execute 会导致lua暂停,因此用 sendCommand 变量指示在键 Release 时执行
+    return 1
    end
-   local ctx <const> =env.engine.context
-   if not ctx.input:find("^"..symbol) then
-    cplMap={}
-    return 2
-   end
-   local action_type <const> =KEY_MAP[key:repr()]
-   if not action_type then return 2; end
-   local code <const> =ctx.input:sub(code_start)
-   return ACTION[action_type](ctx,code)
-  end,
- },
- function(_,seg,env)
+   return 2
+  end
+  local ctx <const> =env.engine.context
+  if not ctx.input:find("^"..symbol) then
+   cplMap={}
+   return 2
+  end
+  local action_type <const> =KEY_MAP[key:repr()]
+  if not action_type then return 2; end
+  local code <const> =ctx.input:sub(code_start)
+  return ACTION[action_type](ctx,code)
+ end,
+}
+local translator <const> =
+{
+ func=function(_,seg,env)
   if not seg:has_tag(env.name_space) then return; end
   tipsAdd(env,"〔命令行〕")
   local input <const> =env.engine.context.input
@@ -104,3 +105,4 @@ return
   end
  end,
 }
+return {prosessor,translator}

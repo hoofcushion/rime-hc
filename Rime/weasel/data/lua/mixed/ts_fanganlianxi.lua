@@ -59,7 +59,6 @@ cands_clear()
 local hit_table={}
 local hit_count=0
 local continuous=0
-local duan=false
 local combo=0
 local time_limit=5
 local time_last=nil
@@ -68,7 +67,6 @@ local reset <const> =function()
  hit_table={}
  hit_count=0
  continuous=0
- duan=false
  combo=0
  time_limit=5
  time_last=nil
@@ -202,66 +200,67 @@ local key_actions=
  end,
 }
 local symbol
-return
+local prosessor <const> =
 {
- {
-  init=function(env)
-   initial_code=env.engine.schema.config:get_string("speller/initial_code")
-   initial_code_l=#initial_code
-   code_start=initial_code_l+1
-   symbol=env.engine.schema.config:get_string("speller/symbol")
-  end,
-  func=function(_,env)
-   if not env.engine.context:is_composing() then return 2; end
-   local ctx <const> =env.engine.context
-   local ctx_inp <const> =ctx.input
-   if ctx_inp:find("^"..symbol) then
-    if ctx_inp:find(symbol.."$") then
-     local code=ctx_inp:sub(1+initial_code_l,-1-initial_code_l)
-     if code:find("s%d+t%d+") then
-      start,final=code:match("s(%d+)t(%d+)")
-      start=tonumber(start)
-      final=tonumber(final)
-      if start>=1 and final<=DICT_ENTRY_LIMIT then
-       if final-start<=CANDS_MIN_AMOUNT then
-        final=start+CANDS_MIN_AMOUNT+1
-       end
-       cands_clear()
+ init=function(env)
+  initial_code=env.engine.schema.config:get_string("speller/initial_code")
+  initial_code_l=#initial_code
+  code_start=initial_code_l+1
+  symbol=env.engine.schema.config:get_string("speller/symbol")
+ end,
+ func=function(_,env)
+  if not env.engine.context:is_composing() then return 2; end
+  local ctx <const> =env.engine.context
+  local ctx_inp <const> =ctx.input
+  if ctx_inp:find("^"..symbol) then
+   if ctx_inp:find(symbol.."$") then
+    local code=ctx_inp:sub(1+initial_code_l,-1-initial_code_l)
+    if code:find("s%d+t%d+") then
+     start,final=code:match("s(%d+)t(%d+)")
+     start=tonumber(start)
+     final=tonumber(final)
+     if start>=1 and final<=DICT_ENTRY_LIMIT then
+      if final-start<=CANDS_MIN_AMOUNT then
+       final=start+CANDS_MIN_AMOUNT+1
       end
-      ctx:clear()
-      return 1
+      cands_clear()
      end
+     ctx:clear()
+     return 1
     end
-    return 2
-   end
-   local input <const> =ctx.input:sub(code_start)
-   now=os.time()
-   if lianxu_update(input) then
-    tipsAdd(env,"I see that.")
-   end
-   local key <const> =_:repr()
-   if key_map[key] then
-    return key_actions[key_map[key]](ctx)
-   end
-   local pattern <const> =cands_tab[1][3]
-   if #input==#pattern then
-    if input==pattern then
-     cands_rotate()
-     local text_len <const> =utf8.len(cands_tab[1][1])
-     table.insert(hit_table,{os.time(),text_len})
-     hit_count=hit_count+text_len
-     time_last=os.time()
-     successtips(env)
-    else
-     continuous=false
-     failedtips(env)
-    end
-    ctx:pop_input(#input)
-    return 1
    end
    return 2
-  end,
- },
+  end
+  local input <const> =ctx.input:sub(code_start)
+  now=os.time()
+  if lianxu_update(input) then
+   tipsAdd(env,"I see that.")
+  end
+  local key <const> =_:repr()
+  if key_map[key] then
+   return key_actions[key_map[key]](ctx)
+  end
+  local pattern <const> =cands_tab[1][3]
+  if #input==#pattern then
+   if input==pattern then
+    cands_rotate()
+    local text_len <const> =utf8.len(cands_tab[1][1])
+    table.insert(hit_table,{os.time(),text_len})
+    hit_count=hit_count+text_len
+    time_last=os.time()
+    successtips(env)
+   else
+    continuous=false
+    failedtips(env)
+   end
+   ctx:pop_input(#input)
+   return 1
+  end
+  return 2
+ end,
+}
+local translator <const> =
+{
  function(input,seg,env)
   hit_update()
   tipsAdd(env,"〔"..hit_count.."/min〕")
@@ -272,3 +271,4 @@ return
   end
  end,
 }
+return {prosessor,translator}

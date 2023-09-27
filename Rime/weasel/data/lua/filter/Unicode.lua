@@ -1,12 +1,35 @@
+local string_sub <const> =string.sub
+local utf8_offset <const> =utf8.offset
+local utf8_sub <const> =function(str,start,final)
+ local len_p <const> =#str+1
+ if final then
+  local i1 <const> =start<0 and len_p or 1
+  local i2 <const> =final<0 and len_p or 1
+  final=final+1
+  start,final=utf8_offset(str,start,i1),utf8_offset(str,final,i2)
+  final=final-1
+  str=string_sub(str,start,final)
+  return str
+ end
+ local i1 <const> =start<0 and len_p or 1
+ start=utf8_offset(str,start,i1)
+ str=string_sub(str,start)
+ return str
+end
+local utf8_len <const> =utf8.len
+local utf8_codepoint <const> =utf8.codepoint
+local table_insert <const> =table.insert
+local table_concat <const> =table.concat
+local string_format <const> =string.format
 local strUincode <const> =function(str)
  local result={}
- for i=1,utf8.len(str) do
-  table.insert(result,string.format("0x%x",utf8.codepoint(utf8.sub(str,i,i))))
+ for i=1,utf8_len(str) do
+  table_insert(result,string_format("0x%x",utf8_codepoint(utf8_sub(str,i,i))))
  end
- return table.concat(result," ")
+ return table_concat(result," ")
 end
 local option_name
-return
+local filter <const> =
 {
  init=function(env)
   local name <const> =env.name_space:match("^%*?(.*)$")
@@ -22,3 +45,4 @@ return
   end
  end,
 }
+return filter

@@ -1,6 +1,6 @@
-local utf8_offset <const> =utf8.offset
 local string_sub <const> =string.sub
-utf8.sub=function(str,start,final)
+local utf8_offset <const> =utf8.offset
+local utf8_sub <const> =function(str,start,final)
  local len_p <const> =#str+1
  if final then
   local i1 <const> =start<0 and len_p or 1

@@ -315,7 +315,7 @@ end
 local greedy=true
 local symbol
 local code_start
-return
+local translator <const> =
 {
  init=function(env)
   symbol=env.engine.schema.config:get_string("recognizer/lua/"..env.name_space)
@@ -363,3 +363,4 @@ return
   yield(Candidate("number",seg.start,seg._end,exp.."="..result,"等式"))
  end,
 }
+return translator

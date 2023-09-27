@@ -7,7 +7,7 @@ local baseMap <const> =
  O={num=8,expattern="[^0-7]",pattern="0-7",limit="4177777"},
  B={num=2,expattern="[^1-2]",pattern="1-2",limit="100001111111111111111"},
 }
-return
+local translator <const> =
 {
  init=function(env)
   symbol=env.engine.schema.config:get_string("recognizer/lua/unicode")
@@ -51,3 +51,4 @@ return
   tipsAdd(env,tip)
  end,
 }
+return translator

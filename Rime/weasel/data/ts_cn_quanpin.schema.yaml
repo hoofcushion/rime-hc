@@ -15,7 +15,6 @@ schema:
 __patch:
  schema/dependencies/+:
   - ts_en # 英文
-  - module_lock_quanpin # 固定
   - module_dmma_quanpin # 辅助码
   - module_cn_en_quanpin # 混输
 __patch:

@@ -1,5 +1,23 @@
+local string_sub <const> =string.sub
+local utf8_offset <const> =utf8.offset
+local utf8_sub <const> =function(str,start,final)
+ local len_p <const> =#str+1
+ if final then
+  local i1 <const> =start<0 and len_p or 1
+  local i2 <const> =final<0 and len_p or 1
+  final=final+1
+  start,final=utf8_offset(str,start,i1),utf8_offset(str,final,i2)
+  final=final-1
+  str=string_sub(str,start,final)
+  return str
+ end
+ local i1 <const> =start<0 and len_p or 1
+ start=utf8_offset(str,start,i1)
+ str=string_sub(str,start)
+ return str
+end
 local map={}
-return
+local processor <const> =
 {
  init=function(env)
   map[env.engine.schema.config:get_string("key_binder/select_first_character")]=1
@@ -9,8 +27,9 @@ return
   if not env.engine.context:has_menu() then return 2; end
   local n <const> =map[key:repr()]
   if not n then return 2; end
-  env.engine:commit_text(utf8.sub(env.engine.context:get_selected_candidate().text,n,n))
+  env.engine:commit_text(utf8_sub(env.engine.context:get_selected_candidate().text,n,n))
   env.engine.context:clear()
   return 1
  end,
 }
+return processor

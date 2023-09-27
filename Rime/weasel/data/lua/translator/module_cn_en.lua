@@ -1,5 +1,5 @@
 local tran
-return
+local translator <const> =
 {
  init=function(env) tran=Component.Translator(env.engine,"","script_translator@"..env.name_space); end,
  func=function(input,seg)
@@ -12,3 +12,4 @@ return
   end
  end,
 }
+return translator

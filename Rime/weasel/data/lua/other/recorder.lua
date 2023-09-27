@@ -1,42 +1,82 @@
+local string_sub <const> =string.sub
+local utf8_offset <const> =utf8.offset
+local utf8_sub <const> =function(str,start,final)
+ local len_p <const> =#str+1
+ if final then
+  local i1 <const> =start<0 and len_p or 1
+  local i2 <const> =final<0 and len_p or 1
+  final=final+1
+  start,final=utf8_offset(str,start,i1),utf8_offset(str,final,i2)
+  final=final-1
+  str=string_sub(str,start,final)
+  return str
+ end
+ local i1 <const> =start<0 and len_p or 1
+ start=utf8_offset(str,start,i1)
+ str=string_sub(str,start)
+ return str
+end
+local rangeMinimum <const> =11904
+local rangeMaximum <const> =205743
 local rangeMap <const> =
 {
- min=11904,
- max=205743,
- {min=11904, max=12031},
- {min=12032, max=12255},
- {min=12272, max=12287},
- {min=12544, max=12591},
- {min=12704, max=12735},
- {min=12736, max=12783},
- {min=13312, max=19903},
- {min=19968, max=40959},
- {min=63744, max=64223},
- {min=131072,max=173791},
- {min=173824,max=177983},
- {min=177984,max=178207},
- {min=178208,max=183983},
- {min=183984,max=191471},
- {min=194560,max=195103},
- {min=196608,max=201551},
- {min=201552,max=205743},
+ {rangeMinimum,12031},
+ {12032,       12255},
+ {12272,       12287},
+ {12544,       12591},
+ {12704,       12735},
+ {12736,       12783},
+ {13312,       19903},
+ {19968,       40959},
+ {63744,       64223},
+ {131072,      173791},
+ {173824,      177983},
+ {177984,      178207},
+ {178208,      183983},
+ {183984,      191471},
+ {194560,      195103},
+ {196608,      201551},
+ {201552,      rangeMaximum},
 }
-local isPureChinese <const> =function(str)
- for i=1,utf8.len(str) do
-  local uCode=utf8.codepoint(utf8.sub(str,i,i))
-  if uCode<rangeMap.min or uCode>rangeMap.max then return false; end
-  for _,range in ipairs(rangeMap) do
-   if uCode<range.min and uCode>range.max then return false; end
+local binarySearch <const> =function(rangeMap,uCode)
+ local left,right=1,#rangeMap
+ while left<=right do
+  local mid <const> =(left+right)//2
+  local range <const> =rangeMap[mid]
+  local min <const> =range[1]
+  local max <const> =range[2]
+  if uCode>=min and uCode<=max then
+   return true
+  end
+  if uCode<min then
+   right=mid-1
+  elseif uCode>max then
+   left=mid+1
   end
  end
- return true
+ return false
 end
-local saveRecord <const> =function(lct,filename)
- local path=user.."/recorder/"..filename
+local string_match=string.match
+local utf8_len <const> =utf8.len
+local utf8_codepoint <const> =utf8.codepoint
+local isPureChinese <const> =function(str)
+ if str=="" then
+  return false
+ end
+ for i=1,utf8_len(str) do
+  local uCode=utf8_codepoint(utf8_sub(str,i,i))
+  if uCode>=rangeMinimum and uCode<=rangeMaximum and binarySearch(rangeMap,uCode) then
+   return true
+  end
+ end
+ return false
+end
+local saveRecord <const> =function(lct,path)
  local file=io.open(path,"r") or io.open(path,"w"):close() and io.open(path,"r")
  if not file then return; end
  local lines={[0]=lct.."\t1"}
  for line in file:lines() do
-  local v=line:match("^"..lct.."\t(%d+)$")
+  local v=string_match(line,"^"..lct.."\t(%d+)$")
   if v then
    lines[0]=lct.."\t"..tostring(1+tonumber(v))
   else
@@ -50,23 +90,28 @@ local saveRecord <const> =function(lct,filename)
  end
  file:close()
 end
+local filenamelist <const> ={}
+do
+ local start <const> =user.."/recorder/"
+ table.insert(filenamelist,start.."recorder_characters.txt")
+ table.insert(filenamelist,start.."recorder_words.txt")
+ table.insert(filenamelist,start.."recorder_others.txt")
+end
 local commit_notifier
-return
+local processor <const> =
 {
  init=function(env)
   commit_notifier=env.engine.context.commit_notifier:connect(function(ctx)
    local lct=ctx:get_commit_text()
-   local filename
    if isPureChinese(lct) then
-    if utf8.len(lct)==1 then
-     filename="recorder_characters.txt"
+    if utf8_len(lct)==1 then
+     saveRecord(lct,filenamelist[1])
     else
-     filename="recorder_words.txt"
+     saveRecord(lct,filenamelist[2])
     end
    else
-    filename="recorder_others.txt"
+    saveRecord(lct,filenamelist[3])
    end
-   saveRecord(lct,filename)
   end)
  end,
  func=function()
@@ -76,3 +121,4 @@ return
   commit_notifier:disconnect()
  end,
 }
+return processor
