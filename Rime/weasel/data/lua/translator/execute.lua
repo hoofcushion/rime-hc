@@ -4,13 +4,20 @@
 bmi=function(centimeter,kilogram) --BMI 指数计算器
  return kilogram*10000/centimeter^2 .." kg/m²"
 end
-hoai=function(birthday) --我几岁？ How old am I? 输入八位数字，计算距今多少年，精确到11位小数
- local year <const>,month <const>,day <const> =
-     tostring(birthday):match("^([0-9][0-9][0-9][0-9])([0-9][0-9])([0-9][0-9])$")
- if not day then return; end
+hoai=function(year,month,day) --我几岁？ How old am I? 输入年月日，计算距今多少年
+ if
+  type(day)  ~="number" or day   < 1 or
+  type(month)~="number" or month < 1 or
+  type(year) ~="number" or year  < 1970
+ then
+  return
+ end
+ day=tostring(day)
+ month=tostring(month)
+ year=tostring(year)
  local time_now <const> =os.time()
  local time_then <const> =os.time({year=year,month=month,day=day})
- return (time_now-time_then)/31558150
+ return (time_now-time_then)/31556925.445
 end
 cos=math.cos
 sin=math.sin

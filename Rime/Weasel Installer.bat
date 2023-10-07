@@ -5,7 +5,7 @@ if "%PROCESSOR_ARCHITECTURE%" EQU "amd64" (
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 )
 if '%errorlevel%' neq '0' (
-  echo Requesting administrative privileges £¨ÇëÇó¹ÜÀíÔ±È¨ÏÞ£©...
+  echo Requesting administrative privileges ï¼ˆè¯·æ±‚ç®¡ç†å‘˜æƒé™ï¼‰...
   goto UACPrompt
 ) else ( goto gotAdmin )
 :UACPrompt
@@ -19,25 +19,25 @@ if '%errorlevel%' neq '0' (
   pushd "%CD%"
   cd /d "%~dp0"
 :check_dir
-echo ÕýÔÚ²éÕÒ±¾Ä¿Â¼ÊÇ·ñ°üº¬weaselÎÄ¼þ¼Ð
+echo æ­£åœ¨æŸ¥æ‰¾æœ¬ç›®å½•æ˜¯å¦åŒ…å«weaselæ–‡ä»¶å¤¹
 set WEASEL=%~dp0weasel
 if exist "%~dp0weasel" (goto main_menu)
-echo ÕýÔÚ¼ì²é±¾Ä¿Â¼ÊÇ·ñÎªweaselÎÄ¼þ¼Ð
+echo æ­£åœ¨æ£€æŸ¥æœ¬ç›®å½•æ˜¯å¦ä¸ºweaselæ–‡ä»¶å¤¹
 set WEASEL=%~dp0
 set WEASEL=%WEASEL:~0,-1%
 if "%WEASEL:~-6%"=="weasel" (goto main_menu) else (
-  echo Î´ÕÒµ½°²×°Ä¿Â¼£¬½«ÔÚ3ÃëºóÖØÊÔ
+  echo æœªæ‰¾åˆ°å®‰è£…ç›®å½•ï¼Œå°†åœ¨3ç§’åŽé‡è¯•
   timeout /t 3 /nobreak >nul
   goto check_dir
 )
 :main_menu
 cls
-echo ³É¹¦ÕÒµ½°²×°Ä¿Â¼£¡
-echo WeaselÄ¿Â¼Îª%WEASEL%
+echo æˆåŠŸæ‰¾åˆ°å®‰è£…ç›®å½•ï¼
+echo Weaselç›®å½•ä¸º%WEASEL%
 echo ===================
-echo ÇëÑ¡ÔñÒ»¸öÖ÷Ä£Ê½£º
-echo ¡¾1¡¿°²×°Ä£Ê½£¨Ê×´ÎÊ¹ÓÃ£©
-echo ¡¾2¡¿Ð¶ÔØÄ£Ê½
+echo è¯·é€‰æ‹©ä¸€ä¸ªä¸»æ¨¡å¼ï¼š
+echo ã€1ã€‘å®‰è£…æ¨¡å¼ï¼ˆé¦–æ¬¡ä½¿ç”¨ï¼‰
+echo ã€2ã€‘å¸è½½æ¨¡å¼
 echo ===================
 :main_menu_retry
 set /p main_choice=
@@ -46,35 +46,35 @@ if "%main_choice%"=="1" (
 ) else if "%main_choice%"=="2" (
   goto :uninstall_mode
 ) else (
-  echo ÎÞÐ§µÄÑ¡Ôñ£¬ÇëÖØÐÂÑ¡Ôñ.
+  echo æ— æ•ˆçš„é€‰æ‹©ï¼Œè¯·é‡æ–°é€‰æ‹©.
   pause >nul
   goto main_menu_retry
 )
 :install_mode
 cls
-echo ÄúÒÑÑ¡Ôñ°²×°Ä£Ê½¡£
+echo æ‚¨å·²é€‰æ‹©å®‰è£…æ¨¡å¼ã€‚
 echo ===================
-echo ÇëÑ¡ÔñÒ»¸ö´ÎÄ£Ê½£º
-echo ¡¾1¡¿Î£ÏÕ°²×°£¨É¾³ýWeaselÓÃ»§Êý¾Ý£©
-echo ¡¾2¡¿°²È«°²×°£¨±£ÁôWeaselÓÃ»§Êý¾Ý£©
-echo ¡¾M¡¿Ìø×ªµ½Ö÷Ä¿Â¼
+echo è¯·é€‰æ‹©ä¸€ä¸ªæ¬¡æ¨¡å¼ï¼š
+echo ã€1ã€‘å±é™©å®‰è£…ï¼ˆåˆ é™¤Weaselç”¨æˆ·æ•°æ®ï¼‰
+echo ã€2ã€‘å®‰å…¨å®‰è£…ï¼ˆä¿ç•™Weaselç”¨æˆ·æ•°æ®ï¼‰
+echo ã€Mã€‘è·³è½¬åˆ°ä¸»ç›®å½•
 echo ===================
 :install_mode_retry
 set /p install_choice=
 if "%install_choice%"=="1" (
-  echo ÄúÒÑÑ¡ÔñÎ£ÏÕ°²×°£¬½«»áÉ¾³ýÓÃ»§Êý¾Ý¡£
-  echo ¼´½«¿ªÊ¼Î£ÏÕ°²×°¡£
+  echo æ‚¨å·²é€‰æ‹©å±é™©å®‰è£…ï¼Œå°†ä¼šåˆ é™¤ç”¨æˆ·æ•°æ®ã€‚
+  echo å³å°†å¼€å§‹å±é™©å®‰è£…ã€‚
   timeout /t 1 /nobreak >nul
   goto :uninstall
 ) else if "%install_choice%"=="2" (
-  echo ÄúÒÑÑ¡Ôñ°²È«°²×°£¬½«»á±£ÁôÓÃ»§Êý¾Ý¡£
-  echo ¼´½«¿ªÊ¼°²È«°²×°¡£
+  echo æ‚¨å·²é€‰æ‹©å®‰å…¨å®‰è£…ï¼Œå°†ä¼šä¿ç•™ç”¨æˆ·æ•°æ®ã€‚
+  echo å³å°†å¼€å§‹å®‰å…¨å®‰è£…ã€‚
   timeout /t 1 /nobreak >nul
   goto :uninstall
 ) else if /i "%install_choice%"=="m" (
   goto main_menu
 ) else (
-  echo ÎÞÐ§µÄÑ¡Ôñ£¬ÇëÖØÐÂÑ¡Ôñ.
+  echo æ— æ•ˆçš„é€‰æ‹©ï¼Œè¯·é‡æ–°é€‰æ‹©.
   pause >nul
   goto install_mode_retry
 )
@@ -83,28 +83,28 @@ goto main_menu
 :uninstall_mode
 cls
 echo ===================
-echo ÄúÒÑÑ¡ÔñÐ¶ÔØÄ£Ê½¡£
-echo ÇëÑ¡ÔñÒ»¸ö´ÎÄ£Ê½£º
-echo ¡¾1¡¿Î£ÏÕÐ¶ÔØ£¨É¾³ýWeaselÓÃ»§Êý¾Ý£©
-echo ¡¾2¡¿°²È«Ð¶ÔØ£¨±£ÁôWeaselÓÃ»§Êý¾Ý£©
-echo ¡¾M¡¿Ìø×ªµ½Ö÷Ä¿Â¼
+echo æ‚¨å·²é€‰æ‹©å¸è½½æ¨¡å¼ã€‚
+echo è¯·é€‰æ‹©ä¸€ä¸ªæ¬¡æ¨¡å¼ï¼š
+echo ã€1ã€‘å±é™©å¸è½½ï¼ˆåˆ é™¤Weaselç”¨æˆ·æ•°æ®ï¼‰
+echo ã€2ã€‘å®‰å…¨å¸è½½ï¼ˆä¿ç•™Weaselç”¨æˆ·æ•°æ®ï¼‰
+echo ã€Mã€‘è·³è½¬åˆ°ä¸»ç›®å½•
 echo ===================
 :uninstall_mode_retry
 set /p uninstall_choice=
 if "%uninstall_choice%"=="1" (
-  echo ÄúÒÑÑ¡ÔñÎ£ÏÕÐ¶ÔØ£¬½«»áÉ¾³ýÓÃ»§Êý¾Ý¡£
-  echo ¼´½«¿ªÊ¼Î£ÏÕÐ¶ÔØ¡£
+  echo æ‚¨å·²é€‰æ‹©å±é™©å¸è½½ï¼Œå°†ä¼šåˆ é™¤ç”¨æˆ·æ•°æ®ã€‚
+  echo å³å°†å¼€å§‹å±é™©å¸è½½ã€‚
   timeout /t 1 /nobreak >nul
   goto :uninstall
 ) else if "%uninstall_choice%"=="2" (
-  echo ÄúÒÑÑ¡Ôñ°²È«Ð¶ÔØ£¬½«»á±£ÁôÓÃ»§Êý¾Ý¡£
-  echo ¼´½«¿ªÊ¼°²È«Ð¶ÔØ¡£
+  echo æ‚¨å·²é€‰æ‹©å®‰å…¨å¸è½½ï¼Œå°†ä¼šä¿ç•™ç”¨æˆ·æ•°æ®ã€‚
+  echo å³å°†å¼€å§‹å®‰å…¨å¸è½½ã€‚
   timeout /t 1 /nobreak >nul
   goto :uninstall
 ) else if /i "%install_choice%"=="m" (
   goto main_menu
 ) else (
-  echo ÎÞÐ§µÄÑ¡Ôñ£¬ÇëÖØÐÂÑ¡Ôñ.
+  echo æ— æ•ˆçš„é€‰æ‹©ï¼Œè¯·é‡æ–°é€‰æ‹©.
   pause >nul
   goto uninstall_mode_retry
 )
@@ -113,7 +113,7 @@ goto main_menu
 :uninstall
 cls
 echo ===================
-echo ÕýÔÚÐ¶ÔØ
+echo æ­£åœ¨å¸è½½
 "%WEASEL%\WeaselServer.exe" /quit
 "%WEASEL%\WeaselSetup.exe" /u
 reg DELETE HKEY_CURRENT_USER\Software\Rime /f >nul 2>nul
@@ -129,7 +129,7 @@ if "%uninstall_choice%"=="1" (
   goto :safe
 )
 :safe
-echo °²È«Ð¶ÔØÍê³É£¡
+echo å®‰å…¨å¸è½½å®Œæˆï¼
 if "%main_choice%"=="1" (
   goto :install
 ) else (
@@ -143,7 +143,7 @@ reg DELETE HKLM\Software\Microsoft\Windows\CurrentVersion\Run\ /v WeaselServer /
 rmdir  /s /q  "%WEASEL%\user"
 md "%WEASEL%\user"
 xcopy /E "%WEASEL%\user_default\*" "%WEASEL%\user" >nul 2>nul
-echo Î£ÏÕÐ¶ÔØÍê³É£¡
+echo å±é™©å¸è½½å®Œæˆï¼
 if "%main_choice%"=="1" (
   goto :install
 ) else (
@@ -151,7 +151,7 @@ if "%main_choice%"=="1" (
 )
 :install
 echo ===================
-echo ÕýÔÚ°²×°
+echo æ­£åœ¨å®‰è£…
 "%WEASEL%\WeaselServer.exe" /quit
 "%WEASEL%\WeaselSetup.exe" /u
 reg DELETE HKEY_CURRENT_USER\Software\Rime /f >nul 2>nul
@@ -165,10 +165,10 @@ reg ADD HKEY_CURRENT_USER\Software\Rime\Weasel\Updates /v CheckForUpdates /d 0 >
 "%WEASEL%\WeaselDeployer.exe" /install
 reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v WeaselServer /d "%WEASEL%\WeaselServer.exe" /f >nul 2>nul
 start "" "%WEASEL%\WeaselServer.exe"
-echo °²×°Íê³É
+echo å®‰è£…å®Œæˆ
 goto :goback
 :goback
 echo ===================
-echo °´ÈÎÒâ¼ü»Øµ½Ö÷Ä¿Â¼¡£
+echo æŒ‰ä»»æ„é”®å›žåˆ°ä¸»ç›®å½•ã€‚
 pause >nul
 goto :main_menu
