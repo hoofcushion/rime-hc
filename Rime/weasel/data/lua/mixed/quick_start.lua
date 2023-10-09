@@ -1,7 +1,7 @@
-local BATCH_DIR <const> =user..Sep.."build"..Sep.."run.bat" --获取 batch 路径
+local BATCH_DIR <const> =user..Sep.."build"..Sep.."run.bat"  --获取 batch 路径
 io.open(BATCH_DIR,"w")
-    :write('@echo off\nchcp 65001\nif exist "%1" (start "" "%1")')
-    :close() --清空 batch 命令
+ :write('@echo off\nchcp 65001\nif exist "%1" (start "" "%1")')
+ :close() --清空 batch 命令
 local BATCH_CMD <const> ='start "'..BATCH_DIR..'" '
 local cmdMap=dofile(exist("custom_command.txt"))
 for name,item in pairs(cmdMap) do
@@ -94,7 +94,7 @@ local translator <const> =
 {
  func=function(_,seg,env)
   if not seg:has_tag(env.name_space) then return; end
-  tipsAdd(env,"〔命令行〕")
+  tipsEnv(env,"〔命令行〕",true)
   local input <const> =env.engine.context.input
   local code <const> =input:sub(code_start)
   if not cmdMap[code] then return; end

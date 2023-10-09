@@ -13,9 +13,9 @@ local entry_exists <const> =function(dir,str)
 end
 local save_dict <const> =function(dict_dir,unconfirm)
  local content=entry_exists(dict_dir,unconfirm) and
-     io.open(dict_dir,"r"):read("*all"):gsub("\n"..unconfirm:gsub("([%%%(%)%[%]%-*+?%.%^])","%%%1"),"")
+  io.open(dict_dir,"r"):read("*all"):gsub("\n"..unconfirm:gsub("([%%%(%)%[%]%-*+?%.%^])","%%%1"),"")
  return content and io.open(dict_dir,"w"):write(content):close() and true or
-     io.open(dict_dir,"a"):write("\n"..unconfirm):close() and false
+  io.open(dict_dir,"a"):write("\n"..unconfirm):close() and false
 end
 local QUALITY <const> =1000000
 local PATH=exist("_dict/_dic_en/user_en.dict.yaml")

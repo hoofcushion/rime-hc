@@ -83,9 +83,9 @@ local tranDecimal <const> =function(str,style,money)
 end
 local numberSep <const> =function(partInteger,partDecimal,money)
  return
-     partDecimal and
-     (money and "元" or "点") or
-     (money and "元整" or "")
+  partDecimal and
+  (money and "元" or "点") or
+  (money and "元整" or "")
 end
 local characterizer <const> =function(str,map,mode)
  local style <const> =map[mode%2==1 and "upper" or "lower"]
@@ -127,16 +127,16 @@ local translator <const> =
   if not seg:has_tag(env.name_space) then return; end
   local code <const> =input:sub(code_start)
   if code=="" then
-   tipsAdd(env,"〔请输入数字〕")
+   tipsEnv(env,"〔请输入数字〕",true)
    return
   elseif not (code:find("^%d+$") or code:find("^%d-%.%d*$")) then
-   tipsAdd(env,"〔数字不合法〕")
+   tipsEnv(env,"〔数字不合法〕",true)
    return
   elseif #code:match("^(%d+)")>MAX_MAG then
-   tipsAdd(env,"〔位数超过限制〕")
+   tipsEnv(env,"〔位数超过限制〕",true)
    return
   end
-  tipsAdd(env,"〔大写数字〕")
+  tipsEnv(env,"〔大写数字〕",true)
   for i=1,4 do
    local text <const> =characterizer(code,map,i)
    if text then

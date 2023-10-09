@@ -144,27 +144,27 @@ tip_map.wrong=
 }
 local failedtips <const> =function(env)
  if combo>4 then
-  tipsAdd(env,"So sad!")
+  tipsEnv(env,"So sad!",true)
  else
-  tipsAdd(env,tip_map.wrong[math.random(1,#tip_map.wrong)])
+  tipsEnv(env,tip_map.wrong[math.random(1,#tip_map.wrong,true)])
  end
 end
 local successtips <const> =function(env)
  if combo~=0 and time_used()>time_limit then
-  tipsAdd(env,"Wait too long!")
+  tipsEnv(env,"Wait too long!",true)
   continuous=false
  else
   if not time_last or time_used()>60 then
-   tipsAdd(env,"First!") --第一击
+   tipsEnv(env,"First!",true) --第一击
   elseif continuous then
    if combo>4 then
-    tipsAdd(env,print_combo().."Combo!") --五连起显示连击次数
+    tipsEnv(env,print_combo().."Combo!",true) --五连起显示连击次数
    else
     local len <const> =utf8.len(cands_tab[1][1])
     if time_used()<len*(1.5-0.125*len) then
-     tipsAdd(env,"Excellent!")
+     tipsEnv(env,"Excellent!",true)
     else
-     tipsAdd(env,"Perfect!")
+     tipsEnv(env,"Perfect!",true)
     end
    end
   end
@@ -234,7 +234,7 @@ local prosessor <const> =
   local input <const> =ctx.input:sub(code_start)
   now=os.time()
   if lianxu_update(input) then
-   tipsAdd(env,"I see that.")
+   tipsEnv(env,"I see that.",true)
   end
   local key <const> =_:repr()
   if key_map[key] then
@@ -263,7 +263,7 @@ local translator <const> =
 {
  function(input,seg,env)
   hit_update()
-  tipsAdd(env,"〔"..hit_count.."/min〕")
+  tipsEnv(env,"〔"..hit_count.."/min〕",true)
   for k,dict in ipairs(cands_tab) do
    local cand <const> =Candidate("",seg.start,seg._end,dict[1],dict[2])
    cand.preedit=syllable(input:sub(2),dict[2])

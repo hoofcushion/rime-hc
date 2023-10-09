@@ -16,7 +16,6 @@ local utf8_sub <const> =function(str,start,final)
  str=string_sub(str,start)
  return str
 end
-
 local Reverse
 local utf8_len <const> =utf8.len
 local table_insert <const> =table.insert

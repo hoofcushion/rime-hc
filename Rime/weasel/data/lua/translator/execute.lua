@@ -6,9 +6,9 @@ bmi=function(centimeter,kilogram) --BMI 指数计算器
 end
 hoai=function(year,month,day) --我几岁？ How old am I? 输入年月日，计算距今多少年
  if
-  type(day)  ~="number" or day   < 1 or
-  type(month)~="number" or month < 1 or
-  type(year) ~="number" or year  < 1970
+ type(day)~="number" or day<1 or
+ type(month)~="number" or month<1 or
+ type(year)~="number" or year<1970
  then
   return
  end
@@ -330,7 +330,7 @@ local translator <const> =
  end,
  func=function(input,seg,env)
   if not seg:has_tag(env.name_space) then return; end
-  tipsAdd(env,"〔表达式〕")
+  tipsEnv(env,"〔表达式〕",true)
   local expfin=greedy or input:find(";$")
   local exp=(greedy or not expfin) and input:sub(code_start) or input:sub(code_start,-2)
   --空格輸入可能

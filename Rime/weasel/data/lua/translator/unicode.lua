@@ -18,25 +18,25 @@ local translator <const> =
   local tip="〔Unicode〕"
   local code <const> =env.engine.context.input:sub(code_start,seg.length)
   if code=="" then
-   tipsAdd(env,tip.."〔请输入编码〕")
+   tipsEnv(env,tip.."〔请输入编码〕",true)
    return
   end
   local baseTab <const> =baseMap[code:match("([HDOB])") or "H"]
   tip=tip.."〔"..baseTab.num.." 进制〕"
   local sCode=code:match("[a-f0-9]+")
   if not sCode then
-   tipsAdd(env,tip.."〔编码错误〕")
+   tipsEnv(env,tip.."〔编码错误〕",true)
    return
   elseif sCode:find(baseTab.expattern) then
-   tipsAdd(env,tip.."〔超出进制范围: "..baseTab.pattern.."〕")
+   tipsEnv(env,tip.."〔超出进制范围: "..baseTab.pattern.."〕",true)
    return
   end
   local nCode <const> =tonumber(sCode,baseTab.num)
   if not nCode then
-   tipsAdd(env,tip.."〔数值错误〕")
+   tipsEnv(env,tip.."〔数值错误〕",true)
    return
   elseif nCode>1114111 then
-   tipsAdd(env,tip.."〔超出数值范围: "..baseTab.limit.."〕")
+   tipsEnv(env,tip.."〔超出数值范围: "..baseTab.limit.."〕",true)
    return
   end
   for i=0,9 do
@@ -48,7 +48,7 @@ local translator <const> =
    cand.preedit=code
    yield(cand)
   end
-  tipsAdd(env,tip)
+  tipsEnv(env,tip,true)
  end,
 }
 return translator

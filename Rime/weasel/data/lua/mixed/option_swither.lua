@@ -76,7 +76,7 @@ local translator <const> =
 {
  func=function(_,seg,env)
   if not seg:has_tag(env.name_space) then return; end
-  tipsAdd(env,"〔选项切换〕")
+  tipsEnv(env,"〔选项切换〕",true)
   local code <const> =env.engine.context.input:sub(code_start)
   local item <const> =optionMap[code]
   if not item then return; end
