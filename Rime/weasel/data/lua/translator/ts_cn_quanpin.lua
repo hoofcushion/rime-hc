@@ -6,7 +6,9 @@ local translator <const> =
  end,
  func=function(input,seg,env)
   local query <const> =tran:query(input,seg)
-  if not query then return; end
+  if not query then
+   return
+  end
   local last_len,text_len,dup=0,0,1
   for cand in query:iter() do
    text_len=utf8.len(cand.text)

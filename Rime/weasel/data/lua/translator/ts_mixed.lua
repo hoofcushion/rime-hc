@@ -8,7 +8,9 @@ local actions <const> =
   for cand in query[1]:iter() do
    yield(cand)
    cand_count=cand_count+1
-   if cand_count>=limit then return; end
+   if cand_count>=limit then
+    return
+   end
   end
  end,
  function(input,seg,query)
@@ -16,7 +18,9 @@ local actions <const> =
   for cand in query[2]:iter() do
    yield(cand)
    cand_count=cand_count+1
-   if cand_count>=limit then return; end
+   if cand_count>=limit then
+    return
+   end
   end
  end,
  function(input,seg,query)
@@ -25,25 +29,33 @@ local actions <const> =
   for cand in query[2]:iter() do
    yield(cand)
    count=count+1
-   if count==3 then break; end
+   if count==3 then
+    break
+   end
   end
   cand_count=cand_count+count
   count=0
   for cand in query[1]:iter() do
    yield(cand)
    count=count+1
-   if count==3 then break; end
+   if count==3 then
+    break
+   end
   end
   cand_count=cand_count+count
   for cand in query[2]:iter() do
    yield(cand)
    cand_count=cand_count+1
-   if cand_count>=limit then return; end
+   if cand_count>=limit then
+    return
+   end
   end
   for cand in query[1]:iter() do
    yield(cand)
    cand_count=cand_count+1
-   if cand_count>=limit then return; end
+   if cand_count>=limit then
+    return
+   end
   end
  end,
 }
@@ -56,12 +68,16 @@ local translator <const> =
  func=function(input,seg,env)
   if #env.engine.context.input>4 then
    local query <const> =pinyin:query(input,seg)
-   if not query then return; end
+   if not query then
+    return
+   end
    local cand_count=0
    for cand in query:iter() do
     yield(cand)
     cand_count=cand_count+1
-    if cand_count>=limit then return; end
+    if cand_count>=limit then
+     return
+    end
    end
    return
   end

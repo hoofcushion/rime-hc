@@ -49,7 +49,9 @@ local translator <const> =
  end,
  func=function(input,seg)
   local query <const> =tran:query(input,seg)
-  if not query then return; end
+  if not query then
+   return
+  end
   local fst=true
   for cand in query:iter() do
    yield(ShadowCandidate(cand,"fancha",str2zmcode(cand.text),cand.text))

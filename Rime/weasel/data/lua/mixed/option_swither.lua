@@ -24,7 +24,9 @@ local keyMapInitialize <const> =function(env)
  end
 end
 local insert <const> =function(map,index,entry)
- if not map[index] then map[index]={}; end
+ if not map[index] then
+  map[index]={}
+ end
  table.insert(map[index],entry)
 end
 local switcher
@@ -52,9 +54,13 @@ local prosessor <const> =
  func=function(key,env)
   local ctx <const> =env.engine.context
   local item <const> =optionMap[ctx.input:sub(code_start)]
-  if not item then return 2; end
+  if not item then
+   return 2
+  end
   local index <const> =keyMap[key:repr()]
-  if not index then return 2; end
+  if not index then
+   return 2
+  end
   local seg <const> =ctx.composition:back()
   if index>-1 then
    local page_size <const> =env.engine.schema.page_size
@@ -62,7 +68,9 @@ local prosessor <const> =
   end
   local cand <const> =seg:get_selected_candidate()
   local optionEntry <const> =item[tonumber(cand.type:match("index_(%d)"))]
-  if not optionEntry then return 2; end
+  if not optionEntry then
+   return 2
+  end
   local name <const> =optionEntry.option_name
   local target_state <const> =not env.engine.context:get_option(name)
   ctx:set_option(name,target_state)
@@ -75,11 +83,15 @@ local prosessor <const> =
 local translator <const> =
 {
  func=function(_,seg,env)
-  if not seg:has_tag(env.name_space) then return; end
+  if not seg:has_tag(env.name_space) then
+   return
+  end
   tipsEnv(env,"〔选项切换〕",true)
   local code <const> =env.engine.context.input:sub(code_start)
   local item <const> =optionMap[code]
-  if not item then return; end
+  if not item then
+   return
+  end
   for index,optionEntry in ipairs(item) do
    local state <const> =env.engine.context:get_option(optionEntry.option_name)
    local cand=Candidate("index_"..index,seg.start,seg._end,optionEntry.text,state and "开" or "关")

@@ -6,7 +6,9 @@ local translator <const> =
  end,
  func=function(input,seg)
   local query <const> =tran:query(input,seg)
-  if not query then return; end
+  if not query then
+   return
+  end
   for cand in query:iter() do
    local cmt <const> =cand.comment
    cand.comment=""

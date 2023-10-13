@@ -329,13 +329,17 @@ local translator <const> =
   code_start=#symbol+1
  end,
  func=function(input,seg,env)
-  if not seg:has_tag(env.name_space) then return; end
+  if not seg:has_tag(env.name_space) then
+   return
+  end
   tipsEnv(env,"〔表达式〕",true)
   local expfin=greedy or input:find(";$")
   local exp=(greedy or not expfin) and input:sub(code_start) or input:sub(code_start,-2)
   --空格輸入可能
   exp=exp:gsub("#"," ")
-  if exp=="" then return; end
+  if exp=="" then
+   return
+  end
   yield(Candidate("number",seg.start,seg._end,exp,"表達式"))
   if not expfin then
    return

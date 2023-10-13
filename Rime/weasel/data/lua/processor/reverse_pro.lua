@@ -36,7 +36,9 @@ local processor <const> =
   local ctx <const> =env.engine.context
   if ctx:has_menu() then
    local index <const> =keyMap[key:repr()]
-   if not index then return 2; end
+   if not index then
+    return 2
+   end
    local seg <const> =ctx.composition:back()
    if index>-1 then
     local page_size <const> =env.engine.schema.page_size

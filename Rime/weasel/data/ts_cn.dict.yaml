@@ -5,15 +5,14 @@ sort: by_weight
 vocabulary: char_weight
 import_tables:
 #基本词库
- - _dict/rime-ice/cn_dicts/8105    # 字表
+ - _dict/_dic_cn/8105    # 字表
  - _dict/_dic_cn/char              # 字表
- - _dict/rime-ice/cn_dicts/41448   # 字表+
+ - _dict/_dic_cn/41448   # 字表+
  - _dict/rime-ice/cn_dicts/base    # 基础词库
  - _dict/rime-ice/cn_dicts/ext     # 扩展词库
  - _dict/rime-ice/cn_dicts/tencent # 腾讯词向量（大词库，部署时间较长）
  - _dict/rime-ice/cn_dicts/others  # 一些杂项
  - _dict/_dic_cn/color    # 颜色
- - _dict/jidian/district # 行政区划
  - _dict/_dic_cn/number   # 数字
  - _dict/_dic_cn/pronouns # 人称代词
  - _dict/upper

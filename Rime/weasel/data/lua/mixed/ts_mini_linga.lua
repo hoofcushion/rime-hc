@@ -38,9 +38,13 @@ local search <const> =
   code_start=#symbol+1
  end,
  func=function(_,seg,env)
-  if not seg:has_tag(env.name_space) then return; end
+  if not seg:has_tag(env.name_space) then
+   return
+  end
   local input <const> =env.engine.context.input
-  if not input:find("^"..symbol) then return; end
+  if not input:find("^"..symbol) then
+   return
+  end
   local code <const> =input:sub(code_start)
   for i,v in ipairs(mini_table) do
    if input==symbol or v[4]:find(code) then
@@ -61,17 +65,27 @@ local translator <const> =
   tran[2]=Component.Translator(env.engine,"","table_translator@"..name_space)
  end,
  func=function(input,seg)
-  if module and #input==1 then return; end
-  if input:find("^y") or input:find("^h$") then return; end
+  if module and #input==1 then
+   return
+  end
+  if input:find("^y") or input:find("^h$") then
+   return
+  end
   local yielded={}
   local count=0
   for i=1,#tran do
    local query <const> =tran[i]:query(input,seg)
-   if not query then return; end
+   if not query then
+    return
+   end
    for cand in query:iter() do
-    if #input-cand._end+cand.start+1==input:reverse():find("[why]") then goto next; end
+    if #input-cand._end+cand.start+1==input:reverse():find("[why]") then
+     goto next
+    end
     local text=cand.text:gsub(" $",""):gsub(" %-","-")
-    if yielded[text] then goto next; end
+    if yielded[text] then
+     goto next
+    end
     yielded[text]=true
     if input:find("^%u") then --auto uppercase
      text=text:gsub("%a",string.upper,1)
@@ -79,10 +93,14 @@ local translator <const> =
     yield(ShadowCandidate(cand,cand.type,text,hanzify(text):gsub(" ","")))
     if module then
      count=count+5/(#cand.text+5)
-     if count>1 then return; end
+     if count>1 then
+      return
+     end
     else
      count=count+1
-     if count>100 then return; end
+     if count>100 then
+      return
+     end
     end
     ::next::
    end

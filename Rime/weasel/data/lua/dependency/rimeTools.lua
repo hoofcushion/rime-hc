@@ -20,9 +20,11 @@ exist=function(name)
  end
  log:error("could not find "..name)
 end
-tipsEnv=function(ctx,str,add)
+tipsEnv=function(env,str,add)
  local comp <const> =env.engine.context.composition
- if comp:empty() then return; end
+ if comp:empty() then
+  return
+ end
  local seg=comp:back()
  if add then
   seg.prompt=seg.prompt..str
@@ -32,7 +34,9 @@ tipsEnv=function(ctx,str,add)
 end
 tipsCtx=function(ctx,str,add)
  local comp <const> =ctx.composition
- if comp:empty() then return; end
+ if comp:empty() then
+  return
+ end
  local seg=comp:back()
  if add then
   seg.prompt=seg.prompt..str

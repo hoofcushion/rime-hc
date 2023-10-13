@@ -1,10 +1,14 @@
 local tran
 local translator <const> =
 {
- init=function(env) tran=Component.Translator(env.engine,"","script_translator@"..env.name_space); end,
+ init=function(env)
+  tran=Component.Translator(env.engine,"","script_translator@"..env.name_space)
+ end,
  func=function(input,seg)
   local query <const> =tran:query(input,seg)
-  if not query then return; end
+  if not query then
+   return
+  end
   for cand in query:iter() do
    local cmt=cand.comment
    cand.comment=""

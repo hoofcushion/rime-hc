@@ -6,18 +6,11 @@
 来自: https://github.com/iDvel/rime-ice
 使用 GPL-3.0 协议
 
-.\weasel\data\_dict\jidian
-来自: https://github.com/kingzcheung/rime-wubi
-使用 Apache-2.0 协议
-
 .\weasel\data\lua\execute.lua
 来自 https://github.com/baopaau/rime-lua-collection
 
-.\weasel\data\_dict\_dic_zm
-来自 http://ys-k.ysepan.com/373776334/418917248/n443W2K87IIOU7UUjHSkf1/zm2020%20%E5%8D%95%E5%AD%97.zip?lx=xz
-
-.\weasel\data\_dict\_dic_shape\chars\yuhao.dict.yaml
-.\weasel\data\_dict\_dic_shape\jian\yuhao.dict.yaml
+.\weasel\data\_dict\_dic_shape\yuhao\yuhao.full.dict.yaml
+.\weasel\data\_dict\_dic_shape\yuhao\yuhao.quick.dict.yaml
 来自 https://github.com/forFudan/yuhao
 
-仓库继承 GPL-3.0 协议, 提供所有源代码
+仓库继承 GPL-3.0 协议

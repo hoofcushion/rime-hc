@@ -10,12 +10,18 @@ local translator <const> =
   tran=Component.Translator(env.engine,"","table_translator@"..env.name_space)
  end,
  func=function(input,seg,env)
-  if not seg:has_tag(env.name_space) then return; end
+  if not seg:has_tag(env.name_space) then
+   return
+  end
   tipsEnv(env,"〔符号输出〕",true)
   local input <const> =input:sub(code_start)
-  if input=="" then return; end
+  if input=="" then
+   return
+  end
   local query <const> =tran:query(input,seg)
-  if not query then return; end
+  if not query then
+   return
+  end
   for cand in query:iter() do
    cand.comment=comment
    cand._end=seg._end

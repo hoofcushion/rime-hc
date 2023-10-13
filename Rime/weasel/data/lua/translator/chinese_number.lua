@@ -124,7 +124,9 @@ local translator <const> =
   code_start=#symbol+1
  end,
  func=function(input,seg,env)
-  if not seg:has_tag(env.name_space) then return; end
+  if not seg:has_tag(env.name_space) then
+   return
+  end
   local code <const> =input:sub(code_start)
   if code=="" then
    tipsEnv(env,"〔请输入数字〕",true)

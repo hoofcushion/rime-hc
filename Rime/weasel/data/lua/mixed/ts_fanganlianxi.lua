@@ -87,7 +87,9 @@ local lianxu_update <const> =function(input)
    combo=0
    local a=continuous-#input==1
    continuous=false
-   if a then return true; end
+   if a then
+    return true
+   end
   elseif #input-continuous<=1 then
    continuous=#input
   end
@@ -110,7 +112,9 @@ local combo_map <const> =
 }
 local print_combo <const> =function()
  local str=tostring(combo)
- if #str>1 then return str.." "; end
+ if #str>1 then
+  return str.." "
+ end
  str=str:gsub("[0-9]",combo_map)
  return str
 end
@@ -129,7 +133,9 @@ end
 local insert <const> =function(str,positions)
  local len <const> =#str
  for i,pos in ipairs(positions) do
-  if len<pos then break; end
+  if len<pos then
+   break
+  end
   str=str:sub(1,pos-1).." "..str:sub(pos)
  end
  return str
@@ -144,27 +150,27 @@ tip_map.wrong=
 }
 local failedtips <const> =function(env)
  if combo>4 then
-  tipsEnv(env,"So sad!",true)
+  tipsEnv(env,"So sad!")
  else
-  tipsEnv(env,tip_map.wrong[math.random(1,#tip_map.wrong,true)])
+  tipsEnv(env,tip_map.wrong[math.random(1,#tip_map.wrong)])
  end
 end
 local successtips <const> =function(env)
  if combo~=0 and time_used()>time_limit then
-  tipsEnv(env,"Wait too long!",true)
+  tipsEnv(env,"Wait too long!")
   continuous=false
  else
   if not time_last or time_used()>60 then
-   tipsEnv(env,"First!",true) --第一击
+   tipsEnv(env,"First!") --第一击
   elseif continuous then
    if combo>4 then
-    tipsEnv(env,print_combo().."Combo!",true) --五连起显示连击次数
+    tipsEnv(env,print_combo().."Combo!") --五连起显示连击次数
    else
     local len <const> =utf8.len(cands_tab[1][1])
     if time_used()<len*(1.5-0.125*len) then
-     tipsEnv(env,"Excellent!",true)
+     tipsEnv(env,"Excellent!")
     else
-     tipsEnv(env,"Perfect!",true)
+     tipsEnv(env,"Perfect!")
     end
    end
   end
@@ -209,7 +215,9 @@ local prosessor <const> =
   symbol=env.engine.schema.config:get_string("speller/symbol")
  end,
  func=function(_,env)
-  if not env.engine.context:is_composing() then return 2; end
+  if not env.engine.context:is_composing() then
+   return 2
+  end
   local ctx <const> =env.engine.context
   local ctx_inp <const> =ctx.input
   if ctx_inp:find("^"..symbol) then
@@ -248,12 +256,13 @@ local prosessor <const> =
     table.insert(hit_table,{os.time(),text_len})
     hit_count=hit_count+text_len
     time_last=os.time()
+    ctx:pop_input(#input)
     successtips(env)
    else
     continuous=false
+    ctx:pop_input(#input)
     failedtips(env)
    end
-   ctx:pop_input(#input)
    return 1
   end
   return 2
@@ -261,7 +270,7 @@ local prosessor <const> =
 }
 local translator <const> =
 {
- function(input,seg,env)
+ func=function(input,seg,env)
   hit_update()
   tipsEnv(env,"〔"..hit_count.."/min〕",true)
   for k,dict in ipairs(cands_tab) do

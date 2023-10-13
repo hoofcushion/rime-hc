@@ -24,9 +24,13 @@ local processor <const> =
   map[env.engine.schema.config:get_string("key_binder/select_last_character")]=-1
  end,
  func=function(key,env)
-  if not env.engine.context:has_menu() then return 2; end
+  if not env.engine.context:has_menu() then
+   return 2
+  end
   local n <const> =map[key:repr()]
-  if not n then return 2; end
+  if not n then
+   return 2
+  end
   env.engine:commit_text(utf8_sub(env.engine.context:get_selected_candidate().text,n,n))
   env.engine.context:clear()
   return 1

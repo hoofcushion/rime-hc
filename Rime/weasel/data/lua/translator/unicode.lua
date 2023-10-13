@@ -14,7 +14,9 @@ local translator <const> =
   code_start=#symbol+1
  end,
  func=function(_,seg,env)
-  if not seg:has_tag("unicode") then return; end
+  if not seg:has_tag("unicode") then
+   return
+  end
   local tip="〔Unicode〕"
   local code <const> =env.engine.context.input:sub(code_start,seg.length)
   if code=="" then

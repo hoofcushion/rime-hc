@@ -1,4 +1,4 @@
-local BATCH_DIR <const> =user..Sep.."build"..Sep.."run.bat"  --获取 batch 路径
+local BATCH_DIR <const> =user..Sep.."build"..Sep.."run.bat" --获取 batch 路径
 io.open(BATCH_DIR,"w")
  :write('@echo off\nchcp 65001\nif exist "%1" (start "" "%1")')
  :close() --清空 batch 命令
@@ -28,18 +28,26 @@ local GET_CPL <const> =function(code)
     table.insert(cplMap,name)
    end
   end
-  table.sort(cplMap,function(a,b) return #a>#b; end)
+  table.sort(cplMap,function(a,b)
+   return #a>#b
+  end)
   table.insert(cplMap,1,code)
  end
 end
 local ACTION <const> =
 {
  send=function(ctx,code)
-  if not cmdMap[code] then return 2; end
+  if not cmdMap[code] then
+   return 2
+  end
   local index=tonumber(ctx:get_selected_candidate().type)
-  if not index then return 2; end
+  if not index then
+   return 2
+  end
   local cmdEntry=cmdMap[code][index]
-  if not cmdEntry then return 2; end
+  if not cmdEntry then
+   return 2
+  end
   if cmdEntry.batch then
    command=BATCH_CMD..cmdEntry.command
   else
@@ -57,7 +65,9 @@ local ACTION <const> =
   return 1
  end,
  cancel=function(ctx)
-  if #cplMap==0 then return 2; end
+  if #cplMap==0 then
+   return 2
+  end
   ctx:clear()
   ctx:push_input(symbol..cplMap[1])
   cplMap={}
@@ -85,7 +95,9 @@ local prosessor <const> =
    return 2
   end
   local action_type <const> =KEY_MAP[key:repr()]
-  if not action_type then return 2; end
+  if not action_type then
+   return 2
+  end
   local code <const> =ctx.input:sub(code_start)
   return ACTION[action_type](ctx,code)
  end,
@@ -93,11 +105,15 @@ local prosessor <const> =
 local translator <const> =
 {
  func=function(_,seg,env)
-  if not seg:has_tag(env.name_space) then return; end
+  if not seg:has_tag(env.name_space) then
+   return
+  end
   tipsEnv(env,"〔命令行〕",true)
   local input <const> =env.engine.context.input
   local code <const> =input:sub(code_start)
-  if not cmdMap[code] then return; end
+  if not cmdMap[code] then
+   return
+  end
   for index,cmdEntry in ipairs(cmdMap[code]) do
    local cand <const> =Candidate(index,seg.start,seg._end,cmdEntry.text,cmdEntry.comment or "快速启动")
    cand.quality=8102

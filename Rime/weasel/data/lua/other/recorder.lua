@@ -73,7 +73,9 @@ local isPureChinese <const> =function(str)
 end
 local saveRecord <const> =function(lct,path)
  local file=io.open(path,"r") or io.open(path,"w"):close() and io.open(path,"r")
- if not file then return; end
+ if not file then
+  return
+ end
  local lines={[0]=lct.."\t1"}
  for line in file:lines() do
   local v=string_match(line,"^"..lct.."\t(%d+)$")

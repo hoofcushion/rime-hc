@@ -7,7 +7,9 @@ local translator <const> =
  end,
  func=function(input,seg,env)
   local query <const> =tran:query(input,seg)
-  if not query then return; end
+  if not query then
+   return
+  end
   local comp_count=0
   local quality_factor
   local last_len,text_len,dup=0,0,1
