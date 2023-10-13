@@ -79,17 +79,17 @@ local translator <const> =
   isModule=env.name_space~="translator"
   candLimitCounter=isModule and
    function(yieldCount,text)
-    yieldCount=yieldCount+5/(#text+5)
     if yieldCount>1 then
-     return true
+     return false
     end
+    return yieldCount+5/(#text+5)
    end
    or
-   function(yieldCount,text)
-    yieldCount=yieldCount+1
-    if yieldCount>30 then
-     return true
+   function(yieldCount)
+    if yieldCount==10 then
+     return false
     end
+    return yieldCount+1
    end
   local engineCallName <const> =isModule and "ts_mini_linga" or "translator"
   TranslatorList[#TranslatorList+1]=Component.Translator(env.engine,"","script_translator@"..engineCallName)
@@ -116,10 +116,11 @@ local translator <const> =
      candYieldMap[text]=true
     end
     local comment_hanzi <const> =string.gsub(miniHanzify(text)," ","")
-    yield(ShadowCandidate(cand,cand.type,text,comment_hanzi))
-    if candLimitCounter(yieldCount,text) then
+    yieldCount=candLimitCounter(yieldCount,text)
+    if not yieldCount then
      return
     end
+    yield(ShadowCandidate(cand,cand.type,text,comment_hanzi))
     ::next::
    end
   end
