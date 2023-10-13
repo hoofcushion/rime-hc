@@ -1,106 +1,124 @@
-local mini_array={}
-local mini_table={}
+local miniLookupTable <const> ={}
+local miniTable <const> ={}
 do
- local index=0
- local file=io.open(exist("ts_mini_linga_dict.txt"),"r")
+ local tableIndex=0
+ local file <const> =io.open(exist("ts_mini_linga_dict.txt"),"r")
  for line in file:lines() do
-  local a,b,c=line:match("^(.-)\t(.-)\t(.+)$")
-  index=index+1
-  mini_array[a]=index
-  table.insert(mini_table,{a,b,c,a..b..c})
+  local word,hanzi,sinifi=line:match("^(.-)\t(.-)\t(.+)$")
+  local miniEntry <const> ={word,hanzi,sinifi,word..hanzi..sinifi}
+  tableIndex=tableIndex+1
+  miniLookupTable[word]=tableIndex
+  miniTable[tableIndex]=miniEntry
  end
  file:close()
 end
-local reverse <const> =function(str)
- return mini_table[mini_array[str]]
-end
-local hanzify <const> =function(str)
- local r=""
- for w,s in str:gmatch("([%a-]+)([^%a-]*)") do
-  if w:find("%-") then
-   r=r.."「"..hanzify(w:gsub("%-"," ")).."」"
-  else
-   local v=reverse(w:gsub("%-"," "))
-   r=r..(v and v[2] or w)
-  end
-  r=r..s
- end
- return r
-end
-local tran={}
-local module
-local symbol
-local code_start
+local startPrompt
+local codeBeginning
 local search <const> =
 {
  init=function(env)
-  symbol=env.engine.schema.config:get_string("recognizer/lua/"..env.name_space)
-  code_start=#symbol+1
+  startPrompt=env.engine.schema.config:get_string("recognizer/lua/"..env.name_space)
+  codeBeginning=#startPrompt+1
  end,
- func=function(_,seg,env)
+ func=function(input,seg,env)
   if not seg:has_tag(env.name_space) then
    return
   end
-  local input <const> =env.engine.context.input
-  if not input:find("^"..symbol) then
+  local context=env.engine.context
+  local contextInput <const> =context.input
+  if not string.find(contextInput,"^"..startPrompt) then
    return
   end
-  local code <const> =input:sub(code_start)
-  for i,v in ipairs(mini_table) do
-   if input==symbol or v[4]:find(code) then
-    local cand=Candidate("",seg.start,seg._end,v[1],v[2].."\t"..v[3])
+  local inputCode <const> =string.sub(contextInput,codeBeginning)
+  for _,miniEntry in ipairs(miniTable) do
+   if contextInput==startPrompt or string.find(miniEntry[4],inputCode) then
+    local text <const> =miniEntry[1]
+    local comment <const> =miniEntry[2].."\t"..miniEntry[3]
+    local cand=Candidate("",seg.start,seg._end,text,comment)
     cand.quality=8102
-    cand.preedit=code
+    cand.preedit=inputCode
     yield(cand)
    end
   end
  end,
 }
+local autoUppercase <const> =function(input,text)
+ if string.find(input,"^%u") then
+  if string.find(input,".%u$") then
+   return string.gsub(text,"%l",string.upper)
+  end
+  return string.gsub(text,"%l",string.upper,1)
+ end
+ return text
+end
+local function miniHanzify(str)
+ local result=""
+ for word,others in str:gmatch("([%a-]+)([^%a-]*)") do
+  if string.find(word,"%-") then
+   word=string.gsub(word,"%-"," ")
+   local compound="「"..miniHanzify(word).."」"
+   result=result..compound
+  else
+   local miniEntry=miniTable[miniLookupTable[word]]
+   if miniEntry then
+    result=result..miniEntry[2]
+   else
+    result=result..word
+   end
+  end
+  result=result..others
+ end
+ return result
+end
+local TranslatorList <const> ={}
+local isModule
+local candLimitCounter
 local translator <const> =
 {
  init=function(env)
-  module=env.name_space~="translator"
-  local name_space <const> =module and "ts_mini_linga" or "translator"
-  tran[1]=Component.Translator(env.engine,"","script_translator@"..name_space)
-  tran[2]=Component.Translator(env.engine,"","table_translator@"..name_space)
+  isModule=env.name_space~="translator"
+  candLimitCounter=isModule and
+   function(yieldCount,text)
+    yieldCount=yieldCount+5/(#text+5)
+    if yieldCount>1 then
+     return true
+    end
+   end
+   or
+   function(yieldCount,text)
+    yieldCount=yieldCount+1
+    if yieldCount>30 then
+     return true
+    end
+   end
+  local engineCallName <const> =isModule and "ts_mini_linga" or "translator"
+  TranslatorList[#TranslatorList+1]=Component.Translator(env.engine,"","script_translator@"..engineCallName)
+  TranslatorList[#TranslatorList+1]=Component.Translator(env.engine,"","table_translator@"..engineCallName)
  end,
  func=function(input,seg)
-  if module and #input==1 then
-   return
-  end
-  if input:find("^y") or input:find("^h$") then
-   return
-  end
-  local yielded={}
-  local count=0
-  for i=1,#tran do
-   local query <const> =tran[i]:query(input,seg)
+  local candYieldMap={}
+  local yieldCount=0
+  for i=1,#TranslatorList do
+   local Translator <const> =TranslatorList[i]
+   local query <const> =Translator:query(string.lower(input),seg)
    if not query then
     return
    end
    for cand in query:iter() do
-    if #input-cand._end+cand.start+1==input:reverse():find("[why]") then
+    local text=cand.text
+    text=string.gsub(text," $","")
+    text=string.gsub(text," %-","-")
+    text=autoUppercase(input,text)
+    cand.preedit=autoUppercase(input,cand.preedit)
+    if candYieldMap[text] then
      goto next
-    end
-    local text=cand.text:gsub(" $",""):gsub(" %-","-")
-    if yielded[text] then
-     goto next
-    end
-    yielded[text]=true
-    if input:find("^%u") then --auto uppercase
-     text=text:gsub("%a",string.upper,1)
-    end
-    yield(ShadowCandidate(cand,cand.type,text,hanzify(text):gsub(" ","")))
-    if module then
-     count=count+5/(#cand.text+5)
-     if count>1 then
-      return
-     end
     else
-     count=count+1
-     if count>100 then
-      return
-     end
+     candYieldMap[text]=true
+    end
+    local comment_hanzi <const> =string.gsub(miniHanzify(text)," ","")
+    yield(ShadowCandidate(cand,cand.type,text,comment_hanzi))
+    if candLimitCounter(yieldCount,text) then
+     return
     end
     ::next::
    end

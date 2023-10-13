@@ -1,16 +1,41 @@
-local BATCH_DIR <const> =user..Sep.."build"..Sep.."run.bat" --获取 batch 路径
+local BATCH_DIR <const> =user..Sep.."build"..Sep.."run.bat"
+local DIRECT_CMD <const> ="start /b cmd /c "
+local BATCH_CMD <const> ='start "'..BATCH_DIR..'" '
 io.open(BATCH_DIR,"w")
  :write('@echo off\nchcp 65001\nif exist "%1" (start "" "%1")')
  :close() --清空 batch 命令
-local BATCH_CMD <const> ='start "'..BATCH_DIR..'" '
-local cmdMap=dofile(exist("custom_command.txt"))
-for name,item in pairs(cmdMap) do
- for index,cmdEntry in ipairs(item) do
-  if cmdEntry.batch then
-   cmdMap[name][index].command='"'..cmdEntry.command..'"'
+local commandMap=dofile(exist("custom_command.txt"))
+for commandName,commandItem in pairs(commandMap) do
+ for commandIndex,commandEntry in ipairs(commandItem) do
+  if commandEntry.batch then
+   commandMap[commandName][commandIndex].command='"'..commandEntry.command..'"'
   end
  end
 end
+local completionList={}
+local ascendByStringLength_CodePoint <const> =function(string_a,string_b)
+ local strLen_a <const> =#string_a
+ local strLen_b <const> =#string_b
+ if strLen_a~=strLen_b then
+  return strLen_a>strLen_b
+ else
+  return string_a>string_b
+ end
+end
+local getCompletionList <const> =function(inputCode)
+ if #completionList==0 then
+  for commandName in pairs(commandMap) do
+   local findPattern <const> ="^"..inputCode.."."
+   if string.find(commandName,findPattern) then
+    completionList[#completionList+1]=commandName
+   end
+  end
+  table.sort(completionList,ascendByStringLength_CodePoint)
+  table.insert(completionList,1,inputCode)
+ end
+end
+local sendCommandSignal,executeCommand
+local startPrompt,codeBeginning
 local KEY_MAP <const> =
 {
  ["Return"]="send",
@@ -18,104 +43,97 @@ local KEY_MAP <const> =
  ["Tab"]="rotate",
  ["BackSpace"]="cancel",
 }
-local sendCommand,command
-local symbol,code_start
-local cplMap={}
-local GET_CPL <const> =function(code)
- if #cplMap==0 then --命令未完整且 cplMap 长度为零则重新获取 cplMap 补全列表
-  for name in pairs(cmdMap) do
-   if name~=code and name:find("^"..code) then
-    table.insert(cplMap,name)
-   end
-  end
-  table.sort(cplMap,function(a,b)
-   return #a>#b
-  end)
-  table.insert(cplMap,1,code)
- end
-end
-local ACTION <const> =
+local ACTION_MAP <const> =
 {
- send=function(ctx,code)
-  if not cmdMap[code] then
+ send=function(context,inputCode)
+  local commandItem <const> =commandMap[inputCode]
+  if not commandItem then
    return 2
   end
-  local index=tonumber(ctx:get_selected_candidate().type)
-  if not index then
+  local currentCandidate <const> =context:get_selected_candidate()
+  local commandIndex <const> =tonumber(currentCandidate.type)
+  if not commandIndex then
    return 2
   end
-  local cmdEntry=cmdMap[code][index]
-  if not cmdEntry then
+  local commandEntry <const> =commandItem[commandIndex]
+  if not commandEntry then
    return 2
   end
-  if cmdEntry.batch then
-   command=BATCH_CMD..cmdEntry.command
+  if commandEntry.batch then
+   executeCommand=BATCH_CMD..commandEntry.command
   else
-   command="start /b cmd /c "..cmdEntry.command
+   executeCommand=DIRECT_CMD..commandEntry.command
   end
-  sendCommand=true
-  ctx:clear()
+  sendCommandSignal=true
+  context.input=""
   return 1
  end,
- rotate=function(ctx,code)
-  GET_CPL(code)
-  ctx:clear()
-  ctx:push_input(symbol..cplMap[#cplMap])
-  table.remove(cplMap,#cplMap)
+ rotate=function(context,inputCode)
+  getCompletionList(inputCode)
+  local completionListSize <const> =#completionList
+  context.input=startPrompt..completionList[completionListSize]
+  completionList[completionListSize]=nil
   return 1
  end,
- cancel=function(ctx)
-  if #cplMap==0 then
+ cancel=function(context)
+  if #completionList==0 then
    return 2
   end
-  ctx:clear()
-  ctx:push_input(symbol..cplMap[1])
-  cplMap={}
+  context.input=startPrompt..completionList[1]
+  completionList={}
   return 1
  end,
 }
 local prosessor <const> =
 {
  init=function(env)
-  symbol=env.engine.schema.config:get_string("recognizer/lua/"..env.name_space)
-  code_start=#symbol+1
+  startPrompt=env.engine.schema.config:get_string("recognizer/lua/"..env.name_space)
+  codeBeginning=#startPrompt+1
  end,
  func=function(key,env)
   if key:release() then
-   if sendCommand then
-    sendCommand=false
-    os.execute(command) --os.execute 会导致lua暂停,因此用 sendCommand 变量指示在键 Release 时执行
+   if sendCommandSignal then
+    sendCommandSignal=false
+    os.execute(executeCommand) --os.execute 会导致lua暂停,因此用 sendCommandSignal 变量指示在键 Release 时再 os.execute
     return 1
    end
    return 2
   end
-  local ctx <const> =env.engine.context
-  if not ctx.input:find("^"..symbol) then
-   cplMap={}
+  local context <const> =env.engine.context
+  local contextInput <const> =context.input
+  if not string.find(contextInput,"^"..startPrompt) then
+   completionList={}
    return 2
   end
-  local action_type <const> =KEY_MAP[key:repr()]
-  if not action_type then
+  local keyEvent <const> =KEY_MAP[key:repr()]
+  if not keyEvent then
    return 2
   end
-  local code <const> =ctx.input:sub(code_start)
-  return ACTION[action_type](ctx,code)
+  local inputCode <const> =string.sub(contextInput,codeBeginning)
+  return ACTION_MAP[keyEvent](context,inputCode)
  end,
 }
+local translatorTagName
 local translator <const> =
 {
- func=function(_,seg,env)
-  if not seg:has_tag(env.name_space) then
+ init=function(env)
+  translatorTagName=env.name_space
+ end,
+ func=function(input,seg,env)
+  if not seg:has_tag(translatorTagName) then
    return
   end
-  tipsEnv(env,"〔命令行〕",true)
-  local input <const> =env.engine.context.input
-  local code <const> =input:sub(code_start)
-  if not cmdMap[code] then
+  local context <const> =env.engine.context
+  local contextInput <const> =context.input
+  local inputCode <const> =string.sub(contextInput,codeBeginning)
+  tipsEnv(env,"〔命令行〕")
+  if not commandMap[inputCode] then
    return
   end
-  for index,cmdEntry in ipairs(cmdMap[code]) do
-   local cand <const> =Candidate(index,seg.start,seg._end,cmdEntry.text,cmdEntry.comment or "快速启动")
+  for commandIndex,commandEntry in ipairs(commandMap[inputCode]) do
+   local text <const> =commandEntry.text
+   local comment <const> =commandEntry.comment or "快速启动"
+   local cand <const> =Candidate(commandIndex,seg.start,seg._end,text,comment)
    cand.quality=8102
    yield(cand)
   end
