@@ -1,11 +1,12 @@
 app_options:
 #命令行
-  cmd.exe: {ascii_mode: true, ascii_punct: true}
+  'cmd.exe': {ascii_mode: true, ascii_punct: true}
 #编辑器
-  sublime_text.exe: {ascii_mode: true, ascii_punct: true}
-  Code.exe: {ascii_mode: true, ascii_punct: true}
-  emeditor.exe: {ascii_mode: true, ascii_punct: true}
-  nvim-qt.exe: {ascii_mode: true, ascii_punct: true}
+  'sublime_text.exe': {ascii_mode: true, ascii_punct: true}
+  'Code.exe': {ascii_mode: true, ascii_punct: true}
+  'emeditor.exe': {ascii_mode: true, ascii_punct: true}
+  'nvim-qt.exe': {ascii_mode: true, ascii_punct: true}
+  'StartMenuExperienceHost.exe': {ascii_mode: true, ascii_punct: true}
 style:
   color_scheme: HoofCushion_win10_purple # 配色方案
   comment_font_face: "Microsoft YaHei"

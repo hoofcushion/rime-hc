@@ -17,9 +17,9 @@ unicode                              =require"translator/unicode"
 execute                              =require"translator/execute"
 custom_symbol                        =require"translator/custom_symbol"
 custom_time                          =require"translator/custom_time"
-ts_cn                                =require"translator/ts_cn"
+ts_cn                                =require"translator/ts_fixed".setup({syllableLength=2})
 ts_cn_quanpin                        =require"translator/ts_cn_quanpin"
-ts_triple                            =require"translator/ts_triple"
+ts_triple                            =require"translator/ts_fixed".setup({syllableLength=3})
 ts_shape                             =require"translator/ts_shape"
 ts_en                                =require"translator/ts_en"
 fil_Uniquifier                       =require"filter/Uniquifier"
@@ -32,5 +32,5 @@ quick_start_p,
 quick_start_t                        =table.unpack((require"mixed/quick_start"))
 ts_fanganlianxi_p,
 ts_fanganlianxi_t                    =table.unpack((require"mixed/ts_fanganlianxi"))
-option_swither_p,
-option_swither_t                     =table.unpack((require"mixed/option_swither"))
+option_swither_p=require("mixed/option_swither").prosessor
+option_swither_t=require("mixed/option_swither").translator
